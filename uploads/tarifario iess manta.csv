@@ -1,0 +1,900 @@
+Prueba;ID interno;Abreviatura;Descripción;ID externo;Tipo de muestra externa;ID externo de salida;Aplicación;Nomenclatura;Tipo de muestra;Unidades instrumento;Entrante;Salida
+Grupo;413;;PERFILES - ACLARAMIENTO CREATININA;360054;;;General Lab y Emergency Lab;;;;1;0
+Grupo;443;;PERFILES - FOSFORO EN ORINA 24H;360164;;;General Lab y Emergency Lab;;;;1;0
+Grupo;444;;PERFILES - UREA EN ORINA 24H;360167;;;General Lab y Emergency Lab;;;;1;0
+Grupo;445;;PERFILES - ACIDO URICO EN ORINA 24H;360158;;;General Lab y Emergency Lab;;;;1;0
+Grupo;446;;PERFILES - AMILASA EN ORINA 24H;360159;;;General Lab y Emergency Lab;;;;1;0
+Grupo;447;;PERFILES - MAGNESIO EN ORINA 24H;360180;;;General Lab y Emergency Lab;;;;1;0
+Grupo;448;;PERFILES - CALCIO EN ORINA 24H;360160;;;General Lab y Emergency Lab;;;;1;0
+Grupo;449;;PERFILES - SODIO EN ORINA 24H;360170;;;General Lab y Emergency Lab;;;;1;0
+Grupo;465;;PERFILES - POTASIO EN ORINA 24H;360168;;;General Lab y Emergency Lab;;;;1;0
+Grupo;466;;PERFILES - CLORO EN ORINA 24H;360162;;;General Lab y Emergency Lab;;;;1;0
+Grupo;467;;PERFILES - MICROALBUMINURIA EN ORINA 24H;360166;;;General Lab y Emergency Lab;;;;1;0
+Grupo;468;;PERFILES - PROTEINAS EN ORINA DE 24H;360169;;;General Lab y Emergency Lab;;;;1;0
+Grupo;480;;PERFILES - INMUNOGLOBULINAS;270054;;;General Lab;;;;1;0
+Grupo;485;;HCA - UREA ORINA 24HRS;485;;;General Lab y Emergency Lab;;;;1;0
+Grupo;490;;HCA - ANTICUERPOS SSA RO SSB LA;270012;;;General Lab y Emergency Lab;;;;1;0
+Grupo;495;;HCA - ANCA C / ANCA P;270060;;;General Lab y Emergency Lab;;;;1;0
+Grupo;500;;HCA - BIOMETRIA HEMATICA;340077;;;General Lab y Emergency Lab;;;;1;0
+Grupo;501;;HCA - HOMAIR;290286;;;General Lab y Emergency Lab;;;;1;0
+Grupo;502;;HCA - ACLARAMIENTO CREATININA;502;;;General Lab y Emergency Lab;;;;1;0
+Grupo;504;;HCA - BILIRRUBINAS SERICAS;360024;;;General Lab y Emergency Lab;;;;1;0
+Grupo;506;;HCA - COPROPARASITARIO;380035;;;General Lab y Emergency Lab;;;;1;0
+Grupo;507;;HCA - GASES ARTERIALES;360079;;;General Lab y Emergency Lab;;;;1;0
+Grupo;509;;HCA - GLUCOSA CURVA TOLERANCIA;360171;;;General Lab y Emergency Lab;;;;1;0
+Grupo;512;;HCA - INSULINA 2PP;290088;;;General Lab y Emergency Lab;;;;1;0
+Grupo;513;;HCA - ORINA EXAMEN GENERAL;380012;;;General Lab y Emergency Lab;;;;1;0
+Grupo;514;;HCA - PERFIL LIPIDICO;360186;;;General Lab y Emergency Lab;;;;1;0
+Grupo;516;;HCA - PROTEINAS SERICAS;360028;;;General Lab y Emergency Lab;;;;1;0
+Grupo;518;;HCA - AGLUTINACIONES FEBRILES;270097;;;General Lab y Emergency Lab;;;;1;0
+Grupo;519;;HCA - SODIO, POTASIO, CLORO;360011;;;General Lab y Emergency Lab;;;;1;0
+Grupo;520;;HCA - TP/INR;340011;;;General Lab y Emergency Lab;;;;1;0
+Grupo;522;;HCA - PROLACTINA POOL;290053;;;General Lab y Emergency Lab;;;;1;0
+Grupo;524;;HCA - BIOMETRIA HEMATICA+VSG;340001;;;General Lab y Emergency Lab;;;;1;0
+Grupo;527;;HCA - CITOQUIMICO DE LIQ. ASCITICO;350106;;;General Lab y Emergency Lab;;;;1;0
+Grupo;528;;HCA - CITOQUIMICO DE LIQ. CEFALORRAQ;350107;;;General Lab y Emergency Lab;;;;1;0
+Grupo;529;;HCA - CITOQUIMICO DE LIQ PERICARDIO;350108;;;General Lab y Emergency Lab;;;;1;0
+Grupo;530;;HCA - CITOQUIMICO DE LIQ. PERITONEAL;350109;;;General Lab y Emergency Lab;;;;1;0
+Grupo;531;;HCA - CITOQUIMICO DE LIQ. PLEURAL;350110;;;General Lab y Emergency Lab;;;;1;0
+Grupo;532;;HCA - CITOQUIMICO DE LIQ. SINOVIAL;350111;;;General Lab y Emergency Lab;;;;1;0
+Grupo;533;;HCA - HEMOGLOBINA GLICOSILADA;340080;;;General Lab y Emergency Lab;;;;1;0
+Grupo;534;;HCA - GLUCOSA BASAL Y 2 H POSTPRANDI;360010;;;General Lab y Emergency Lab;;;;1;0
+Grupo;535;;HCA - HDL-LDL COLESTEROL;360147;;;General Lab y Emergency Lab;;;;1;0
+Grupo;536;;HCA - COPROPARASITARIO SERIADO;380044;;;General Lab y Emergency Lab;;;;1;0
+Grupo;537;;HCA - HEMOLISINAS Y AGLUTININAS;370070;;;General Lab y Emergency Lab;;;;1;0
+Grupo;538;;HCA - SCREENING DE ANTICUERPOS;370076;;;General Lab y Emergency Lab;;;;1;0
+Grupo;539;;HCA - PANEL IDENTIFICACION DE ANTICU;370042;;;General Lab y Emergency Lab;;;;1;0
+Grupo;540;;HCA - PERFIL PROSTATICO;270140;;;General Lab y Emergency Lab;;;;1;0
+Grupo;543;;HCA - PROTEINAS EN ORINA 24 HORAS;543;;;General Lab y Emergency Lab;;;;1;0
+Grupo;544;;HCA - GRUPO SANGUINEO Y FACTOR RH;370024;;;General Lab y Emergency Lab;;;;1;0
+Grupo;545;;HCA - PANEL DE DROGAS;330009;;;General Lab y Emergency Lab;;;;1;0
+Grupo;547;;HCA - COVID-19;PE210241;;;General Lab y Emergency Lab;;;;1;0
+Grupo;550;;HCA - CURVA DE GLICEMIA 5H;360062;;;General Lab y Emergency Lab;;;;1;0
+Grupo;555;;HCA - EPSTEIN BAR;280138;;;General Lab y Emergency Lab;;;;1;0
+Grupo;580;;HCA - SOBRE CARGA DE GLUCOSA;360120;;;General Lab y Emergency Lab;;;;1;0
+Grupo;595;;HCA - ANT DNA SS;270020;;;General Lab y Emergency Lab;;;;1;0
+Grupo;625;;PERFILES - CURVA GLUCOSA 2H;360057;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1001;GLU;GLUCOSA;360009;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1002;SOBGLU;SOBRECARGA DE GLUCOSA;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1003;GLU 30M;GLUCOSA 30 MIN;3600571NULL;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1006;GLU 1H;GLUCOSA 1 HORA;3601711;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1009;GLU 2H;GLUCOSA 2 HORAS;3601712;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1012;GLU3H;GLUCOSA 3 HORAS;3601713;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1015;GLU4H;GLUCOSA 4 HORAS;1015null;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1018;GLUORI;GLUCOSA EN ORINA.;360033;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1020;GLU2HP;GLUCOSA POSTPRANDIAL 2H;360063;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1021;GLUCPP;GLUCOSA 2H POSTPRANDIAL;3600101;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1025;TESTOS;TEST DE O SULLIVAN;360120NULL;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1027;A1W3;HBA1C;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1028;HB-W3;HEMOGLOBINA TOTAL;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1029;RWD3%;% HB GLICOSILADA;340080;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1030;FRUC;FRUCTOSAMINA;360130;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1031;MIOGLOBI;MIOGLOBINA;360152;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1032;BUN;BUN;U2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1033;UREA;UREA;360015;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1035;EAG;GLUCOSA MEDIA ESTIMADA;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1036;CREA;CREATININA;360016;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1041;CISC;CISTATINA C;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1045;CREAO;CREATININA EN ORINA  24 HORAS;36016301;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1046;CREAOP24;CREATININA EN ORINA PARCIAL DE 24H;360030;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1048;VOLH;VOLUMEN DE ORINA ML;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1049;VOLU;VOL. URINARIO;33000907;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1051;CREAOH;CREATININA SANGUINEA;3600545004;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1054;DEPURAC;DEPURACION DE CREATININA;36016303;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1057;COLT;COLESTEROL TOTAL;360021;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1060;COLHDL;COLESTEROL HDL;HDL;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1061;APOA;APOLIPOPROTEINA A;APO A;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1062;APOB;APOLIPOPROTEINA B;APO B;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1063;TG;TRIGLICERIDOS;360020;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1064;LIPOA;LIPOPROTEINA A;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1066;COLVLDL;COLESTEROL VLDL;3601863;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1069;COLLDL;COLESTEROL LDL;LDL;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1070;LIPTOT;LIPIDOS TOTALES;360186;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1072;AURIC;ACIDO URICO;360017;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1075;AURICO;ACIDO URICO EN ORINA DE 24 HORAS;3601582;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1076;ACUEN;ACIDO URICO EN ORINA PARCIAL;360029;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1077;ACUEN24H;ACIDO URICO EN ORINA PARCIAL DE 24H;3601581;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1078;TGO;AST (TGO);360034;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1081;TGP;ALT (TGP);360035;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1084;GGT;GAMMA G.T.;360040;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1085;5NUCLEO;5 NUCLEOTIDASA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1087;BT;BILIRRUBINA TOTAL;36002401;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1090;BD;BILIRRUBINA DIRECTA;36002402;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1093;BI;BILIRRUBINA INDIRECTA;36002403;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1095;BILNI;BILIRRUBINA NIÑOS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1096;FALK;FOSFATASA ALCALINA;360039;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1099;LDH;LDH;360036;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1100;LAC;ACIDO LACTICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1103;COLIN;COLINESTERASA;360114;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1106;CPK;CPK;360037;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1106;CPK;CPK;50600510;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1109;CKMB;CKMB;360038;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1112;PROTT;PROTEINAS TOTALES;360048;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1114;ALB;ALBUMINA;360115;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1115;GLOB;SERO-GLOBULINA;P006;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1116;INDAG;INDICE A/G;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1119;MICROA;MICROALBUMINURIA;360182;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1120;ALBL;ALBUMINA EN LIQUIDO;360181;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1121;FAT;FOSFATASA ACIDA TOTAL;360041;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1122;MICRO24H;MICROALBUMINURIA EN ORINA 24HORAS;3601663;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1123;NPP;FOSFATASA ACIDA NO PROSTATICA;360153;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1124;FAP;FOSFATASA ACIDA PROSTATICA;360042;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1125;MICROP24;MICROALBUMINURIA EN ORINA PARCIAL DE 24HORAS;3601662;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1127;PROT24H;PROTEINAS EN ORINA DE 24 HORAS;36016901;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1130;LIPASA;LIPASA;360118;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1133;AMY;AMILASA;360043;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1136;AMYO;AMILASA EN ORINA DE 24 HORAS;3601593;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1137;AMYOP;AMILASA EN ORINA PARCIAL;3601591;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1138;AMYOP24H;AMILASA EN ORINA PARCIAL DE 24H;3601592;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1139;Mg;MAGNESIO;360027;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1142;MgO;MAGNESIO EN ORINA DE 24 HORAS;3601803;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1143;MGOP;MAGNESIO EN ORINA PARCIAL;3601801;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1144;MGOP24H;MAGNESIO EN ORINA PARCIAL DE 24 HORAS;3601802;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1145;Ca;CALCIO;360018;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1148;CaOR;CALCIO EN ORINA DE 24 HORAS;3601602;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1151;CaOP;CALCIO EN ORINA PARCIAL;360025;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1152;CALCIOID;CALCIO IONICO;360012;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1153;CAOP24H;CALCIO EN ORINA PARCIAL DE 24H;3601601;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1154;P;FOSFORO;360019;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1157;POR;FOSFORO EN ORINA DE 24 HORAS;3601642;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1160;POP;FOSFORO EN ORINA PARCIAL;360026;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1161;17 OH PG;17 OH PROGESTERONA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1162;TSH NEO;TSH NEONATAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1163;GALAC T;GALACTOSA TOTAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1164;FENILAL;FENILALANINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1165;POP24H;FOSFORO EN ORINA PARCIAL DE 24H;3601641;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1172;Na;SODIO;3600113;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1175;NaO;SODIO EN ORINA DE 24 HORAS;3601703;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1178;NaOP;SODIO EN ORINA PARCIAL;3601701;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1179;NAOP24H;SODIO EN ORINA PARCIAL DE 24H;3601702;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1181;K1;POTASIO;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1182;K;POTASIO;3600111;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1184;KO;POTASIO EN ORINA DE 24 HORAS;3601683;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1185;KOP24H;POTASIO EN ORINA PARCIAL DE 24H;3601682;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1187;KOP;POTASIO EN ORINA PARCIAL;3601681;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1188;Cl;CLORO;3600112;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1189;ClO;CLORO EN ORINA DE 24 HORAS;3601622;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1190;ClOP;CLORO EN ORINA PARCIAL;360161;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1191;ClOP24H;CLORO EN ORINA PARCIAL DE 24H;3601621;;;General Lab y Emergency Lab;;;;1;0
+Prueba;1206;LIT;LITIO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1208;BICARB;HCO3 (BICARBONATO);;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1221;CALCURI;CALCULO URINARIO;360107;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1227;AMONIO;AMONIO;360049;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1230;ADAL;ADA LIQUIDO PLEURAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1231;ADALA;ADA LIQUIDO ASCITICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1232;ADALP;ADA LIQUIDO PERICARDICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1234;ADAS;ADA SUERO;310031;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1235;ADALCR;ADA LIQUIDO CEFALORRAQUIDEO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1239;VOL;VOLUMEN DE ORINA DE 24 HORAS;36016302;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1240;TDFG;TASA DE FILTRACION GLOMERULAR;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;1242;Fe;HIERRO;340128;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1245;TIBC;CAPACIDAD DE FIJACION  HIERRO;340108;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1246;SAT;SATURACION DE LA TRANSFERRINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1248;UIBC;INDICE DE SATURACION DEL HIERRO;P011;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1257;OSMOLS;OSMOLARIDAD SERICA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1260;GLU6PD;GLUCOSA 6 FOSFATO DESHIDROGENASA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1270;NAPD;SODIO POST DIALISIS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1275;KPD;POTASIO POST DIALISIS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;1280;CLOROPD;CLORO POST DIALISIS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2001;WBC;GLOBULOS BLANCOS;B10;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2002;NEUT;NEUTROFILOS;B22;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2003;LYMPH;LINFOCITOS;B21;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2004;MONO;MONOCITOS;B49;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2005;EO;EOSINOFILOS;B50;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2006;BASO;BASOFILOS;B51;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2007;NEUT%;NEUTROFILOS %;B34;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2008;LYMPH%;LINFOCITOS %;B33;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2009;MONO%;MONOCITOS %;B55;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2010;EO%;EOSINOFILOS %;B56;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2011;BASO%;BASOFILOS %;B57;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2012;RBC;RECUENTO DE G. ROJOS;B30;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2015;HB;HEMOGLOBINA;B11;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2018;HTO;HEMATOCRITO;B12;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2021;VCM;VOLUMEN CORPUSCULAR MEDIO;B13;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2024;HCM;HB CORPUSCULAR MEDIA;B14;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2027;CHCM;CONCENT. HB CORPUSCULAR MEDIA;B15;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2029;RDWSD;ANCHO DE DISTRIBUCION DE G.R. S.D.;B61;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2030;RDWCV;ANCHO DE DISTRIBUCION DE G.R. C.V.%;B58;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2033;PLT;PLAQUETAS;B25;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2036;VMP;VOLUMEN MEDIO PLAQUETARIO;B17;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2037;PLCT;PLAQUETOCRITO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2038;FACT RH;FACTOR Rh;GR2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2039;GRUPO;GRUPO SANGUINEO;GR1;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2040;IG;IG;B59;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2041;IG%;IG%;B60;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2042;ERI 30;ERITROSEDIMENTACION 30M;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;2043;ERI 60;ERITROSEDIMENTACION 60M;B593;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2044;ELUANTI;ELUCIÓN DE ANTICUERPOS;370038;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2045;DIF;RECUENTO DIFERENCIAL MANUAL;340002;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2046;PCDCU;PRUEBA DE COMPATIBILIDAD DE CADA UNIDAD;370025;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2047;FDSDR;FENOTIPO DEL SUBGRUPO DEL Rh;370083;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2048;CDTO;TEST DE COOMBS DIRECTO;COOMBSD;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2049;FDRD;FENOTIPO DE RH - DU;370084;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2050;PPRETRAN;PRUEBAS PRETRANSFUSIONALES;PPT;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2051;COMIND;TEST DE COOMBS INDIRECTO;370077;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2052;COOMBSDR;COOMBS DIRECTO;370022;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2054;RTOPLAQ;RECUENTO MANUAL DE PLAQUETAS;340003;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2057;HEMOPA;PLASMODIUM;270336;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2058;IEOS;INVESTIGACION DE EOSINOFILOS;340046;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2060;FSP;FROTIS SANGUINEO PERIFERICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2063;RET%;RETICULOCITOS%;340007;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2064;RET;RETICULOCITOS;B23;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2065;IFR;INDICE DE FRACCION RETICULOCITARIA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2066;TCOAG;TIEMPO DE COAGULACION;340018;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2069;TP;TIEMPO DE PROTROMBINA;340011;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2070;RETRAC;RETRACCION DEL COAGULO;50400115;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2075;INR;INR;3400111;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2078;FIB;FIBRINOGENO;340014;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2082;TPT;TIEMPO DE TROMBOPLASTINA;340012;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2087;TSANGR;TIEMPO DE SANGRIA;340019;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2089;NEU;NETRUOFILOS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;2090;DIMERO;DIMERO D;340109;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2096;HbLIBRE;HEMOGLOBINA LIBRE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2101;FRAGOS;FRAGILIDAD  OSMOTICA;50400350;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2103;PLASMIN;PLASMINOGENO;34006501;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2106;PHAM;PRUEBA DE HAM;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2109;ANTIIII;ANTITROMBINA III;340111;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2112;AGRPL;CURVA DE AGREGACION PLAQUETARIA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2115;FACV;FACTOR V;CO01;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2115;FACV;FACTOR V;340005;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2118;FACVI;FACTOR VII;50400135;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2121;FVIII;FACTOR  VIII;50400140;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2124;FACIX;FACTOR IX;50400165;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2127;FACX;FACTOR X;50400170;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2130;FACXI;FACTOR XI;  ;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2132;FACXII;FACTOR XII;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2133;FACXIII;FACTOR XIII;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2136;FACVO;FACTOR  VON WILLEBRAND;340124;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2139;INHFVI;INHIBIDOR  FACTOR VIII;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2142;INHFIX;INHIBIDOR  FACTOR  IX;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2145;PROTC;PROTEINA  C;340112;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2148;PROTS;PROTEINA S;340113;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2151;PTTCRUZ;PTT CRUZADO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2154;RPROTC;RESISTENCIA A LA PROTEINA C ACTIVADA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2157;TTROM;TIEMPO DE TROMBINA;340016;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2160;FALKLE;FOSFATASA ALCALINA LEUCOCITARIA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2163;COMPSAN;COMPATIBILIDAD SANGUINEA;PC;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2200;A;A;3700241;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2205;B;B;3700242;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2210;AB;AB;3700243;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2215;D;D;3700244;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2220;a1;a1;3700245;;;General Lab y Emergency Lab;;;;1;1
+Prueba;2225;b.;b.;3700246;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3001;TSH;TSH;290004;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3007;T3;T3;290005a;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3008;TBS;anti TB serica;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3009;FT3;FT3;290005;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3011;T3UP;T3 UPTAKE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3013;T4;T4;50300995;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3015;CETOST;17 CETOSTEROIDES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3017;FT4;FT4;290002;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3019;TBG;TIROGLOBULINA;290085;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3023;ANTITPO;ANTI PEROXIDASA TIROIDEA;270089;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3025;ANTITBG;ANTI TIROGLOBULINA;270088;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3026;PRLPOOL;PROLACTINA POOL;4030;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3027;PRL;PROLACTINA;280079;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3028;PRL2;PROLACTINA SEGUNDA TOMA;4028;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3029;LH;LH;290031;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3031;FSH;FSH;290030;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3033;PRG;PROGESTERONA;280083;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3035;E2;ESTRADIOL;290032;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3037;TEST;TESTOSTERONA;290065;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3039;TESL;TESTOSTERONA LIBRE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3041;DHEAS;DHEAS;290003;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3043;ALDOS;ALDOSTERONA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3045;EST;ESTRIOL;290032a;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3047;17OHP4;17 0H PROGESTERONA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3048;HOMOC;HOMOCISTEINA;270101;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3050;ANTIAME;AC. ANTI AMEBA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3051;ANDROS;ANDROSTENEDIONA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3052;TROP I;TROPONINA I;360003;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3053;HGHB;HORMONA DE CRECIMIENTO BASAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3054;HGH;HORMONA DE CRECIMIENTO;290056;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3055;HGH30M;HORMONA DE CRECIMIENTO 30 MIN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3056;TNT;TROPONINA T;360004;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3057;HGH60M;HORMONA DE CRECIMIENTO  60 MIN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3059;HGH90M;HORMONA DE CRECIMIENTO 90 MIN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3061;HGH120;HORMONA DE CRECIMIENTO 120 MIN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3063;HGH180;HORMONA DE CRECIMIENTO 180 MIN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3071;CORTAM;CORTISOL PLASMATICO;290027old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3073;CORTPM;CORTISOL PLASMATICO AM PM;290006;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3075;CORO;CORTISOL EN ORINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3077;ACTH;HORMONA ADENOCORTICOTROPICA;290048;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3078;CORTISOL;CORTISOL SUERO;290027;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3079;PEPC;PEPTIDO C;290050;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3081;INS;INSULINA;290044;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3082;HOMAIR;HOMA IR;2902861;;;General Lab y Emergency Lab;;;;0;1
+Prueba;3083;INS30;INSULINA 30 MIN;HO01;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3085;INS60;INSULINA 60 MIN;HO02;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3087;INS120;INSULINA 120 MIN;HO03;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3089;INS180;INSULINA 180 MIN;HO04;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3091;INS240;INSULINA 240 MIN;HO05;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3093;INS300;INSULINA 300 MIN;HO06;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3115;COPROP;COPROPORFIRINAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3120;ADREN;ADRENALINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3121;NORA;NORADRENALINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3124;CATEC;CATECOLAMINAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3130;AVM;ACIDO VANIL MANDELICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3133;5OHIND;ACIDO 5 OH INDOLACETICO/SEROTONINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3142;OSTEO;OSTEOCALCINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3145;CALCIT;CALCITONINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3148;PTH;PTH (PARATHORMONA);290040;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3152;RENINA;RENINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3155;ERITRO;ERITROPOYETINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3185;RT PCR;RT PCR SARS CoV2;270059;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3201;BHCG;HCG-BETA (CUANTITATIVO);280089;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3203;BHCGCUA;TEST DE EMBARAZO;380019;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3205;PSAT;PSA TOTAL;270141;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3210;PSAL;PSA LIBRE;270161;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3215;PSALPSA;RELACION   PSA L / PSA T;270140old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3220;ACE;AG. CARCINOEMBRIONARIO;270026;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3225;AFP;ALFAFETOPROTEINA;280090;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3226;HE4;HE4;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3227;IROMA;INDICE DE ROMA;OLD;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3230;Ca125;C.A 125;270058;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3233;IDR;INDICE DE RIESGO DE MALIGNIDAD(ROMA);;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3235;Ca199;C.A 19-9;270068;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3240;Ca153;C.A 15-3;270071;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3245;CA724;C.A 72-4;270333;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3247;CYFRA;CYFRA 21-1;270332;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3250;NSE;NEUROENOLASA ESPECIFICA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3301;HIV;AC. ANTI HIV;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3303;WBLOOT;WESTERN BLOT;310063;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3304;HIV1/2;AC HIV 1/2;270156;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3305;GLIAD A;AC. ANTIGLIADINA  IGA-GLIADINA IGA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3306;CHIV;CARGA VIRAL PARA HIV;310090;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3307;PRB;PR-VIH.MSP;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3308;CAP;CAPILLUS HOSPITALIZACION;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3309;TOXOG;TOXOPLASMA IgG;270144;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3310;PRS;PR-SÍFILIS.MSP;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3311;CV-IGG;PRUEBA RAPIDA COVID-19 IGG;C19002;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3312;TOXOM;TOXOPLASMA IgM;270145;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3313;TOXOA;TOXOPLASMA IGG - AVIDEZ;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3314;CV-IGM;PRUEBA RAPIDA COVID-19 IGM;C19001;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3315;RUBG;RUBEOLA IgG;270146;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3318;RUBM;RUBEOLA IgM;270147;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3319;CVHB;CARGA VIRAL HEPATITIS B;310084;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3320;CVHC;CARGA VIRAL HEPATITIS C;310035;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3321;CMVG;CITOMEGALOVIRUS IgG;270142;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3324;CMVM;CITOMEGALOVIRUS IgM;270143;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3325;CMVGA;CITOMEGALOVIRUS IGG AVIDITY;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3327;HERIG;HERPES I IgG;270277;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3328;CV-PR;PRUEBA RAPIDA CUALITATIVA PARA COVID-19;PE210241;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3329;CV-PR-AG;PRUEBA RAPIDA ANTIGENO SARS COV-2;P210242;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3329;CV-PR-AG;PRUEBA RAPIDA ANTIGENO SARS COV-2;ANTISARC2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3330;HERIM;HERPES I IgM;270275old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3333;HERIIG;HERPES II IgG;270278;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3336;HERIIM;HERPES II IgM;270276old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3337;HERIII;HERPES I - II IgM;270276;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3339;SARAMG;SARAMPION IgG;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3342;SARAMM;SARAMPION IgM;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3345;EBARRG;EPSTEIN BARR IgG;2801381;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3346;EBARRM;EPSTEIN BARR IgM;2801382;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3347;CISTICER;AC.ANTICISTICERCO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3348;HAVT;ANTI HAV TOTAL (IgG);1;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3349;HAVIGM;ANTI HAV (Igm);270153;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3350;CD4;CD4;280131;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3351;TUBE ADN;TUBERCULOSIS POR ADN-PCR;310027;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3352;HAVM;HEPATITIS A (ANTI HAV IgM);270152;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3355;lhbsg;HBsAg;270154old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3358;HBsAg;HEPATITIS B;270155;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3361;COREM;ANTI HBc IgM;270149;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3362;ACANTIT;AC. ANTITRANSGLUTAMINASA IGG;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3364;CORET;ANTI HBc IgG;270150;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3367;HBeAg;HBeAg;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3370;HBeAc;ANTI HBe;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3371;ACANTI;AC. ANTITRANSGLUTAMINASA IGA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3373;HVC;HEPATITIS C;270148;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3376;VARICG;VARICELA IgG;2703611;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3379;VARICM;VARICELA IgM;2703612;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3385;CHLAMG;CHLAMYDIA  IgG;270117;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3388;CHLAMM;CHLAMYDIA IgM;270116;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3389;CITRU;ANTI PEPTIDO CITRULINADO;270036;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3391;CHLAMD;CHLAMYDIA DIRECTA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3391;CHLAMD;CHLAMYDIA DIRECTA;270319;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3394;CHAGAS;AC. ANTI CHAGAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3395;ACPLAS;AC. ANTI PLASMODIUM;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3397;TOXOC;TOXOCARA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3401;VSR;VIRUS SINCITIAL RESPIRATORIO;270093;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3402;HELYCIGA;HELYCOBACTER PYLORI IGA;50600320;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3403;HELYCIGG;HELYCOBACTER PYLORI IGG;270164;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3404;HELYCIGM;HELYCOBACTER PYLORI IGM;270287;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3406;FTA;FTA ABS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3409;DENGG;DENGUE IgG;270325;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3412;DENGM;DENGUE IgM;270096;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3415;ANTISM;ANTI SM;270045;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3418;CELFALC;CELULAS FALCIFORMES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3421;LEPTOS;LEPTOSPIRA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3424;ADEN;ADENOVIRUS;380053;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3465;FERR;FERRITINA;340098;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3470;TRF;TRANSFERRINA;340153;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3505;GAST;GASTRINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3518;B2MICRO;BETA 2 MICROGLOBULINA;270284;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3550;CERUL;CERULOPLASMINA;290307;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3552;CICLO;CICLOSPORINA;330012;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3554;NTproBNP;proBNP II;290309;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3570;HAPT;HAPTOGLOBINA;340029;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3575;PREAL;PREALBUMINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3589;VITB12;VITAMINA B12;340095;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3590;AFOL;ACIDO FOLICO;340096;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3617;DNA;ANTI DNA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3618;CLE;CELULAS L.E.;340027;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3619;C3;C3;270050;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3621;C4;C4;280067;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3623;CH50;COMPLEMENTO CH50;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3625;ASMA;ANTI  MUSCULO LISO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3627;AM;AC.ANTIMITOCONTRIALES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3629;ANCAS;ANTI NEUTROFILOS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3631;ANTILa;ANTI SSB (La);2700122;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3633;ANTIRo;ANTI SSA (Ro);2700121;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3634;ANCA P;ANCA P(ANTI MPO);2700602;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3635;ANCA C;ANCA C(ANTI PR3);2700601;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3637;ANTIRNP;ANTI RNP 70;270046;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3638;ANT LKM1;ANTI LKM1;270078;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3639;ANTIJo;ANTI Jo;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3640;ANTI JO1;ANTI JO 1 IGG;270331;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3641;SCL70;SCL 70;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3642;CARA;CARDIOLIPINA  IgA;270316Q;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3643;CARD.IGG;CARDIOLIPINA  IgG;270315;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3645;CARD.IGM;CARDIOLIPINA IgM;270316;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3647;FOSFG;ANTIFOSFOLIPIDOS   IgG;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3648;GLIAD G;GLIADINA IgG;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3651;DSDNA;ANTI-DNA (ANTI DS IGG);;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3651;DSDNA;ANTI-DNA (ANTI DS IGG);2700202;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3652;NUCLEOSO;NUCLEOSOMA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3653;HISTONES;HISTONES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3654;PCNA;PCNA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3655;PO;PO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3656;ANTIRO52;ANTI RO52;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3657;CEMP B;CEMP-B;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3658;AMAM2;AMA M2;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3659;PMSCL;PM-SCL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3660;MI2;MI 2;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3661;KU;KU;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3674;ELECPR;ELECTROFORESIS DE PROTEINAS EN SANGRE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3675;ELECPRO;ELECTROFORESIS DE PROTEINAS EN ORINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3676;ELECLCR;ELECTROFORESIS DE PROTEINAS EN LCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3677;ELECHb;ELECTROFORESIS DE HEMOGLOBINA;340061;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3678;INMELEC;INMUNOELECTROFORESIS DE PROTEINAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3701;ANROLA;ANTICUERPOS ANTISSA(RO)SSB(LA);2700124;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3702;ANTDNA;ANTI-DNA (ANTI SS D);2700206;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3702;ANTDNA;ANTI-DNA (ANTI SS D);2700201;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3703;ANTSCL70;ANTI SCL- 70;270028;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3704;AMA;ANTI MITOCONDRIALES AMA;270032;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3705;ANCITO;ANTICUERPO ANTI-CITOPLASMA DEL;270060;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3706;IL 6;INTERLEUCINA (IL-6);270300;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3715;ANA;ANTI ANA;270018;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3716;ANT RNP;ANTICUERPOS ANTI SM-RNP;270011old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3717;FOSFM;AC.ANTIFOSFOLIPIDO IgM;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3718;HLAB27;HLA B27;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3719;IgG;IgG;2700542;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3720;INFAB;INFLUENZAE A-B/SARS CoV 2;3720;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3721;IgA;IgA;270053;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3723;IgM;IgM;2700541;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3725;IgD;IgD;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3727;IgE;IgE;270055;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3730;CRIOG;CRIOGLOBULINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3733;TEOF;TEOFILINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3739;ANF;ANFETAMINAS EN ORINA;33000905old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3741;METAD;ANTIDEPRESIVOS  MTD;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3747;ALUCI;ALUCINOGENOS/LSD;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3749;BARBI;BARBITURICOS EN ORINA;3749;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3750;METANFE;METANFETAMINAS MDMA;3750;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3751;BENZODIA;BENZODIACEPINAS EN ORINA;33000903;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3752;MARIHUAN;MARIHUANA EN ORINA;330013;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3753;EXTASIS;METANFETAMINA EN ORINA;33000904old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3755;CIANUROS;CIANUROS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3757;COCA;COCAINA EN ORINA;33000901old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3759;CANNABIS;CANNABIS(MARIHUANA) EN ORINA;33000902old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3761;ESCOP;ESCOPOLAMINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3763;FENOTIA;FENOTIAZINAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3764;FENOB;FENOBARBITAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3765;OPIAC;OPIACEOS EN ORINA;33000906old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3767;AVALP;ACIDO VALPROICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3769;AMITRIP;AMITRIPTILINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3771;CLOB;CLOBAZAM;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3773;CARB;CARBAMAZEPINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3775;DIG;DIGOXINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3777;FENIT;FENITOINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3778;PCT;PROCALCITONINA;290092;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3779;SALI;SALICILATOS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3780;ANTIPPD;ANTI P DE MANTOUX (PPD);;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3781;LEPTOAC;LEPTOSPIRA AC;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3782;SIF IGM;SIFILIS IGM;270131;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3783;SIF IGG;SIFILIS IGG;270130;;;General Lab y Emergency Lab;;;;1;1
+Prueba;3890;EOSIM;CITOLOGIA EN MOCO NASAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4010;VDRL;VDRL;270100;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4012;PPD;P.P.D TUBERCULINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4015;PCRus;PROTEINA C REACTIVA US;340112NULL;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4016;PCR;PCR;270022;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4017;PCRL;PCR Latex;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4020;FR;FACTOR REUMATOIDEO;270025;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4025;ASTO;ASTO;270098;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4030;GX;TEST DE EMBARAZO ORINA;380019ant;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4035;MONOTEST;MONOTEST;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4040;PARAA;PARATHYFICO A;27009701;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4045;PARAB;PARATHYFICO B;27009702;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4046;THYH;THYPI H;27009703;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4047;THYPO;THYPI O;27009704;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4050;TIFOH;EBERTH H;IN04old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4055;TIFOO;EBERTH O;IN05old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4060;PROTOX1;PROTEUS OX 19;27009705old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4061;PROTOX2;PROTEUS OX 2;IN07;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4062;PROTOX;PROTEUS OX K;IN08;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4065;BRUC;BRUCELLAS ABORTUS;27009706old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4100;RIVAL;RIVALTA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4102;ASCITICO;LIQUIDO ASCITICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4104;MEN;MUESTRA ENVIADA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4106;SERO;LIQUIDO SEROPURULENTO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;4204;ASPER;INMUNODIFUSION DE ASPERGILUS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5010;COLOR;COLOR;E10;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5011;TEMP;TEMPERATURA;33000908old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5014;CEL POLI;CELULAS POLIEDRICAS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5015;ASPEC;ASPECTO;E11;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5020;DENS;DENSIDAD;E12;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5023;MOC;MOCO;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5025;PH;pH;E13;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5026;pH U;pH URINARIO;33000912old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5027;Aspect;ASPECTO URINARIO;33000910old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5028;CLIR;COLOR URINARIO;33000909old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5030;LEU;LEUCOCITOS EN ORINA;E17;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5035;NIT;NITRITOS;E18;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5040;PROO;PROTEINAS;E21;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5045;GLU ORIN;GLUCOSA EN ORINA;E14;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5050;CUCET;CUERPOS CETONICOS;E15;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5051;CET;CETONA;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5053;AC ASCO;ACIDO ASCORBICO;E19;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5055;UBG;UROBILINOGENO;E22;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5057;CEL POL;CELULAS POLIEDRICAS;M10;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5059;CEL RED;CELULAS REDONDAS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5060;BIL;BILIRRUBINAS;E16;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5065;ERY;SANGRE EN ORINA;E20;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5066;CRENO;CRENOCITOS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5067;SPRM;ESPERMATOZOIDE;M21;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5068;MUC;FILAMENTO MUCOSO;M16;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5070;NEC;CELULAS EPITELIALES;M32;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5075;SEC;CELULAS EPITELIALES BAJAS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5080;PIOCIT;PIOCITOS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5085;RBCo;HEMATIES;M14;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5087;WBCO;PIOCITOS;M13;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5090;BACT;BACTERIAS;M15;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5095;CILINDR;CILINDROS;M18;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5097;PATH;CILINDROS PATOLÓGICOS;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5098;DENSURIN;DENSIDAD URINARIA;33000911old;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5099;CIL GR;CILINDRO GRANULOSO;M19;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5100;CRY;CRISTALES;M30;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5102;YEA;LEVADURAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5105;OBSO;OBSERVACIONES;M31;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5106;UREAOP;UREA EN ORINA PARCIAL;5106;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5107;UREAOP24;UREA EN ORINA PARCIAL DE 24H;36015302;;;General Lab y Emergency Lab;;;;1;0
+Prueba;5110;RECHAMB;RECUENTO DE HAMBURGUER;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5112;FOSF;FOSFATOS  AMORFOS;M23;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5113;TRI;TRICOMONAS;M26;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5114;OXCAL;OXALATO DE CALCIO;M25;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5115;PBENCE;PROTEINA DE BENCE JONES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5116;FOSAM;FOSFATO AMONIO Y MAGNESIO;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;5120;OSMOLO;OSMOLARIDAD;33;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5121;GOFREO;GOTA FRESCA EN ORINA;380024_;;;General Lab y Emergency Lab;;;;1;1
+Prueba;5124;HON;ESPORAS DE HONGOS;M27;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6010;COLORH;COLOR HECES;CP001;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6011;COLORHS;COLOR HECES;CO38A;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6012;E COLI;ENTOAMEBA COLI;CP019;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6013;ASQL;ASCARIS LUMBRICOIDES;CP020;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6015;CHILX;CHILOMASTIX MESNILI;CP019F;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6016;G LAMB;GIARDIA LAMBLIA;CP022;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6017;E HIST;ENTOAMEBA HISTOLYTICA;CP016;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6018;CONSH;CONSISTENCIA HECES;CP002;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6019;CONSISHS;CONSISTENCIA HECES;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;6020;PRSHECES;PARASITOS HECES;CP015;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6021;GLUCH;GLUCOSA HECES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6022;HEMH;HEMATIES EN HECES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6023;RESALH;RESIDUOS ALIMENTICIOS;CP012;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6024;FLOBACTH;FLORA BACTERIANA HECES;CP010;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6025;EXMICRO;EXAMEN MICROSCOPICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6026;PARASHS;PARASITOS HECES;CO51A;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6027;RESALIMH;RESIDUOS ALIMENTICIOS;CO49A;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6028;FLORAHES;FLORA BACTERIANA HECES;CP049;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6029;OTROSHS;OTROS;CO46A;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6030;PARH;PARASITOS HECES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6031;OTROSH;OTROS;CP043;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6032;pHH;PH HCES;CO44;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6035;PMN;LEUCOCITOS POLIMORFONUCLEARES.; ;;;General Lab y Emergency Lab;;;;0;0
+Prueba;6036;MMN;LEUCOCITOS MONOMORFONUCLEARES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6040;COLWRI;MOCO FECAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6090;SANGOCU;SANGRE OCULTA HECES;380023;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6091;PMNH;MOCO FECAL (PMN );380041;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6095;ROTAVIRU;ROTAVIRUS;380013;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6100;SUDAN;SUDAN EN MATERIA FECAL;380008;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6105;AZU;AZUCARES REDUCTORES;380014;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6110;OBSH;OBSERVACIONES.;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6115;HELYHE;HELICOBACTER PYLORI (HECES);380064;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6116;PGRAH;PRUEBAS DE GRAHAM  HECES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6117;ESTEACID;ESTEATOCRITO  ACIDO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6400;CGR;CONCENTRADO GLOBULOS ROJOS;370002;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6401;PFC;PLASMA FRESCO CONGELADO;PFG;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6402;CGRL;CONCENTRADO DE GLÓBULOS ROJOS LEUCOREDUCIDOS;370007;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6403;CGRLP;CONCENTRADO DE GLÓBULOS ROJOS LEUCOREDUCIDOS PEDIA;370008;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6404;CGR2;CONCENTRADO GLOBULOS ROJOS 2;370009;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6405;CPPA;CONCENTRADO DE PLAQUETAS POR AFERESIS;370010;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6406;HAM;HAM;HA1;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6407;DONLAST;DONALTH LASTEINER;HA2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6408;AUTOANTI;AUTOANTICUERPOS;HA3;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6409;CRIOAGLU;CRIOAGLUTININAS;HA4;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6410;PDCOOMBD;PRUEBA DE COOMBS DIRECTO;HA5;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6411;RANTIRRG;RASTREO DE ANTICUERPOS IRREGULARES;RAI01;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6412;PCOOMBID;PRUEBA DE COOMBS INDIRECTO;RAI02;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6413;PANTIGBI;PRUEBA DE ANTIGLOBULINAS INDIRECTA;RAI03;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6414;ANTIFRIO;ANTICUERPOS FRIO;ANTF1;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6415;ANTICALI;ANTICUERPOS CALIENTES;ANTF2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6416;CRIOPREC;CRIOPRECIPITADO;370005;;;General Lab y Emergency Lab;;;;1;1
+Prueba;6417;CONCPLAQ;CONCENTRADO DE PLAQUETAS;370006;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7000;POLVO;PRUEBA ALERGIA POLVO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7001;PHLEUM;PRUEBA ALERGIA PHLEUM PRATENSE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7002;DERMAFAR;ALERGIA DERMAOPHAGOIDE FARINAE;270337;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7003;BLOMIATR;PRUEBA ALERGIA BLOMIA TROPIC.;270340;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7004;PTERONY;PRUEBA ALERGIA  D. PTERONYSSIUS;270341;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7005;DERMAMIC;PRUEBA ALERGIA  D. MICROCERAS;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7005;DERMAMIC;PRUEBA ALERGIA  D. MICROCERAS;270342;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7006;LATEX;PRUEBA ALERGIA  LATEX;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7007;PERRO;PRUEBA ALERGIA PELO DE PERRO;270350;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7008;GATO;PRUEBA ALERGIA PELO DE GATO;270349;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7009;CUCAR;PRUEBA ALERGIA  CUCARACHA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7010;HECES;PRUEBA ALERGIA HECES PALOMA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7011;CLARAHUE;PRUEBA ALERGIA CLARA HUEVO;270343;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7012;LECHE;PRUEBA ALERGIA LECHE;270346;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7013;TRIGO;PRUEBA ALERGIA TRIGO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7014;SOYA;PRUEBA ALERGIA SOYA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7015;MANI;PRUEBA ALERGIA MANI;270347;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7016;NARANJA;PRUEBA ALERGIA NARANJA;270348;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7017;PIÑA;PRUEBA ALERGIA PIÑA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7018;CAMARON;PRUEBA ALERGIA CAMARON;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7019;AVENA;PRUEBA ALERGIA AVENA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7020;MAIZ;PRUEBA ALERGIA MAIZ;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7021;YEMAHUEV;PRUEBA ALERGIA YEMA DE HUEVO;270351;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7022;TOMATE;PRUEBA ALERGIA TOMATE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7023;CERDO;PRUEBA ALERGIA CERDO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7024;FRUTILLA;PRUEBA ALERGIA FRUTILLA;270345;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7025;GLUTEN;PRUEBA ALERGIA GLUTEN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7026;ARROZ;PRUEBA ALERGIA ARROZ;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7027;LACTOALB;ALERGIA ALPHA LACTOALBUMINA F76;270338;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7028;LACTOGLB;PBA ALERGIA BETA LACTOGLOBILINA F77;270339;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7029;CASEINA;PRUEBA ALERGIA CASEINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7030;CHOCOLAT;PRUEBA ALERGIA CHOCOLAT;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7031;ATUN;PRUEBA ALERGIA ATUN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7032;ABEJA;PRUEBA ALERGIA PICA ABEJA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7033;MOSQ;PRUEBA ALERGIA PICA MOSQ.;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7034;AVISPA;PRUEBA ALERGIA PICA AVISPA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7035;PENICILI;PRUEBA ALERGIA PENICILINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7036;AMOXACIL;PRUEBA ALERGIA AMOXACILINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7037;ALEHOR;PRUEBA ALERGIA HORMIGA DE FUEGO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7038;PAU;PRUEBA ALERGIA UVA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7039;ALERESPE;PRUEBA DE ALERGIA ESPECIFICA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7040;DERMATOP;PRUEBA ALERGIA DERMATOPHAGOIDES;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7041;BACALAO;PRUEBA DE ALERGIA BACALAO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7500;GLU UCI;GLUCOSA UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7501;LAC UCI;LACTATO UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7520;PH UCI;PH SANGUINEO UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7521;PCO2 UCI;PCO2 UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7522;PO2 UCI;PO2 UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7523;HCO3 UCI;HCO3 UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7524;TCO2 UCI;TCO2 UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7525;BE UCI;BE UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7526;SO2 UCI;SO2 UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7540;NA UCI;SODIO UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7541;K UCI;POTASIO UCI;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;7542;CL UCI;CLORO UCI;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;8000;MTB;TUBERCULOSIS ADN/PCR Y RESIST. A RIFAMPICINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8000;MTB;TUBERCULOSIS ADN/PCR Y RESIST. A RIFAMPICINA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8002;MARSASS;STAPHYL. AUREUS RESIST. A METICILINA/PIEL Y T;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8003;MARSABC;STAPHYL. AUREUS RESIST. A METICILINA EN HEMOCULT;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8004;EV;ENTEROVIRUS POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8005;HSVIPC;HERPES I POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8005;HSVIPC;HERPES I POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8006;HSVIIP;HERPES II POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8006;HSVIIP;HERPES II POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8007;CMVPCR;CITOMEGALOVIRUS POR PCR/ADN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8007;CMVPCR;CITOMEGALOVIRUS POR PCR/ADN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8008;EBVPCR;EPSTEIN BARR VIRUS PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8009;TOXOPCR;TOXOPLASMOSIS POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8009;TOXOPCR;TOXOPLASMOSIS POR ADN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8010;ESPERM;ESPERMATOGRAMA;350043;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8011;MPPCR;MYCOPLASMA PNEUMONIAE POR PCR/ADN;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8012;RSVPCR;VIRUS RESPIRATORIO SINCITIAL POR ARN/PCR;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8013;HPVGEN;HPV GENOTIPIFICACION;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8030;LCR;LIQUIDO CEFALORAQUIDEO;350107;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8033;GLULIQ;GLUCOSA EN LIQUIDO;360128;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8035;PTLIQ;PROTEINAS EN LIQUIDO;360074;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8050;LIQPLEU;LIQUIDO PLEURAL;350110;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8070;LIQPERI;LIQUIDO PERITONEAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8080;LIQCITO;LIQUIDO BIOLOGICO CITO-QUIMICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8090;LIQSINO;LIQUIDO SINOVIAL;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8110;LIQAMNI;LIQUIDO AMNIOTICO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8119;CARACLIQ;CARACTERISITCAS DEL LIQUIDO;CAR LIQUI;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8120;GLUL;GLUCOSA EN LIQUIDO.;GLULPR;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8121;LDHL;LDH EN LIQUIDO;360123;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8122;MONONU;MONONUCLEARES;MNLPR;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8123;POLINU;POLIMORFONUCLEARES;PMNLCR;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8130;PTL;PROTEINAS EN LIQUIDO.;360127;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8131;RBCL;GLUBULOS ROJOS EN LIQUIDO;RBCLCR;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8132;LEUL;LEUCOCITOS EN LIQUIDO;WBC LIQ;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8133;COLGRAM;COLORACION DE GRAM;5080002001;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8134;CULTLIQ;CULTIVO DE LIQUIDO;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;8140;HISTP;HISTOPATOLOGICO PEQUEÑO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8145;HISM;HISTOPATOLOGICO MEDIANO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8150;HISTOG;HSTOPATOLOGICO GRANDE;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8155;HERCEPT;EXPRESION DE HERP2;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8200;PHs;pH SANGUINEO;PHS;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8202;PCO2;PCO2;PCO2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8204;PO2;PO2;PO2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8206;HCO3;HCO3;HCO3;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8208;TCO2;TCO2;TCO2;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8210;BE;BE;BE;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8212;O2sat;O2sat;O2SAT;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8300;vPHs;pH VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8301;CARSANG;CARIOTIPO EN SANGRE PERIFERICA;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8302;vPCO2;PCO2 VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8304;vPO2;PO2 VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8306;vHCO3;HCO3 VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8308;vTCO2;TCO2 VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8310;vBE;BE VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8312;vO2SAT;O2SAT VENOSO;;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8406;GRAORI;GRAM DE ORINA;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;8408;UREAORI;UREA EN ORINA 24 HORAS;36015303;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8409;UREAO24H;NITROGENO UREICO ORINA 24HORAS;360167r;;;General Lab y Emergency Lab;;;;1;1
+Prueba;8415;PROORI;PROTEINA EN ORINA PARCIAL;360051;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9000;C ESPUTO;CULTIVO DE ESPUTO;PE210202;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9001;BK CULTI;BK CULTIVO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9002;BACILOSC;BACILOSCOPIA;350025old;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9003;STREP A;STREP A;350117;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9004;KOH;KOH;350016;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9005;GRAM;EXAMEN DE GRAM;350024;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9006;MU ENVIA;CULTIVO DE MUESTRA ENVIADA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9008;C OROFAR;CULTIVO OROFARINGE;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9009;C HONGOS;CULTIVO PARA HONGOS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9010;S URETRA;SECRECION URETRAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9011;HEMOCULT;HEMOCULTIVO;3500006;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9012;ANAEROBI;HEMOCULTIVO ANAEROBIOS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9013;H HONGOS;HEMOCULTIVO HONGOS;old;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9014;HEMOCU 2;HEMOCULTIVO N° 2;350007;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9015;HEMOCU 3;HEMOCULTIVO N° 3;350034;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9016;C FARING;CULTIVO FARINGEO;CE001;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9017;UROCULTI;CULTIVO DE ORINA;350005;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9018;C SEMEN;CULTIVO DE SEMEN;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9019;COPROCUL;CULTIVO DE HECES;350010;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9020;C SECREC;CULTIVO SECRECIONES Y OTROS;350014;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9021;CF VAGIN;CULTIVO DE FLUJO VAGINAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9022;CHLAMYEN;CHLAMYDIA ENDOCERVICAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9023;S V FRES;SECRECION VAGINAL FRESCO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9024;FRESCO;EXAMEN FRESCO;350023;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9024;FRESCO;EXAMEN FRESCO;380024;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9025;C A TRAQ;CULTIVO DE ASPIRADO TRAQUEAL;PE210209;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9026;COCCDIO;INMUNODIFUSION COCCDIODES;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9027;CITCERVA;CITOLOGIA CERVICO VAGINAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9028;C AS BRO;CULTIVO ASPIRADO BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9029;G A BRON;GRAM ASPIRADO BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9030;Z A BRON;ZIEHL ASPIRADO BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9031;C S BRON;CULTIVO SECRECION BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9032;G S BRON;GRAM SECRECION BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9033;Z S BRON;ZIEHL SECRECION BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9034;C L BRON;CULTIVO DE LAVADO BRONQUIAL;PE210211;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9035;G L BRON;GRAM LAVADO BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9036;Z L BRON;ZIEHL LAVADO BRONQUIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9037;EXA ESPU;EXAMEN DE ESPUTO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9038;G ESPUTO;GRAM DE ESPUTO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9039;Z ESPUTO;ZIEHL DE ESPUTO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9040;C E FARI;CULTIVO EXUDADO FARINGEO;350027;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9041;G E FARI;GRAM EXUDADO FARINGEO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9042;Z E FARI;ZIEHL EXUDADO FARINGEO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9043;C S TRAQ;CULTIVO SECRECION TRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9044;G S TRAQ;GRAM SECRECION TRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9045;Z S TRAQ;ZIEHL SECRECION TRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9046;C S ENDO;CULTIVO SECRECION ENDOTRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9047;Z S ENDT;ZIEHL SECRECION ENDOTRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9048;C E OTIC;CULTIVO EXUDADO OTICO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9049;C S OTIC;CULTIVO DE SECRECION OTICA;PE210225;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9050;G S OTIC;GRAM SECRECION OTICA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9051;Z S OTIC;ZIEHL SECRECION OTICA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9052;C OCUL;CULTIVO OCULAR;PE210210;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9053;G S OCUL;GRAM SECRECION OCULAR;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9054;ZSEOCUL;ZIEHL SECRECION OCULAR;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9055;C E NASA;CULTIVO EXUDADO NASAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9056;GSENAS;GRAM EXUDADO NASAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9057;ZSENAS;ZIEHL SECRECION NASAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9058;C S URET;CULTIVO SECRECION URETRAL;PE210222;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9059;G S URET;GRAM SECRECION URETRAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9060;ZSEURE;ZIEHL SECRECION URETRAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9061;C S VAGI;CULTIVO SECRECION VAGINAL;5080002010;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9062;C MUESTR;CULTIVO DE MUESTRA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9063;G S VAGI;GRAM SECRECION VAGINAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9064;G MUE EN;GRAM DE MUESTRA ENVIADA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9065;ZSEVAG;ZIEHL SECRECION VAGINAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9066;G S ENDO;GRAM SECRECION ENDOTRAQUEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9067;C CATETE;CULTIVO CATETER;PE210223;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9068;G CATETE;GRAM CATETER;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9069;Z CATETE;ZIEHL CATETER;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9070;ZMUESTEN;ZIEHL MUESTRA ENVIADA;;;;Microbiology;;;;0;0
+Prueba;9071;C SO VES;CULTIVO DE SONDA VESICAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9072;G SO VES;GRAM SONDA VESICAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9073;Z SO VES;ZIEHL SONDA VESICAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9074;G HECES;GRAM HECES;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9075;Z HECES;ZIEHL DE HECES;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9076;C PIEL;CULTIVO DE PIEL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9077;GRAMPIEL;GRAM DE PIEL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9078;ZIE PIEL;ZIEHL DE PIEL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9079;C ESCARA;CULTIVO DE ESCARA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9080;G ESCARA;GRAM DE ESCARA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9081;Z ESCARA;ZHIEL DE ESCARA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9082;CULT BDK;CULTIVO DE BDK;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9083;C L PLEU;CULTIVO LIQUIDO PLEURAL;PE210216;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9084;C L PERI;CULTIVO LIQUIDO PERITONEAL;PE210217;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9085;CULT PUS;CULTIVO DE PUS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9086;GRAM PUS;GRAM DE PUS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9087;ZIEH PUS;ZIEHL DE PUS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9088;C HE QUI;CULTIVO DE HERIDA QUIRURGICA;PE210205;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9089;G HE QUI;GRAM DE HERIDA QURURGICA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9090;Z HERIDA;ZIEHL DE HERIDA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9091;CULTI LI;CULTIVO DE LIQUIDOS;350065;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9092;G L ASCI;GRAM DE LIQUIDO ASCITICO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9093;Z L ASCI;ZIEHL DE LIQUIDO ASCITICO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9094;CULT LCR;CULTIVO DE LCR;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9095;GRAM LCR;GRAM DE LCR;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9096;ZIEH LCR;ZIEHL DE LCR;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9097;C L SINO;CULTIVO DE LIQUIDO SINOVIAL;PE210218;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9098;G L SINO;GRAM DE LIQUIDO SINOVIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9099;Z L SINO;ZIEHL DE LIQUIDO SINOVIAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9100;G L PRTN;GRAM DE LIQUIDO PERITONEAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9101;ZIEHL 1M;ZIEHL POR 1 MUESTRA;350025;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9102;ZIEHL 2M;ZIEHL POR 2 MUESTRA;350011;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9103;ZIEHL 3M;ZIEHL POR 3 MUESTRA;350012;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9104;ZIEHL 4M;ZIEHL POR 4 MUESTRA;350017;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9105;ZIEHL 5M;ZIEHL POR 5 MUESTRA;350019;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9106;STREPPYO;INV ANTIGENO STREPTOCOCCUS PYOGENES;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9107;SARCOPTE;INV SARCOPTES SCABIEI;350120;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9108;Z L PLEU;ZIEHL DE LIQUIDO PLEURAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9109;C L PRIC;CULTIVO DE LIQUIDO PERICARDIO;PE210219;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9110;G L PERI;GRAM DE LIQUIDO PERICARDIO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9111;ZILPER;ZIEHL DE LIQUIDO PERICARDIO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9112;C ABSCES;CULTIVO DE ABSCESO;PE210208;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9113;G ABSCES;GRAM DE ABSCESO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9114;Z ABSCES;ZIEHL DE ABSCESO;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9115;BAAR;BAAR;350125;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9116;G ORINA;GRAM DE ORINA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9117;Z ORINA;ZIEHL ORINA;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9118;TINTACHI;TINTA CHINA;350026;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9119;C  NASA;CULTIVO NASAL;PE210204;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9120;CRYPTOCO;CRYPTOCOCCUS;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9121;G E NASA;GRAM EXUDADO NASAL;;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9122;MIELOCUL;MIELOCULTIVO;350086;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9123;C AMNITI;CULTIVO DE LIQUIDO AMNIOTICO;PE210220;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9124;CUL ABDO;CULTIVO ABDOMINAL;PE210212;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9125;CUL ORI;CULTIVO DE ORINA;350005O;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9126;CU CEEFA;CULTIVO DE LIQUIDO CEFALORAQUIDEO;PE210215;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9127;CU ASCI;CULTIVO DE LIQUIDO ASCITICO;PE210221;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9128;CU TEJ;CULTIVO DE TEJIDO;PE210206;;;Microbiology;;MICROBIOLOGICA;;1;1
+Prueba;9901;titHEM;BIOMETRIA HEMATICA;9901;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9902;titFSQ;ORINA EXAMEN GENERAL;9902;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9903;titGASV;GASOMETRIA VENOSA;9903;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9904;titGASA;GASOMETRIA ARTERIAL;9904;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9905;titTN;TAMIZAJE METABOLICO NEONATAL;9905;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9906;titRW;AGLUTINACIONES FEBRILES;9906;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9907;titWF;REACCION DE WELL FELIX;9907;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9908;titCITOQ;CITO-QUIMICO;9908;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9909;titCOPSE;COPROPARASITARIO SERIADO;9909;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9910;titLIQCF;CITOQUIMICO DE LIQUIDO CEFALORAQUIDEO;9910;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9911;titLIQPE;CITOQUIMICO DE LIQUIDO PERICARDIO;9911;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9912;titLIQPT;CITOQUIMICO DE LIQUIDO PERITONEAL;9912;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9913;titLIQPL;CITOQUIMICO DE LIQUIDO PLEURAL;9913;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9914;titLIQSI;CITOQUIMICO DE LIQUIDO SINOVIAL;9914;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9915;titLIQAS;CITOQUIMICO DE LIQUIDO ASCITICO;9915;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9916;titCOPPA;COPROPARASITARIO;9916;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9921;titDROG;TAMIZAJE DE DROGAS DE ABUSO EN ORINA;;;;General Lab y Emergency Lab;;;;0;0
+Prueba;9970;RESUREAO;RESULTADO UREA ORINA 24HORAS;9970;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9971;RESCREA;RESULTADO CREATININA ORINA 24H;360054001;;;General Lab y Emergency Lab;;;;1;0
+Prueba;9972;RESFOSO;RESULTADO FOSFORO 24 HORAS;9972;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9991;PROTP24H;PROTEINAS EN ORINA PARCIAL DE 24H;36001603;;;General Lab y Emergency Lab;;;;1;0
+Prueba;9993;RESCAL;RESULTADO CALCIO 24 HORAS;9993;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9994;RESNA;RESULTADO SODIO 24HORAS;9994;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9995;RESK;RESULTADO POTASIO 24HORAS;9995;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9996;RESCL;RESULTADO CLORO 24 HORAS;9996;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9997;RESMC24;RESULTADO MICROALBUMINURIA 24HORAS;9997;;;General Lab y Emergency Lab;;;;1;1
+Prueba;9998;RESAU;RESULTADO ACIDO URICO 24 HORAS;9998;;;General Lab y Emergency Lab;;;;1;1

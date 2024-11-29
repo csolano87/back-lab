@@ -1,0 +1,89 @@
+const express = require("express");
+const { Request, Response } = require("express");
+const Cabecera = require("../models/cabecera");
+const localStorage = require("localStorage");
+const axios = require("axios").default;
+const xml2js = require("xml2js");
+const fs = require("fs");
+const appt = express();
+const { loginInfinity } = require("../helpers/loginInfinity");
+const { key } = require("localStorage");
+const stripNS = require("xml2js").processors.stripPrefix;
+const login = require("../controllers/login");
+const { CLIENT_RENEG_LIMIT } = require("tls");
+const { Console } = require("console");
+const { string } = require("i/lib/util");
+
+const doctor = async (req, res) => {
+  const CacheUserName = `${process.env.CacheUserName}`;
+  const CachePassword = `${process.env.CachePassword}`;
+  const token = `${CacheUserName}:${CachePassword}`;
+  const encodedToken = Buffer.from(token).toString("base64");
+
+  const responseToken = await loginInfinity(encodedToken);
+
+  localStorage.setItem("Idtoken", responseToken);
+  const tokenResult = localStorage.getItem("Idtoken");
+
+  const rawcookies = localStorage.getItem("rawcookies");
+  let params = {
+    soap_method: "GetList",
+    pstrSessionKey: `${tokenResult}`,
+    pstrDemographicCode: "",
+    pstrDemographicName: "Doctor",
+    pstrValueCode: "",
+    pstrDescription: "",
+    pintStatus: 1,
+  };
+
+  const instance = axios.create({
+    baseURL: `${process.env.baseURL}/wso.ws.wDemographicValues.cls`,
+    params,
+    headers: { cookie: rawcookies },
+  });
+
+  /* const orden = axios.create({
+    baseURL: `http://192.168.1.2/csp/acb/wso.ws.wOrders.cls`,
+    params,
+    //baseURL: `http://192.168.1.2/csp/acb/wso.ws.wResults.cls?${params}`,
+    headers: { cookie: rawcookies },
+}); */
+
+  const resp = await instance.get();
+  //console.log('doctor',resp.headers['content-length'])
+  try {
+    xml2js.parseString(
+      resp.data,
+      {
+        explicitArray: false,
+        mergeAttrs: true,
+        explicitRoot: false,
+        tagNameProcessors: [stripNS],
+      },
+      (err, result) => {
+        if (err) {
+          throw err;
+        }
+
+        const listadoctor =
+          result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet.SQL;
+
+        listadoctor.sort(function (a, b) {
+          var descriptionA = a.Description.toUpperCase();
+          var descriptionB = b.Description.toUpperCase();
+
+          if (descriptionA < descriptionB) {
+            return -1;
+          }
+          if (descriptionA > descriptionB) {
+            return 1;
+          }
+          return 0;
+        });
+
+        res.status(200).json({ ok: true, lista: listadoctor });
+      },
+    );
+  } catch (error) {}
+};
+module.exports = { doctor };

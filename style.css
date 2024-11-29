@@ -1,0 +1,55 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 20px 50px;
+	font-size: 1rem;
+}
+
+.title_categoria {
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+h1 {
+	text-align: center;
+}
+.datos_paciente {
+	display: flex;
+	justify-content: space-between;
+}
+
+.columna {
+	width: 48%;
+}
+
+table {
+	width: 100%;
+	margin: 10px auto;
+	/* border: 1px solid #dddddd; */
+}
+
+th,
+td {
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding: 5px;
+}
+
+th {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	font-size: 12px;
+}
+
+.prevent-break {
+	page-break-inside: avoid;
+	margin-bottom: 20px;
+	/* Ajusta el margen para asegurar que haya espacio suficiente */
+}
+.page-break {
+	page-break-before: always;
+}

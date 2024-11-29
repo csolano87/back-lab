@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <title>iisnode logs</title>
+    <style type="text/css">
+      body {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid lightgray;
+        padding: 3px 7px 2px 7px;
+      }
+      th {
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: Gray;
+        color: #ffffff;
+      }
+      td.stderr {
+        color: Red;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="logFilesTable">
+      <tr>
+        <th>Computer name</th>
+        <th>PID</th>
+        <th>Type</th>
+        <th>Created</th>
+        <th>Link</th>
+      </tr>
+    </table>
+    <p id="lastUpdated"></p>
+    <script type="text/javascript">
+      // this is replaced with actual data at runtime by code in interceptor.js
+      var logFiles = [
+        {
+          file: "SRV-APP2-10936-stderr-1655393543839.txt",
+          computername: "SRV-APP2",
+          pid: 10936,
+          type: "stderr",
+          created: 1655393543839,
+        },
+        {
+          file: "SRV-APP2-10936-stdout-1655393543836.txt",
+          computername: "SRV-APP2",
+          pid: 10936,
+          type: "stdout",
+          created: 1655393543836,
+        },
+        {
+          file: "SRV-APP2-1164-stderr-1655398735159.txt",
+          computername: "SRV-APP2",
+          pid: 1164,
+          type: "stderr",
+          created: 1655398735159,
+        },
+        {
+          file: "SRV-APP2-1164-stdout-1655398735155.txt",
+          computername: "SRV-APP2",
+          pid: 1164,
+          type: "stdout",
+          created: 1655398735155,
+        },
+        {
+          file: "SRV-APP2-13052-stderr-1655401574498.txt",
+          computername: "SRV-APP2",
+          pid: 13052,
+          type: "stderr",
+          created: 1655401574498,
+        },
+        {
+          file: "SRV-APP2-13052-stdout-1655401574494.txt",
+          computername: "SRV-APP2",
+          pid: 13052,
+          type: "stdout",
+          created: 1655401574494,
+        },
+        {
+          file: "SRV-APP2-13152-stderr-1655401447344.txt",
+          computername: "SRV-APP2",
+          pid: 13152,
+          type: "stderr",
+          created: 1655401447344,
+        },
+        {
+          file: "SRV-APP2-13152-stdout-1655401447339.txt",
+          computername: "SRV-APP2",
+          pid: 13152,
+          type: "stdout",
+          created: 1655401447339,
+        },
+        {
+          file: "SRV-APP2-13852-stderr-1655398471387.txt",
+          computername: "SRV-APP2",
+          pid: 13852,
+          type: "stderr",
+          created: 1655398471387,
+        },
+        {
+          file: "SRV-APP2-13852-stdout-1655398471383.txt",
+          computername: "SRV-APP2",
+          pid: 13852,
+          type: "stdout",
+          created: 1655398471383,
+        },
+        {
+          file: "SRV-APP2-14196-stderr-1655398346453.txt",
+          computername: "SRV-APP2",
+          pid: 14196,
+          type: "stderr",
+          created: 1655398346453,
+        },
+        {
+          file: "SRV-APP2-14196-stdout-1655398346449.txt",
+          computername: "SRV-APP2",
+          pid: 14196,
+          type: "stdout",
+          created: 1655398346449,
+        },
+        {
+          file: "SRV-APP2-3352-stderr-1655396914721.txt",
+          computername: "SRV-APP2",
+          pid: 3352,
+          type: "stderr",
+          created: 1655396914721,
+        },
+        {
+          file: "SRV-APP2-3352-stdout-1655396914717.txt",
+          computername: "SRV-APP2",
+          pid: 3352,
+          type: "stdout",
+          created: 1655396914717,
+        },
+        {
+          file: "SRV-APP2-6116-stderr-1655393813930.txt",
+          computername: "SRV-APP2",
+          pid: 6116,
+          type: "stderr",
+          created: 1655393813930,
+        },
+        {
+          file: "SRV-APP2-6116-stdout-1655393813926.txt",
+          computername: "SRV-APP2",
+          pid: 6116,
+          type: "stdout",
+          created: 1655393813926,
+        },
+        {
+          file: "SRV-APP2-8224-stderr-1655415157469.txt",
+          computername: "SRV-APP2",
+          pid: 8224,
+          type: "stderr",
+          created: 1655415157469,
+        },
+        {
+          file: "SRV-APP2-8224-stdout-1655415157465.txt",
+          computername: "SRV-APP2",
+          pid: 8224,
+          type: "stdout",
+          created: 1655415157465,
+        },
+        {
+          file: "SRV-APP2-8368-stderr-1655398653359.txt",
+          computername: "SRV-APP2",
+          pid: 8368,
+          type: "stderr",
+          created: 1655398653359,
+        },
+        {
+          file: "SRV-APP2-8368-stdout-1655398653355.txt",
+          computername: "SRV-APP2",
+          pid: 8368,
+          type: "stdout",
+          created: 1655398653355,
+        },
+        {
+          file: "SRV-APP2-8972-stderr-1655397212950.txt",
+          computername: "SRV-APP2",
+          pid: 8972,
+          type: "stderr",
+          created: 1655397212950,
+        },
+        {
+          file: "SRV-APP2-8972-stdout-1655397212945.txt",
+          computername: "SRV-APP2",
+          pid: 8972,
+          type: "stdout",
+          created: 1655397212945,
+        },
+      ];
+      var lastUpdated = 1655415158318;
+      var date = new Date();
+
+      date.setTime(lastUpdated);
+      document.getElementById("lastUpdated").innerHTML =
+        "Index was last updated " + date;
+
+      logFiles.sort(function (a, b) {
+        return b.created - a.created;
+      });
+
+      var logFilesTable = document.getElementById("logFilesTable");
+      for (var i = 0; i < logFiles.length; i++) {
+        var logFile = logFiles[i];
+        date.setTime(logFile.created);
+        var row = logFilesTable.insertRow(-1);
+        var computerNameCell = row.insertCell(0);
+        var pidCell = row.insertCell(1);
+        var typeCell = row.insertCell(2);
+        var dateCell = row.insertCell(3);
+        var logCell = row.insertCell(4);
+        computerNameCell.innerHTML = logFile.computername;
+        pidCell.innerHTML = logFile.pid.toString();
+        typeCell.innerHTML = logFile.type;
+        typeCell.setAttribute("class", logFile.type);
+        dateCell.innerHTML = date.toString();
+        logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+      }
+    </script>
+  </body>
+</html>

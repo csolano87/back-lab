@@ -1,0 +1,6 @@
+﻿numeroorden,nombres,edad,sexo,fechanacimiento,tipoorden,origen,servicio,impresora,pruebas
+2405060001,test1 test1,30,M,10/10/1986,Emergencia,consulta,consulta,zbr1,34001;3002;1001
+2405060002,test2 test2,30,F,10/10/1980,Emergencia,consulta,consulta,zbr1,34001;3002;1001
+2405060003,test3 test3,30,M,10/10/1984,Emergencia,consulta,consulta,zbr1,34001;3002;1001
+2405060004,test4 test4,30,F,10/10/1982,Emergencia,consulta,consulta,zbr1,34001;3002;1001
+2405060005,test5 test5,30,M,10/10/1981,Emergencia,consulta,consulta,zbr1,34001;3002;1001

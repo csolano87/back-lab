@@ -1,0 +1,261 @@
+Escuchando conexiones
+Servidor corriendo en puerto \\.\pipe\be01f587-0e61-49ec-95ab-0d14df944d77
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cabeceras' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `cabeceras`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cabecera_agens' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `cabecera_agens`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'detalles' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `detalles`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'detalle_agens' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `detalle_agens`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'servicios' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `servicios`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tubos' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `tubos`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'envase' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `envase`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuarios' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `usuarios`
+Executing (default): SELECT `id`, `doctor`, `codigo_doctor`, `usuario`, `password`, `rol`, `estado` FROM `usuarios` AS `Usuario` WHERE `Usuario`.`usuario` = 'admin' LIMIT 1;
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'roles' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `roles`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'provincia' AND TABLE_SCHEMA = 'OE'
+Executing (default): SHOW INDEX FROM `provincia`
+Database online
+Executing (default): SELECT `id`, `doctor`, `codigo_doctor`, `usuario`, `password`, `rol`, `estado` FROM `usuarios` AS `Usuario` WHERE `Usuario`.`id` = 1 LIMIT 1;
+Executing (default): SELECT `id`, `doctor`, `codigo_doctor`, `usuario`, `password`, `rol`, `estado` FROM `usuarios` AS `Usuario` WHERE `Usuario`.`id` = 1;
+Executing (default): SELECT `id`, `doctor`, `codigo_doctor`, `usuario`, `password`, `rol`, `estado` FROM `usuarios` AS `Usuario` WHERE `Usuario`.`id` = 1 LIMIT 1;
+Executing (default): SELECT `id`, `rol` FROM `roles` AS `Role` WHERE `Role`.`rol` = 'ADMIN' LIMIT 1;
+FECHADESDE 2024-01-14
+FECHAHASTA 2024-01-16
+tokenresult null
+LLAMANDO AL SERVICIO LOGIN ......
+**********EXPIRATE-LOGIN******** 1998-10-29T17:04:19.000Z
+campo LoginResult: aev3AMNwhd5utdXJVVaTLrXhZsw=
+codigo abajo 2401140058
+no existe LISMicIsolate 
+no existe  kk
+1 1
+12 44
+codigo abajo 2401150011
+no existe LISMicIsolate 
+ok
+1 2
+12 44
+codigo abajo 2401150036
+no existe LISMicIsolate 
+no existe  kk
+1 3
+12 44
+codigo abajo 2401150045
+no existe LISMicIsolate 
+no existe  kk
+1 4
+12 44
+codigo abajo 2401150046
+no existe LISMicIsolate 
+no existe  kk
+1 5
+12 44
+codigo abajo 2401150055
+no existe LISMicIsolate 
+no existe  kk
+1 6
+12 44
+codigo abajo 2401150102
+no existe LISMicIsolate 
+no existe  kk
+1 7
+12 44
+codigo abajo 2401150105
+no existe LISMicIsolate 
+no existe  kk
+1 8
+12 44
+codigo abajo 2401150108
+no existe LISMicIsolate 
+no existe  kk
+1 9
+12 44
+codigo abajo 2401150120
+no existe LISMicIsolate 
+no existe  kk
+1 10
+12 44
+codigo abajo 2401150125
+no existe LISMicIsolate 
+no existe  kk
+1 11
+12 44
+codigo abajo 2401150126
+no existe LISMicIsolate 
+no existe  kk
+1 12
+12 44
+codigo abajo 2401150135
+no existe LISMicIsolate 
+no existe  kk
+1 13
+12 44
+codigo abajo 2401150147
+no existe LISMicIsolate 
+no existe  kk
+1 14
+12 44
+codigo abajo 2401150150
+no existe LISMicIsolate 
+no existe  kk
+1 15
+12 44
+codigo abajo 2401150155
+no existe LISMicIsolate 
+no existe  kk
+1 16
+12 44
+codigo abajo 2401150167
+no existe LISMicIsolate 
+no existe  kk
+1 17
+12 44
+codigo abajo 2401150173
+no existe LISMicIsolate 
+no existe  kk
+1 18
+12 44
+codigo abajo 2401150180
+no existe LISMicIsolate 
+no existe  kk
+1 19
+12 44
+codigo abajo 2401150192
+no existe LISMicIsolate 
+no existe  kk
+1 20
+12 44
+codigo abajo 2401150193
+no existe LISMicIsolate 
+no existe  kk
+1 21
+12 44
+codigo abajo 2401150195
+no existe LISMicIsolate 
+no existe  kk
+1 22
+12 44
+codigo abajo 2401150198
+no existe LISMicIsolate 
+no existe  kk
+1 23
+12 44
+codigo abajo 2401150215
+no existe LISMicIsolate 
+no existe  kk
+1 24
+12 44
+codigo abajo 2401150216
+no existe LISMicIsolate 
+no existe  kk
+1 25
+12 44
+codigo abajo 2401150241
+no existe LISMicIsolate 
+no existe  kk
+1 26
+12 44
+codigo abajo 2401150242
+no existe LISMicIsolate 
+no existe  kk
+1 27
+12 44
+codigo abajo 2401150244
+no existe LISMicIsolate 
+no existe  kk
+1 28
+12 44
+codigo abajo 2401150245
+no existe LISMicIsolate 
+no existe  kk
+1 29
+12 44
+codigo abajo 2401150259
+no existe LISMicIsolate 
+no existe  kk
+1 30
+12 44
+codigo abajo 2401160018
+no existe LISMicIsolate 
+no existe  kk
+1 31
+12 44
+codigo abajo 2401160025
+no existe LISMicIsolate 
+no existe  kk
+1 32
+12 44
+codigo abajo 2401160070
+no existe LISMicIsolate 
+no existe  kk
+1 33
+12 44
+codigo abajo 2401160081
+no existe LISMicIsolate 
+no existe  kk
+1 34
+12 44
+codigo abajo 2401160083
+no existe LISMicIsolate 
+no existe  kk
+1 35
+12 44
+codigo abajo 2401160088
+no existe LISMicIsolate 
+no existe  kk
+1 36
+12 44
+codigo abajo 2401160119
+no existe LISMicIsolate 
+no existe  kk
+1 37
+12 44
+codigo abajo 2401160120
+no existe LISMicIsolate 
+no existe  kk
+1 38
+12 44
+codigo abajo 2401160127
+no existe LISMicIsolate 
+no existe  kk
+1 39
+12 44
+codigo abajo 2401160128
+no existe LISMicIsolate 
+no existe  kk
+1 40
+12 44
+codigo abajo 2401160142
+no existe LISMicIsolate 
+ok
+1 41
+12 44
+codigo abajo 2401160148
+no existe LISMicIsolate 
+no existe  kk
+1 42
+12 44
+codigo abajo 2401160166
+no existe LISMicIsolate 
+no existe  kk
+1 43
+12 44
+codigo abajo 2401160168
+no existe LISMicIsolate 
+ok
+1 44
+12 44
+Executing (default): SELECT `id`, `doctor`, `codigo_doctor`, `usuario`, `password`, `rol`, `estado` FROM `usuarios` AS `Usuario` WHERE `Usuario`.`id` = 1 LIMIT 1;
+Executing (default): SELECT `id`, `rol` FROM `roles` AS `Role` WHERE `Role`.`rol` = 'ADMIN' LIMIT 1;
+tokenresult null
+LLAMANDO AL SERVICIO LOGIN ......
+**********EXPIRATE-LOGIN******** 1998-10-29T17:04:19.000Z
+campo LoginResult: oknkx+MFAHxqQtjHjnpBorURhpI=

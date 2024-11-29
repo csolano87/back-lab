@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PDF Result Template</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="pageHeader" style="border-bottom: 1px solid #ddd; padding-bottom: 5px;">
+        <img src="/Encabezado1.png" alt="" />
+    </div>
+   <!--  <div id="pageFooter" style="border-top: 1px solid #ddd; padding-top: 5px;">
+        <p
+            style="color: #666; width: 70%; margin: 0; padding-bottom: 5px; text-align: let; font-family: sans-serif; font-size: .65em; float: left;">
+        <p>Generado por: </p>
+        </h4>
+        <p
+            style="color: #666; margin: 0; padding-bottom: 5px; text-align: right; font-family: sans-serif; font-size: .65em">
+            Página {{ page }} de {{ pages }}</h4>
+    </div> -->
+
+
+
+    <div class="col-md-12">
+        <div class="demographic-card">
+            <div class="datos_paciente">
+                <div class="columna">
+                    <p><strong>Nº Identificación:</strong> ${orden.paciente.numero}</p>
+                    <p><strong>Paciente:</strong> ${orden.paciente.apellidos} ${orden.paciente.nombres}</p>
+                    <p><strong>Edad:</strong> ${orden.paciente.edad} Años &nbsp; &nbsp;<strong>Sexo:</strong>
+                        ${orden.paciente.sexo}</p>
+
+                    <p><strong>Fecha de Ingreso:</strong> ${orden.fechaorden} ${orden.horaorden}</p>
+                </div>
+                <div class="columna">
+                    <p><strong>Nº de Petición:</strong> ${orden.numeroorden}</p>
+                    <p><strong>Nº Procedencia:</strong> ${orden.tiposervicio.nombre} </p>
+                    <p><strong>Servicio:</strong> ${orden.tipoatencion.nombre}</p>
+
+                    <p><strong>Médico:</strong> ${orden.medico.apellidos} ${orden.medico.nombres}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+
+                    <th>EXAMEN</th>
+                    <th>RESULTADO</th>
+                    <th>UNIDAD</th>
+                    <th>RANGO REFERENCIA</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                ${htmlRows}
+
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>`

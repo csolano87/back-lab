@@ -1,0 +1,584 @@
+{
+  "PCCC2 ": {
+    "UREA ": {
+      "21/06/2023 09:21:48 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "21/06/2023 09:21:48 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "20/06/2023 08:48:26 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "118 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "20/06/2023 08:48:26 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "19/06/2023 08:48:12 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "114 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "19/06/2023 08:48:12 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "19/06/2023 08:39:40 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "119 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "19/06/2023 08:39:40 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "18/06/2023 08:42:57 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "114 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "18/06/2023 08:42:57 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "17/06/2023 08:15:27 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "115 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "17/06/2023 08:15:27 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "16/06/2023 10:46:16 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "117 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "16/06/2023 10:46:16 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "15/06/2023 08:47:27 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "15/06/2023 08:47:27 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "14/06/2023 11:49:41 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "118 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "14/06/2023 11:49:41 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "13/06/2023 09:03:07 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "13/06/2023 09:03:07 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "12/06/2023 11:21:19 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "117 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "12/06/2023 11:21:19 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "12/06/2023 10:54:55 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "115 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "12/06/2023 10:54:55 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "11/06/2023 11:26:18 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "118 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "11/06/2023 11:26:18 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "10/06/2023 10:32:22 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "118 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "10/06/2023 10:32:22 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "09/06/2023 08:12:25 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "115 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "09/06/2023 08:12:25 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "08/06/2023 07:49:03 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "115 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "08/06/2023 07:49:03 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "07/06/2023 08:37:35 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "07/06/2023 08:37:35 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "06/06/2023 15:43:11 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "117 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "06/06/2023 15:43:11 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "04/06/2023 09:30:30 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "117 ",
+          "Valor diana": "124 ",
+          "SD": "6.01 ",
+          "Fecha": "04/06/2023 09:30:30 ",
+          "Lote R1": "674482 ",
+          "Rango": "-1.1647254575707155 "
+        }
+      ],
+      "03/06/2023 11:55:29 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "115 ",
+          "Valor diana": "124 ",
+          "SD": "6.01 ",
+          "Fecha": "03/06/2023 11:55:29 ",
+          "Lote R1": "674482 ",
+          "Rango": "-1.497504159733777 "
+        }
+      ],
+      "03/06/2023 11:42:49 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": "124 ",
+          "SD": "6.01 ",
+          "Fecha": "03/06/2023 11:42:49 ",
+          "Lote R1": "674482 ",
+          "Rango": "-1.3311148086522464 "
+        }
+      ],
+      "02/06/2023 08:39:23 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "116 ",
+          "Valor diana": "124 ",
+          "SD": "6.01 ",
+          "Fecha": "02/06/2023 08:39:23 ",
+          "Lote R1": "674482 ",
+          "Rango": "-1.3311148086522464 "
+        }
+      ],
+      "01/06/2023 09:44:28 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC2 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "118 ",
+          "Valor diana": "124 ",
+          "SD": "6.01 ",
+          "Fecha": "01/06/2023 09:44:28 ",
+          "Lote R1": "674482 ",
+          "Rango": "-0.9983361064891847 "
+        }
+      ]
+    }
+  },
+  "PCCC1 ": {
+    "UREA ": {
+      "18/06/2023 08:40:49 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.20 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "18/06/2023 08:40:49 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "17/06/2023 08:13:19 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.40 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "17/06/2023 08:13:19 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "16/06/2023 10:44:00 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.50 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "16/06/2023 10:44:00 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "15/06/2023 08:45:03 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "39.10 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "15/06/2023 08:45:03 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "14/06/2023 11:47:17 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.30 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "14/06/2023 11:47:17 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "13/06/2023 09:00:43 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.90 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "13/06/2023 09:00:43 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "12/06/2023 11:18:47 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "39.10 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "12/06/2023 11:18:47 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "12/06/2023 10:52:31 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.90 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "12/06/2023 10:52:31 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "11/06/2023 11:23:46 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "39 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "11/06/2023 11:23:46 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "10/06/2023 10:29:50 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "39.70 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "10/06/2023 10:29:50 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "09/06/2023 08:09:53 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.50 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "09/06/2023 08:09:53 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "08/06/2023 07:46:31 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.60 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "08/06/2023 07:46:31 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "07/06/2023 08:35:03 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.70 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "07/06/2023 08:35:03 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "06/06/2023 15:39:51 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Estos valores de lote del resultado de CC están pendientes de revisar. ",
+          "Resultado": "38.80 ",
+          "Valor diana": " ",
+          "SD": " ",
+          "Fecha": "06/06/2023 15:39:51 ",
+          "Lote R1": "674482 ",
+          "Rango": "0 "
+        }
+      ],
+      "04/06/2023 09:27:02 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "39.20 ",
+          "Valor diana": "40.60 ",
+          "SD": "2.04 ",
+          "Fecha": "04/06/2023 09:27:02 ",
+          "Lote R1": "674482 ",
+          "Rango": "-0.6862745098039209 "
+        }
+      ],
+      "03/06/2023 11:38:09 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "39.60 ",
+          "Valor diana": "40.60 ",
+          "SD": "2.04 ",
+          "Fecha": "03/06/2023 11:38:09 ",
+          "Lote R1": "674482 ",
+          "Rango": "-0.49019607843137253 "
+        }
+      ],
+      "02/06/2023 08:32:59 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "39.60 ",
+          "Valor diana": "40.60 ",
+          "SD": "2.04 ",
+          "Fecha": "02/06/2023 08:32:59 ",
+          "Lote R1": "674482 ",
+          "Rango": "-0.49019607843137253 "
+        }
+      ],
+      "01/06/2023 09:41:00 ": [
+        {
+          "Instrumento": "Cobas Pure c303 ",
+          "Prueba": "UREA ",
+          "Control": "PCCC1 ",
+          "Estado de CC": "Este resultado de CC está pendiente de revisar. ",
+          "Resultado": "39.60 ",
+          "Valor diana": "40.60 ",
+          "SD": "2.04 ",
+          "Fecha": "01/06/2023 09:41:00 ",
+          "Lote R1": "674482 ",
+          "Rango": "-0.49019607843137253 "
+        }
+      ]
+    }
+  }
+}

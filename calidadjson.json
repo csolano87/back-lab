@@ -1,0 +1,1618 @@
+[
+    {
+        "SampleID": "2409171000",
+        "RegisterYear": "34696",
+        "RegisterDate": "2024-09-17",
+        "RegisterHour": "09:38:16Z",
+        "Doctor": "13115257",
+        "DoctorDesc": "GARCIA FALCONES JOFFRE",
+        "Service": "586",
+        "ServiceDesc": "ALERGOLOGIA(CE)",
+        "Origin": "9",
+        "OriginDesc": "CONSULTA EXTERNA",
+        "Use": "5",
+        "OptionalDemogList": {
+            "LISElementValue": {
+                "Name": "HIS",
+                "Value": "AS400"
+            }
+        },
+        "LabTests": {
+            "LISLabTest": [
+                {
+                    "TestID": "2001",
+                    "TestAbbreviation": "WBC",
+                    "TestName": "GLOBULOS BLANCOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "5",
+                            "High": "10",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:18",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2001",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2002",
+                    "TestAbbreviation": "NEUT",
+                    "TestName": "NEUTROFILOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "1.78",
+                            "High": "5.38",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2017",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2003",
+                    "TestAbbreviation": "LYMPH",
+                    "TestName": "LINFOCITOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "1.32",
+                            "High": "3.57",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2018",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2004",
+                    "TestAbbreviation": "MONO",
+                    "TestName": "MONOCITOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": ".3",
+                            "High": ".82",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2019",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2005",
+                    "TestAbbreviation": "EO",
+                    "TestName": "EOSINOFILOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": ".04",
+                            "High": ".54",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2020",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2006",
+                    "TestAbbreviation": "BASO",
+                    "TestName": "BASOFILOS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": ".01",
+                            "High": ".08",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2021",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2007",
+                    "TestAbbreviation": "NEUT%",
+                    "TestName": "NEUTROFILOS %",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "34",
+                            "High": "67.9",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2012",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2008",
+                    "TestAbbreviation": "LYMPH%",
+                    "TestName": "LINFOCITOS %",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "21.8",
+                            "High": "53.1",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2013",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2009",
+                    "TestAbbreviation": "MONO%",
+                    "TestName": "MONOCITOS %",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "5.3",
+                            "High": "12.2",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2014",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2010",
+                    "TestAbbreviation": "EO%",
+                    "TestName": "EOSINOFILOS %",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": ".8",
+                            "High": "7",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2015",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2011",
+                    "TestAbbreviation": "BASO%",
+                    "TestName": "BASOFILOS %",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": ".2",
+                            "High": "1.2",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2016",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2012",
+                    "TestAbbreviation": "RBC",
+                    "TestName": "RECUENTO DE G. ROJOS",
+                    "PrimaryUnit": "M/uL      ",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "4.63",
+                            "High": "6.08",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2002",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2015",
+                    "TestAbbreviation": "HB",
+                    "TestName": "HEMOGLOBINA",
+                    "PrimaryUnit": "g/dl      ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "PanicLow": "6",
+                            "Low": "13.7",
+                            "High": "17.5",
+                            "PanicHigh": "21",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2003",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2018",
+                    "TestAbbreviation": "HTO",
+                    "TestName": "HEMATOCRITO",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "40.1",
+                            "High": "51",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2004",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2021",
+                    "TestAbbreviation": "VCM",
+                    "TestName": "VOLUMEN CORPUSCULAR MEDIO",
+                    "PrimaryUnit": "fl        ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "79",
+                            "High": "92.2",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2005",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2024",
+                    "TestAbbreviation": "HCM",
+                    "TestName": "HB CORPUSCULAR MEDIA",
+                    "PrimaryUnit": "pg        ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "25.6",
+                            "High": "32.2",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2006",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2027",
+                    "TestAbbreviation": "CHCM",
+                    "TestName": "CONCENT. HB CORPUSCULAR MEDIA",
+                    "PrimaryUnit": "g/dl      ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "33",
+                            "High": "36",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2007",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2029",
+                    "TestAbbreviation": "RDWSD",
+                    "TestName": "ANCHO DE DISTRIBUCION DE G.R. S.D.",
+                    "PrimaryUnit": "fl        ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "35.1",
+                            "High": "43.9",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:19",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2009",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2030",
+                    "TestAbbreviation": "RDWCV",
+                    "TestName": "ANCHO DE DISTRIBUCION DE G.R. C.V.%",
+                    "PrimaryUnit": "%         ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "12.5",
+                            "High": "14.6",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:20",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2010",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2033",
+                    "TestAbbreviation": "PLT",
+                    "TestName": "PLAQUETAS",
+                    "PrimaryUnit": "x10³/ul",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "130",
+                            "High": "450",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:20",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2008",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "2036",
+                    "TestAbbreviation": "VMP",
+                    "TestName": "VOLUMEN MEDIO PLAQUETARIO",
+                    "PrimaryUnit": "fl        ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "9.4",
+                            "High": "12.4",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:20",
+                    "TestStatus": "0",
+                    "GroupName": "BIOMETRIA HEMATICA",
+                    "GroupID": "500",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "2011",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "9901",
+                    "TestAbbreviation": "titHEM",
+                    "TestName": "BIOMETRIA HEMATICA",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "ValueResult": "titperfil",
+                            "ValueResultHour": "09:38:20Z",
+                            "ValueResultDate": "2024-09-17",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:20",
+                    "TestStatus": "2",
+                    "GroupName": "BIOMETRIA HEMATICA+VSG",
+                    "GroupID": "524",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "9901",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "1001",
+                    "TestAbbreviation": "GLU",
+                    "TestName": "GLUCOSA",
+                    "PrimaryUnit": "mg/dL     ",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "PanicLow": "35",
+                            "Low": "70",
+                            "High": "115",
+                            "PanicHigh": "400",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:38:20",
+                    "TestStatus": "0",
+                    "GroupName": "HOMAIR",
+                    "GroupID": "501",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "1001",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                }
+            ]
+        },
+        "HasMicroTests": "false"
+    },
+    {
+        "SampleID": "2409174000",
+        "RegisterYear": "34761",
+        "RegisterDate": "2024-09-17",
+        "RegisterHour": "09:39:21Z",
+        "Doctor": "13117490",
+        "DoctorDesc": "MORAN LOOR WILSON XAVIER",
+        "Service": "1586",
+        "ServiceDesc": "ALERGOLOGIA(HO)",
+        "Origin": "1",
+        "OriginDesc": "HOSPITALIZACION",
+        "Use": "5",
+        "OptionalDemogList": {
+            "LISElementValue": {
+                "Name": "HIS",
+                "Value": "AS400"
+            }
+        },
+        "LabTests": {
+            "LISLabTest": [
+                {
+                    "TestID": "5010",
+                    "TestAbbreviation": "COLOR",
+                    "TestName": "COLOR",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5010",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5015",
+                    "TestAbbreviation": "ASPEC",
+                    "TestName": "ASPECTO",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5015",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5020",
+                    "TestAbbreviation": "DENS",
+                    "TestName": "DENSIDAD",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "3",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "1",
+                            "High": "1.035",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5020",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5025",
+                    "TestAbbreviation": "PH",
+                    "TestName": "pH",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "PanicLow": "3",
+                            "Low": "4.8",
+                            "High": "7.4",
+                            "PanicHigh": "10",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5025",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5030",
+                    "TestAbbreviation": "LEU",
+                    "TestName": "LEUCOCITOS",
+                    "PrimaryUnit": "cell/uL    ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5030",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5035",
+                    "TestAbbreviation": "NIT",
+                    "TestName": "NITRITOS",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5035",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5040",
+                    "TestAbbreviation": "PROO",
+                    "TestName": "PROTEINAS",
+                    "PrimaryUnit": "g/L",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:21",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5040",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5045",
+                    "TestAbbreviation": "GLU ORIN",
+                    "TestName": "GLUCOSA EN ORINA",
+                    "PrimaryUnit": "mmol/L",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5045",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5050",
+                    "TestAbbreviation": "CUCET",
+                    "TestName": "CUERPOS CETONICOS",
+                    "PrimaryUnit": "mmol/l",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5050",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5055",
+                    "TestAbbreviation": "UBG",
+                    "TestName": "UROBILINOGENO",
+                    "PrimaryUnit": "mg/dL     ",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "TextComment": " \r\n ",
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5055",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5060",
+                    "TestAbbreviation": "BIL",
+                    "TestName": "BILIRRUBINAS",
+                    "PrimaryUnit": "µmol/L",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5060",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5061",
+                    "TestAbbreviation": "CREATORI",
+                    "TestName": "CREATININA EN ORINA",
+                    "PrimaryUnit": "mmol/l",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "4.4",
+                            "High": "17.7",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5066",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5062",
+                    "TestAbbreviation": "CALORIN",
+                    "TestName": "CALCIO EN ORINA",
+                    "PrimaryUnit": "mmol/l",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "2.5",
+                            "High": "7.5",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5067",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5064",
+                    "TestAbbreviation": "MICROALB",
+                    "TestName": "MICROALBUMINURIA EN ORINA",
+                    "PrimaryUnit": "g/L",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "PanicLow": ".15",
+                            "High": ".15",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5069",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5065",
+                    "TestAbbreviation": "ERY",
+                    "TestName": "SANGRE/HEMOGLOBINA",
+                    "PrimaryUnit": "cell/µl",
+                    "DecPrimaryUnit": "0",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5065",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5068",
+                    "TestAbbreviation": "MUC",
+                    "TestName": "FILAMENTO MUCOSO",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5072",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5070",
+                    "TestAbbreviation": "NEC",
+                    "TestName": "CELULAS EPITELIALES ALTAS",
+                    "PrimaryUnit": "/campo",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5073",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5085",
+                    "TestAbbreviation": "RBCo",
+                    "TestName": "HEMATIES",
+                    "PrimaryUnit": "/campo    ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5085",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5086",
+                    "TestAbbreviation": "RBC/NRBC",
+                    "TestName": "RBC/NRBC HEMATIES",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5086",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5087",
+                    "TestAbbreviation": "WBCO",
+                    "TestName": "LEUCOCITOS",
+                    "PrimaryUnit": "/campo    ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5094",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5089",
+                    "TestAbbreviation": "CREN",
+                    "TestName": "GLOBULOS ROJOS CRENADOS",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5089",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5090",
+                    "TestAbbreviation": "BACT",
+                    "TestName": "BACTERIAS",
+                    "PrimaryUnit": "/campo",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5094",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5092",
+                    "TestAbbreviation": "MICR",
+                    "TestName": "GLOBULOS ROJOS MICROCITICOS",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5091",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5093",
+                    "TestAbbreviation": "ACAN",
+                    "TestName": "GLOBULOS ROJOS ACANTOCITOS",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5092",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5094",
+                    "TestAbbreviation": "DRBC",
+                    "TestName": "GLOBULOS ROJOS DISMORFICOS",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5093",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5095",
+                    "TestAbbreviation": "HYA",
+                    "TestName": "CILINDROS HIALINOS",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "Low": "0",
+                            "High": "4",
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5095",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5100",
+                    "TestAbbreviation": "CRY",
+                    "TestName": "CRISTALES",
+                    "PrimaryUnit": "          ",
+                    "DecPrimaryUnit": "1",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5100",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "5124",
+                    "TestAbbreviation": "HON",
+                    "TestName": "ESPORAS DE HONGOS",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "0",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "5124",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                },
+                {
+                    "TestID": "9902",
+                    "TestAbbreviation": "titFSQ",
+                    "TestName": "ORINA EXAMEN GENERAL",
+                    "DecPrimaryUnit": "2",
+                    "LabResults": {
+                        "LISLabResult": {
+                            "SequenceNumber": "0",
+                            "ValueResult": "titperfil",
+                            "ValueResultHour": "09:39:22Z",
+                            "ValueResultDate": "2024-09-17",
+                            "InfStatus": "0",
+                            "PathologicMark": "0",
+                            "PanicMark": "0",
+                            "DeltaCheckMark": "0"
+                        }
+                    },
+                    "RegisterDate": "2024-09-17",
+                    "RegisterHour": "09:39:22",
+                    "TestStatus": "2",
+                    "GroupName": "ORINA EXAMEN GENERAL",
+                    "GroupID": "513",
+                    "VersionComment": {
+                        "LISComments": {
+                            "AddEvent": "1"
+                        }
+                    },
+                    "PrintOrder": "9902",
+                    "Printable": "true",
+                    "HasOptionals": "false"
+                }
+            ]
+        },
+        "HasMicroTests": "false"
+    }
+]

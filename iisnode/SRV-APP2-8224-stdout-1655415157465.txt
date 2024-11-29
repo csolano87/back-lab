@@ -1,0 +1,93 @@
+Servidor corriendo en puerto \\.\pipe\fc263235-a23b-42e3-a64f-c52a902c295d
+Executing (default): SELECT 1+1 AS result
+Database online
+Executing (default): SELECT "id", "rol", "createdAt", "updatedAt" FROM "roles" AS "Role";
+TokenExpiredError: jwt expired
+    at C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:94:10)
+    at validarJWT (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\middleware\validar-jwt.js:20:23)
+    at Layer.handle [as handle_request] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\index.js:341:12) {
+  expiredAt: 2022-06-16T18:33:33.000Z
+}
+null
+LLAMANDO AL SERVICIO LOGIN ......
+campo LoginResult: YHx125BBCwixlLJevLVt4C82s6g=
+Executing (default): SELECT "id", "rol", "createdAt", "updatedAt" FROM "roles" AS "Role";
+TokenExpiredError: jwt expired
+    at C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\jsonwebtoken\verify.js:94:10)
+    at validarJWT (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\middleware\validar-jwt.js:20:23)
+    at Layer.handle [as handle_request] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\BK-NUEVO\Api_Rest-final111\Api_Rest\node_modules\express\lib\router\index.js:341:12) {
+  expiredAt: 2022-06-16T18:33:33.000Z
+}
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'Admin' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'Admin' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'admin' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'ADMIN' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'ADMIN' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'Admin' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'Admin' LIMIT 1;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'novaclinic' LIMIT 1;
+Usuario {
+  dataValues: {
+    id: 1,
+    doctor: null,
+    codigo_doctor: null,
+    usuario: 'novaclinic',
+    password: '$2a$10$/zgJC9w5TgIltNl7T.utBOgXRRbZPPBj3x1/k1SzaIvFQ73cHWx2S',
+    rol: 'ADMIN',
+    estado: true,
+    createdAt: 2022-05-27T20:22:47.625Z,
+    updatedAt: 2022-05-27T20:22:47.625Z
+  },
+  _previousDataValues: {
+    id: 1,
+    doctor: null,
+    codigo_doctor: null,
+    usuario: 'novaclinic',
+    password: '$2a$10$/zgJC9w5TgIltNl7T.utBOgXRRbZPPBj3x1/k1SzaIvFQ73cHWx2S',
+    rol: 'ADMIN',
+    estado: true,
+    createdAt: 2022-05-27T20:22:47.625Z,
+    updatedAt: 2022-05-27T20:22:47.625Z
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',
+      'doctor',
+      'codigo_doctor',
+      'usuario',
+      'password',
+      'rol',
+      'estado',
+      'createdAt',
+      'updatedAt'
+    ]
+  },
+  isNewRecord: false
+}
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 1 LIMIT 1;
+1
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 1;
+Executing (default): SELECT "id", "rol", "createdAt", "updatedAt" FROM "roles" AS "Role";
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 1 LIMIT 1;
+ADMIN
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" LIMIT 5 OFFSET 0;
+Executing (default): SELECT count(*) AS "count" FROM "usuarios" AS "Usuario";

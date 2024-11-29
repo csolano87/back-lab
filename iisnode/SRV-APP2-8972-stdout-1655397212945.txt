@@ -1,0 +1,170 @@
+Servidor corriendo en puerto \\.\pipe\9331c75b-d6a4-4c80-9588-86c227ac378c
+Executing (default): SELECT 1+1 AS result
+Database online
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+6
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6;
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+DOCTOR_ADMIN
+{ PatientID2: '', SampleID: '2206160438', todos: '' }
+Usuario de consulta Usuario {
+  dataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _previousDataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',
+      'doctor',
+      'codigo_doctor',
+      'usuario',
+      'password',
+      'rol',
+      'estado',
+      'createdAt',
+      'updatedAt'
+    ]
+  },
+  isNewRecord: false
+}
+usuario existente Eduardo Ramiro Salazar Irigoyen
+null
+LLAMANDO AL SERVICIO LOGIN ......
+campo LoginResult: HkYaIdEs4RK/R5N7bB4woCYNaIM=
+<?xml version="1.0" encoding="UTF-8" ?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:s='http://www.w3.org/2001/XMLSchema'>
+  <SOAP-ENV:Body><GetListResponse xmlns="http://tempuri.org"><GetListResult>
+<s:schema id="DefaultDataSet" xmlns="" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <s:element name="DefaultDataSet" msdata:IsDataSet="true">
+    <s:complexType>
+      <s:choice maxOccurs="unbounded">
+        <s:element name="SQL">
+          <s:complexType>
+            <s:sequence>
+              <s:element name="OrderStatus" type="s:long" minOccurs="0" />
+              <s:element name="Use" type="s:string" minOccurs="0" />
+              <s:element name="Groups" type="s:string" minOccurs="0" />
+              <s:element name="SpecimenList" type="s:string" minOccurs="0" />
+              <s:element name="PanicHigh" type="s:string" minOccurs="0" />
+              <s:element name="PanicLow" type="s:string" minOccurs="0" />
+              <s:element name="High" type="s:string" minOccurs="0" />
+              <s:element name="Low" type="s:string" minOccurs="0" />
+              <s:element name="DeltaCheck" type="s:string" minOccurs="0" />
+              <s:element name="IsOrderValidated" type="s:boolean" minOccurs="0" />
+              <s:element name="PatientID1" type="s:string" minOccurs="0" />
+              <s:element name="PatientID2" type="s:string" minOccurs="0" />
+              <s:element name="PatientID3" type="s:string" minOccurs="0" />
+              <s:element name="FirstName" type="s:string" minOccurs="0" />
+              <s:element name="LastName" type="s:string" minOccurs="0" />
+              <s:element name="SecondSurname" type="s:string" minOccurs="0" />
+              <s:element name="SurNameAndName" type="s:string" minOccurs="0" />
+              <s:element name="DateOfBirth" type="s:string" minOccurs="0" />
+              <s:element name="Age" type="s:long" minOccurs="0" />
+              <s:element name="Sex" type="s:string" minOccurs="0" />
+              <s:element name="D_102" type="s:string" minOccurs="0" />
+              <s:element name="D_103" type="s:string" minOccurs="0" />
+              <s:element name="D_108" type="s:string" minOccurs="0" />
+              <s:element name="D_110" type="s:string" minOccurs="0" />
+              <s:element name="D_121" type="s:string" minOccurs="0" />
+              <s:element name="D_123" type="s:string" minOccurs="0" />
+              <s:element name="D_126" type="s:string" minOccurs="0" />
+              <s:element name="SampleID" type="s:string" minOccurs="0" />
+              <s:element name="RegisterYear" type="s:string" minOccurs="0" />
+              <s:element name="RegisterDate" type="s:string" minOccurs="0" />
+              <s:element name="RegisterHour" type="s:string" minOccurs="0" />
+              <s:element name="Doctor" type="s:string" minOccurs="0" />
+              <s:element name="Diagnosis" type="s:string" minOccurs="0" />
+              <s:element name="ExtRegisterHour" type="s:string" minOccurs="0" />
+              <s:element name="UseDescription" type="s:string" minOccurs="0" />
+              <s:element name="Service" type="s:string" minOccurs="0" />
+              <s:element name="Origin" type="s:string" minOccurs="0" />
+              <s:element name="Destination" type="s:string" minOccurs="0" />
+              <s:element name="Motive" type="s:string" minOccurs="0" />
+              <s:element name="Observations" type="s:string" minOccurs="0" />
+            </s:sequence>
+          </s:complexType>
+        </s:element>
+      </s:choice>
+    </s:complexType>
+  </s:element>
+</s:schema>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+<DefaultDataSet xmlns="">
+  <SQL diffgr:id="SQL1" msdata:rowOrder="0">
+    <OrderStatus>1</OrderStatus>
+    <Use>5</Use>
+    <SpecimenList>82,80,7,10</SpecimenList>
+    <High>2007,2096,3465,3592</High>
+    <IsOrderValidated>true</IsOrderValidated>
+    <PatientID1>1759513839</PatientID1>
+    <FirstName>MARK LOPE</FirstName>
+    <LastName>RUTKOSKIE .</LastName>
+    <SurNameAndName>RUTKOSKIE . , MARK LOPE</SurNameAndName>
+    <DateOfBirth>1947-07-13</DateOfBirth>
+    <Age>74</Age>
+    <Sex>M</Sex>
+    <D_102>RUTINA</D_102>
+    <SampleID>2206160438</SampleID>
+    <RegisterYear>2022</RegisterYear>
+    <RegisterDate>2022-06-16</RegisterDate>
+    <RegisterHour>08:52:15</RegisterHour>
+    <Doctor>Giovanna Francisca Santamaría Vozmediano</Doctor>
+    <ExtRegisterHour>05:44:10</ExtRegisterHour>
+    <UseDescription>General Lab y Microbiology</UseDescription>
+    <Service>HOSPITALIZACION</Service>
+    <Origin>HOSPITALIZACION</Origin>
+  </SQL>
+</DefaultDataSet>
+</diffgr:diffgram>
+</GetListResult></GetListResponse></SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+{
+  'diffgr:id': 'SQL1',
+  'msdata:rowOrder': '0',
+  OrderStatus: '1',
+  Use: '5',
+  SpecimenList: '82,80,7,10',
+  High: '2007,2096,3465,3592',
+  IsOrderValidated: 'true',
+  PatientID1: '1759513839',
+  FirstName: 'MARK LOPE',
+  LastName: 'RUTKOSKIE .',
+  SurNameAndName: 'RUTKOSKIE . , MARK LOPE',
+  DateOfBirth: '1947-07-13',
+  Age: '74',
+  Sex: 'M',
+  D_102: 'RUTINA',
+  SampleID: '2206160438',
+  RegisterYear: '2022',
+  RegisterDate: '2022-06-16',
+  RegisterHour: '08:52:15',
+  Doctor: 'Giovanna Francisca Santamaría Vozmediano',
+  ExtRegisterHour: '05:44:10',
+  UseDescription: 'General Lab y Microbiology',
+  Service: 'HOSPITALIZACION',
+  Origin: 'HOSPITALIZACION'
+}

@@ -1,0 +1,1421 @@
+Instrumento;Prueba;Control;Estado de CC;Resultado;Valor diana;SD;Fecha;Lote R1;Rango
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;29/06/2023 09:17:19 ;674482 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.30 ; ; ;29/06/2023 09:17:11 ;674482 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8608 ;8960 ;540 ;29/06/2023 08:55:13 ;694862 ;-0.6518518518518519 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;230 ;239 ;14 ;29/06/2023 08:55:05 ;686772 ;-0.6428571428571429 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;282 ;294 ;18 ;29/06/2023 08:54:57 ;671474 ;-0.6666666666666666 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.52 ; ; ;29/06/2023 08:54:49 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;247 ;247 ;12.60 ;29/06/2023 08:54:42 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.11 ; ; ;29/06/2023 08:54:17 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112 ; ; ;29/06/2023 08:54:10 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;29/06/2023 08:54:01 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;213 ; ; ;29/06/2023 08:53:53 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.95 ;3.97 ;0.24 ;29/06/2023 08:53:45 ;657564 ;-0.08438818565400852 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5090 ; ; ;29/06/2023 08:53:21 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.60 ; ; ;29/06/2023 08:53:13 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.30 ; ; ;29/06/2023 08:53:05 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;165 ; ; ;29/06/2023 08:52:57 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.42 ; ; ;29/06/2023 08:52:49 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;29/06/2023 08:52:41 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.27 ; ; ;29/06/2023 08:52:17 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;37.90 ; ; ;29/06/2023 08:52:10 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.80 ; ; ;29/06/2023 08:52:01 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;122 ; ; ;29/06/2023 08:51:53 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.96 ; ; ;29/06/2023 08:51:46 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.90 ;136 ;4 ;29/06/2023 08:43:41 ;661340 ;0.22500000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.23 ; ; ;29/06/2023 08:43:41 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.70 ;105 ;3 ;29/06/2023 08:43:41 ;661340 ;-0.7666666666666657 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.20 ; ; ;29/06/2023 08:41:41 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.81 ; ; ;29/06/2023 08:41:41 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.40 ; ; ;29/06/2023 08:41:41 ;661340 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.50 ;136 ;4 ;29/06/2023 08:37:41 ;661340 ;0.125 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.28 ; ; ;29/06/2023 08:37:41 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.70 ;105 ;3 ;29/06/2023 08:37:41 ;661340 ;-0.7666666666666657 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.30 ; ; ;29/06/2023 08:37:17 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;29/06/2023 08:37:17 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.10 ; ; ;29/06/2023 08:37:17 ;661340 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;29/06/2023 08:34:53 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8497 ;8960 ;540 ;28/06/2023 09:00:56 ;694862 ;-0.8574074074074074 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;227 ;239 ;14 ;28/06/2023 09:00:48 ;686772 ;-0.8571428571428571 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;280 ;294 ;18 ;28/06/2023 09:00:40 ;671474 ;-0.7777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.46 ; ; ;28/06/2023 09:00:32 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;244 ;247 ;12.60 ;28/06/2023 09:00:24 ;643503 ;-0.2380952380952381 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.05 ; ; ;28/06/2023 09:00:00 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113 ; ; ;28/06/2023 08:59:52 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;169 ;169 ;8.51 ;28/06/2023 08:59:44 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;214 ; ; ;28/06/2023 08:59:36 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.84 ;3.97 ;0.24 ;28/06/2023 08:59:28 ;657564 ;-0.5485232067510563 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5087 ; ; ;28/06/2023 08:59:04 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.20 ; ; ;28/06/2023 08:58:56 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;28/06/2023 08:58:48 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;167 ; ; ;28/06/2023 08:58:40 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.49 ; ; ;28/06/2023 08:58:32 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;105 ; ; ;28/06/2023 08:58:24 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.30 ; ; ;28/06/2023 08:58:00 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.10 ; ; ;28/06/2023 08:57:52 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.90 ; ; ;28/06/2023 08:57:44 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;28/06/2023 08:57:36 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;28/06/2023 08:57:28 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;133.80 ;136 ;4 ;28/06/2023 08:49:23 ;661340 ;-0.5499999999999972 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.17 ; ; ;28/06/2023 08:49:23 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.10 ;105 ;3 ;28/06/2023 08:49:23 ;661340 ;-1.6333333333333353 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.10 ; ; ;28/06/2023 08:47:23 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.74 ; ; ;28/06/2023 08:47:23 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.10 ; ; ;28/06/2023 08:47:23 ;661340 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.50 ;136 ;4 ;28/06/2023 08:42:59 ;661340 ;-0.375 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.20 ; ; ;28/06/2023 08:42:59 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.60 ;105 ;3 ;28/06/2023 08:42:59 ;661340 ;-1.4666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.30 ; ; ;28/06/2023 08:42:35 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.81 ; ; ;28/06/2023 08:42:35 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84 ; ; ;28/06/2023 08:42:35 ;661340 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;28/06/2023 08:36:22 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8741 ;8960 ;540 ;27/06/2023 09:33:39 ;694862 ;-0.40555555555555556 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;231 ;239 ;14 ;27/06/2023 09:33:31 ;686772 ;-0.5714285714285714 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;289 ;294 ;18 ;27/06/2023 09:33:23 ;671474 ;-0.2777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.63 ; ; ;27/06/2023 09:33:15 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;246 ;247 ;12.60 ;27/06/2023 09:33:07 ;643503 ;-0.07936507936507936 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.27 ; ; ;27/06/2023 09:32:43 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;27/06/2023 09:32:35 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;174 ;169 ;8.51 ;27/06/2023 09:32:27 ;677025 ;0.5875440658049353 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;218 ; ; ;27/06/2023 09:32:19 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.93 ;3.97 ;0.24 ;27/06/2023 09:32:11 ;657564 ;-0.16877637130801704 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5148 ; ; ;27/06/2023 09:31:47 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.80 ; ; ;27/06/2023 09:31:39 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;27/06/2023 09:31:31 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;27/06/2023 09:31:23 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.49 ; ; ;27/06/2023 09:31:15 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;104 ; ; ;27/06/2023 09:31:07 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.26 ; ; ;27/06/2023 09:30:43 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.80 ; ; ;27/06/2023 09:30:35 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.60 ; ; ;27/06/2023 09:30:27 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;122 ; ; ;27/06/2023 09:30:19 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;27/06/2023 09:30:11 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.10 ;136 ;4 ;27/06/2023 09:22:06 ;661340 ;0.02499999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.29 ; ; ;27/06/2023 09:22:06 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;103 ;105 ;3 ;27/06/2023 09:22:06 ;661340 ;-0.6666666666666666 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113 ; ; ;27/06/2023 09:20:06 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;27/06/2023 09:20:06 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.90 ; ; ;27/06/2023 09:20:06 ;661340 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.60 ;136 ;4 ;27/06/2023 09:18:14 ;661340 ;0.14999999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.36 ; ; ;27/06/2023 09:18:14 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.70 ;105 ;3 ;27/06/2023 09:18:14 ;661340 ;-0.7666666666666657 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.80 ; ; ;27/06/2023 09:17:50 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.72 ; ; ;27/06/2023 09:17:50 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.70 ; ; ;27/06/2023 09:17:50 ;661340 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;27/06/2023 08:41:30 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8658 ;8960 ;540 ;26/06/2023 08:41:53 ;694862 ;-0.5592592592592592 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;232 ;239 ;14 ;26/06/2023 08:41:45 ;686772 ;-0.5 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;288 ;294 ;18 ;26/06/2023 08:41:37 ;671474 ;-0.3333333333333333 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.60 ; ; ;26/06/2023 08:41:29 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;246 ;247 ;12.60 ;26/06/2023 08:41:21 ;643503 ;-0.07936507936507936 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.21 ; ; ;26/06/2023 08:40:57 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;26/06/2023 08:40:49 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;174 ;169 ;8.51 ;26/06/2023 08:40:41 ;677025 ;0.5875440658049353 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;217 ; ; ;26/06/2023 08:40:33 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.04 ;3.97 ;0.24 ;26/06/2023 08:40:25 ;657564 ;0.29535864978902887 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5128 ; ; ;26/06/2023 08:40:01 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.80 ; ; ;26/06/2023 08:39:53 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.30 ; ; ;26/06/2023 08:39:45 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;169 ; ; ;26/06/2023 08:39:37 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.49 ; ; ;26/06/2023 08:39:29 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;105 ; ; ;26/06/2023 08:39:21 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.30 ; ; ;26/06/2023 08:38:57 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.90 ; ; ;26/06/2023 08:38:49 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;94.60 ; ; ;26/06/2023 08:38:41 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;26/06/2023 08:38:33 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;26/06/2023 08:38:25 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.30 ;136 ;4 ;26/06/2023 08:30:20 ;661340 ;0.07500000000000284 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.29 ; ; ;26/06/2023 08:30:20 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;26/06/2023 08:30:20 ;661340 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.50 ; ; ;26/06/2023 08:28:20 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.81 ; ; ;26/06/2023 08:28:20 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.80 ; ; ;26/06/2023 08:28:20 ;661340 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;26/06/2023 08:02:34 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8673 ;8960 ;540 ;25/06/2023 17:31:37 ;694862 ;-0.5314814814814814 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;232 ;239 ;14 ;25/06/2023 17:31:29 ;686772 ;-0.5 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;287 ;294 ;18 ;25/06/2023 17:31:21 ;671474 ;-0.3888888888888889 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.59 ; ; ;25/06/2023 17:31:13 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;245 ;247 ;12.60 ;25/06/2023 17:31:05 ;643503 ;-0.15873015873015872 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.20 ; ; ;25/06/2023 17:30:41 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;25/06/2023 17:30:33 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;172 ;169 ;8.51 ;25/06/2023 17:30:25 ;677025 ;0.35252643948296125 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;217 ; ; ;25/06/2023 17:30:17 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.01 ;3.97 ;0.24 ;25/06/2023 17:30:09 ;657564 ;0.16877637130801515 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5112 ; ; ;25/06/2023 17:29:45 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.40 ; ; ;25/06/2023 17:29:37 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.10 ; ; ;25/06/2023 17:29:29 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;25/06/2023 17:29:21 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.45 ; ; ;25/06/2023 17:29:13 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;104 ; ; ;25/06/2023 17:29:05 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.29 ; ; ;25/06/2023 17:28:41 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.20 ; ; ;25/06/2023 17:28:33 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.40 ; ; ;25/06/2023 17:28:25 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;123 ; ; ;25/06/2023 17:28:17 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.97 ; ; ;25/06/2023 17:28:09 ;657564 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;25/06/2023 17:26:33 ;626644 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.30 ;136 ;4 ;25/06/2023 17:20:04 ;661340 ;0.07500000000000284 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.30 ; ; ;25/06/2023 17:20:04 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.80 ;105 ;3 ;25/06/2023 17:20:04 ;661340 ;-1.0666666666666675 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.80 ; ; ;25/06/2023 17:18:04 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.82 ; ; ;25/06/2023 17:18:04 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.50 ; ; ;25/06/2023 17:18:04 ;661340 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.90 ;136 ;4 ;25/06/2023 17:17:00 ;661340 ;-0.02499999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.28 ; ; ;25/06/2023 17:17:00 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.80 ;105 ;3 ;25/06/2023 17:17:00 ;661340 ;-1.0666666666666675 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.60 ; ; ;25/06/2023 17:16:36 ;661340 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.84 ; ; ;25/06/2023 17:16:36 ;661340 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.40 ; ; ;25/06/2023 17:16:36 ;661340 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;25/06/2023 17:14:43 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8721 ;8960 ;540 ;24/06/2023 08:12:00 ;694862 ;-0.4425925925925926 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;232 ;239 ;14 ;24/06/2023 08:11:52 ;686772 ;-0.5 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;287 ;294 ;18 ;24/06/2023 08:11:44 ;671474 ;-0.3888888888888889 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.70 ; ; ;24/06/2023 08:11:36 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;246 ;247 ;12.60 ;24/06/2023 08:11:28 ;643503 ;-0.07936507936507936 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.24 ; ; ;24/06/2023 08:11:04 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;117 ; ; ;24/06/2023 08:10:56 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;175 ;169 ;8.51 ;24/06/2023 08:10:48 ;677025 ;0.7050528789659225 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;218 ; ; ;24/06/2023 08:10:40 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.07 ;3.97 ;0.24 ;24/06/2023 08:10:32 ;657564 ;0.4219409282700426 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5149 ; ; ;24/06/2023 08:10:08 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.90 ; ; ;24/06/2023 08:10:00 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;24/06/2023 08:09:52 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;24/06/2023 08:09:44 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.53 ; ; ;24/06/2023 08:09:36 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;105 ; ; ;24/06/2023 08:09:28 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.31 ; ; ;24/06/2023 08:09:04 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39 ; ; ;24/06/2023 08:08:56 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;94.20 ; ; ;24/06/2023 08:08:48 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;24/06/2023 08:08:40 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.99 ; ; ;24/06/2023 08:08:32 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.10 ;136 ;4 ;24/06/2023 08:00:27 ;674716 ;0.02499999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.32 ; ; ;24/06/2023 08:00:27 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;24/06/2023 08:00:27 ;674716 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.60 ; ; ;24/06/2023 07:58:27 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.80 ; ; ;24/06/2023 07:58:27 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.20 ; ; ;24/06/2023 07:58:27 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.20 ;136 ;4 ;24/06/2023 07:57:23 ;674716 ;0.04999999999999716 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.27 ; ; ;24/06/2023 07:57:23 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;24/06/2023 07:57:23 ;674716 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;114.10 ; ; ;24/06/2023 07:56:59 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;24/06/2023 07:56:59 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.60 ; ; ;24/06/2023 07:56:59 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;24/06/2023 07:42:29 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8573 ;8960 ;540 ;23/06/2023 10:06:23 ;694862 ;-0.7166666666666667 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;229 ;239 ;14 ;23/06/2023 10:06:15 ;686772 ;-0.7142857142857143 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;284 ;294 ;18 ;23/06/2023 10:06:07 ;671474 ;-0.5555555555555556 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.54 ; ; ;23/06/2023 10:05:59 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;243 ;247 ;12.60 ;23/06/2023 10:05:51 ;643503 ;-0.31746031746031744 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.21 ; ; ;23/06/2023 10:05:27 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;117 ; ; ;23/06/2023 10:05:19 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;174 ;169 ;8.51 ;23/06/2023 10:05:11 ;677025 ;0.5875440658049353 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;217 ; ; ;23/06/2023 10:05:03 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.04 ;3.97 ;0.24 ;23/06/2023 10:04:55 ;657564 ;0.29535864978902887 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5155 ; ; ;23/06/2023 10:04:31 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;54 ; ; ;23/06/2023 10:04:23 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;23/06/2023 10:04:15 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;23/06/2023 10:04:07 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.46 ; ; ;23/06/2023 10:03:59 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;104 ; ; ;23/06/2023 10:03:51 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.30 ; ; ;23/06/2023 10:03:27 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.10 ; ; ;23/06/2023 10:03:19 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.70 ; ; ;23/06/2023 10:03:11 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;123 ; ; ;23/06/2023 10:03:03 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.97 ; ; ;23/06/2023 10:02:55 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;133.40 ;136 ;4 ;23/06/2023 09:54:50 ;674716 ;-0.6499999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.19 ; ; ;23/06/2023 09:54:50 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.20 ;105 ;3 ;23/06/2023 09:54:50 ;674716 ;-1.599999999999999 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.90 ; ; ;23/06/2023 09:52:50 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.75 ; ; ;23/06/2023 09:52:50 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.20 ; ; ;23/06/2023 09:52:50 ;674716 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8602 ;8960 ;540 ;22/06/2023 11:11:47 ;694862 ;-0.662962962962963 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;228 ;239 ;14 ;22/06/2023 11:11:39 ;686772 ;-0.7857142857142857 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;286 ;294 ;18 ;22/06/2023 11:11:31 ;671474 ;-0.4444444444444444 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.55 ; ; ;22/06/2023 11:11:23 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;243 ;247 ;12.60 ;22/06/2023 11:11:15 ;643503 ;-0.31746031746031744 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.15 ; ; ;22/06/2023 11:10:51 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;22/06/2023 11:10:43 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;22/06/2023 11:10:35 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;215 ; ; ;22/06/2023 11:10:27 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.02 ;3.97 ;0.24 ;22/06/2023 11:10:19 ;657564 ;0.2109704641350185 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5077 ; ; ;22/06/2023 11:09:55 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.30 ; ; ;22/06/2023 11:09:47 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;22/06/2023 11:09:39 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;22/06/2023 11:09:31 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.50 ; ; ;22/06/2023 11:09:23 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;22/06/2023 11:09:15 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.25 ; ; ;22/06/2023 11:08:51 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.70 ; ; ;22/06/2023 11:08:43 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.50 ; ; ;22/06/2023 11:08:35 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;122 ; ; ;22/06/2023 11:08:27 ;677541 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.98 ; ; ;22/06/2023 11:08:19 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.10 ;136 ;4 ;22/06/2023 11:00:15 ;674716 ;0.02499999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.36 ; ; ;22/06/2023 11:00:15 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.70 ;105 ;3 ;22/06/2023 11:00:15 ;674716 ;-1.099999999999999 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.60 ; ; ;22/06/2023 10:58:15 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.77 ; ; ;22/06/2023 10:58:15 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.20 ; ; ;22/06/2023 10:58:15 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;22/06/2023 10:53:31 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8518 ;8960 ;540 ;21/06/2023 09:22:52 ;694862 ;-0.8185185185185185 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;225 ;239 ;14 ;21/06/2023 09:22:44 ;686772 ;-1 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;281 ;294 ;18 ;21/06/2023 09:22:36 ;671474 ;-0.7222222222222222 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.46 ; ; ;21/06/2023 09:22:28 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;247 ;12.60 ;21/06/2023 09:22:20 ;643503 ;-0.5555555555555556 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.11 ; ; ;21/06/2023 09:21:56 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;21/06/2023 09:21:48 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;21/06/2023 09:21:40 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;213 ; ; ;21/06/2023 09:21:32 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;128 ;132 ;8 ;21/06/2023 09:21:24 ;661052 ;-0.5 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.05 ;3.97 ;0.24 ;21/06/2023 09:21:16 ;657564 ;0.3375527426160322 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5061 ; ; ;21/06/2023 09:20:52 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.50 ; ; ;21/06/2023 09:20:44 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.10 ; ; ;21/06/2023 09:20:36 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;21/06/2023 09:20:28 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.44 ; ; ;21/06/2023 09:20:20 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;21/06/2023 09:20:12 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.23 ; ; ;21/06/2023 09:19:48 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.40 ; ; ;21/06/2023 09:19:40 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92 ; ; ;21/06/2023 09:19:32 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;121 ; ; ;21/06/2023 09:19:24 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.80 ; ; ;21/06/2023 09:19:16 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;21/06/2023 09:19:08 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.10 ;136 ;4 ;21/06/2023 09:11:11 ;674716 ;-0.22500000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.22 ; ; ;21/06/2023 09:11:11 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.50 ;105 ;3 ;21/06/2023 09:11:11 ;674716 ;-1.1666666666666667 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.30 ; ; ;21/06/2023 09:09:03 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.69 ; ; ;21/06/2023 09:09:03 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.80 ; ; ;21/06/2023 09:09:03 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;21/06/2023 08:50:29 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8648 ;8960 ;540 ;20/06/2023 08:49:46 ;694862 ;-0.5777777777777777 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;231 ;239 ;14 ;20/06/2023 08:49:38 ;686772 ;-0.5714285714285714 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;289 ;294 ;18 ;20/06/2023 08:49:22 ;671474 ;-0.2777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.53 ; ; ;20/06/2023 08:49:14 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;20/06/2023 08:49:06 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.13 ; ; ;20/06/2023 08:48:42 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;20/06/2023 08:48:26 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;20/06/2023 08:48:18 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;20/06/2023 08:48:02 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;129 ;132 ;8 ;20/06/2023 08:47:54 ;661052 ;-0.375 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.98 ;3.97 ;0.24 ;20/06/2023 08:47:46 ;657564 ;0.04219409282700332 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5108 ; ; ;20/06/2023 08:47:14 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.50 ; ; ;20/06/2023 08:47:06 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.30 ; ; ;20/06/2023 08:46:58 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;20/06/2023 08:46:42 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.45 ; ; ;20/06/2023 08:46:34 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;20/06/2023 08:46:26 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.26 ; ; ;20/06/2023 08:46:02 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.10 ; ; ;20/06/2023 08:45:46 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.60 ; ; ;20/06/2023 08:45:38 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;121 ; ; ;20/06/2023 08:45:22 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.30 ; ; ;20/06/2023 08:45:14 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;20/06/2023 08:45:06 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136 ;136 ;4 ;20/06/2023 08:37:33 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.29 ; ; ;20/06/2023 08:37:33 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.50 ;105 ;3 ;20/06/2023 08:37:33 ;674716 ;-0.8333333333333334 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.80 ; ; ;20/06/2023 08:34:05 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.86 ; ; ;20/06/2023 08:34:05 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.70 ; ; ;20/06/2023 08:34:05 ;674716 ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;9.10 ; ; ;20/06/2023 08:23:26 ;623593 ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.75 ; ; ;20/06/2023 08:23:18 ;623593 ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;9.36 ; ; ;20/06/2023 08:19:34 ;623593 ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.56 ; ; ;20/06/2023 08:19:26 ;623593 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;20/06/2023 08:06:49 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8597 ;8960 ;540 ;19/06/2023 08:49:32 ;694862 ;-0.6722222222222223 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;230 ;239 ;14 ;19/06/2023 08:49:24 ;686772 ;-0.6428571428571429 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;287 ;294 ;18 ;19/06/2023 08:49:16 ;671474 ;-0.3888888888888889 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.56 ; ; ;19/06/2023 08:49:00 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;19/06/2023 08:48:52 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.11 ; ; ;19/06/2023 08:48:20 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;114 ; ; ;19/06/2023 08:48:12 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;19/06/2023 08:47:56 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;19/06/2023 08:47:40 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;127 ;132 ;8 ;19/06/2023 08:47:16 ;661052 ;-0.625 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.97 ;3.97 ;0.24 ;19/06/2023 08:46:52 ;657564 ;0 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5041 ; ; ;19/06/2023 08:46:20 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.10 ; ; ;19/06/2023 08:46:12 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;19/06/2023 08:45:56 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;19/06/2023 08:45:40 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.43 ; ; ;19/06/2023 08:45:32 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;19/06/2023 08:45:16 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.24 ; ; ;19/06/2023 08:44:52 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;37.90 ; ; ;19/06/2023 08:44:36 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.20 ; ; ;19/06/2023 08:44:20 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;121 ; ; ;19/06/2023 08:43:56 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.50 ; ; ;19/06/2023 08:43:40 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;19/06/2023 08:43:32 ;657564 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;119 ; ; ;19/06/2023 08:39:40 ;674482 ;0 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;215 ; ; ;19/06/2023 08:39:32 ;677541 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.30 ; ; ;19/06/2023 08:39:16 ;674482 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;122 ; ; ;19/06/2023 08:39:00 ;677541 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.20 ;136 ;4 ;19/06/2023 08:36:39 ;674716 ;-0.20000000000000284 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.25 ; ; ;19/06/2023 08:36:39 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.40 ;105 ;3 ;19/06/2023 08:36:39 ;674716 ;-1.1999999999999982 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.80 ; ; ;19/06/2023 08:33:19 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;19/06/2023 08:33:19 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.80 ; ; ;19/06/2023 08:33:19 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.60 ;136 ;4 ;19/06/2023 08:29:35 ;674716 ;-0.3500000000000014 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.09 ; ; ;19/06/2023 08:29:35 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101 ;105 ;3 ;19/06/2023 08:29:35 ;674716 ;-1.3333333333333333 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.40 ; ; ;19/06/2023 08:28:15 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.85 ; ; ;19/06/2023 08:28:15 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.90 ; ; ;19/06/2023 08:28:15 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;19/06/2023 07:57:59 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8633 ;8960 ;540 ;18/06/2023 08:44:01 ;694862 ;-0.6055555555555555 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;233 ;239 ;14 ;18/06/2023 08:43:53 ;686772 ;-0.42857142857142855 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;290 ;294 ;18 ;18/06/2023 08:43:45 ;671474 ;-0.2222222222222222 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.57 ; ; ;18/06/2023 08:43:37 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;18/06/2023 08:43:29 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.13 ; ; ;18/06/2023 08:43:05 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;114 ; ; ;18/06/2023 08:42:57 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;18/06/2023 08:42:49 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;211 ; ; ;18/06/2023 08:42:41 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;128 ;132 ;8 ;18/06/2023 08:42:33 ;661052 ;-0.5 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.05 ;3.97 ;0.24 ;18/06/2023 08:42:25 ;657564 ;0.3375527426160322 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5053 ; ; ;18/06/2023 08:42:01 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52 ; ; ;18/06/2023 08:41:53 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.10 ; ; ;18/06/2023 08:41:45 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;169 ; ; ;18/06/2023 08:41:37 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.44 ; ; ;18/06/2023 08:41:29 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;18/06/2023 08:41:21 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.24 ; ; ;18/06/2023 08:40:57 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.20 ; ; ;18/06/2023 08:40:49 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;91.60 ; ; ;18/06/2023 08:40:41 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;119 ; ; ;18/06/2023 08:40:33 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;43.90 ; ; ;18/06/2023 08:40:25 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;18/06/2023 08:40:17 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.60 ;136 ;4 ;18/06/2023 08:32:20 ;674716 ;-0.10000000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.27 ; ; ;18/06/2023 08:32:20 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.60 ;105 ;3 ;18/06/2023 08:32:20 ;674716 ;-1.1333333333333353 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.30 ; ; ;18/06/2023 08:30:12 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.82 ; ; ;18/06/2023 08:30:12 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.90 ; ; ;18/06/2023 08:30:12 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.40 ;136 ;4 ;18/06/2023 08:29:00 ;674716 ;-0.14999999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.31 ; ; ;18/06/2023 08:29:00 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.50 ;105 ;3 ;18/06/2023 08:29:00 ;674716 ;-1.1666666666666667 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.80 ; ; ;18/06/2023 08:28:36 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;18/06/2023 08:28:36 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.80 ; ; ;18/06/2023 08:28:36 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;18/06/2023 08:15:03 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8628 ;8960 ;540 ;17/06/2023 08:16:31 ;694862 ;-0.6148148148148148 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;229 ;239 ;14 ;17/06/2023 08:16:23 ;686772 ;-0.7142857142857143 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;286 ;294 ;18 ;17/06/2023 08:16:15 ;671474 ;-0.4444444444444444 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.57 ; ; ;17/06/2023 08:16:07 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;17/06/2023 08:15:59 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.14 ; ; ;17/06/2023 08:15:35 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;115 ; ; ;17/06/2023 08:15:27 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;17/06/2023 08:15:19 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;17/06/2023 08:15:11 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;129 ;132 ;8 ;17/06/2023 08:15:03 ;661052 ;-0.375 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.05 ;3.97 ;0.24 ;17/06/2023 08:14:55 ;657564 ;0.3375527426160322 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5071 ; ; ;17/06/2023 08:14:31 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.20 ; ; ;17/06/2023 08:14:23 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;17/06/2023 08:14:15 ;626644 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;167 ; ; ;17/06/2023 08:14:07 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.44 ; ; ;17/06/2023 08:13:59 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;17/06/2023 08:13:51 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.23 ; ; ;17/06/2023 08:13:27 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.40 ; ; ;17/06/2023 08:13:19 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;91.90 ; ; ;17/06/2023 08:13:11 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;120 ; ; ;17/06/2023 08:13:03 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;45 ; ; ;17/06/2023 08:12:55 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.98 ; ; ;17/06/2023 08:12:47 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.40 ;136 ;4 ;17/06/2023 08:04:50 ;674716 ;-0.14999999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.30 ; ; ;17/06/2023 08:04:50 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;17/06/2023 08:04:50 ;674716 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.40 ; ; ;17/06/2023 08:02:42 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.84 ; ; ;17/06/2023 08:02:42 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.30 ; ; ;17/06/2023 08:02:42 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.20 ;136 ;4 ;17/06/2023 08:01:30 ;674716 ;-0.20000000000000284 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.20 ; ; ;17/06/2023 08:01:30 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.20 ;105 ;3 ;17/06/2023 08:01:30 ;674716 ;-0.9333333333333323 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.90 ; ; ;17/06/2023 08:01:06 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.80 ; ; ;17/06/2023 08:01:06 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.20 ; ; ;17/06/2023 08:01:06 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;17/06/2023 07:59:35 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8548 ;8960 ;540 ;16/06/2023 10:47:28 ;694862 ;-0.762962962962963 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;231 ;239 ;14 ;16/06/2023 10:47:20 ;686772 ;-0.5714285714285714 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;222 ;249 ;15 ;16/06/2023 10:47:12 ;687994 ;-1.8 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;285 ;294 ;18 ;16/06/2023 10:47:04 ;671474 ;-0.5 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.56 ; ; ;16/06/2023 10:46:56 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;16/06/2023 10:46:48 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.15 ; ; ;16/06/2023 10:46:24 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;117 ; ; ;16/06/2023 10:46:16 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;16/06/2023 10:46:08 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;16/06/2023 10:46:00 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;130 ;132 ;8 ;16/06/2023 10:45:52 ;661052 ;-0.25 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.03 ;3.97 ;0.24 ;16/06/2023 10:45:44 ;657564 ;0.25316455696202556 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5079 ; ; ;16/06/2023 10:45:20 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53 ; ; ;16/06/2023 10:45:12 ;686772 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;16/06/2023 10:45:04 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;86.90 ; ; ;16/06/2023 10:44:56 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;16/06/2023 10:44:48 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.42 ; ; ;16/06/2023 10:44:40 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;16/06/2023 10:44:32 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.22 ; ; ;16/06/2023 10:44:08 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.50 ; ; ;16/06/2023 10:44:00 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.10 ; ; ;16/06/2023 10:43:52 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;119 ; ; ;16/06/2023 10:43:44 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.30 ; ; ;16/06/2023 10:43:36 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.96 ; ; ;16/06/2023 10:43:28 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.10 ;136 ;4 ;16/06/2023 10:35:39 ;674716 ;-0.22500000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.24 ; ; ;16/06/2023 10:35:39 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;16/06/2023 10:35:39 ;674716 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.90 ; ; ;16/06/2023 10:33:23 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.73 ; ; ;16/06/2023 10:33:23 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.60 ; ; ;16/06/2023 10:33:23 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;16/06/2023 10:20:58 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Correcto ;8583 ;8960 ;540 ;15/06/2023 08:48:47 ;694862 ;-0.6981481481481482 
+Cobas Pure c303 ;GGT ;PCCC2 ;Correcto ;229 ;239 ;14 ;15/06/2023 08:48:39 ;686772 ;-0.7142857142857143 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;5.04 ;4.95 ;0.30 ;15/06/2023 08:48:31 ;663677 ;0.30000000333333315 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;231 ;249 ;15 ;15/06/2023 08:48:23 ;687994 ;-1.2 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;285 ;294 ;18 ;15/06/2023 08:48:15 ;671474 ;-0.5 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.48 ; ; ;15/06/2023 08:48:07 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;15/06/2023 08:47:59 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.10 ; ; ;15/06/2023 08:47:35 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;15/06/2023 08:47:27 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;169 ;169 ;8.51 ;15/06/2023 08:47:19 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;211 ; ; ;15/06/2023 08:47:11 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;131 ;132 ;8 ;15/06/2023 08:47:03 ;661052 ;-0.125 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.98 ;3.97 ;0.24 ;15/06/2023 08:46:55 ;657564 ;0.04219409282700332 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5104 ; ; ;15/06/2023 08:46:31 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;54 ; ; ;15/06/2023 08:46:23 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.20 ; ; ;15/06/2023 08:46:15 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.30 ; ; ;15/06/2023 08:46:07 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;95.50 ; ; ;15/06/2023 08:45:59 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;170 ; ; ;15/06/2023 08:45:51 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.45 ; ; ;15/06/2023 08:45:43 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;15/06/2023 08:45:35 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.26 ; ; ;15/06/2023 08:45:11 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.10 ; ; ;15/06/2023 08:45:03 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.80 ; ; ;15/06/2023 08:44:55 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;120 ; ; ;15/06/2023 08:44:47 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;45.30 ; ; ;15/06/2023 08:44:39 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.97 ; ; ;15/06/2023 08:44:31 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.10 ;136 ;4 ;15/06/2023 08:36:50 ;674716 ;0.02499999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.22 ;7.27 ;0.22 ;15/06/2023 08:36:50 ;674716 ;-0.22727272272727558 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;103.20 ;105 ;3 ;15/06/2023 08:36:50 ;674716 ;-0.5999999999999991 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.50 ; ; ;15/06/2023 08:34:26 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.80 ; ; ;15/06/2023 08:34:26 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.60 ; ; ;15/06/2023 08:34:26 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:31:14 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;15/06/2023 08:08:58 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8729 ;8960 ;540 ;14/06/2023 11:51:01 ;694862 ;-0.42777777777777776 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;234 ;239 ;14 ;14/06/2023 11:50:53 ;686772 ;-0.35714285714285715 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;5.08 ;4.95 ;0.30 ;14/06/2023 11:50:45 ;663677 ;0.4333333366666666 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;238 ;249 ;15 ;14/06/2023 11:50:37 ;687994 ;-0.7333333333333333 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;293 ;294 ;18 ;14/06/2023 11:50:29 ;671474 ;-0.05555555555555555 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.70 ; ; ;14/06/2023 11:50:21 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;247 ;247 ;12.60 ;14/06/2023 11:50:13 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.33 ; ; ;14/06/2023 11:49:49 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;14/06/2023 11:49:41 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;175 ;169 ;8.51 ;14/06/2023 11:49:33 ;677025 ;0.7050528789659225 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;216 ; ; ;14/06/2023 11:49:25 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;132 ;132 ;8 ;14/06/2023 11:49:17 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.03 ;3.97 ;0.24 ;14/06/2023 11:49:09 ;657564 ;0.25316455696202556 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5169 ; ; ;14/06/2023 11:48:45 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;54 ; ; ;14/06/2023 11:48:37 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.22 ; ; ;14/06/2023 11:48:29 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.40 ; ; ;14/06/2023 11:48:21 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;99.20 ; ; ;14/06/2023 11:48:13 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;171 ; ; ;14/06/2023 11:48:05 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.54 ; ; ;14/06/2023 11:47:57 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;104 ; ; ;14/06/2023 11:47:49 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.31 ; ; ;14/06/2023 11:47:25 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.30 ; ; ;14/06/2023 11:47:17 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.20 ; ; ;14/06/2023 11:47:09 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;122 ; ; ;14/06/2023 11:47:01 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;45.50 ; ; ;14/06/2023 11:46:53 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.97 ; ; ;14/06/2023 11:46:45 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;138 ;136 ;4 ;14/06/2023 11:39:04 ;674716 ;0.5 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.26 ;7.27 ;0.22 ;14/06/2023 11:39:04 ;674716 ;-0.0454545409090936 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;104 ;105 ;3 ;14/06/2023 11:39:04 ;674716 ;-0.3333333333333333 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;115.30 ; ; ;14/06/2023 11:35:52 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.86 ; ; ;14/06/2023 11:35:52 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;85.90 ; ; ;14/06/2023 11:35:52 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;136.90 ;136 ;4 ;14/06/2023 11:25:00 ;674716 ;0.22500000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.27 ;7.27 ;0.22 ;14/06/2023 11:25:00 ;674716 ;4.545450884372506e-9 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;103 ;105 ;3 ;14/06/2023 11:25:00 ;674716 ;-0.6666666666666666 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;114 ; ; ;14/06/2023 11:24:36 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.79 ; ; ;14/06/2023 11:24:36 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;85.20 ; ; ;14/06/2023 11:24:36 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;14/06/2023 11:19:58 ; ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;137 ;132 ;8 ;13/06/2023 10:37:18 ;661052 ;0.625 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;48 ; ; ;13/06/2023 10:37:10 ;661052 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8654 ;8960 ;540 ;13/06/2023 09:04:27 ;694862 ;-0.5666666666666667 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;230 ;239 ;14 ;13/06/2023 09:04:19 ;686772 ;-0.6428571428571429 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;5.01 ;4.95 ;0.30 ;13/06/2023 09:04:11 ;663677 ;0.20000000333333232 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;230 ;249 ;15 ;13/06/2023 09:04:03 ;687994 ;-1.2666666666666666 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;289 ;294 ;18 ;13/06/2023 09:03:55 ;671474 ;-0.2777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.56 ; ; ;13/06/2023 09:03:47 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;13/06/2023 09:03:39 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.13 ; ; ;13/06/2023 09:03:15 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;13/06/2023 09:03:07 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;13/06/2023 09:02:59 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;13/06/2023 09:02:51 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;133 ;132 ;8 ;13/06/2023 09:02:43 ;661052 ;0.125 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.94 ;3.97 ;0.24 ;13/06/2023 09:02:35 ;657564 ;-0.12658227848101372 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5082 ; ; ;13/06/2023 09:02:11 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.60 ; ; ;13/06/2023 09:02:03 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.16 ; ; ;13/06/2023 09:01:55 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;10.80 ; ; ;13/06/2023 09:01:47 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;92.60 ; ; ;13/06/2023 09:01:39 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;171 ; ; ;13/06/2023 09:01:31 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.49 ; ; ;13/06/2023 09:01:23 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;13/06/2023 09:01:15 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.28 ; ; ;13/06/2023 09:00:51 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.90 ; ; ;13/06/2023 09:00:43 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;91.90 ; ; ;13/06/2023 09:00:35 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;120 ; ; ;13/06/2023 09:00:27 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;45.70 ; ; ;13/06/2023 09:00:19 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.95 ; ; ;13/06/2023 09:00:11 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.60 ;136 ;4 ;13/06/2023 08:52:30 ;674716 ;-0.3500000000000014 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.24 ;7.27 ;0.22 ;13/06/2023 08:52:30 ;674716 ;-0.13636363181818256 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.90 ;105 ;3 ;13/06/2023 08:52:30 ;674716 ;-1.0333333333333314 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.70 ; ; ;13/06/2023 08:50:06 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.84 ; ; ;13/06/2023 08:50:06 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.40 ; ; ;13/06/2023 08:50:06 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;13/06/2023 08:38:18 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8626 ;8960 ;540 ;12/06/2023 11:22:39 ;694862 ;-0.6185185185185185 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;225 ;239 ;14 ;12/06/2023 11:22:31 ;686772 ;-1 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;5.01 ;4.95 ;0.30 ;12/06/2023 11:22:23 ;663677 ;0.20000000333333232 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;238 ;249 ;15 ;12/06/2023 11:22:15 ;687994 ;-0.7333333333333333 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;280 ;294 ;18 ;12/06/2023 11:22:07 ;671474 ;-0.7777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.62 ; ; ;12/06/2023 11:21:59 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;12/06/2023 11:21:51 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.20 ; ; ;12/06/2023 11:21:27 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;117 ; ; ;12/06/2023 11:21:19 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;174 ;169 ;8.51 ;12/06/2023 11:21:11 ;677025 ;0.5875440658049353 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;217 ; ; ;12/06/2023 11:21:03 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;129 ;132 ;8 ;12/06/2023 11:20:55 ;661052 ;-0.375 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.02 ;3.97 ;0.24 ;12/06/2023 11:20:47 ;657564 ;0.2109704641350185 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5085 ; ; ;12/06/2023 11:20:15 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.10 ; ; ;12/06/2023 11:20:07 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.12 ; ; ;12/06/2023 11:19:59 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.40 ; ; ;12/06/2023 11:19:51 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;101 ; ; ;12/06/2023 11:19:43 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;166 ; ; ;12/06/2023 11:19:35 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.49 ; ; ;12/06/2023 11:19:27 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;12/06/2023 11:19:19 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.29 ; ; ;12/06/2023 11:18:55 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.10 ; ; ;12/06/2023 11:18:47 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;93.10 ; ; ;12/06/2023 11:18:39 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;129 ; ; ;12/06/2023 11:18:31 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.10 ; ; ;12/06/2023 11:18:23 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1.01 ; ; ;12/06/2023 11:18:15 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.80 ;136 ;4 ;12/06/2023 11:10:42 ;674716 ;-0.04999999999999716 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.26 ;7.27 ;0.22 ;12/06/2023 11:10:42 ;674716 ;-0.0454545409090936 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;102.10 ;105 ;3 ;12/06/2023 11:10:42 ;674716 ;-0.9666666666666686 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.70 ; ; ;12/06/2023 11:08:10 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.80 ; ; ;12/06/2023 11:08:10 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.90 ; ; ;12/06/2023 11:08:10 ;674716 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8582 ;8960 ;540 ;12/06/2023 10:56:15 ;694862 ;-0.7 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;225 ;239 ;14 ;12/06/2023 10:56:07 ;686772 ;-1 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;5 ;4.95 ;0.30 ;12/06/2023 10:55:59 ;663677 ;0.16666666999999968 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;237 ;249 ;15 ;12/06/2023 10:55:51 ;687994 ;-0.8 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;278 ;294 ;18 ;12/06/2023 10:55:43 ;671474 ;-0.8888888888888888 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.59 ; ; ;12/06/2023 10:55:35 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;12/06/2023 10:55:27 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.16 ; ; ;12/06/2023 10:55:03 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;115 ; ; ;12/06/2023 10:54:55 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;173 ;169 ;8.51 ;12/06/2023 10:54:47 ;677025 ;0.4700352526439483 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;215 ; ; ;12/06/2023 10:54:39 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;128 ;132 ;8 ;12/06/2023 10:54:31 ;661052 ;-0.5 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.99 ;3.97 ;0.24 ;12/06/2023 10:54:23 ;657564 ;0.08438818565400852 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5125 ; ; ;12/06/2023 10:53:59 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.30 ; ; ;12/06/2023 10:53:51 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.17 ; ; ;12/06/2023 10:53:43 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.40 ; ; ;12/06/2023 10:53:35 ;626644 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;99.70 ; ; ;12/06/2023 10:53:27 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;12/06/2023 10:53:19 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.48 ; ; ;12/06/2023 10:53:11 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;104 ; ; ;12/06/2023 10:53:03 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.32 ; ; ;12/06/2023 10:52:39 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.90 ; ; ;12/06/2023 10:52:31 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.50 ; ; ;12/06/2023 10:52:23 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;127 ; ; ;12/06/2023 10:52:15 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.50 ; ; ;12/06/2023 10:52:07 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.99 ; ; ;12/06/2023 10:51:59 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.40 ;136 ;4 ;12/06/2023 10:44:18 ;674716 ;-0.14999999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.28 ;7.27 ;0.22 ;12/06/2023 10:44:18 ;674716 ;0.04545454999999941 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.70 ;105 ;3 ;12/06/2023 10:44:18 ;674716 ;-1.099999999999999 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;113.20 ; ; ;12/06/2023 10:41:54 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.82 ; ; ;12/06/2023 10:41:54 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;84.20 ; ; ;12/06/2023 10:41:54 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.30 ;136 ;4 ;12/06/2023 10:14:34 ;674716 ;-0.17499999999999716 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.29 ;7.27 ;0.22 ;12/06/2023 10:14:34 ;674716 ;0.0909090954545439 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.80 ;105 ;3 ;12/06/2023 10:14:34 ;674716 ;-1.0666666666666675 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.70 ; ; ;12/06/2023 10:14:10 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.81 ; ; ;12/06/2023 10:14:10 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.70 ; ; ;12/06/2023 10:14:10 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;12/06/2023 10:11:28 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8594 ;8960 ;540 ;11/06/2023 11:27:46 ;694862 ;-0.6777777777777778 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;227 ;239 ;14 ;11/06/2023 11:27:38 ;686772 ;-0.8571428571428571 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.95 ;4.95 ;0.30 ;11/06/2023 11:27:30 ;663677 ;3.33333360913457e-9 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;2.95 ;3.49 ;0.21 ;11/06/2023 11:27:22 ;622281 ;-2.5592417061611377 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;235 ;249 ;15 ;11/06/2023 11:27:14 ;687994 ;-0.9333333333333333 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;280 ;294 ;18 ;11/06/2023 11:27:06 ;671474 ;-0.7777777777777778 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.60 ; ; ;11/06/2023 11:26:58 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;11/06/2023 11:26:50 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.13 ; ; ;11/06/2023 11:26:26 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;11/06/2023 11:26:18 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;172 ;169 ;8.51 ;11/06/2023 11:26:10 ;677025 ;0.35252643948296125 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;216 ; ; ;11/06/2023 11:26:02 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;129 ;132 ;8 ;11/06/2023 11:25:54 ;661052 ;-0.375 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.98 ;3.97 ;0.24 ;11/06/2023 11:25:46 ;657564 ;0.04219409282700332 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5113 ; ; ;11/06/2023 11:25:22 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.10 ; ; ;11/06/2023 11:25:14 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.11 ; ; ;11/06/2023 11:25:06 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.40 ; ; ;11/06/2023 11:24:58 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.78 ; ; ;11/06/2023 11:24:50 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;98.70 ; ; ;11/06/2023 11:24:42 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;166 ; ; ;11/06/2023 11:24:34 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.45 ; ; ;11/06/2023 11:24:26 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;103 ; ; ;11/06/2023 11:24:18 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.28 ; ; ;11/06/2023 11:23:54 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39 ; ; ;11/06/2023 11:23:46 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.60 ; ; ;11/06/2023 11:23:38 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;126 ; ; ;11/06/2023 11:23:30 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;42.40 ; ; ;11/06/2023 11:23:22 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;11/06/2023 11:23:14 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;132.80 ;136 ;4 ;11/06/2023 11:15:41 ;674716 ;-0.7999999999999972 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.15 ;7.27 ;0.22 ;11/06/2023 11:15:41 ;674716 ;-0.5454545409090911 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.30 ;105 ;3 ;11/06/2023 11:15:41 ;674716 ;-1.5666666666666675 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;110.30 ; ; ;11/06/2023 11:13:09 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.78 ; ; ;11/06/2023 11:13:09 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;82.80 ; ; ;11/06/2023 11:13:09 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;132.40 ;136 ;4 ;11/06/2023 11:10:37 ;674716 ;-0.8999999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.09 ;7.27 ;0.22 ;11/06/2023 11:10:37 ;674716 ;-0.818181813636366 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.10 ;105 ;3 ;11/06/2023 11:10:37 ;674716 ;-1.6333333333333353 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;110.10 ; ; ;11/06/2023 11:10:13 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.76 ; ; ;11/06/2023 11:10:13 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;82.20 ; ; ;11/06/2023 11:10:13 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;11/06/2023 11:07:25 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8534 ;8960 ;540 ;10/06/2023 10:33:50 ;694862 ;-0.7888888888888889 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;226 ;239 ;14 ;10/06/2023 10:33:42 ;686772 ;-0.9285714285714286 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.95 ;4.95 ;0.30 ;10/06/2023 10:33:34 ;663677 ;3.33333360913457e-9 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.03 ;3.49 ;0.21 ;10/06/2023 10:33:26 ;622281 ;-2.18009478672986 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;237 ;249 ;15 ;10/06/2023 10:33:18 ;687994 ;-0.8 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;279 ;294 ;18 ;10/06/2023 10:33:10 ;671474 ;-0.8333333333333334 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.52 ; ; ;10/06/2023 10:33:02 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;247 ;12.60 ;10/06/2023 10:32:54 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.11 ; ; ;10/06/2023 10:32:30 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;10/06/2023 10:32:22 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;169 ;8.51 ;10/06/2023 10:32:14 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;214 ; ; ;10/06/2023 10:32:06 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;127 ;132 ;8 ;10/06/2023 10:31:58 ;661052 ;-0.625 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.93 ;3.97 ;0.24 ;10/06/2023 10:31:50 ;657564 ;-0.16877637130801704 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5021 ; ; ;10/06/2023 10:31:26 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.70 ; ; ;10/06/2023 10:31:18 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.10 ; ; ;10/06/2023 10:31:10 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;10/06/2023 10:31:02 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.82 ; ; ;10/06/2023 10:30:54 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;98.60 ; ; ;10/06/2023 10:30:46 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;166 ; ; ;10/06/2023 10:30:38 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.41 ; ; ;10/06/2023 10:30:30 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;10/06/2023 10:30:22 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.25 ; ; ;10/06/2023 10:29:58 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;39.70 ; ; ;10/06/2023 10:29:50 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.60 ; ; ;10/06/2023 10:29:42 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;10/06/2023 10:29:34 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;43.70 ; ; ;10/06/2023 10:29:26 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;10/06/2023 10:29:18 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.50 ;136 ;4 ;10/06/2023 10:21:45 ;674716 ;-0.375 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.18 ;7.27 ;0.22 ;10/06/2023 10:21:45 ;674716 ;-0.40909090454545755 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.50 ;105 ;3 ;10/06/2023 10:21:45 ;674716 ;-1.1666666666666667 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.20 ; ; ;10/06/2023 10:19:13 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.76 ; ; ;10/06/2023 10:19:13 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.90 ; ; ;10/06/2023 10:19:13 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;10/06/2023 10:09:32 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8495 ;8960 ;540 ;09/06/2023 08:13:53 ;694862 ;-0.8611111111111112 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;226 ;239 ;14 ;09/06/2023 08:13:45 ;686772 ;-0.9285714285714286 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.92 ;4.95 ;0.30 ;09/06/2023 08:13:37 ;663677 ;-0.09999999666666723 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.15 ;3.49 ;0.21 ;09/06/2023 08:13:29 ;622281 ;-1.61137440758294 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;234 ;249 ;15 ;09/06/2023 08:13:21 ;687994 ;-1 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;281 ;294 ;18 ;09/06/2023 08:13:13 ;671474 ;-0.7222222222222222 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.47 ; ; ;09/06/2023 08:13:05 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;247 ;12.60 ;09/06/2023 08:12:57 ;643503 ;-0.5555555555555556 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.08 ; ; ;09/06/2023 08:12:33 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;115 ; ; ;09/06/2023 08:12:25 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;09/06/2023 08:12:17 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;211 ; ; ;09/06/2023 08:12:09 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;128 ;132 ;8 ;09/06/2023 08:12:01 ;661052 ;-0.5 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;4.01 ;3.97 ;0.24 ;09/06/2023 08:11:53 ;657564 ;0.16877637130801515 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5065 ; ; ;09/06/2023 08:11:29 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.50 ; ; ;09/06/2023 08:11:21 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.09 ; ; ;09/06/2023 08:11:13 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.40 ; ; ;09/06/2023 08:11:05 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.85 ; ; ;09/06/2023 08:10:57 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;97.40 ; ; ;09/06/2023 08:10:49 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;09/06/2023 08:10:41 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.43 ; ; ;09/06/2023 08:10:33 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;09/06/2023 08:10:25 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.23 ; ; ;09/06/2023 08:10:01 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.50 ; ; ;09/06/2023 08:09:53 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;91.70 ; ; ;09/06/2023 08:09:45 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;09/06/2023 08:09:37 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;43.60 ; ; ;09/06/2023 08:09:29 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;09/06/2023 08:09:21 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.10 ;136 ;4 ;09/06/2023 08:01:48 ;674716 ;-0.4750000000000014 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.16 ;7.27 ;0.22 ;09/06/2023 08:01:48 ;674716 ;-0.49999999545454654 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.10 ;105 ;3 ;09/06/2023 08:01:48 ;674716 ;-1.3000000000000018 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;112.40 ; ; ;09/06/2023 07:59:16 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.75 ; ; ;09/06/2023 07:59:16 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.70 ; ; ;09/06/2023 07:59:16 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;133.70 ;136 ;4 ;09/06/2023 07:47:56 ;674716 ;-0.5750000000000028 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.11 ;7.27 ;0.22 ;09/06/2023 07:47:56 ;674716 ;-0.727272722727273 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.50 ;105 ;3 ;09/06/2023 07:47:56 ;674716 ;-1.5 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.90 ; ; ;09/06/2023 07:47:32 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.72 ; ; ;09/06/2023 07:47:32 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.10 ; ; ;09/06/2023 07:47:32 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;09/06/2023 07:33:29 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8512 ;8960 ;540 ;08/06/2023 07:50:31 ;694862 ;-0.8296296296296296 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;226 ;239 ;14 ;08/06/2023 07:50:23 ;686772 ;-0.9285714285714286 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.94 ;4.95 ;0.30 ;08/06/2023 07:50:15 ;663677 ;-0.033333329999999016 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.28 ;3.49 ;0.21 ;08/06/2023 07:50:07 ;622281 ;-0.995260663507111 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;235 ;249 ;15 ;08/06/2023 07:49:59 ;687994 ;-0.9333333333333333 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;283 ;294 ;18 ;08/06/2023 07:49:51 ;671474 ;-0.6111111111111112 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.46 ; ; ;08/06/2023 07:49:43 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;247 ;12.60 ;08/06/2023 07:49:35 ;643503 ;-0.5555555555555556 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.07 ; ; ;08/06/2023 07:49:11 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;115 ; ; ;08/06/2023 07:49:03 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;169 ;169 ;8.51 ;08/06/2023 07:48:55 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;211 ; ; ;08/06/2023 07:48:47 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;130 ;132 ;8 ;08/06/2023 07:48:39 ;661052 ;-0.25 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.99 ;3.97 ;0.24 ;08/06/2023 07:48:31 ;657564 ;0.08438818565400852 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5047 ; ; ;08/06/2023 07:48:07 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;52.70 ; ; ;08/06/2023 07:47:59 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.08 ; ; ;08/06/2023 07:47:51 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.30 ; ; ;08/06/2023 07:47:43 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.87 ; ; ;08/06/2023 07:47:35 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;96.30 ; ; ;08/06/2023 07:47:27 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;167 ; ; ;08/06/2023 07:47:19 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.38 ; ; ;08/06/2023 07:47:11 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;08/06/2023 07:47:03 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.22 ; ; ;08/06/2023 07:46:39 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.60 ; ; ;08/06/2023 07:46:31 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;91.70 ; ; ;08/06/2023 07:46:23 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;124 ; ; ;08/06/2023 07:46:15 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;45.50 ; ; ;08/06/2023 07:46:07 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.97 ; ; ;08/06/2023 07:45:59 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;133.90 ;136 ;4 ;08/06/2023 07:38:27 ;674716 ;-0.5249999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.12 ;7.27 ;0.22 ;08/06/2023 07:38:27 ;674716 ;-0.6818181772727285 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.80 ;105 ;3 ;08/06/2023 07:38:27 ;674716 ;-1.400000000000001 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111 ; ; ;08/06/2023 07:35:55 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.75 ; ; ;08/06/2023 07:35:55 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83 ; ; ;08/06/2023 07:35:55 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;08/06/2023 07:31:45 ; ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11.20 ; ; ;07/06/2023 17:42:39 ;626644 ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;PCR ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 17:24:30 ; ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;170 ;169 ;8.51 ;07/06/2023 09:49:36 ;677025 ;0.11750881316098707 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;92.10 ; ; ;07/06/2023 09:49:28 ;677025 ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1PWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;9.68 ; ; ;07/06/2023 09:26:40 ; ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1NWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;5.75 ; ; ;07/06/2023 09:26:24 ; ;0 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.92 ;3.97 ;0.24 ;07/06/2023 09:25:19 ;657564 ;-0.21097046413502224 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.52 ;3.97 ;0.24 ;07/06/2023 09:25:11 ;657564 ;-1.8987341772151907 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.93 ; ; ;07/06/2023 09:25:03 ;657564 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.82 ; ; ;07/06/2023 09:24:55 ;657564 ;0 
+Cobas Pure c303 ;CREA ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 09:01:19 ; ;0 
+Cobas Pure c303 ;CREA ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 09:01:19 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8505 ;8960 ;540 ;07/06/2023 08:39:03 ;694862 ;-0.8425925925925926 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;228 ;239 ;14 ;07/06/2023 08:38:55 ;686772 ;-0.7857142857142857 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.92 ;4.95 ;0.30 ;07/06/2023 08:38:47 ;663677 ;-0.09999999666666723 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.37 ;3.49 ;0.21 ;07/06/2023 08:38:39 ;622281 ;-0.56872037914692 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;231 ;249 ;15 ;07/06/2023 08:38:31 ;687994 ;-1.2 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;284 ;294 ;18 ;07/06/2023 08:38:23 ;671474 ;-0.5555555555555556 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.47 ; ; ;07/06/2023 08:38:15 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;247 ;12.60 ;07/06/2023 08:38:07 ;643503 ;-0.5555555555555556 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.09 ; ; ;07/06/2023 08:37:43 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;116 ; ; ;07/06/2023 08:37:35 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;168 ;169 ;8.51 ;07/06/2023 08:37:27 ;677025 ;-0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;212 ; ; ;07/06/2023 08:37:19 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;129 ;132 ;8 ;07/06/2023 08:37:11 ;661052 ;-0.375 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.48 ;3.97 ;0.24 ;07/06/2023 08:37:03 ;657564 ;-2.0675105485232077 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5031 ; ; ;07/06/2023 08:36:39 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.70 ; ; ;07/06/2023 08:36:31 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.07 ; ; ;07/06/2023 08:36:23 ;663677 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;10.90 ; ; ;07/06/2023 08:36:15 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.89 ; ; ;07/06/2023 08:36:07 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;96.30 ; ; ;07/06/2023 08:35:59 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;169 ; ; ;07/06/2023 08:35:51 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.41 ; ; ;07/06/2023 08:35:43 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;07/06/2023 08:35:35 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.21 ; ; ;07/06/2023 08:35:11 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.70 ; ; ;07/06/2023 08:35:03 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;90.50 ; ; ;07/06/2023 08:34:55 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;07/06/2023 08:34:47 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;44.80 ; ; ;07/06/2023 08:34:39 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.80 ; ; ;07/06/2023 08:34:31 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.50 ;136 ;4 ;07/06/2023 08:26:59 ;674716 ;-0.375 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.18 ;7.27 ;0.22 ;07/06/2023 08:26:59 ;674716 ;-0.40909090454545755 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.70 ;105 ;3 ;07/06/2023 08:26:59 ;674716 ;-1.099999999999999 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.80 ; ; ;07/06/2023 08:24:27 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.73 ; ; ;07/06/2023 08:24:27 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.40 ; ; ;07/06/2023 08:24:27 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.60 ;136 ;4 ;07/06/2023 08:22:19 ;674716 ;-0.3500000000000014 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.19 ;7.27 ;0.22 ;07/06/2023 08:22:19 ;674716 ;-0.363636359090909 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.30 ;105 ;3 ;07/06/2023 08:22:19 ;674716 ;-1.2333333333333343 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;111.80 ; ; ;07/06/2023 08:21:55 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.77 ; ; ;07/06/2023 08:21:55 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.40 ; ; ;07/06/2023 08:21:55 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;07/06/2023 08:12:10 ; ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;83.50 ; ; ;06/06/2023 18:12:10 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;80.60 ; ; ;06/06/2023 16:21:30 ;674716 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8539 ;8960 ;540 ;06/06/2023 15:44:55 ;694862 ;-0.7796296296296297 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;230 ;239 ;14 ;06/06/2023 15:44:47 ;686772 ;-0.6428571428571429 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.96 ;4.95 ;0.30 ;06/06/2023 15:44:39 ;663677 ;0.033333336666666234 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;9.78 ; ; ;06/06/2023 15:44:31 ;664685 ;0 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.25 ;3.49 ;0.21 ;06/06/2023 15:44:23 ;622281 ;-1.13744075829384 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;242 ;249 ;15 ;06/06/2023 15:44:15 ;687994 ;-0.4666666666666667 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;286 ;294 ;18 ;06/06/2023 15:44:07 ;671474 ;-0.4444444444444444 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;7.57 ; ; ;06/06/2023 15:43:51 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;242 ;247 ;12.60 ;06/06/2023 15:43:43 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8.11 ; ; ;06/06/2023 15:43:27 ;631937 ;0 
+Cobas Pure c303 ;UREA ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;117 ; ; ;06/06/2023 15:43:11 ;674482 ;0 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;152 ;153 ;12 ;06/06/2023 15:43:03 ;600796 ;-0.08333333333333333 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;169 ;169 ;8.51 ;06/06/2023 15:42:47 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;216 ; ; ;06/06/2023 15:42:31 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;130 ;132 ;8 ;06/06/2023 15:42:23 ;661052 ;-0.25 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.53 ;3.97 ;0.24 ;06/06/2023 15:42:15 ;657564 ;-1.8565400843881874 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5067 ; ; ;06/06/2023 15:41:43 ;694862 ;0 
+Cobas Pure c303 ;GGT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;53.30 ; ; ;06/06/2023 15:41:35 ;686772 ;0 
+Cobas Pure c303 ;ALB ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;3.01 ; ; ;06/06/2023 15:41:27 ;663677 ;0 
+Cobas Pure c303 ;AURIC ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;4.69 ; ; ;06/06/2023 15:41:19 ;664685 ;0 
+Cobas Pure c303 ;PCR ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;11 ; ; ;06/06/2023 15:41:11 ;626644 ;0 
+Cobas Pure c303 ;BT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;0.88 ; ; ;06/06/2023 15:41:03 ;622281 ;0 
+Cobas Pure c303 ;FALK ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;96.80 ; ; ;06/06/2023 15:40:55 ;687994 ;0 
+Cobas Pure c303 ;LDH ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;168 ; ; ;06/06/2023 15:40:47 ;671474 ;0 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.42 ; ; ;06/06/2023 15:40:39 ;653836 ;0 
+Cobas Pure c303 ;GLU ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;102 ; ; ;06/06/2023 15:40:31 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4.20 ; ; ;06/06/2023 15:40:15 ;631937 ;0 
+Cobas Pure c303 ;C3 ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;92.10 ; ; ;06/06/2023 15:40:07 ;600796 ;0 
+Cobas Pure c303 ;UREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;38.80 ; ; ;06/06/2023 15:39:51 ;674482 ;0 
+Cobas Pure c303 ;COLT ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;90.50 ; ; ;06/06/2023 15:39:43 ;677025 ;0 
+Cobas Pure c303 ;TG ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;118 ; ; ;06/06/2023 15:39:35 ;677541 ;0 
+Cobas Pure c303 ;TGP ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;42.60 ; ; ;06/06/2023 15:39:27 ;661052 ;0 
+Cobas Pure c303 ;CREA ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0.83 ; ; ;06/06/2023 15:39:19 ;657564 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;131.40 ;136 ;4 ;06/06/2023 15:32:02 ;674716 ;-1.1499999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.04 ;7.27 ;0.22 ;06/06/2023 15:32:02 ;674716 ;-1.0454545409090925 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;99.40 ;105 ;3 ;06/06/2023 15:32:02 ;674716 ;-1.8666666666666647 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;108.10 ; ; ;06/06/2023 15:29:06 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.60 ; ; ;06/06/2023 15:29:06 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;80.70 ; ; ;06/06/2023 15:29:06 ;674716 ;0 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;131.30 ;136 ;4 ;06/06/2023 15:26:10 ;674716 ;-1.1749999999999972 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.07 ;7.27 ;0.22 ;06/06/2023 15:26:10 ;674716 ;-0.9090909045454549 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;99.20 ;105 ;3 ;06/06/2023 15:26:10 ;674716 ;-1.9333333333333325 
+Cobas Pure c303 ;Na ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;107.80 ; ; ;06/06/2023 15:25:46 ;674716 ;0 
+Cobas Pure c303 ;K ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3.56 ; ; ;06/06/2023 15:25:46 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;80.60 ; ; ;06/06/2023 15:25:46 ;674716 ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;06/06/2023 15:24:19 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8200 ;8530 ;510 ;04/06/2023 09:33:10 ;694862 ;-0.6470588235294118 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;220 ;229 ;14 ;04/06/2023 09:33:02 ;686772 ;-0.6428571428571429 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.84 ;4.88 ;0.29 ;04/06/2023 09:32:54 ;663677 ;-0.13793103448275876 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;10.10 ;10 ;0.50 ;04/06/2023 09:32:46 ;664685 ;0.1999999999999993 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.07 ;3.53 ;0.21 ;04/06/2023 09:32:38 ;622281 ;-2.1800947867298577 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;260 ;267 ;16 ;04/06/2023 09:32:30 ;687994 ;-0.4375 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;290 ;299 ;18 ;04/06/2023 09:32:22 ;671474 ;-0.5 
+Cobas Pure c303 ;BD ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;1.95 ;2.19 ;0.18 ;04/06/2023 09:32:14 ;652625 ;-1.3714285714285714 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.50 ;135 ;4 ;04/06/2023 09:31:53 ;674716 ;0.125 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.30 ;7.26 ;0.22 ;04/06/2023 09:31:53 ;674716 ;0.181818181818182 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.40 ;106 ;3 ;04/06/2023 09:31:53 ;674716 ;-1.5333333333333314 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.44 ;7.66 ;0.31 ;04/06/2023 09:31:02 ;653836 ;-0.7096774193548379 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;245 ;12.60 ;04/06/2023 09:30:54 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8.26 ;8.56 ;0.43 ;04/06/2023 09:30:38 ;631937 ;-0.6912442396313381 
+Cobas Pure c303 ;UREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;117 ;124 ;6.01 ;04/06/2023 09:30:30 ;674482 ;-1.1647254575707155 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;171 ;173 ;8.51 ;04/06/2023 09:30:22 ;677025 ;-0.23501762632197415 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;151 ;155 ;12 ;04/06/2023 09:30:14 ;600796 ;-0.3333333333333333 
+Cobas Pure c303 ;C4 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;23.40 ;22.70 ;1.80 ;04/06/2023 09:29:58 ;627882 ;0.3888888888888885 
+Cobas Pure c303 ;TG ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;215 ;218 ;10.60 ;04/06/2023 09:29:50 ;677541 ;-0.2830188679245283 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;123 ;130 ;8 ;04/06/2023 09:29:42 ;661052 ;-0.875 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.46 ;3.82 ;0.23 ;04/06/2023 09:29:26 ;657564 ;-1.5929203539823003 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;5502 ;5760 ;350 ;04/06/2023 09:28:46 ;694862 ;-0.7371428571428571 
+Cobas Pure c303 ;GGT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;55 ;58.20 ;3.50 ;04/06/2023 09:28:38 ;686772 ;-0.9142857142857151 
+Cobas Pure c303 ;ALB ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.25 ;3.21 ;0.19 ;04/06/2023 09:28:30 ;663677 ;0.21052631578947387 
+Cobas Pure c303 ;AURIC ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.77 ;4.74 ;0.24 ;04/06/2023 09:28:22 ;664685 ;0.12499999999999734 
+Cobas Pure c303 ;PCR ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;7.11 ;6.90 ;0.35 ;04/06/2023 09:28:14 ;626644 ;0.6 
+Cobas Pure c303 ;BT ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.79 ;0.93 ;0.06 ;04/06/2023 09:28:06 ;622281 ;-2.324786324786325 
+Cobas Pure c303 ;FALK ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;97.20 ;101 ;6 ;04/06/2023 09:27:58 ;687994 ;-0.6333333333333329 
+Cobas Pure c303 ;LDH ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;159 ;164 ;10 ;04/06/2023 09:27:50 ;671474 ;-0.5 
+Cobas Pure c303 ;BD ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.67 ;0.76 ;0.06 ;04/06/2023 09:27:42 ;652625 ;-1.4871794871794866 
+Cobas Pure c303 ;Na ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;112.30 ;112 ;3 ;04/06/2023 09:27:37 ;674716 ;0.09999999999999905 
+Cobas Pure c303 ;K ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.55 ;3.49 ;0.10 ;04/06/2023 09:27:37 ;674716 ;0.5999999999999961 
+Cobas Pure c303 ;Cl ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;81.60 ;83.70 ;2.50 ;04/06/2023 09:27:37 ;674716 ;-0.8400000000000034 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;4.67 ;4.82 ;0.19 ;04/06/2023 09:27:34 ;653836 ;-0.7894736842105282 
+Cobas Pure c303 ;GLU ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;103 ;104 ;5.23 ;04/06/2023 09:27:26 ;643503 ;-0.19120458891013384 
+Cobas Pure c303 ;P ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.58 ;3.69 ;0.19 ;04/06/2023 09:27:10 ;631937 ;-0.591397849462365 
+Cobas Pure c303 ;UREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;39.20 ;40.60 ;2.04 ;04/06/2023 09:27:02 ;674482 ;-0.6862745098039209 
+Cobas Pure c303 ;C3 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;92.40 ;92.60 ;7.40 ;04/06/2023 09:26:54 ;600796 ;-0.027027027027025488 
+Cobas Pure c303 ;C4 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;15.10 ;14.50 ;1.20 ;04/06/2023 09:26:38 ;627882 ;0.4999999999999997 
+Cobas Pure c303 ;COLT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;95.70 ;95.10 ;4.64 ;04/06/2023 09:26:30 ;677025 ;0.12931034482758805 
+Cobas Pure c303 ;TG ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;120 ;119 ;6.20 ;04/06/2023 09:26:22 ;677541 ;0.16129032258064516 
+Cobas Pure c303 ;TGP ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;48.20 ;49 ;2.90 ;04/06/2023 09:26:14 ;661052 ;-0.2758620689655163 
+Cobas Pure c303 ;CREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;0.88 ;1.05 ;0.06 ;04/06/2023 09:26:06 ;657564 ;-2.6382306477093214 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.60 ;135 ;4 ;04/06/2023 09:19:05 ;674716 ;-0.10000000000000142 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.31 ;7.26 ;0.22 ;04/06/2023 09:19:05 ;674716 ;0.22727272727272646 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.80 ;106 ;3 ;04/06/2023 09:19:05 ;674716 ;-1.7333333333333343 
+Cobas Pure c303 ;Na ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;111.60 ;112 ;3 ;04/06/2023 09:15:45 ;674716 ;-0.13333333333333522 
+Cobas Pure c303 ;K ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.49 ;3.49 ;0.10 ;04/06/2023 09:15:45 ;674716 ;0 
+Cobas Pure c303 ;Cl ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;81 ;83.70 ;2.50 ;04/06/2023 09:15:45 ;674716 ;-1.0800000000000012 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;04/06/2023 08:53:42 ; ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;0 ; ; ;04/06/2023 08:47:50 ;623593 ;0 
+Cobas Pure c303 ;FACTOR R ;RFCO1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;NI ; ; ;04/06/2023 08:37:22 ;623593 ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8119 ;8530 ;510 ;03/06/2023 11:57:13 ;694862 ;-0.8058823529411765 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;217 ;229 ;14 ;03/06/2023 11:57:05 ;686772 ;-0.8571428571428571 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.81 ;4.88 ;0.29 ;03/06/2023 11:56:57 ;663677 ;-0.2413793103448286 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;10.10 ;10 ;0.50 ;03/06/2023 11:56:49 ;664685 ;0.1999999999999993 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;2.88 ;3.53 ;0.21 ;03/06/2023 11:56:41 ;622281 ;-3.0805687203791465 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;262 ;267 ;16 ;03/06/2023 11:56:33 ;687994 ;-0.3125 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;290 ;299 ;18 ;03/06/2023 11:56:25 ;671474 ;-0.5 
+Cobas Pure c303 ;LIPASA ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;101 ;100 ;6 ;03/06/2023 11:56:17 ;668734 ;0.16666666666666666 
+Cobas Pure c303 ;BD ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;1.87 ;2.19 ;0.18 ;03/06/2023 11:56:09 ;652625 ;-1.8285714285714278 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.39 ;7.66 ;0.31 ;03/06/2023 11:56:01 ;653836 ;-0.8709677419354853 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;238 ;245 ;12.60 ;03/06/2023 11:55:53 ;643503 ;-0.5555555555555556 
+Cobas Pure c303 ;P ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8.21 ;8.56 ;0.43 ;03/06/2023 11:55:37 ;631937 ;-0.806451612903225 
+Cobas Pure c303 ;UREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;115 ;124 ;6.01 ;03/06/2023 11:55:29 ;674482 ;-1.497504159733777 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;151 ;155 ;12 ;03/06/2023 11:55:21 ;600796 ;-0.3333333333333333 
+Cobas Pure c303 ;C4 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;23.20 ;22.70 ;1.80 ;03/06/2023 11:55:05 ;627882 ;0.2777777777777778 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;172 ;173 ;8.51 ;03/06/2023 11:54:57 ;677025 ;-0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;214 ;218 ;10.60 ;03/06/2023 11:54:49 ;677541 ;-0.37735849056603776 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;121 ;130 ;8 ;03/06/2023 11:54:41 ;661052 ;-1.125 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.50 ;3.82 ;0.23 ;03/06/2023 11:54:33 ;657564 ;-1.4159292035398223 
+Cobas Pure c303 ;BT ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.74 ;0.93 ;0.06 ;03/06/2023 11:53:53 ;622281 ;-3.264957264957266 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8177 ;8530 ;510 ;03/06/2023 11:45:05 ;694862 ;-0.692156862745098 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;219 ;229 ;14 ;03/06/2023 11:44:57 ;686772 ;-0.7142857142857143 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.85 ;4.88 ;0.29 ;03/06/2023 11:44:49 ;663677 ;-0.10344827586206982 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;10.20 ;10 ;0.50 ;03/06/2023 11:44:41 ;664685 ;0.3999999999999986 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;2.94 ;3.53 ;0.21 ;03/06/2023 11:44:33 ;622281 ;-2.7962085308056865 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;262 ;267 ;16 ;03/06/2023 11:44:25 ;687994 ;-0.3125 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;290 ;299 ;18 ;03/06/2023 11:44:17 ;671474 ;-0.5 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;132.40 ;135 ;4 ;03/06/2023 11:44:12 ;674716 ;-0.6499999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.10 ;7.26 ;0.22 ;03/06/2023 11:44:12 ;674716 ;-0.727272727272728 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;99.10 ;106 ;3 ;03/06/2023 11:44:12 ;674716 ;-2.300000000000002 
+Cobas Pure c303 ;LIPASA ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;101 ;100 ;6 ;03/06/2023 11:44:09 ;668734 ;0.16666666666666666 
+Cobas Pure c303 ;BD ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;1.89 ;2.19 ;0.18 ;03/06/2023 11:43:53 ;652625 ;-1.7142857142857146 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.53 ;7.66 ;0.31 ;03/06/2023 11:43:29 ;653836 ;-0.4193548387096771 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;240 ;245 ;12.60 ;03/06/2023 11:43:13 ;643503 ;-0.39682539682539686 
+Cobas Pure c303 ;P ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8.36 ;8.56 ;0.43 ;03/06/2023 11:42:57 ;631937 ;-0.46082949308756005 
+Cobas Pure c303 ;UREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;116 ;124 ;6.01 ;03/06/2023 11:42:49 ;674482 ;-1.3311148086522464 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;175 ;173 ;8.51 ;03/06/2023 11:42:33 ;677025 ;0.23501762632197415 
+Cobas Pure c303 ;TG ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;217 ;218 ;10.60 ;03/06/2023 11:42:25 ;677541 ;-0.09433962264150944 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;120 ;130 ;8 ;03/06/2023 11:42:17 ;661052 ;-1.25 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;152 ;155 ;12 ;03/06/2023 11:42:09 ;600796 ;-0.25 
+Cobas Pure c303 ;C4 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;23.20 ;22.70 ;1.80 ;03/06/2023 11:41:45 ;627882 ;0.2777777777777778 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.55 ;3.82 ;0.23 ;03/06/2023 11:41:29 ;657564 ;-1.1946902654867257 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;5517 ;5760 ;350 ;03/06/2023 11:40:25 ;694862 ;-0.6942857142857143 
+Cobas Pure c303 ;GGT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;55.30 ;58.20 ;3.50 ;03/06/2023 11:40:17 ;686772 ;-0.8285714285714302 
+Cobas Pure c303 ;ALB ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.23 ;3.21 ;0.19 ;03/06/2023 11:40:09 ;663677 ;0.10526315789473693 
+Cobas Pure c303 ;AURIC ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.80 ;4.74 ;0.24 ;03/06/2023 11:39:53 ;664685 ;0.2499999999999984 
+Cobas Pure c303 ;PCR ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;7.14 ;6.90 ;0.35 ;03/06/2023 11:39:45 ;626644 ;0.6857142857142838 
+Cobas Pure c303 ;BT ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.75 ;0.93 ;0.06 ;03/06/2023 11:39:37 ;622281 ;-3.1111111111111116 
+Cobas Pure c303 ;FALK ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;99.50 ;101 ;6 ;03/06/2023 11:39:29 ;687994 ;-0.25 
+Cobas Pure c303 ;LDH ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;162 ;164 ;10 ;03/06/2023 11:39:13 ;671474 ;-0.2 
+Cobas Pure c303 ;LIPASA ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;47.90 ;45 ;2.70 ;03/06/2023 11:39:05 ;668734 ;1.0740740740740735 
+Cobas Pure c303 ;BD ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.63 ;0.76 ;0.06 ;03/06/2023 11:38:57 ;652625 ;-2.1196581196581197 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;4.72 ;4.82 ;0.19 ;03/06/2023 11:38:49 ;653836 ;-0.526315789473687 
+Cobas Pure c303 ;GLU ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;103 ;104 ;5.23 ;03/06/2023 11:38:33 ;643503 ;-0.19120458891013384 
+Cobas Pure c303 ;P ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.63 ;3.69 ;0.19 ;03/06/2023 11:38:17 ;631937 ;-0.3225806451612906 
+Cobas Pure c303 ;UREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;39.60 ;40.60 ;2.04 ;03/06/2023 11:38:09 ;674482 ;-0.49019607843137253 
+Cobas Pure c303 ;COLT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;96 ;95.10 ;4.64 ;03/06/2023 11:37:53 ;677025 ;0.19396551724138056 
+Cobas Pure c303 ;C3 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;92.10 ;92.60 ;7.40 ;03/06/2023 11:37:45 ;600796 ;-0.06756756756756756 
+Cobas Pure c303 ;TG ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;122 ;119 ;6.20 ;03/06/2023 11:37:37 ;677541 ;0.48387096774193544 
+Cobas Pure c303 ;C4 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;15.10 ;14.50 ;1.20 ;03/06/2023 11:37:13 ;627882 ;0.4999999999999997 
+Cobas Pure c303 ;TGP ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;47.60 ;49 ;2.90 ;03/06/2023 11:37:05 ;661052 ;-0.4827586206896547 
+Cobas Pure c303 ;CREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;0.90 ;1.05 ;0.06 ;03/06/2023 11:36:57 ;657564 ;-2.3064770932069516 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;131.90 ;135 ;4 ;03/06/2023 11:30:44 ;674716 ;-0.7749999999999986 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.09 ;7.26 ;0.22 ;03/06/2023 11:30:44 ;674716 ;-0.7727272727272724 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;99 ;106 ;3 ;03/06/2023 11:30:44 ;674716 ;-2.3333333333333335 
+Cobas Pure c303 ;Na ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;109.70 ;112 ;3 ;03/06/2023 11:26:20 ;674716 ;-0.7666666666666657 
+Cobas Pure c303 ;K ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.47 ;3.49 ;0.10 ;03/06/2023 11:26:20 ;674716 ;-0.20000000000000018 
+Cobas Pure c303 ;Cl ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;79.70 ;83.70 ;2.50 ;03/06/2023 11:26:20 ;674716 ;-1.6 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;03/06/2023 11:19:54 ; ;0 
+Roche Diagnostics cobas 6500_1 ;RBCo ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5.28 /uL ; ; ;02/06/2023 11:15:08 ; ;0 
+Roche Diagnostics cobas 6500_1 ;WBCO ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;55.44 /uL ; ; ;02/06/2023 11:15:08 ; ;0 
+Roche Diagnostics cobas 6500_1 ;RBCo ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;<5.00 /uL ; ; ;02/06/2023 11:14:38 ; ;0 
+Roche Diagnostics cobas 6500_1 ;WBCO ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;<5.00 /uL ; ; ;02/06/2023 11:14:38 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ERY ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;150 /uL ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;LEU ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;500 /uL ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;NIT ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;pos ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;CUCET ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;4+ ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;GLU ORIN ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;300 mg/dL ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PROO ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;150 mg/dL ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;UBG ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;2+ ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;BIL ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3+ ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PH ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8 ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;COLOR ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Brown ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ASPEC ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Clear ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;DENS ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1.01 ; ; ;02/06/2023 11:14:03 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ERY ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;LEU ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;NIT ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;CUCET ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;GLU ORIN ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;norm ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PROO ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;UBG ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;BIL ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PH ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5 ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;COLOR ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Pale yellow ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ASPEC ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Clear ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;DENS ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1.02 ; ; ;02/06/2023 11:13:49 ; ;0 
+Roche Diagnostics cobas 6500_1 ;RBCo ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;<5.00 /uL ; ; ;02/06/2023 10:44:30 ; ;0 
+Roche Diagnostics cobas 6500_1 ;WBCO ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;54.78 /uL ; ; ;02/06/2023 10:44:30 ; ;0 
+Roche Diagnostics cobas 6500_1 ;RBCo ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;<5.00 /uL ; ; ;02/06/2023 10:44:00 ; ;0 
+Roche Diagnostics cobas 6500_1 ;WBCO ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;<5.00 /uL ; ; ;02/06/2023 10:44:00 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ERY ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;150 /uL ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;LEU ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;500 /uL ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;NIT ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;pos ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;CUCET ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3+ ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;GLU ORIN ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1000 mg/dL ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PROO ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;75 mg/dL ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;UBG ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;2+ ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;BIL ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;3+ ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PH ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;8 ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;COLOR ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Brown ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ASPEC ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Clear ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;DENS ;QUANTIMEXTRIX2 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1.01 ; ; ;02/06/2023 10:43:26 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ERY ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;LEU ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;NIT ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;CUCET ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;GLU ORIN ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;norm ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PROO ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;UBG ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;BIL ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;neg ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;PH ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;5 ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;COLOR ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Pale yellow ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;ASPEC ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;Clear ; ; ;02/06/2023 10:43:11 ; ;0 
+Roche Diagnostics cobas 6500_1 ;DENS ;QUANTIMEXTRIX1 ;Estos valores de lote del resultado de CC están pendientes de revisar. ;1.02 ; ; ;02/06/2023 10:43:11 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8183 ;8530 ;510 ;02/06/2023 08:41:31 ;694862 ;-0.6803921568627451 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;221 ;229 ;14 ;02/06/2023 08:41:23 ;686772 ;-0.5714285714285714 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.84 ;4.88 ;0.29 ;02/06/2023 08:41:15 ;663677 ;-0.13793103448275876 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;10 ;10 ;0.50 ;02/06/2023 08:40:59 ;664685 ;0 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.27 ;3.53 ;0.21 ;02/06/2023 08:40:51 ;622281 ;-1.2322274881516577 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;249 ;267 ;16 ;02/06/2023 08:40:43 ;687994 ;-1.125 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;292 ;299 ;18 ;02/06/2023 08:40:35 ;671474 ;-0.3888888888888889 
+Cobas Pure c303 ;LIPASA ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;98.80 ;100 ;6 ;02/06/2023 08:40:19 ;668734 ;-0.20000000000000048 
+Cobas Pure c303 ;BD ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;2.03 ;2.19 ;0.18 ;02/06/2023 08:40:11 ;652625 ;-0.9142857142857151 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.48 ;7.66 ;0.31 ;02/06/2023 08:40:03 ;653836 ;-0.5806451612903216 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;241 ;245 ;12.60 ;02/06/2023 08:39:55 ;643503 ;-0.31746031746031744 
+Cobas Pure c303 ;P ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8.36 ;8.56 ;0.43 ;02/06/2023 08:39:31 ;631937 ;-0.46082949308756005 
+Cobas Pure c303 ;UREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;116 ;124 ;6.01 ;02/06/2023 08:39:23 ;674482 ;-1.3311148086522464 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;172 ;173 ;8.51 ;02/06/2023 08:39:15 ;677025 ;-0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;214 ;218 ;10.60 ;02/06/2023 08:38:59 ;677541 ;-0.37735849056603776 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;122 ;130 ;8 ;02/06/2023 08:38:51 ;661052 ;-1 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;123 ;130 ;8 ;02/06/2023 08:37:07 ;661052 ;-0.875 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;152 ;155 ;12 ;02/06/2023 08:36:35 ;600796 ;-0.25 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.46 ;3.82 ;0.23 ;02/06/2023 08:35:47 ;657564 ;-1.5929203539823003 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;5500 ;5760 ;350 ;02/06/2023 08:35:15 ;694862 ;-0.7428571428571429 
+Cobas Pure c303 ;GGT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;55.60 ;58.20 ;3.50 ;02/06/2023 08:35:07 ;686772 ;-0.7428571428571432 
+Cobas Pure c303 ;ALB ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.20 ;3.21 ;0.19 ;02/06/2023 08:34:59 ;663677 ;-0.0526315789473673 
+Cobas Pure c303 ;AURIC ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.75 ;4.74 ;0.24 ;02/06/2023 08:34:51 ;664685 ;0.04166666666666578 
+Cobas Pure c303 ;PCR ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;7.07 ;6.90 ;0.35 ;02/06/2023 08:34:35 ;626644 ;0.48571428571428554 
+Cobas Pure c303 ;BT ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.84 ;0.93 ;0.06 ;02/06/2023 08:34:27 ;622281 ;-1.4700854700854713 
+Cobas Pure c303 ;FALK ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;89.70 ;101 ;6 ;02/06/2023 08:34:19 ;687994 ;-1.8833333333333329 
+Cobas Pure c303 ;LDH ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;161 ;164 ;10 ;02/06/2023 08:34:11 ;671474 ;-0.3 
+Cobas Pure c303 ;LIPASA ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;48.60 ;45 ;2.70 ;02/06/2023 08:33:55 ;668734 ;1.3333333333333337 
+Cobas Pure c303 ;BD ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.69 ;0.76 ;0.06 ;02/06/2023 08:33:47 ;652625 ;-1.128205128205129 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;4.68 ;4.82 ;0.19 ;02/06/2023 08:33:39 ;653836 ;-0.7368421052631609 
+Cobas Pure c303 ;GLU ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;104 ;104 ;5.23 ;02/06/2023 08:33:31 ;643503 ;0 
+Cobas Pure c303 ;P ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.63 ;3.69 ;0.19 ;02/06/2023 08:33:07 ;631937 ;-0.3225806451612906 
+Cobas Pure c303 ;UREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;39.60 ;40.60 ;2.04 ;02/06/2023 08:32:59 ;674482 ;-0.49019607843137253 
+Cobas Pure c303 ;COLT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;96.10 ;95.10 ;4.64 ;02/06/2023 08:32:51 ;677025 ;0.21551724137931036 
+Cobas Pure c303 ;C3 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;92.30 ;92.60 ;7.40 ;02/06/2023 08:32:35 ;600796 ;-0.040540540540540154 
+Cobas Pure c303 ;TG ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;120 ;119 ;6.20 ;02/06/2023 08:32:19 ;677541 ;0.16129032258064516 
+Cobas Pure c303 ;TGP ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;48.40 ;49 ;2.90 ;02/06/2023 08:32:11 ;661052 ;-0.20689655172413843 
+Cobas Pure c303 ;TGP ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;48.50 ;49 ;2.90 ;02/06/2023 08:31:55 ;661052 ;-0.1724137931034483 
+Cobas Pure c303 ;CREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;0.90 ;1.05 ;0.06 ;02/06/2023 08:31:47 ;657564 ;-2.3064770932069516 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;135.30 ;135 ;4 ;02/06/2023 08:25:34 ;674716 ;0.07500000000000284 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.25 ;7.26 ;0.22 ;02/06/2023 08:25:34 ;674716 ;-0.045454545454544484 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;101.20 ;106 ;3 ;02/06/2023 08:25:34 ;674716 ;-1.599999999999999 
+Cobas Pure c303 ;Na ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;112.70 ;112 ;3 ;02/06/2023 08:20:38 ;674716 ;0.23333333333333428 
+Cobas Pure c303 ;K ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.57 ;3.49 ;0.10 ;02/06/2023 08:20:38 ;674716 ;0.7999999999999963 
+Cobas Pure c303 ;Cl ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;81 ;83.70 ;2.50 ;02/06/2023 08:20:38 ;674716 ;-1.0800000000000012 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;02/06/2023 08:01:40 ; ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1PWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;17.80 ; ; ;01/06/2023 12:14:01 ; ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1NWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;10.30 ; ; ;01/06/2023 12:13:53 ; ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1PWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;17.80 ; ; ;01/06/2023 10:45:17 ; ;0 
+Cobas Pure c303 ;Hb A1c ;PCA1NWS2 ;Estos valores de lote del resultado de CC están pendientes de revisar., Enmascarado ;10.30 ; ; ;01/06/2023 10:45:09 ; ;0 
+Cobas Pure c303 ;COLIN ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8182 ;8530 ;510 ;01/06/2023 09:47:24 ;694862 ;-0.6823529411764706 
+Cobas Pure c303 ;GGT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;221 ;229 ;14 ;01/06/2023 09:47:16 ;686772 ;-0.5714285714285714 
+Cobas Pure c303 ;ALB ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.85 ;4.88 ;0.29 ;01/06/2023 09:47:08 ;663677 ;-0.10344827586206982 
+Cobas Pure c303 ;AURIC ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;10.10 ;10 ;0.50 ;01/06/2023 09:47:00 ;664685 ;0.1999999999999993 
+Cobas Pure c303 ;BT ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.25 ;3.53 ;0.21 ;01/06/2023 09:46:52 ;622281 ;-1.3270142180094777 
+Cobas Pure c303 ;FALK ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;250 ;267 ;16 ;01/06/2023 09:46:44 ;687994 ;-1.0625 
+Cobas Pure c303 ;LDH ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;288 ;299 ;18 ;01/06/2023 09:46:36 ;671474 ;-0.6111111111111112 
+Cobas Pure c303 ;LIPASA ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;102 ;100 ;6 ;01/06/2023 09:46:28 ;668734 ;0.3333333333333333 
+Cobas Pure c303 ;BD ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;1.99 ;2.19 ;0.18 ;01/06/2023 09:46:20 ;652625 ;-1.1428571428571426 
+Cobas Pure c303 ;PROTT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.44 ;7.66 ;0.31 ;01/06/2023 09:45:00 ;653836 ;-0.7096774193548379 
+Cobas Pure c303 ;GLU ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;239 ;245 ;12.60 ;01/06/2023 09:44:52 ;643503 ;-0.4761904761904762 
+Cobas Pure c303 ;P ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;8.27 ;8.56 ;0.43 ;01/06/2023 09:44:36 ;631937 ;-0.6682027649769606 
+Cobas Pure c303 ;UREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;118 ;124 ;6.01 ;01/06/2023 09:44:28 ;674482 ;-0.9983361064891847 
+Cobas Pure c303 ;C3 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;152 ;155 ;12 ;01/06/2023 09:44:20 ;600796 ;-0.25 
+Cobas Pure c303 ;C4 ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;23.40 ;22.70 ;1.80 ;01/06/2023 09:44:04 ;627882 ;0.3888888888888885 
+Cobas Pure c303 ;COLT ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;172 ;173 ;8.51 ;01/06/2023 09:43:56 ;677025 ;-0.11750881316098707 
+Cobas Pure c303 ;TG ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;215 ;218 ;10.60 ;01/06/2023 09:43:48 ;677541 ;-0.2830188679245283 
+Cobas Pure c303 ;TGP ;PCCC2 ;Este resultado de CC está pendiente de revisar., Enmascarado ;122 ;130 ;8 ;01/06/2023 09:43:40 ;661052 ;-1 
+Cobas Pure c303 ;CREA ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;3.48 ;3.82 ;0.23 ;01/06/2023 09:43:32 ;657564 ;-1.5044247787610612 
+Cobas Pure c303 ;COLIN ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;5478 ;5760 ;350 ;01/06/2023 09:42:52 ;694862 ;-0.8057142857142857 
+Cobas Pure c303 ;GGT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;54.90 ;58.20 ;3.50 ;01/06/2023 09:42:44 ;686772 ;-0.9428571428571441 
+Cobas Pure c303 ;ALB ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;3.22 ;3.21 ;0.19 ;01/06/2023 09:42:36 ;663677 ;0.05263157894736963 
+Cobas Pure c303 ;AURIC ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;4.73 ;4.74 ;0.24 ;01/06/2023 09:42:28 ;664685 ;-0.04166666666666578 
+Cobas Pure c303 ;PCR ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;7.06 ;6.90 ;0.35 ;01/06/2023 09:42:20 ;626644 ;0.457142857142855 
+Cobas Pure c303 ;BT ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.86 ;0.93 ;0.06 ;01/06/2023 09:42:12 ;622281 ;-1.282051282051283 
+Cobas Pure c303 ;FALK ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;90.50 ;101 ;6 ;01/06/2023 09:42:04 ;687994 ;-1.75 
+Cobas Pure c303 ;LDH ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;161 ;164 ;10 ;01/06/2023 09:41:56 ;671474 ;-0.3 
+Cobas Pure c303 ;LIPASA ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;48.50 ;45 ;2.70 ;01/06/2023 09:41:48 ;668734 ;1.2962962962962963 
+Cobas Pure c303 ;BD ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;0.69 ;0.76 ;0.06 ;01/06/2023 09:41:40 ;652625 ;-1.0598290598290607 
+Cobas Pure c303 ;PROTT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;4.65 ;4.82 ;0.19 ;01/06/2023 09:41:32 ;653836 ;-0.8947368421052627 
+Cobas Pure c303 ;GLU ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;102 ;104 ;5.23 ;01/06/2023 09:41:24 ;643503 ;-0.3824091778202677 
+Cobas Pure c303 ;P ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.59 ;3.69 ;0.19 ;01/06/2023 09:41:08 ;631937 ;-0.5376344086021511 
+Cobas Pure c303 ;UREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;39.60 ;40.60 ;2.04 ;01/06/2023 09:41:00 ;674482 ;-0.49019607843137253 
+Cobas Pure c303 ;COLT ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;95.40 ;95.10 ;4.64 ;01/06/2023 09:40:52 ;677025 ;0.06465517241379556 
+Cobas Pure c303 ;C3 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;92.50 ;92.60 ;7.40 ;01/06/2023 09:40:44 ;600796 ;-0.013513513513512744 
+Cobas Pure c303 ;C4 ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;15 ;14.50 ;1.20 ;01/06/2023 09:40:28 ;627882 ;0.4166666666666667 
+Cobas Pure c303 ;TG ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;120 ;119 ;6.20 ;01/06/2023 09:40:20 ;677541 ;0.16129032258064516 
+Cobas Pure c303 ;TGP ;PCCC1 ;Este resultado de CC está pendiente de revisar., Enmascarado ;47.80 ;49 ;2.90 ;01/06/2023 09:40:12 ;661052 ;-0.41379310344827686 
+Cobas Pure c303 ;CREA ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;0.87 ;1.05 ;0.06 ;01/06/2023 09:39:56 ;657564 ;-2.8278041074249614 
+Cobas Pure c303 ;Na ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;134.40 ;135 ;4 ;01/06/2023 09:33:11 ;674716 ;-0.14999999999999858 
+Cobas Pure c303 ;K ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;7.21 ;7.26 ;0.22 ;01/06/2023 09:33:11 ;674716 ;-0.22727272727272646 
+Cobas Pure c303 ;Cl ;PCCC2 ;Este resultado de CC está pendiente de revisar. ;100.80 ;106 ;3 ;01/06/2023 09:33:11 ;674716 ;-1.7333333333333343 
+Cobas Pure c303 ;Na ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;111.20 ;112 ;3 ;01/06/2023 09:29:35 ;674716 ;-0.2666666666666657 
+Cobas Pure c303 ;K ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;3.51 ;3.49 ;0.10 ;01/06/2023 09:29:35 ;674716 ;0.19999999999999574 
+Cobas Pure c303 ;Cl ;PCCC1 ;Este resultado de CC está pendiente de revisar. ;80.70 ;83.70 ;2.50 ;01/06/2023 09:29:35 ;674716 ;-1.2 
+Cobas Pure c303 ;ALB ; ;Este resultado de CC está pendiente de revisar., Enmascarado ;Aceptar ; ; ;01/06/2023 09:23:25 ; ;0 
+Cobas Pure c303 ;ALB ; ;Este resultado de CC está pendiente de revisar., Enmascarado ;Aceptar ; ; ;01/06/2023 09:23:25 ; ;0 
+Cobas Pure c303 ;AURIC ; ;Este resultado de CC está pendiente de revisar., Enmascarado ;Aceptar ; ; ;01/06/2023 09:23:09 ; ;0 
+Cobas Pure c303 ;AURIC ; ;Este resultado de CC está pendiente de revisar., Enmascarado ;Aceptar ; ; ;01/06/2023 09:23:09 ; ;0 
+Cobas Pure c303 ;COLT ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 09:22:45 ; ;0 
+Cobas Pure c303 ;COLT ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 09:22:45 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;Na ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;K ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 
+Cobas Pure c303 ;Cl ; ;Este resultado de CC está pendiente de revisar. ;Aceptar ; ; ;01/06/2023 08:57:37 ; ;0 

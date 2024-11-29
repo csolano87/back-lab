@@ -1,0 +1,109 @@
+Servidor corriendo en puerto \\.\pipe\34b39706-8a3c-4a17-a5b8-bc4997b64959
+Executing (default): SELECT 1+1 AS result
+Database online
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."usuario" = 'esalazar' LIMIT 1;
+Usuario {
+  dataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _previousDataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',
+      'doctor',
+      'codigo_doctor',
+      'usuario',
+      'password',
+      'rol',
+      'estado',
+      'createdAt',
+      'updatedAt'
+    ]
+  },
+  isNewRecord: false
+}
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+6
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6;
+Executing (default): SELECT "id", "rol", "createdAt", "updatedAt" FROM "roles" AS "Role";
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+DOCTOR_ADMIN
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" LIMIT 5 OFFSET 0;
+Executing (default): SELECT count(*) AS "count" FROM "usuarios" AS "Usuario";
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+DOCTOR_ADMIN
+{ PatientID2: '', SampleID: '2206160438', todos: '' }
+Usuario de consulta Usuario {
+  dataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _previousDataValues: {
+    id: 6,
+    doctor: 'Eduardo Ramiro Salazar Irigoyen',
+    codigo_doctor: '1703614717',
+    usuario: 'esalazar',
+    password: '$2a$10$FZv/sfwkavOUIEhbMFFD6OX1W/WzIO/klvDtXwrVm7noiwTPXlsT6',
+    rol: 'DOCTOR_ADMIN',
+    estado: true,
+    createdAt: 2022-06-16T20:23:01.877Z,
+    updatedAt: 2022-06-16T20:23:01.877Z
+  },
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [
+      'id',
+      'doctor',
+      'codigo_doctor',
+      'usuario',
+      'password',
+      'rol',
+      'estado',
+      'createdAt',
+      'updatedAt'
+    ]
+  },
+  isNewRecord: false
+}
+usuario existente Eduardo Ramiro Salazar Irigoyen
+null
+LLAMANDO AL SERVICIO LOGIN ......
+campo LoginResult: YCCHWPrMRypn//cKSXKVeX6leG4=
+undefined
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6 LIMIT 1;
+6
+Executing (default): SELECT "id", "doctor", "codigo_doctor", "usuario", "password", "rol", "estado", "createdAt", "updatedAt" FROM "usuarios" AS "Usuario" WHERE "Usuario"."id" = 6;
