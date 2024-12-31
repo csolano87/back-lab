@@ -11,6 +11,8 @@ const Correo = require("../models/correos");
 const nodemailer = require("nodemailer");
 const pdf = require("html-pdf");
 const Bodega = require("../models/bodega");
+const { error } = require("pdf-lib");
+const { orderBy } = require("lodash");
 const getStock = async (req, res) => {
 	const all = await ItemStock.findAll({
 		where: { bodegaId: 1 },
@@ -53,8 +55,58 @@ const getStock = async (req, res) => {
 		ok: true,
 		stock: finalResults,
 	});
-};
+}; //listadogetStock
+const listadogetStock = async (req, res) => {
+	/* const all = await ItemStock.findAll({
+		where: { bodegaId: 1 },
+		include: {
+			model: Producto,
+			as: "product",
+		},
+		attributes: [
+			"productId",
+			"referencia",
+			"caducidad",
+			"lote",
+			[Sequelize.fn("SUM", Sequelize.col("cantidad_recibida")), "TOTAL"],
+		],
 
+		group: ["referencia", "lote", "productId", "caducidad"],
+	});
+
+	const allStock = all.reduce((acc, item) => {
+		const referencia = item.referencia;
+		const nombre = item.product.NOMBRE;
+		if (!acc[referencia]) {
+			acc[referencia] = {
+				referencia: referencia,
+				nombre: nombre,
+				detalles: [],
+				total_referencia: 0,
+			};
+		}
+		acc[referencia].detalles.push({
+			lote: item.lote,
+			TOTAL: item.get("TOTAL"),
+			caducidad: item.caducidad,
+		});
+		acc[referencia].total_referencia += Number(item.get("TOTAL"));
+		return acc;
+	}, {});
+	const finalResults = Object.values(allStock); */
+	const stock = await Stock.findAll({
+		include: {
+			model: ItemStock,
+			as: "stockItem",
+		},
+		order: [["id", "DESC"]],
+	});
+
+	res.status(200).json({
+		ok: true,
+		stock: stock,
+	});
+};
 const getAllStock = async (req, res) => {
 	const { FECHADESDE, FECHAHASTA } = req.query;
 	try {
@@ -218,53 +270,80 @@ const createStock = async (req, res) => {
 	console.log(`maillist`, correos);
 	const validadGuia = await Stock.findOne({ where: { guia: guia } });
 	const attachments = [];
-
+	const productoNoEncontrados = [];
+	const productoEncontrados = [];
 	if (validadGuia) {
 		return res
 			.status(400)
 			.json({ ok: true, msg: `La guia ${guia} ya fue ingresada` });
 	}
+
+	for (const producto of productos) {
+		const Idproducto = await Producto.findOne({
+			where: { REFERENCIA: producto.referencia },
+		});
+		console.warn(`IDproducto`, Idproducto);
+		if (Idproducto) {
+			//productoNoEncontrados.push(producto.referencia);
+			productoEncontrados.push({
+				id: Idproducto.id,
+				referencia: Idproducto.REFERENCIA,
+			});
+		} else {
+			productoNoEncontrados.push(producto.referencia);
+		}
+		/* productoEncontrados.push({
+			id: Idproducto.id,
+			referencia: Idproducto.REFERENCIA,
+		}); */
+	}
+	console.table(productoNoEncontrados);
+	if (productoNoEncontrados.length > 0) {
+		return res.status(400).json({
+			msg: `Los siguientes productos no estan agregados:
+           ${productoNoEncontrados.join(", ")}`,
+		});
+	}
+
 	await sequelize.transaction(async (t) => {
 		const stocks = await Stock.create(
 			{
 				guia: guia,
 
 				usuario: idUser.id,
-				//userId: idUser.id,
 			},
 			{ transaction: t }
 		);
 
 		const itemStocks = await Promise.all(
 			productos.map(async (producto) => {
-				//console.log(producto.referencia)
-				const Idproducto = await Producto.findOne({
-					where: { REFERENCIA: producto.referencia },
-				});
-			//	const Id = producto.id;
-				console.log(`kooko`, Idproducto);
+				const pro = productoEncontrados.find(
+					(et) => et.referencia === producto.referencia
+				);
+				console.log(`------------`, pro);
 				return await ItemStock.create(
 					{
 						referencia: producto.referencia,
 						lote: producto.lote,
-						caducidad:moment( producto.caducidad, "YYYY/MM/DD").format().slice(0, 10),
+						caducidad: moment(producto.caducidad, "YYYY/MM/DD")
+							.format()
+							.slice(0, 10),
 						cantidad: producto.cantidad,
 						//cantidad_recibida: producto.cantidad_recibida,
 						cantidad: producto.cantidad,
 						cantidad_recibida: producto.cantidad,
 						//	cantidad_recibida: producto.cantidad_recibida,
-						fabricante: producto.fabricante ? producto.fabricante : '',
-						sanitario: producto.sanitario ?producto.sanitario : '',
+						fabricante: producto.fabricante ? producto.fabricante : "",
+						sanitario: producto.sanitario ? producto.sanitario : "",
 						comentario: producto.comentario,
-						productoId:  Idproducto.id ? Idproducto.id : 0,/* Idproducto.id */
-						productId:Idproducto.id ? Idproducto.id : 0, /* Idproducto.id */
+						productoId: pro.id,
+						productId: pro.id,
 						bodegaId: bodegaId,
 					},
 					{ transaction: t }
 				);
 			})
 		);
-
 		await stocks.setStockItem(itemStocks, { transaction: t });
 	});
 	function createTableRow(
@@ -617,7 +696,15 @@ const getStockPdf = async (req, res) => {
 		return `${year}/${month}/${day}`;
 	}
 	let totalGeneral = 0;
+	stock.sort((a, b) => {
+		const nombreA = a.product.NOMBRE.toUpperCase();
+		const nombreB = b.product.NOMBRE.toUpperCase();
 
+		if (nombreA < nombreB) return -1;
+		if (nombreA > nombreB) return 1;
+		return 0;
+	});
+	//res.json({ stock });
 	const htmlRows = stock
 		.map((key) => {
 			const totalPorProducto = key.cantidad_recibida * key.product.VALOR;
@@ -798,7 +885,7 @@ const getStockPdf = async (req, res) => {
 		format: "Letter",
 		orientation: "portrait",
 		border: {
-			top: "1px", // default is 0, units: mm, cm, in, px
+			top: "1px",
 			right: "3px",
 			bottom: "2px",
 			left: "3px",
@@ -821,6 +908,114 @@ const getStockPdf = async (req, res) => {
 	});
 };
 
+const cargarexcelStock = async (req, res) => {
+	const idUser = req.usuario;
+	const { guia, bodegaId, proveedor, productos } = req.body;
+
+	const maillist = await Correo.findAll({ where: { empresa: proveedor } });
+	const correos = maillist.map((mail) => mail.correo).join(",");
+	console.log(`maillist`, correos);
+	const validadGuia = await Stock.findOne({ where: { guia: guia } });
+	const attachments = [];
+	const productoNoEncontrados = [];
+	const productoEncontrados = [];
+	if (validadGuia) {
+		return res
+			.status(400)
+			.json({ ok: true, msg: `La guia ${guia} ya fue ingresada` });
+	}
+
+	for (const producto of productos) {
+		const Idproducto = await Producto.findOne({
+			where: { REFERENCIA: producto.referencia },
+		});
+		console.warn(`IDproducto`, Idproducto);
+		if (Idproducto) {
+			//productoNoEncontrados.push(producto.referencia);
+			productoEncontrados.push({
+				id: Idproducto.id,
+				referencia: Idproducto.REFERENCIA,
+			});
+		} else {
+			productoNoEncontrados.push(producto.referencia);
+		}
+		/* productoEncontrados.push({
+			id: Idproducto.id,
+			referencia: Idproducto.REFERENCIA,
+		}); */
+	}
+	console.table(productoNoEncontrados);
+	if (productoNoEncontrados.length > 0) {
+		return res.status(400).json({
+			msg: `Los siguientes productos no estan agregados:
+           ${productoNoEncontrados.join(", ")}`,
+		});
+	}
+
+	await sequelize.transaction(async (t) => {
+		const stocks = await Stock.create(
+			{
+				guia: guia,
+
+				usuario: idUser.id,
+			},
+			{ transaction: t }
+		);
+
+		const itemStocks = await Promise.all(
+			productos.map(async (producto) => {
+				const pro = productoEncontrados.find(
+					(et) => et.referencia === producto.referencia
+				);
+				console.log(`------------`, pro);
+				return await ItemStock.create(
+					{
+						referencia: producto.referencia,
+						lote: producto.lote,
+						caducidad: moment(producto.caducidad, "YYYY/MM/DD")
+							.format()
+							.slice(0, 10),
+						cantidad: producto.cantidad,
+						//cantidad_recibida: producto.cantidad_recibida,
+						cantidad: producto.cantidad,
+						//cantidad_recibida: producto.cantidad,
+						//	cantidad_recibida: producto.cantidad_recibida,
+						fabricante: producto.fabricante ? producto.fabricante : "",
+						sanitario: producto.sanitario ? producto.sanitario : "",
+						comentario: producto.comentario,
+						productoId: pro.id,
+						productId: pro.id,
+						bodegaId: bodegaId,
+					},
+					{ transaction: t }
+				);
+			})
+		);
+		await stocks.setStockItem(itemStocks, { transaction: t });
+	});
+
+	res.status(201).json({
+		msg: "se ha cargado con exito la guia ",
+	});
+};
+
+const getByIdcargarexcelStock =async(req,res)=>{
+	const { id } = req.params;
+	const stockId =  await Stock.findAll({
+		include: {
+			model: ItemStock,
+			as: "stockItem",
+		},
+	
+	});
+
+	res.status(200).json({
+		ok: true,
+		stockId: stockId
+
+	});
+}
+
 module.exports = {
 	getStock,
 	getFiltroStock,
@@ -830,4 +1025,7 @@ module.exports = {
 	updateStock,
 	deleteStock,
 	getStockPdf,
+	cargarexcelStock,
+	listadogetStock,
+	getByIdcargarexcelStock
 };

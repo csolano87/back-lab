@@ -4,6 +4,7 @@ const db = require("../db/connection");
 
 class Ingresorden extends Model {}
 Ingresorden.init(
+	
 	{
 		/* tipoatencion: DataTypes.INTEGER,
 		servicio: DataTypes.INTEGER, */
@@ -15,7 +16,7 @@ Ingresorden.init(
 		CREATEDBY: DataTypes.INTEGER,
 		UPDATEDBY: DataTypes.INTEGER,
 		DELETEDBY: DataTypes.INTEGER,
-		estado:{type:DataTypes.BOOLEAN, defaultValue:true}
+		estado:{type:DataTypes.INTEGER, defaultValue:1}
 	},
 	{
 		sequelize,

@@ -121,7 +121,8 @@ class Server {
 			rangos: "/api/rangos",
 			tecnica: "/api/tecnica",
 			muestras: "/api/muestras",
-			validacion:"/api/validacion"
+			validacion: "/api/validacion",
+			menu: "/api/menu",
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -317,6 +318,7 @@ class Server {
 		this.app.use(this.paths.tecnica, require("../routes/tecnica"));
 		this.app.use(this.paths.muestras, require("../routes/muestras"));
 		this.app.use(this.paths.validacion, require("../routes/validacionPruebas"));
+		this.app.use(this.paths.menu, require("../routes/menu"));
 	}
 
 	listen() {

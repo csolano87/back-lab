@@ -8,10 +8,8 @@ const { Op, Model, Sequelize, where } = require("sequelize");
 
 const ItemStock = require("../models/itemStock");
 const getProductos = async (req, res) => {
-	const productos = await Producto.findAll({
-		where: {
-			ESTADO: 1,
-		} /* ,
+	const productos = await Producto.findAll(
+		 /* ,
 		include:[{
 		model: ItemStock,
 		as:'stockItem',
@@ -25,8 +23,8 @@ const getProductos = async (req, res) => {
 
 		group: ["referencia", "lote", ],
 	}
-] */,
-	});
+] */
+	);
 	res.status(200).json({
 		ok: true,
 		productos: productos,
@@ -41,7 +39,7 @@ const getByProductos = async (req, res) => {
 	const productos = await Producto.findAll({
 		where: {
 			NOMBRE: {
-				[Op.like]: `${dataCA}%`,
+				[Op.like]: `%${q}%`,
 			},
 		},
 	});
