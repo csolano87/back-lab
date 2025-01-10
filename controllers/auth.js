@@ -3,6 +3,8 @@ const Usuario = require("../models/usuarios");
 
 const bcryptjs = require("bcryptjs");
 const { generarJWT } = require("../helpers/generarJWT");
+const Role = require("../models/role");
+const Menu = require("../models/menu");
 
 const login = async (req, res) => {
   const { usuario, password } = req.body;
@@ -13,11 +15,21 @@ const login = async (req, res) => {
     where: {
       usuario: user.usuario,
     },
+    include:{
+			model:Role,
+			as:"role",
+      include:{
+				model:Menu,
+				as:"menu"
+
+			}
+		}
   });
 
   //const usuario=await Usuario.findOne({correo});
   if (!existeuser) {
     return res.status(400).json({
+
       msg: "Las credenciales ingresadas son las correctas",
     });
   }
@@ -50,8 +62,18 @@ const renewToken = async (req, res = response) => {
   const token = await generarJWT(id);
   const user = await Usuario.findOne({
     where: {
+      
       id,
     },
+    include:{
+			model:Role,
+			as:"role",
+      include:{
+				model:Menu,
+				as:"menu"
+
+			}
+		}
   });
   res.json({
     ok: true,

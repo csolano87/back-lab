@@ -60,6 +60,9 @@ const Tiposervicio = require("../models/tiposervicio");
 const Tipoatencion = require("../models/Tipoatencion");
 const Tecnica = require("../models/tecnica");
 const Muestra = require("../models/muestras");
+const Role = require("../models/role");
+const Menu = require("../models/menu");
+const MenuRole = require("../models/menuRoles");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
@@ -104,7 +107,11 @@ Orden.belongsTo(Tiposervicio, { as: "tiposervicio" });
 
 Tipoatencion.hasMany(Orden, { as: "orden", foreignKey: "tipoatencionId" });
 Orden.belongsTo(Tipoatencion, { as: "tipoatencion" });
+Usuario.belongsTo(Role ,{as:"role",foreignKey:"roleId"});
+Role.belongsTo(Usuario,{as:"usuario"})
 
+Role.belongsToMany(Menu ,{as:"menu", through: MenuRole});
+Menu.belongsToMany(Role ,{as:"role", through: MenuRole})
 /* Panel_pruebas.hasMany(Prueba, { as: "prueba", foreignKey: "panelpruebaId" });
 Prueba.belongsTo(Panel_pruebas, { as: "panelprueba" });
 

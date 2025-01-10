@@ -10,22 +10,31 @@ const getMenu = async (req, res) => {
 };
 
 const getByIdMenu = async (req, res) => {
-
+      const {id}= req.params;
+	  console.log(id);
+	  const menu = await Menu.findByPk(id);
+	  if (!menu) {
+		return res.status(404).json({o:false,msg:`El id ${id} no exta registrado`})
+	  }
 	res.status(200).json({
 		ok: true,
+		menu
 	});
 
 };
 const postMenu = async (req, res) => {
-	const { nombre, padreId, ruta, orden } = req.body;
-	const menus = new Menu({ nombre, padreId, ruta, orden });
+	const { nombre, padreid, ruta, orden } = req.body;
+	console.log(padreid)
+	const menus = new Menu({ nombre, padreid, ruta, orden });
 	const menu = await Menu.findOne({ where: { nombre: menus.nombre } });
-	if (menu) {
+/* 	if (menu) {
 		res
 			.status(401)
 			.json({ ok: true, msg: `El nombre ${nombre} ya esta en uso ` });
-	}
+	} */
 	await menus.save();
+	
+
 
 	res.status(200).json({
 		ok: true,
@@ -33,15 +42,36 @@ const postMenu = async (req, res) => {
 	});
 };
 const DeleteMenu = async (req, res) => {
+
+	const {id}= req.params;
+	const menu = await Menu.findByPk(id);
+	if (!menu) {
+		return res.status(404).json({o:false,msg:`El id ${id} no exta registrado`})
+	  }
+await menu.update({estado:0});
 	res.status(200).json({
 		ok: true,
-		menu,
+		msg:`El menu con id ${id} a sido desactivado`,
 	});
 };
 const putMenu = async (req, res) => {
+
+	const {id}= req.params;
+	const {nombre , ruta , padreid,orden}=req.body
+	const menu = await Menu.findByPk(id);
+	if (!menu) {
+		return res.status(404).json({o:false,msg:`El id ${id} no exta registrado`})
+	  }
+
+       await Menu.update({
+		nombre , ruta , padreid,orden
+	   },{where:{id:id}});
+
+
+
 	res.status(200).json({
 		ok: true,
-		menu,
+		msg:`Los datos han sido actualizados con exito`,
 	});
 };
 

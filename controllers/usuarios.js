@@ -3,7 +3,10 @@ const { Request, Response } = require("express");
 const bcryptjs = require("bcryptjs");
 
 const Usuario = require("../models/usuarios");
-const { Op } = require("sequelize");
+const { Op, Model } = require("sequelize");
+const Role = require("../models/role");
+const MenuRole = require("../models/menuRoles");
+const Menu = require("../models/menu");
 //const { substring } = require('sequelize/types/lib/operators');
 
 const usuariosGet = async (req, res) => {
@@ -18,13 +21,28 @@ const usuariosGet = async (req, res) => {
 
     }) */
 
-	const usuarios = await Usuario.findAll({});
+	const usuarios = await Usuario.findAll({
+		include:{
+			model:Role,
+			as:"role"
+		}
+	});
 	res.json({ ok: true, usuarios: usuarios });
 };
 
 const usuariosGetID = async (req, res) => {
 	const { id } = req.params;
-	const existeUser = await Usuario.findByPk(id);
+	const existeUser = await Usuario.findByPk(id,{
+		include:{
+			model:Role,
+			as:"role",
+			include:{
+				model:Menu,
+				as:"menu"
+
+			}
+		}
+	});
 
 	res.status(200).json({ ok: true, user: existeUser });
 };
@@ -42,6 +60,10 @@ const usuariosGetfiltro = async (req, res) => {
 				[Op.like]: `%${dataCA}%`,
 			},
 		},
+		include:{
+			model:Role,
+			as:"role"
+		}
 	});
 
 	res.status(200).json({ ok: true, resultados: data });
@@ -57,6 +79,7 @@ const usuariosPost = async (req, res) => {
 			usuario,
 			password,
 			rol,
+			roleId:rol
 		});
 
 		const existeUser = await Usuario.findOne({
@@ -94,8 +117,12 @@ const usuariosUpdate = async (req, res) => {
 			doctor,
 			usuario,
 			rol,
+			roleId:rol
 		},
 		{ where: { id: id } }
+
+
+		
 	);
 
 	res.status(200).json({ ok: true, msg: `Se actualizo con exito los datos del usuario` });
