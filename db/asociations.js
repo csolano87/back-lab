@@ -63,6 +63,7 @@ const Muestra = require("../models/muestras");
 const Role = require("../models/role");
 const Menu = require("../models/menu");
 const MenuRole = require("../models/menuRoles");
+const Historicorden = require("../models/historicorden");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
@@ -88,9 +89,17 @@ Prueba.belongsTo(Orden, { as: "orden" });
 
 Panel_pruebas.hasMany(Prueba, { as: "prueba", foreignKey: "panelpruebaId" });
 Prueba.belongsTo(Panel_pruebas, { as: "panelprueba" });
+Orden.hasMany(Historicorden,{as:"historicorden",foreignKey:"ordenId"});
+Historicorden.belongsTo(Orden,{as:"orden"});
+Usuario.hasMany(Historicorden,{as:"historicorden",foreignKey:"usuarioId"});
+Historicorden.belongsTo(Usuario,{as:"usuario"});
+
+Prueba.hasMany(Historicorden,{as:"historicorden",foreignKey:"pruebaId"});
+Historicorden.belongsTo(Prueba,{as:"prueba"});
 
 
 Rango.hasOne(Prueba, { as: "prueba", foreignKey: "rangoId" });
+
 Prueba.belongsTo(Rango, { as: "rango" });
 
 Paciente.hasMany(Orden, { as: "orden", foreignKey: "pacienteId" });
@@ -284,6 +293,8 @@ Equipos.belongsTo(Estadofinancierocliente, { as: "estadocliente" });
 
 /* Ubicacion.hasMany(Equipos, { as: "equipos", foreignKey: "ubicacionId" });
 Equipos.belongsTo(Ubicacion, { as: "ubicacion" }); */
+
+
 
 Equipos.hasMany(Historicoubicacion, {
 	as: "historicoubicacion",

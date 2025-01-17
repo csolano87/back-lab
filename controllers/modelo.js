@@ -110,7 +110,7 @@ const modeloUpdate = async (req, res) => {
 
 	res.status(200).json({
 		ok: true,
-		msg: `El modelo ${NOMBRE}a sido actualizado con exito..`,
+		msg: ` Se actualizo con exito la  ${NOMBRE}`,
 	});
 };
 

@@ -221,14 +221,7 @@ const ordenesGetfiltro = async (req, res) => {
 		PRIORIDAD,
 		APELLIDO,
 	} = req.query;
-	console.log("**********IDENTIFICADOR**********", IDENTIFICADOR);
-	console.log("**********NUMEROORDEN**********", NUMEROORDEN);
-	console.log("**********ESTADO**********", ESTADO);
-	console.log("**********HIS**********", HIS);
-	console.log("**********FECHACITA**********", FECHACITA);
-	console.log("**********FECHAORDEN**********", SALA);
-	console.log("**********FECHACITA**********", PRIORIDAD);
-	console.log("**********FECHAORDEN**********", APELLIDO);
+
 	let where = {};
 	if (IDENTIFICADOR) {
 		where.IDENTIFICADOR = {

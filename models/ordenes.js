@@ -21,7 +21,7 @@ Orden.init(
 			allowNull: false,
 			defaultValue: Sequelize.NOW,
 		},
-		estado: { type: DataTypes.BOOLEAN, defaultValue: true },
+		estado: { type: DataTypes.INTEGER, defaultValue: 1 },
 	},
 	{
 		sequelize,

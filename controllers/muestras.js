@@ -11,8 +11,24 @@ const consultaMuestra = async (req, res) => {
 };
 
 const GetIDMuestra = async (req, res) => {
-	res.json({ usuarios });
+	const { id } = req.params;
+
+	const muestrasID = await Muestra.findByPk(id)
+	if (!muestrasID) {
+		return res.status(404).json({
+			ok: false,
+			msg: `No existe la muestra con id ${id}`
+		})
+	}
+
+
+
+	res.status(200).json({
+		ok: true,
+		estadoclienteId: muestrasID
+	});
 };
+
 
 const postMuestra = async (req, res) => {
 	const { nombre } = req.body;
@@ -37,7 +53,28 @@ const postMuestra = async (req, res) => {
 };
 
 const MuestraUpdate = async (req, res) => {
-	res.send("update guardada con exito..");
+	const id = req.body.id;
+	const { nombre } = req.body;
+
+	const muestras = await Muestra.findByPk(id);
+	if (!muestras) {
+		return res.status(404).json({ ok: true,
+			 msg: "no existe la muestra" });
+	}
+
+
+
+	await muestras.update(
+		{
+			nombre
+		},
+		{ where: { id: id } }
+
+
+		
+	);
+
+	res.status(200).json({ ok: true, msg: `Se actualizo con exito la muestra` });
 };
 
 const MuestraDelete = async (req, res) => {

@@ -1,2809 +1,408 @@
-[
-
-  {
-
-    "id": 530,
-
-    resultado: 10,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 32,
-
-    panelprueba: {
-
-      id: 32,
-
-      CODIGO: '1063',
-
-      ABREV: 'TRI',
-
-      ORDEN: 1,
-
-      NOMBRE: 'TRIGLICERIDOS',
-
-      TIEMPO: 3,
-
-      VALOR: 5.2,
-
-      CODEXTERNO: null,
-
-      favorite: true,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:46.000Z',
-
-      updatedAt: '2024-11-13T21:17:19.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 8,
-
-      tecnicaId: 15,
-
-      muestraId: 5,
-
-      rango: [],
-
-      modelo: {
-
-        id: 8,
-
-        NOMBRE: 'BIOQUIMICA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:33:15.000Z',
-
-        updatedAt: '2024-10-17T16:33:15.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
+{
+  "ok": true,
+  "ordenId": {
+      "id": 3,
+      "pacienteId": 2,
+      "numeroorden": "0",
+      "embarazada": null,
+      "fum": null,
+      "observaciones": "TOMA PASTILLA DE LA PRESION",
+      "fechaorden": "2024-10-04",
+      "horaorden": "11:24:22",
+      "estado": true,
+      "createdAt": "2024-10-04T16:24:21.000Z",
+      "updatedAt": "2024-10-04T16:24:21.000Z",
+      "medicoId": 1,
+      "diagnosticoId": 1,
+      "tiposervicioId": 1,
+      "tipoatencionId": 1,
+      "diagnostico": {
+          "id": 1,
+          "nombre": "DOLOR DEL DEDO",
+          "USUARIO_ID": null,
+          "CREATEDBY": null,
+          "UPDATEDBY": null,
+          "DELETEDBY": null,
+          "estado": true,
+          "createdAt": "2024-10-03T18:57:27.000Z",
+          "updatedAt": "2024-10-03T18:57:27.000Z"
       },
-
-      muestra: {
-
-        id: 5,
-
-        nombre: 'SUERO/PLASMA ',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:47.000Z',
-
-        updatedAt: '2024-11-06T18:57:47.000Z'
-
+      "tipoatencion": {
+          "id": 1,
+          "nombre": "HOSPITALIZACION",
+          "USUARIO_ID": null,
+          "CREATEDBY": null,
+          "UPDATEDBY": null,
+          "DELETEDBY": null,
+          "estado": true,
+          "createdAt": "2024-10-03T19:01:12.000Z",
+          "updatedAt": "2024-10-03T19:01:12.000Z"
       },
-
-      tecnica: {
-
-        id: 15,
-
-        nombre: 'ENZIMÁTICO COLORIMÉTRICO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T19:00:00.000Z',
-
-        updatedAt: '2024-11-06T19:00:00.000Z'
-
+      "tiposervicio": {
+          "id": 1,
+          "nombre": "UCI",
+          "USUARIO_ID": null,
+          "CREATEDBY": null,
+          "UPDATEDBY": null,
+          "DELETEDBY": null,
+          "estado": true,
+          "createdAt": "2024-10-03T19:01:29.000Z",
+          "updatedAt": "2024-10-03T19:01:29.000Z"
+      },
+      "prueba": [
+          {
+              "id": 11,
+              "resultado": null,
+              "fechaorden": "2024-10-04",
+              "horaorden": "11:24:22",
+              "estado": 1,
+              "createdAt": "2024-10-04T16:24:21.000Z",
+              "updatedAt": "2024-10-04T16:24:21.000Z",
+              "ordenId": 3,
+              "panelpruebaId": 7,
+              "rangoId": null,
+              "panelprueba": {
+                  "id": 7,
+                  "CODIGO": "1015",
+                  "ABREV": null,
+                  "ORDEN": null,
+                  "NOMBRE": "GLUCOSA 4 HORAS",
+                  "TIEMPO": 2,
+                  "VALOR": 10.68,
+                  "CODEXTERNO": null,
+                  "favorite": null,
+                  "ESTADO": 1,
+                  "USUARIO_ID": null,
+                  "CREATEDBY": null,
+                  "UPDATEDBY": null,
+                  "DELETEDBY": null,
+                  "createdAt": "2024-10-03T19:00:46.000Z",
+                  "updatedAt": "2024-10-03T19:00:46.000Z",
+                  "itempruebasId": null,
+                  "modeloId": 3,
+                  "tecnicaId": null,
+                  "muestraId": null,
+                  "rango": [],
+                  "modelo": {
+                      "id": 3,
+                      "NOMBRE": "COPROLOGIA",
+                      "USUARIO_ID": null,
+                      "CREATEDBY": 1,
+                      "UPDATEDBY": null,
+                      "DELETEDBY": null,
+                      "ESTADO": 1,
+                      "createdAt": "2024-10-03T18:59:58.000Z",
+                      "updatedAt": "2024-10-03T18:59:58.000Z",
+                      "usuarioId": 1,
+                      "marcaId": 1
+                  },
+                  "muestra": null,
+                  "tecnica": null
+              }
+          },
+          {
+              "id": 12,
+              "resultado": null,
+              "fechaorden": "2024-10-04",
+              "horaorden": "11:24:22",
+              "estado": 1,
+              "createdAt": "2024-10-04T16:24:21.000Z",
+              "updatedAt": "2024-10-04T16:24:21.000Z",
+              "ordenId": 3,
+              "panelpruebaId": 3,
+              "rangoId": null,
+              "panelprueba": {
+                  "id": 3,
+                  "CODIGO": "1003",
+                  "ABREV": "GLU30M",
+                  "ORDEN": 1,
+                  "NOMBRE": "GLUCOSA 30 MIN",
+                  "TIEMPO": 2,
+                  "VALOR": 5.22,
+                  "CODEXTERNO": null,
+                  "favorite": true,
+                  "ESTADO": 1,
+                  "USUARIO_ID": null,
+                  "CREATEDBY": null,
+                  "UPDATEDBY": null,
+                  "DELETEDBY": null,
+                  "createdAt": "2024-10-03T19:00:46.000Z",
+                  "updatedAt": "2024-11-28T14:35:05.000Z",
+                  "itempruebasId": null,
+                  "modeloId": 4,
+                  "tecnicaId": 1,
+                  "muestraId": 5,
+                  "rango": [
+                      {
+                          "id": 2,
+                          "rangos": "40-90",
+                          "edadinicial": 6,
+                          "edadfinal": 365,
+                          "comentario": "",
+                          "usuarioId": "1",
+                          "USUARIO_ID": null,
+                          "CREATEDBY": null,
+                          "UPDATEDBY": null,
+                          "DELETEDBY": null,
+                          "ESTADO": true,
+                          "createdAt": "2024-10-04T16:26:39.000Z",
+                          "updatedAt": "2024-10-04T16:26:39.000Z",
+                          "panelpruebaId": 3,
+                          "panelpruebasId": 3,
+                          "tipofisiologicoId": 1,
+                          "unidadId": 1,
+                          "unidadedadId": 3,
+                          "unidadedad": {
+                              "id": 3,
+                              "DESCRIPCION": "AÑOS",
+                              "USUARIO_ID": null,
+                              "CREATEDBY": null,
+                              "UPDATEDBY": null,
+                              "DELETEDBY": null,
+                              "ESTADO": true,
+                              "createdAt": "2024-10-04T15:57:38.000Z",
+                              "updatedAt": "2024-10-04T15:57:38.000Z"
+                          },
+                          "unidad": {
+                              "id": 1,
+                              "DESCRIPCION": "MG/DL",
+                              "USUARIO_ID": null,
+                              "CREATEDBY": null,
+                              "UPDATEDBY": null,
+                              "DELETEDBY": null,
+                              "ESTADO": true,
+                              "createdAt": "2024-10-04T15:57:10.000Z",
+                              "updatedAt": "2024-10-04T15:57:10.000Z"
+                          }
+                      }
+                  ],
+                  "modelo": {
+                      "id": 4,
+                      "NOMBRE": "UROANALISIS",
+                      "USUARIO_ID": null,
+                      "CREATEDBY": 1,
+                      "UPDATEDBY": null,
+                      "DELETEDBY": null,
+                      "ESTADO": 1,
+                      "createdAt": "2024-10-03T19:00:07.000Z",
+                      "updatedAt": "2024-10-03T19:00:07.000Z",
+                      "usuarioId": 1,
+                      "marcaId": 1
+                  },
+                  "muestra": {
+                      "id": 5,
+                      "nombre": "SUERO/PLASMA ",
+                      "estado": true,
+                      "createdAt": "2024-11-06T18:57:47.000Z",
+                      "updatedAt": "2024-11-06T18:57:47.000Z"
+                  },
+                  "tecnica": {
+                      "id": 1,
+                      "nombre": "Aglutinacion",
+                      "estado": true,
+                      "createdAt": "2024-10-09T16:21:05.000Z",
+                      "updatedAt": "2024-10-09T16:21:05.000Z"
+                  }
+              }
+          },
+          {
+              "id": 13,
+              "resultado": null,
+              "fechaorden": "2024-10-04",
+              "horaorden": "11:24:22",
+              "estado": 1,
+              "createdAt": "2024-10-04T16:24:21.000Z",
+              "updatedAt": "2024-10-04T16:24:21.000Z",
+              "ordenId": 3,
+              "panelpruebaId": 8,
+              "rangoId": null,
+              "panelprueba": {
+                  "id": 8,
+                  "CODIGO": "1018",
+                  "ABREV": null,
+                  "ORDEN": null,
+                  "NOMBRE": "GLUCOSA EN ORINA.",
+                  "TIEMPO": 5,
+                  "VALOR": 7.27,
+                  "CODEXTERNO": null,
+                  "favorite": null,
+                  "ESTADO": 1,
+                  "USUARIO_ID": null,
+                  "CREATEDBY": null,
+                  "UPDATEDBY": null,
+                  "DELETEDBY": null,
+                  "createdAt": "2024-10-03T19:00:46.000Z",
+                  "updatedAt": "2024-10-03T19:00:46.000Z",
+                  "itempruebasId": null,
+                  "modeloId": 4,
+                  "tecnicaId": null,
+                  "muestraId": null,
+                  "rango": [],
+                  "modelo": {
+                      "id": 4,
+                      "NOMBRE": "UROANALISIS",
+                      "USUARIO_ID": null,
+                      "CREATEDBY": 1,
+                      "UPDATEDBY": null,
+                      "DELETEDBY": null,
+                      "ESTADO": 1,
+                      "createdAt": "2024-10-03T19:00:07.000Z",
+                      "updatedAt": "2024-10-03T19:00:07.000Z",
+                      "usuarioId": 1,
+                      "marcaId": 1
+                  },
+                  "muestra": null,
+                  "tecnica": null
+              }
+          },
+          {
+              "id": 14,
+              "resultado": null,
+              "fechaorden": "2024-10-04",
+              "horaorden": "11:24:22",
+              "estado": 1,
+              "createdAt": "2024-10-04T16:24:21.000Z",
+              "updatedAt": "2024-10-04T16:24:21.000Z",
+              "ordenId": 3,
+              "panelpruebaId": 5,
+              "rangoId": null,
+              "panelprueba": {
+                  "id": 5,
+                  "CODIGO": "1009",
+                  "ABREV": null,
+                  "ORDEN": null,
+                  "NOMBRE": "GLUCOSA 2 HORAS",
+                  "TIEMPO": 4,
+                  "VALOR": 8.73,
+                  "CODEXTERNO": null,
+                  "favorite": null,
+                  "ESTADO": 1,
+                  "USUARIO_ID": null,
+                  "CREATEDBY": null,
+                  "UPDATEDBY": null,
+                  "DELETEDBY": null,
+                  "createdAt": "2024-10-03T19:00:46.000Z",
+                  "updatedAt": "2024-10-03T19:00:46.000Z",
+                  "itempruebasId": null,
+                  "modeloId": 1,
+                  "tecnicaId": null,
+                  "muestraId": null,
+                  "rango": [],
+                  "modelo": {
+                      "id": 1,
+                      "NOMBRE": "QUIMICA",
+                      "USUARIO_ID": null,
+                      "CREATEDBY": 1,
+                      "UPDATEDBY": null,
+                      "DELETEDBY": null,
+                      "ESTADO": 1,
+                      "createdAt": "2024-10-03T18:59:41.000Z",
+                      "updatedAt": "2024-10-03T18:59:41.000Z",
+                      "usuarioId": 1,
+                      "marcaId": 2
+                  },
+                  "muestra": null,
+                  "tecnica": null
+              }
+          },
+          {
+              "id": 15,
+              "resultado": null,
+              "fechaorden": "2024-10-04",
+              "horaorden": "11:24:22",
+              "estado": 1,
+              "createdAt": "2024-10-04T16:24:21.000Z",
+              "updatedAt": "2024-10-04T16:24:21.000Z",
+              "ordenId": 3,
+              "panelpruebaId": 23,
+              "rangoId": null,
+              "panelprueba": {
+                  "id": 23,
+                  "CODIGO": "1046",
+                  "ABREV": null,
+                  "ORDEN": null,
+                  "NOMBRE": "CREATININA EN ORINA PARCIAL DE 24H",
+                  "TIEMPO": 2,
+                  "VALOR": 20.88,
+                  "CODEXTERNO": null,
+                  "favorite": null,
+                  "ESTADO": 1,
+                  "USUARIO_ID": null,
+                  "CREATEDBY": null,
+                  "UPDATEDBY": null,
+                  "DELETEDBY": null,
+                  "createdAt": "2024-10-03T19:00:46.000Z",
+                  "updatedAt": "2024-10-03T19:00:46.000Z",
+                  "itempruebasId": null,
+                  "modeloId": 2,
+                  "tecnicaId": null,
+                  "muestraId": null,
+                  "rango": [],
+                  "modelo": {
+                      "id": 2,
+                      "NOMBRE": "OTROS",
+                      "USUARIO_ID": null,
+                      "CREATEDBY": 1,
+                      "UPDATEDBY": null,
+                      "DELETEDBY": null,
+                      "ESTADO": 1,
+                      "createdAt": "2024-10-03T18:59:50.000Z",
+                      "updatedAt": "2024-10-03T18:59:50.000Z",
+                      "usuarioId": 1,
+                      "marcaId": 2
+                  },
+                  "muestra": null,
+                  "tecnica": null
+              }
+          }
+      ],
+      "paciente": {
+          "id": 2,
+          "tipo": "CC",
+          "numero": "0925380966",
+          "apellidos": "SOLANO",
+          "nombres": "CHRISTIAN",
+          "fechanac": "1987-01-01T00:00:00.000Z",
+          "edad": 37,
+          "email": "CHRISTIAN.SOLANO@DISTPROLAB.COM",
+          "sexo": "M",
+          "convencional": 997649466,
+          "celular": 0,
+          "provincia": 1,
+          "canton": 1,
+          "parroquia": 1,
+          "barrio": "",
+          "numeracion": "",
+          "USUARIO_ID": null,
+          "CREATEDBY": null,
+          "UPDATEDBY": null,
+          "DELETEDBY": null,
+          "estado": true,
+          "createdAt": "2024-10-04T16:22:19.000Z",
+          "updatedAt": "2024-10-04T16:22:19.000Z"
+      },
+      "medico": {
+          "id": 1,
+          "numero": "0925389655",
+          "apellidos": "TEST",
+          "nombres": "TEST",
+          "email": "test@gmail.com",
+          "especialidad": null,
+          "sexo": "M",
+          "convencional": 0,
+          "celular": 0,
+          "provincia": null,
+          "canton": null,
+          "parroquia": null,
+          "barrio": "",
+          "numeracion": "",
+          "USUARIO_ID": null,
+          "CREATEDBY": null,
+          "UPDATEDBY": null,
+          "DELETEDBY": null,
+          "estado": true,
+          "createdAt": "2024-10-03T19:03:24.000Z",
+          "updatedAt": "2024-10-03T19:03:24.000Z"
       }
-
-    }
-
-  },
-
-  {
-
-    id: 531,
-
-    resultado: 11,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 124,
-
-    panelprueba: {
-
-      id: 124,
-
-      CODIGO: '2003',
-
-      ABREV: 'LIN',
-
-      ORDEN: 2,
-
-      NOMBRE: 'LINFOCITOS',
-
-      TIEMPO: 4,
-
-      VALOR: 10.27,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:20:33.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 532,
-
-    resultado: 12,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 129,
-
-    panelprueba: {
-
-      id: 129,
-
-      CODIGO: '2008',
-
-      ABREV: 'LIN%',
-
-      ORDEN: 2,
-
-      NOMBRE: 'LINFOCITOS %',
-
-      TIEMPO: 2,
-
-      VALOR: 20.16,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:20:42.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 533,
-
-    resultado: 13,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 125,
-
-    panelprueba: {
-
-      id: 125,
-
-      CODIGO: '2004',
-
-      ABREV: 'MONO',
-
-      ORDEN: 2,
-
-      NOMBRE: 'MONOCITOS',
-
-      TIEMPO: 2,
-
-      VALOR: 5.42,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:19:27.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 534,
-
-    resultado: 14,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 130,
-
-    panelprueba: {
-
-      id: 130,
-
-      CODIGO: '2009',
-
-      ABREV: 'MONO%',
-
-      ORDEN: 2,
-
-      NOMBRE: 'MONOCITOS %',
-
-      TIEMPO: 2,
-
-      VALOR: 5.84,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:19:37.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 535,
-
-    resultado: 15,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 123,
-
-    panelprueba: {
-
-      id: 123,
-
-      CODIGO: '2002',
-
-      ABREV: 'NEU',
-
-      ORDEN: 2,
-
-      NOMBRE: 'NEUTROFILOS',
-
-      TIEMPO: 4,
-
-      VALOR: 5.68,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:20:56.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 536,
-
-    resultado: 16,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 128,
-
-    panelprueba: {
-
-      id: 128,
-
-      CODIGO: '2007',
-
-      ABREV: 'NEU%',
-
-      ORDEN: 2,
-
-      NOMBRE: 'NEUTROFILOS %',
-
-      TIEMPO: 2,
-
-      VALOR: 10.59,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:21:07.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 537,
-
-    resultado: 17,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 505,
-
-    panelprueba: {
-
-      id: 505,
-
-      CODIGO: '5105',
-
-      ABREV: 'OBS',
-
-      ORDEN: 2,
-
-      NOMBRE: 'OBSERVACIONES',
-
-      TIEMPO: 2,
-
-      VALOR: 8.5,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:51.000Z',
-
-      updatedAt: '2024-11-15T14:19:57.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 538,
-
-    resultado: 18,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 141,
-
-    panelprueba: {
-
-      id: 141,
-
-      CODIGO: '2033',
-
-      ABREV: 'PLA',
-
-      ORDEN: 2,
-
-      NOMBRE: 'PLAQUETAS',
-
-      TIEMPO: 3,
-
-      VALOR: 7.42,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:21:20.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 539,
-
-    resultado: 19,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 143,
-
-    panelprueba: {
-
-      id: 143,
-
-      CODIGO: '2037',
-
-      ABREV: 'PLAQUE',
-
-      ORDEN: 2,
-
-      NOMBRE: 'PLAQUETOCRITO',
-
-      TIEMPO: 4,
-
-      VALOR: 8.53,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:22:10.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 540,
-
-    resultado: 20,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 136,
-
-    panelprueba: {
-
-      id: 136,
-
-      CODIGO: '2021',
-
-      ABREV: 'VOL',
-
-      ORDEN: 2,
-
-      NOMBRE: 'VOLUMEN CORPUSCULAR MEDIO',
-
-      TIEMPO: 4,
-
-      VALOR: 5.91,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:21:39.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 541,
-
-    resultado: 21,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 142,
-
-    panelprueba: {
-
-      id: 142,
-
-      CODIGO: '2036',
-
-      ABREV: 'VOLMPLA',
-
-      ORDEN: 2,
-
-      NOMBRE: 'VOLUMEN MEDIO PLAQUETARIO',
-
-      TIEMPO: 5,
-
-      VALOR: 10.73,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:47.000Z',
-
-      updatedAt: '2024-11-15T14:22:26.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 542,
-
-    resultado: 22,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 805,
-
-    panelprueba: {
-
-      id: 805,
-
-      CODIGO: '9901',
-
-      ABREV: 'TITULO',
-
-      ORDEN: 3,
-
-      NOMBRE: 'BIOMETRIA HEMATICA',
-
-      TIEMPO: 2,
-
-      VALOR: 5.42,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:54.000Z',
-
-      updatedAt: '2024-11-15T14:24:18.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 5,
-
-      tecnicaId: 6,
-
-      muestraId: 4,
-
-      rango: [],
-
-      modelo: {
-
-        id: 5,
-
-        NOMBRE: 'HEMATOLOGIA',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-17T16:32:22.000Z',
-
-        updatedAt: '2024-10-17T16:32:22.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 4,
-
-        nombre: 'SANGRE TOTAL CON EDTA',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:57:18.000Z',
-
-        updatedAt: '2024-11-06T18:57:18.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 6,
-
-        nombre: 'IMPEDANCIA / CITOMETRÍA DE FLUJO',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:45.000Z',
-
-        updatedAt: '2024-11-06T18:56:45.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 543,
-
-    resultado: 23,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 471,
-
-    panelprueba: {
-
-      id: 471,
-
-      CODIGO: '5015',
-
-      ABREV: 'ASPE',
-
-      ORDEN: 2,
-
-      NOMBRE: 'ASPECTO',
-
-      TIEMPO: 5,
-
-      VALOR: 8.47,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:20:23.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 544,
-
-    resultado: 24,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 498,
-
-    panelprueba: {
-
-      id: 498,
-
-      CODIGO: '5090',
-
-      ABREV: 'BAC',
-
-      ORDEN: 2,
-
-      NOMBRE: 'BACTERIAS',
-
-      TIEMPO: 4,
-
-      VALOR: 5.66,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:20:57.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 545,
-
-    resultado: 25,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 488,
-
-    panelprueba: {
-
-      id: 488,
-
-      CODIGO: '5060',
-
-      ABREV: 'BILI',
-
-      ORDEN: 2,
-
-      NOMBRE: 'BILIRRUBINAS',
-
-      TIEMPO: 3,
-
-      VALOR: 20.97,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:21:25.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 546,
-
-    resultado: 26,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 493,
-
-    panelprueba: {
-
-      id: 493,
-
-      CODIGO: '5070',
-
-      ABREV: 'CELCEPI',
-
-      ORDEN: 2,
-
-      NOMBRE: 'CELULAS EPITELIALES',
-
-      TIEMPO: 3,
-
-      VALOR: 7.26,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:21:53.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 547,
-
-    resultado: 27,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 487,
-
-    panelprueba: {
-
-      id: 487,
-
-      CODIGO: '5059',
-
-      ABREV: 'CEL RED',
-
-      ORDEN: 2,
-
-      NOMBRE: 'CELULAS REDONDAS',
-
-      TIEMPO: 3,
-
-      VALOR: 5.84,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:22:13.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 548,
-
-    resultado: 28,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 499,
-
-    panelprueba: {
-
-      id: 499,
-
-      CODIGO: '5095',
-
-      ABREV: 'CILIN',
-
-      ORDEN: 2,
-
-      NOMBRE: 'CILINDROS',
-
-      TIEMPO: 3,
-
-      VALOR: 20.13,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:22:36.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 549,
-
-    resultado: 29,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 468,
-
-    panelprueba: {
-
-      id: 468,
-
-      CODIGO: '5010',
-
-      ABREV: 'COLOR',
-
-      ORDEN: 2,
-
-      NOMBRE: 'COLOR',
-
-      TIEMPO: 2,
-
-      VALOR: 7.96,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:22:59.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 550,
-
-    resultado: 30,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 503,
-
-    panelprueba: {
-
-      id: 503,
-
-      CODIGO: '5100',
-
-      ABREV: 'CRIST',
-
-      ORDEN: 2,
-
-      NOMBRE: 'CRISTALES',
-
-      TIEMPO: 5,
-
-      VALOR: 20.91,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:51.000Z',
-
-      updatedAt: '2024-11-15T15:23:30.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 551,
-
-    resultado: 31,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 1,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 472,
-
-    panelprueba: {
-
-      id: 472,
-
-      CODIGO: '5020',
-
-      ABREV: 'DENSI',
-
-      ORDEN: 2,
-
-      NOMBRE: 'DENSIDAD',
-
-      TIEMPO: 3,
-
-      VALOR: 8.09,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-10-03T19:00:50.000Z',
-
-      updatedAt: '2024-11-15T15:23:51.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
-  },
-
-  {
-
-    id: 552,
-
-    resultado: 32,
-
-    fechaorden: '2024-11-18',
-
-    horaorden: '11:18:31',
-
-    estado: 2,
-
-    createdAt: '2024-11-18T16:18:30.000Z',
-
-    updatedAt: '2024-11-18T16:18:30.000Z',
-
-    ordenId: 99,
-
-    panelpruebaId: 834,
-
-    panelprueba: {
-
-      id: 834,
-
-      CODIGO: '50000',
-
-      ABREV: 'TITULO',
-
-      ORDEN: 3,
-
-      NOMBRE: 'ELEMENTAL Y MICROSCOPICO DE  ORINA',
-
-      TIEMPO: 2,
-
-      VALOR: 25,
-
-      CODEXTERNO: null,
-
-      favorite: null,
-
-      ESTADO: 1,
-
-      USUARIO_ID: null,
-
-      CREATEDBY: null,
-
-      UPDATEDBY: null,
-
-      DELETEDBY: null,
-
-      createdAt: '2024-11-15T14:50:36.000Z',
-
-      updatedAt: '2024-11-15T15:24:04.000Z',
-
-      itempruebasId: null,
-
-      modeloId: 4,
-
-      tecnicaId: 7,
-
-      muestraId: 7,
-
-      rango: [],
-
-      modelo: {
-
-        id: 4,
-
-        NOMBRE: 'UROANALISIS',
-
-        USUARIO_ID: null,
-
-        CREATEDBY: 1,
-
-        UPDATEDBY: null,
-
-        DELETEDBY: null,
-
-        ESTADO: 1,
-
-        createdAt: '2024-10-03T19:00:07.000Z',
-
-        updatedAt: '2024-10-03T19:00:07.000Z',
-
-        usuarioId: 1,
-
-        marcaId: 1
-
-      },
-
-      muestra: {
-
-        id: 7,
-
-        nombre: 'ORINA/EMO',
-
-        estado: true,
-
-        createdAt: '2024-11-15T15:19:24.000Z',
-
-        updatedAt: '2024-11-15T15:19:24.000Z'
-
-      },
-
-      tecnica: {
-
-        id: 7,
-
-        nombre: 'TÉCNICA MANUAL',
-
-        estado: true,
-
-        createdAt: '2024-11-06T18:56:53.000Z',
-
-        updatedAt: '2024-11-06T18:56:53.000Z'
-
-      }
-
-    }
-
   }
-
-]
+}

@@ -3,7 +3,7 @@ const Prueba = require("../models/pruebas");
 const { Mutex } = require("async-mutex");
 const { sequelize } = require("../models/ordenes");
 const moment = require("moment");
-const { Model } = require("sequelize");
+const { Model, Op } = require("sequelize");
 const Diagnostico = require("../models/diagnostico");
 const Tipoatencion = require("../models/Tipoatencion");
 const Tiposervicio = require("../models/tiposervicio");
@@ -228,9 +228,8 @@ const postIngresorden = async (req, res) => {
 			const datapersonales = await Paciente.findByPk(pacienteId);
 
 			res.status(201).json({
-				msg: `Se a integrado  la orden # ${fecha + Norden} para el paciente ${
-					datapersonales.dataValues.apellidos
-				} ${datapersonales.dataValues.nombres} `,
+				msg: `Se a integrado  la orden # ${fecha + Norden} para el paciente ${datapersonales.dataValues.apellidos
+					} ${datapersonales.dataValues.nombres} `,
 			});
 			for (const item of pruebas) {
 				console.info(item);
@@ -355,7 +354,7 @@ const updateIngresorden = async (req, res) => {
 	const hoy = moment();
 	//const hora = ;
 	const [fecha, hora] = hoy.format("LTS");
-	console.log(`**************************************************`,hora,fecha)
+	console.log(`**************************************************`, hora, fecha)
 	const user = req.usuario;
 	const { id } = req.params;
 	const ordenes = req.body;
@@ -440,9 +439,9 @@ const updateIngresorden = async (req, res) => {
 							{ transaction: t }
 						);
 						console.log(examExistente);
-						
-						
-					} else if(examExistente.estado ===2) {
+
+
+					} else if (examExistente.estado === 2) {
 						await examExistente.update(
 							{
 								//ordenId: id,
@@ -451,7 +450,7 @@ const updateIngresorden = async (req, res) => {
 								horaorden: hora,
 								//panelpruebaId: codigoId,
 							},
-							{ transaction: t}
+							{ transaction: t }
 						);
 					}
 				})
@@ -496,6 +495,101 @@ const deleteIngresorden = async (req, res) => {
 	});
 };
 
+
+const getFiltrosIngresorden = async (req, res) => {
+	const { orden, identificacion,modeloId } = req.query;
+	console.log(req.query);
+	/* let where = {};
+
+	if (orden) {
+
+		where.numeroorden = {
+			[Op.eq]: orden,
+		}
+
+	} */
+
+
+
+
+	const data = await Orden.findAll({
+		where:orden?{
+			numeroorden:orden
+
+		}:{}, include: [
+			{
+				model: Diagnostico,
+				as: "diagnostico",
+			},
+			{
+				model: Tipoatencion,
+				as: "tipoatencion",
+			},
+			{
+				model: Tiposervicio,
+				as: "tiposervicio",
+			},
+			{
+				model: Prueba,
+				as: "prueba",
+				required:true,
+
+				include: {
+					model: Panel_pruebas,
+					as: "panelprueba",
+					required:true,
+					include: [
+						{
+							model: Rango,
+							as: "rango",
+							include: [
+								{
+									model: Unidadedad,
+									as: "unidadedad",
+								},
+								{
+									model: Unidad,
+									as: "unidad",
+								},
+							],
+						},
+						{
+							model: Modelo,
+							as: "modelo",
+							where:modeloId ? {id: modeloId}:{},
+							required:true,
+						},
+						{
+							model: Muestra,
+							as: "muestra",
+						},
+						{
+							model: Tecnica,
+							as: "tecnica",
+						},
+					],
+				},
+			},
+			{
+				model: Paciente,
+				as: "paciente",
+				where:
+					identificacion ? {numero:identificacion}:{}
+				
+			},
+			{
+				model: Medico,
+				as: "medico",
+			},
+		],
+	})
+	res.status(200).json({
+		ok: true,
+		ordenes: data
+	})
+
+}
+
 module.exports = {
 	getIngresorden,
 	getIdIngresorden,
@@ -503,4 +597,5 @@ module.exports = {
 	updateIngresorden,
 	deleteIngresorden,
 	validarIngresorden,
+	getFiltrosIngresorden
 };
