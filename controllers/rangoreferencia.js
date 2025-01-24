@@ -93,7 +93,7 @@ const postrangoreferencia = async (req, res) => {
 	const user = req.usuario;
 	const rangoreferenciaes = new Rango({
 		panelpruebasId,
-		panelpruebaId:panelpruebasId,
+		panelpruebasId:panelpruebasId,
 		tipofisiologicoId,
 		rangos,
 		unidadId,
@@ -110,40 +110,63 @@ const postrangoreferencia = async (req, res) => {
 };
 
 const rangoreferenciaUpdate = async (req, res) => {
-	const { id, DESCRIPCION } = req.body;
-	const rangoreferenciaBD = await rangoreferencia.findByPk(id);
+	const {id}=req.params;
+	const {
+		panelpruebasId,
+		tipofisiologicoId,
+
+		rangos,
+		unidadId,
+		edadinicial,
+		unidadedadId,
+		edadfinal,
+		unidadfinalId,
+		comentario,
+	} = req.body;
+	console.log(`*****************`,req.body)
+	const rangoreferenciaBD = await Rango.findByPk(id);
 	if (!rangoreferenciaBD) {
 		return res.status(404).json({
 			ok: false,
-			msg: `No existe el modelo ingresado`,
+			msg: `No existe el rango ingresado`,
 		});
 	}
-	await rangoreferencia.update(
+	await Rango.update(
 		{
-			DESCRIPCION,
+			panelpruebasId,
+			panelpruebaId:panelpruebasId,
+			tipofisiologicoId,
+			rangos,
+			unidadId,
+			edadinicial,
+			unidadedadId,
+			edadfinal,
+			unidadfinalId,
+			comentario,
 		},
 		{ where: { id: id } }
 	);
 
 	res.status(200).json({
 		ok: true,
-		msg: `La rangoreferencia ${DESCRIPCION}a sido actualizado con exito..`,
+	 
+		msg: `Se actualizo con exito los datos del usuario` 
 	});
 };
 
 const rangoreferenciaDelete = async (req, res) => {
 	const { id } = req.params;
-	const rangoreferencia = await rangoreferencia.findByPk(id);
+	const rangoreferencia = await Rango.findByPk(id);
 
-	if (!rangoreferencia) {
+	 if (!rangoreferencia) {
 		return res
 			.status(404)
-			.json({ ok: false, msg: `La rangoreferencia ingresado no existe` });
+			.json({ ok: false, msg: `La rango referencia ingresado no existe` });
 	}
 	await rangoreferencia.update({ ESTADO: 0 });
 	res.status(200).json({
-		msg: `La rangoreferencia ${rangoreferencia.DESCRIPCION} a sido desactivado con exito...`,
-	});
+		msg: `El rango de referencia ${rangoreferencia.rangos} a sido desactivado con exito...`,
+	}); 
 };
 
 module.exports = {

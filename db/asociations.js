@@ -67,7 +67,9 @@ const Historicorden = require("../models/historicorden");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
-
+Prueba.belongsTo(Usuario, { as: 'creador', foreignKey: 'creadorId' });
+Prueba.belongsTo(Usuario, { as: 'reportador', foreignKey: 'reportadaId' });
+Prueba.belongsTo(Usuario, { as: 'validador', foreignKey: 'validadaId' });
 /* Relaciones de tablas con la tabla de usuarios */
 Panel_pruebas.hasMany(Rango, { as: "rango", foreignKey: "panelpruebaId" });
 Rango.belongsTo(Panel_pruebas, { as: "panelpruebas" });

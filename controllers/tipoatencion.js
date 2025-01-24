@@ -19,7 +19,22 @@ const consultaTipoatencion = async (req, res) => {
 };
 
 const GetIDTipoatencion = async (req, res) => {
-	res.json({ usuarios });
+	const { id } = req.params;
+	console.log(id)
+		const tecnicaID = await Tipoatencion.findByPk(id)
+		if (!tecnicaID) {
+			return res.status(404).json({
+				ok: false,
+				msg: `No existe la tipo atencion  con id ${id}`
+			})
+		}
+		console.log(tecnicaID)
+	
+	
+		res.status(200).json({
+			ok: true,
+			estadoclienteId: tecnicaID
+		});
 };
 
 const postTipoatencion = async (req, res) => {
@@ -45,7 +60,20 @@ const postTipoatencion = async (req, res) => {
 };
 
 const TipoatencionUpdate = async (req, res) => {
-	res.send("update guardada con exito..");
+	const id = req.params.id;
+	const { nombre } = req.body;
+	const tipoatencion = await Tipoatencion.findByPk(id);
+	if (!tipoatencion) {
+		return res.status(404).json({
+			msg: "El tipoatencion  no existe...",
+		});
+	}
+	await tipoatencion.update({
+		nombre:nombre
+	})
+	res.status(200).json({
+		msg: `El tipo de atencion ${tipoatencion.dataValues.nombre}se actualizo  con exito...`,
+	});
 };
 
 const TipoatencionDelete = async (req, res) => {

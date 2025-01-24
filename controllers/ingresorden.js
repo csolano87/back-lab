@@ -31,6 +31,8 @@ const printerPort = 9100;
 
 const escpos = require("escpos");
 const { waitForDebugger } = require("inspector");
+const Usuario = require("../models/usuarios");
+const Historicorden = require("../models/historicorden");
 escpos.Network = require("escpos-network");
 const getIngresorden = async (req, res) => {
 	const ordenes = await Orden.findAll({
@@ -93,7 +95,7 @@ const getIdIngresorden = async (req, res) => {
 			{
 				model: Prueba,
 				as: "prueba",
-				include: {
+				include: [{
 					model: Panel_pruebas,
 					as: "panelprueba",
 					include: [
@@ -125,7 +127,13 @@ const getIdIngresorden = async (req, res) => {
 						},
 					],
 				},
+				{ model: Usuario, as: 'creador', },
+				{ model: Usuario, as: 'reportador', },
+				{ model: Usuario, as: 'validador', }
+				],
+
 			},
+
 			{
 				model: Paciente,
 				as: "paciente",
@@ -225,6 +233,7 @@ const postIngresorden = async (req, res) => {
 			);
 			await ordenes.setPrueba(prueba, { transaction: t });
 
+
 			const datapersonales = await Paciente.findByPk(pacienteId);
 
 			res.status(201).json({
@@ -232,6 +241,14 @@ const postIngresorden = async (req, res) => {
 					} ${datapersonales.dataValues.nombres} `,
 			});
 			for (const item of pruebas) {
+
+				await Historicorden.create({
+					accion: 'creado',
+					detalles: 'Se creo la orden',
+					ordenId: ordenes.id,
+					usuarioId: user.id,
+					pruebaId: item.codigoId
+				}, { transaction: t })
 				console.info(item);
 				/* ^FO250,40^A0N,5,5^FDEtiqueta de Laboratorio^FS */
 				if (item.etq === 3 || item.etq === null || item.etq === "null") {
@@ -258,91 +275,7 @@ const postIngresorden = async (req, res) => {
 				}
 			}
 
-			/* 	const device = new escpos.Network("192.168.1.150");
-			const printer = new escpos.Printer(device);
-			device.open(() => {
-				printer
-					.font('a') // Fuente estándar
-					.align('ct') // Centrar texto
-					.style('bu') // Negrita + subrayado
-					.size(1, 1) // Tamaño del texto
-					.text('Etiqueta de Laboratorio') // Título
-					.text(`${datapersonales.dataValues.apellidos}, ${datapersonales.dataValues.nombres}`) // Contenido
-					.text(`Sexo: ${datapersonales.dataValues.sexo}   Edad: ${datapersonales.dataValues.edad}`) 
-					//.text('Fecha: 2024-11-15') 
-					.barcode(ordenes.dataValues.numeroorden, 'CODE128') // Código de barras
-					.cut() // Corta el papel
-					.close(); // Finaliza la conexión
-			});
- */
 
-			/* const pdfPath = "etiqueta.pdf";
-			const writeStream = fs.createWriteStream(pdfPath);
-
-			doc.pipe(writeStream);
-
-			for (const item of pruebas) {
-				if (doc.page) {
-					doc.addPage();
-				}
-
-				doc
-					.fontSize(50)
-					.text("Etiqueta de laboratorio", { align: "center" })
-					.moveDown()
-					.fontSize(50)
-					.text(
-						`${datapersonales.dataValues.apellidos}, ${datapersonales.dataValues.nombres}`,
-						{ align: "left" }
-					)
-					.text(
-						`Sexo: ${datapersonales.dataValues.sexo}   Edad: ${datapersonales.dataValues.edad}`
-					)
-					.moveDown();
-
-				const barcodeBuffer = await new Promise((resolve, reject) => {
-					bwipjs.toBuffer(
-						{
-							bcid: "code128",
-							text: ordenes.dataValues.numeroorden,
-							scale: 3,
-							height: 10,
-							includetext: true,
-						},
-						(err, png) => {
-							if (err) {
-								reject(err);
-							} else {
-								resolve(png);
-							}
-						}
-					);
-				});
-
-				doc
-					.image(barcodeBuffer, { fit: [200, 100], align: "center" })
-					.moveDown();
-
-				doc.text(`${item.muestra}`).moveDown();
-			}
-
-			doc.end();
-
-			writeStream.on("finish", async () => {
-				console.log(`PDF guardado en ${pdfPath}`);
-				try {
-					await print(pdfPath, {
-						printer: "ZDesigner ZD230-203dpi ZPL",
-					});
-					console.log("Impresión completada con éxito.");
-				} catch (printError) {
-					console.error("Error al imprimir el PDF:", printError);
-				}
-			});
-
-			writeStream.on("error", (error) => {
-				console.error("Error al guardar el PDF:", error);
-			}); */
 		});
 	} catch (error) {
 		console.log(`*****************ERROR*************`, error);
@@ -413,6 +346,13 @@ const updateIngresorden = async (req, res) => {
 					panelpruebaId: pruebasEliminar,
 				},
 			});
+			await Historicorden.create({
+				accion: 'Eliminar',
+				detalles: 'Se elimino la orden',
+				ordenId: id,
+				usuarioId: user.id,
+				pruebaId: pruebasEliminar
+			})
 
 			await Promise.all(
 				pruebas.map(async (item) => {
@@ -435,9 +375,21 @@ const updateIngresorden = async (req, res) => {
 								estado: estado,
 
 								panelpruebaId: codigoId,
+								creadorId: user.id,
+
+
 							},
 							{ transaction: t }
 						);
+
+
+						await Historicorden.create({
+							accion: 'creado',
+							detalles: 'Se creo la orden',
+							ordenId: id,
+							usuarioId: user.id,
+							pruebaId: codigoId
+						}, { transaction: t })
 						console.log(examExistente);
 
 
@@ -448,10 +400,22 @@ const updateIngresorden = async (req, res) => {
 								estado: estado,
 								fechaorden: fecha,
 								horaorden: hora,
-								//panelpruebaId: codigoId,
+								reportadaId: user.id,
+								fechaordenreportada: fecha,
+								horaordenreportada: hora
+
+
 							},
 							{ transaction: t }
 						);
+
+						await Historicorden.create({
+							accion: 'actualizar',
+							detalles: 'Se actualizo la orden',
+							ordenId: id,
+							usuarioId: user.id,
+							pruebaId: codigoId
+						}, { transaction: t })
 					}
 				})
 			);
@@ -464,19 +428,85 @@ const updateIngresorden = async (req, res) => {
 	});
 };
 const validarIngresorden = async (req, res) => {
+	const hoy = moment();
+	//const hora = ;
+	const [fecha, hora] = hoy.format("LTS");
+	console.log(`**************************************************`, hora, fecha)
 	const { id } = req.params;
+	console.log(req.body)
+	const user = req.usuario;
 
-	const { estado } = req.body;
-	const orden = await Orden.findByPk(id);
-	if (!orden) {
-		return res.status(404).json({
-			ok: false,
-			msg: `La orden con ID ${id} no existe`,
+	if (!req.body.panelpruebaId) {
+		const { estado } = req.body;
+		const orden = await Orden.findByPk(id);
+		if (!orden) {
+			return res.status(404).json({
+				ok: false,
+				msg: `La orden con ID ${id} no existe`,
+			});
+		}
+
+		await orden.update({
+			estado: estado,
+			validadaId: user.id,
+			fechaordenvalidada: fecha,
+			horaordenvalidada: hora
 		});
+		const ordenes = await Orden.findByPk(id, {
+			include: {
+				model: Prueba,
+				as: "prueba",
+			}
+		});
+
+		const validarEstadoOrden = ordenes.prueba.some(item => item.estado === 2);
+		if (validarEstadoOrden) {
+			return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+		}
+		await ordenes.update({ estado: 3 })
+		res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+
+	} else {
+		try {
+			for (const e of req.body.panelpruebaId) {
+				await Prueba.update(
+					{
+						estado: req.body.estado,
+						validadaId: user.id,
+						fechaordenvalidada: fecha,
+						horaordenvalidada: hora
+					},
+					{
+						where: {
+							ordenId: id,
+							panelpruebaId: e
+						}
+					}
+				);
+
+
+			}
+			const ordenes = await Orden.findByPk(id, {
+				include: {
+					model: Prueba,
+					as: "prueba",
+				}
+			});
+			console.log(ordenes)
+			const validarEstadoOrden = ordenes.prueba.some(item => item.estado === 2);
+			if (validarEstadoOrden) {
+				return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+			}
+			await ordenes.update({ estado: 3 })
+			res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+
+
+		} catch (error) {
+			console.error("Error actualizando la orden:", error);
+			res.status(500).json({ ok: false, msg: "Error al validar la orden" });
+		}
 	}
 
-	await orden.update({ estado: estado });
-	res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 };
 const deleteIngresorden = async (req, res) => {
 	const { id } = req.params;
@@ -497,7 +527,7 @@ const deleteIngresorden = async (req, res) => {
 
 
 const getFiltrosIngresorden = async (req, res) => {
-	const { orden, identificacion,modeloId } = req.query;
+	const { orden, identificacion, modeloId, fechaIn, fechaOut } = req.query;
 	console.log(req.query);
 	/* let where = {};
 
@@ -513,10 +543,15 @@ const getFiltrosIngresorden = async (req, res) => {
 
 
 	const data = await Orden.findAll({
-		where:orden?{
-			numeroorden:orden
+		where: {
+			...(orden ? {
+				numeroorden: orden
 
-		}:{}, include: [
+			} : {}),
+			...(fechaIn && fechaIn ?
+				{ fechaorden: { [Op.between]: [fechaIn, fechaIn] } } : {})
+		},
+		include: [
 			{
 				model: Diagnostico,
 				as: "diagnostico",
@@ -532,12 +567,12 @@ const getFiltrosIngresorden = async (req, res) => {
 			{
 				model: Prueba,
 				as: "prueba",
-				required:true,
+				required: true,
 
 				include: {
 					model: Panel_pruebas,
 					as: "panelprueba",
-					required:true,
+					required: true,
 					include: [
 						{
 							model: Rango,
@@ -556,8 +591,8 @@ const getFiltrosIngresorden = async (req, res) => {
 						{
 							model: Modelo,
 							as: "modelo",
-							where:modeloId ? {id: modeloId}:{},
-							required:true,
+							where: modeloId ? { id: modeloId } : {},
+							required: true,
 						},
 						{
 							model: Muestra,
@@ -574,8 +609,8 @@ const getFiltrosIngresorden = async (req, res) => {
 				model: Paciente,
 				as: "paciente",
 				where:
-					identificacion ? {numero:identificacion}:{}
-				
+					identificacion ? { numero: identificacion } : {}
+
 			},
 			{
 				model: Medico,

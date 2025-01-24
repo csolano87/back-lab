@@ -18,7 +18,22 @@ const consultaTiposervicio = async (req, res) => {
 };
 
 const GetIDTiposervicio = async (req, res) => {
-	res.json({ usuarios });
+	const { id } = req.params;
+console.log(id)
+	const tecnicaID = await Tiposervicio.findByPk(id)
+	if (!tecnicaID) {
+		return res.status(404).json({
+			ok: false,
+			msg: `No existe la tecnica con id ${id}`
+		})
+	}
+	console.log(tecnicaID)
+
+
+	res.status(200).json({
+		ok: true,
+		estadoclienteId: tecnicaID
+	});
 };
 
 const postTiposervicio = async (req, res) => {
@@ -40,11 +55,24 @@ const postTiposervicio = async (req, res) => {
 	}
 
 	await tiposervicios.save();
-	res.status(201).json({ msg: "El tiposervicio  a sido registrado con exito" });
+	res.status(201).json({ msg: "El tipo servicio  a sido registrado con exito" });
 };
 
 const TiposervicioUpdate = async (req, res) => {
-	res.send("update guardada con exito..");
+	const id = req.params.id;
+	const { nombre } = req.body;
+	const tiposervicio = await Tiposervicio.findByPk(id);
+	if (!tiposervicio) {
+		return res.status(404).json({
+			msg: "El tiposervicio  no existe...",
+		});
+	}
+	await tiposervicio.update({
+		nombre:nombre
+	})
+	res.status(200).json({
+		msg: `El tipo de atencion ${tiposervicio.dataValues.nombre} se actualizo  con exito...`,
+	});
 };
 
 const TiposervicioDelete = async (req, res) => {

@@ -7,7 +7,6 @@ const Sequelize = require("sequelize");
 var xmlparser = require("express-xml-bodyparser");
 const socketIO = require("socket.io");
 const http = require("http");
-
 const { desconectar, mensaje } = require("../sockets/sockets");
 const path = require("path");
 const { truncate } = require("fs");
@@ -123,7 +122,7 @@ class Server {
 			muestras: "/api/muestras",
 			validacion: "/api/validacion",
 			menu: "/api/menu",
-			menuRoles:"/api/permisos"
+			menuRoles: "/api/permisos"
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -320,7 +319,7 @@ class Server {
 		this.app.use(this.paths.muestras, require("../routes/muestras"));
 		this.app.use(this.paths.validacion, require("../routes/validacionPruebas"));
 		this.app.use(this.paths.menu, require("../routes/menu"));
-		this.app.use(this.paths.menuRoles,require("../routes/menuRoles"))
+		this.app.use(this.paths.menuRoles, require("../routes/menuRoles"))
 	}
 
 	listen() {
