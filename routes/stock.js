@@ -8,14 +8,16 @@ const { createStock, updateStock,
     getStockPdf,
     cargarexcelStock,
     listadogetStock,
-    getByIdcargarexcelStock} = require("../controllers/stock");
+    getByIdcargarexcelStock,
+    getByIdStock} = require("../controllers/stock");
 
 
 const router = Router();
 router.get("/",[validarJWT, tieneRole], getStock);
 router.get("/cargaInterna/",[validarJWT, tieneRole], listadogetStock);
 router.get("/filtros",[validarJWT, tieneRole],getAllStock)
-router.get("/buscar/:termino",[validarJWT, tieneRole],getBusquedaStock)
+router.get("/buscar/:termino",[validarJWT, tieneRole],getBusquedaStock);
+router.get("/busqueda/:id",[validarJWT,tieneRole],getByIdStock);
  router.get("/:id", [validarJWT, tieneRole],getFiltroStock); 
 router.put("/:id", [validarJWT, tieneRole],updateStock);
 router.post("/",[validarJWT, tieneRole],createStock);

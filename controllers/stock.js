@@ -261,6 +261,43 @@ const getFiltroStock = async (req, res) => {
 	res.status(200).json({ ok: true, Stock: Stock });
 };
 
+
+
+
+
+const getByIdStock = async (req, res) => {
+	const { id } = req.params;
+
+	const stock = await Stock.findByPk(id, {
+		
+		include: [
+			{
+				model: ItemStock,
+				as: "stockItem",
+				
+				include: {
+					model: Producto,
+					as: "product",
+					attributes: { exclude: ["createdAt", "updatedAt", "ESTADO"] },
+				},
+			},
+		],
+	});
+
+	if (!stock) {
+		return res.status(400).json({
+			ok:false,
+			msg:`El id ${id} no existe `
+		})
+	}
+	res.status(200).json({ ok: true, StockId: stock });
+};
+
+
+
+
+
+
 const createStock = async (req, res) => {
 	const idUser = req.usuario;
 	const { guia, bodegaId, proveedor, productos } = req.body;
@@ -1027,5 +1064,6 @@ module.exports = {
 	getStockPdf,
 	cargarexcelStock,
 	listadogetStock,
-	getByIdcargarexcelStock
+	getByIdcargarexcelStock,
+	getByIdStock
 };

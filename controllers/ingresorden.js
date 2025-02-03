@@ -339,12 +339,14 @@ const updateIngresorden = async (req, res) => {
 			const pruebasEliminar = examExistente.filter(
 				(id) => !examNuevos.includes(id)
 			);
+
+			if (pruebasEliminar.length > 0) {
 			await Prueba.destroy({
 				where: {
 					ordenId: id,
 
 					panelpruebaId: pruebasEliminar,
-				},
+				}, transaction: t,
 			});
 			await Historicorden.create({
 				accion: 'Eliminar',
@@ -352,8 +354,8 @@ const updateIngresorden = async (req, res) => {
 				ordenId: id,
 				usuarioId: user.id,
 				pruebaId: pruebasEliminar
-			})
-
+			}, { transaction: t })
+		}
 			await Promise.all(
 				pruebas.map(async (item) => {
 					const { codigoId, codigo, nomExam, tiempo, muestra, etq, estado } =
@@ -393,16 +395,16 @@ const updateIngresorden = async (req, res) => {
 						console.log(examExistente);
 
 
-					} else if (examExistente.estado === 2) {
+					} else { 
 						await examExistente.update(
 							{
 								//ordenId: id,
 								estado: estado,
-								fechaorden: fecha,
+							/* 	fechaorden: fecha,
 								horaorden: hora,
 								reportadaId: user.id,
 								fechaordenreportada: fecha,
-								horaordenreportada: hora
+								horaordenreportada: hora */
 
 
 							},

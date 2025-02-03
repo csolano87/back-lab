@@ -20,6 +20,8 @@ const Tiposervicio = require("../models/tiposervicio");
 const Modelo = require("../models/modelo");
 const Tipoatencion = require("../models/Tipoatencion");
 const Unidad = require("../models/unidad");
+const { header } = require("express-validator");
+
 
 const getpdf = async (req, res) => {
 	const { id } = req.params;
@@ -173,339 +175,308 @@ const getpdf = async (req, res) => {
 };
 
 const getIngresOrdenPdf = async (req, res) => {
-	try {
-		const imgPath = path.join(__dirname, "../public/Encabezado1.png");
-		console.log(`----`, imgPath);
-		const imgBase64 = fs.readFileSync(imgPath).toString("base64");
-		console.log(`****`, imgBase64);
 
-		const imgSrc = `data:image/png;base64,${imgBase64}`;
-		console.log(`++++`, imgSrc);
-		const { id } = req.params;
+	const { id } = req.params;
 
-		const orden = await Orden.findByPk(id, {
-			include: [
-				{
-					model: Prueba,
-					as: "prueba",
-					include: {
-						model: Panel_pruebas,
-						as: "panelprueba",
-						include: [
-							{
-								model: Rango,
-								as: "rango",
-								include: {
-									model: Unidad,
-									as: "unidad",
-								},
-							},
+	const imgPath = path.join(__dirname, "../public/Encabezado1.png");
+	console.log(`----`, imgPath);
+	const imgBase64 = fs.readFileSync(imgPath).toString("base64");
+	console.log(`****`, imgBase64);
 
-							{
-								model: Modelo,
-								as: "modelo",
-							},
-						],
-					},
-				},
-				{
-					model: Paciente,
-					as: "paciente",
-				},
-				{
-					model: Medico,
-					as: "medico",
-				},
-				{
-					model: Tipoatencion,
-					as: "tipoatencion",
-				},
-				{
-					model: Tiposervicio,
-					as: "tiposervicio",
-				},
-			],
-		});
+	const imgSrc = `data:image/png;base64,${imgBase64}`;
 
-		if (!orden) {
-			return res.status(404).json({ error: "Orden no encontrada" });
+	const browser = await puppeteer.launch({
+		headless: true,
+		defaultViewport: {
+			width: 750,
+			height: 500,
+			defaultViewport: 1,
+			isMobile: true,
+			hasTouch: false,
+			isLandscape: false
 		}
-		const { prueba } = orden;
-		const result = prueba.reduce((acc, item) => {
-			//	console.log(item.dataValues.panelprueba.dataValues);
-			const nombreModelo =
-				item.dataValues.panelprueba.dataValues.modelo.dataValues.NOMBRE;
+
+	});
+	const page = await browser.newPage();
+
+	const orden = await Orden.findByPk(id, {
+		include: [
+			{
+				model: Prueba,
+				as: "prueba",
+				include: {
+					model: Panel_pruebas,
+					as: "panelprueba",
+					include: [
+						{
+							model: Rango,
+							as: "rango",
+							include: {
+								model: Unidad,
+								as: "unidad",
+							},
+						},
+
+						{
+							model: Modelo,
+							as: "modelo",
+						},
+					],
+				},
+			},
+			{
+				model: Paciente,
+				as: "paciente",
+			},
+			{
+				model: Medico,
+				as: "medico",
+			},
+			{
+				model: Tipoatencion,
+				as: "tipoatencion",
+			},
+			{
+				model: Tiposervicio,
+				as: "tiposervicio",
+			},
+		],
+	});
+
+	if (!orden) {
+		return res.status(404).json({ error: "Orden no encontrada" });
+	}
+
+	const generateTableRows = () => {
+
+		const groupedData = orden.prueba.reduce((acc, item) => {
+			const nombreModelo = item?.panelprueba?.modelo?.NOMBRE || "Sin Modelo";
+
 			if (!acc[nombreModelo]) {
-				acc[nombreModelo] = { pruebas: [] };
+				acc[nombreModelo] = [];
 			}
-			acc[nombreModelo].pruebas.push(item);
+			acc[nombreModelo].push(item);
 			return acc;
 		}, {});
 
-		const dataorden = Object.keys(result).map((item) => {
-			return {
-				categoria: item,
-				pruebas: result[item],
-			};
-		});
 
-		const htmlRows = dataorden
+		const dataOrden = Object.keys(groupedData).map((categoria) => ({
+			categoria,
+			pruebas: groupedData[categoria]
+		}));
+
+
+		const htmlRows = dataOrden
 			.map((categoria) => {
-				const categoriaRow = `<tr class="page-break">
-     <th class="title_categoria  " colspan="4">${categoria.categoria}</th>
+
+				const categoriaRow = `
+<tr class="page-break">
+    <th class="title_categoria" colspan="4">${categoria.categoria}</th>
+	
 </tr>
 `;
 
-				const pruebasRows = categoria.pruebas.pruebas
-					.map((prueba) => {
-						console.log(
-							`++RANGOS`,
-							prueba.panelprueba?.rango[0]?.unidad.DESCRIPCION
-						);
-						return `
-
+				const ValidacionRow = `
 <tr>
-     <td>${prueba.panelprueba.NOMBRE}</td>
-     <td>${prueba.resultado}</td>
-     <td>${prueba.panelprueba?.rango[0]?.rangos}</td>
-     <td>${prueba.panelprueba?.rango[0]?.unidad.DESCRIPCION}</td>
+   
+	<td colpsan="3">Fecha Valildacion:</td>
+<td>responsable:</td>
+</tr>
+`;
+
+
+				const pruebasRows = categoria.pruebas
+					.map((prueba) => {
+
+						const nombre = prueba?.panelprueba?.NOMBRE || "Sin Nombre";
+						const resultado = prueba?.resultado || "N/A";
+						const rango = prueba?.panelprueba?.rango?.[0]?.rangos || "N/A";
+						const unidad = prueba?.panelprueba?.rango?.[0]?.unidad?.DESCRIPCION || "N/A";
+						const fechaValidacion = prueba?.fechaordenvalidada || "";
+
+						return `
+<tr class="avoid-break">
+    <td>${nombre}</td>
+    <td>${resultado}</td>
+    <td>${rango}</td>
+    <td>${unidad}</td>
+	
 </tr>
 `;
 					})
 					.join("");
 
-				// Combinar la fila de la categoría con sus filas de pruebas
-				return categoriaRow + pruebasRows;
+				return categoriaRow + pruebasRows + ValidacionRow;
 			})
 			.join("");
-		
-	const  htmlHeaders=  `
-<!Doctype html>
+
+		return htmlRows;
+	};
+	const headerHeight = '120px';
+	const htmlContent = `
 <html>
 
 <head>
-     <meta charset="utf-8">
-     <title>PDF Result Template</title>
-     <style>
-
-	      *{
-	  
-	        }
-          body {
-               font-family: Georgia, 'Times New Roman', Times, serif;
- margin:0 auto;
-              
-			  
-               font-size: 1rem;
-
-          }
-
-          .title_categoria {
-               text-align: center;
-               margin: 0px auto;
-               padding: 15px;
-          }
-
-          h1 {
-               text-align: center;
-
-          }
+    <style>
+	
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-top: 180px;
 
 
+            font-size: 1rem;
+
+        }
+
+        table {
+
+            width: 100%;
+            margin: 0px auto;
+            border-top: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+background-color: #e6e6de;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            font-size: 0.5rem;
+        }
+			.title_categoria{
+
+			background-color: #cacac6;
+		
+			}
 
 
-.datos_paciente {
-  width: 100%; /* Ajusta el ancho del contenedor */
-  margin: 10px auto; /* Centra el contenedor horizontalmente */
-  overflow: hidden; /* Limpia los floats */
-  display: flex; /* Flexbox para ayudar con el centrado */
-  justify-content: center; /* Centra las columnas */
-  gap: 20px; /* Espaciado entre columnas */
-}
-
-.columna {
-  float: left; /* Opcional si quieres compatibilidad antigua */
-  width: 50%; /* Define el ancho de las columnas */
-  margin:10px auto;
-  text-align: left; /* Centra el contenido dentro de la columna */
-}
-
-          .columna p {
-
-               margin: 10px ;
-          }
-
-          table {
-
-               width: 100%;
-               margin: 10px auto;
-               border-top: 1px solid black;
-               border-collapse: collapse;
-          }
-
-          th,
-          td {
-               border-bottom: 1px solid #ddd;
-               text-align: center;
-               padding: 10px;
-          }
-
-          th {
-
-               font-size: 14px;
-               font-weight: bold;
-               text-align: center;
-          }
-
-          td {
-               font-size: 12px;
-          }
-
-          .prevent-break {
-               page-break-inside: avoid;
-
-               /* Ajusta el margen para asegurar que haya espacio suficiente */
-          }
-
-     #pageHeader {
-  position: fixed;
-  top: -15px; /* Coloca el encabezado al borde superior */
-  left: 0;
-  width: 100%;
-   /* Ajusta la altura del encabezado */
-  background: white; /* Asegura un fondo blanco si hay contenido debajo */
-  text-align: center;
-  z-index: 999; /* Asegura que esté por encima del resto del contenido */
-}
-
-#pageHeader img {
-  width: 100%; /* Escala la imagen para que no exceda el ancho */
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-           
-             
-
-          .page-break {
-               page-break-before: always;
-          }
-     </style>
-
-
-
+    </style>
 </head>
 
 <body>
+    <div>
+        <table>
+            <thead>
 
-<div id='pageHeader'>
-<img src='${imgSrc}'  />
-
-</div>
-
-
-
-
-
-
-     <div class="datos_paciente">
-          <div class="columna">
-               <p><strong>Nº Identificación:</strong> ${orden.paciente.numero}</p>
-               <p><strong>Paciente:</strong> ${orden.paciente.apellidos} ${orden.paciente.nombres}</p>
-               <p><strong>Edad:</strong> ${orden.paciente.edad} Años &nbsp;
-                    &nbsp;<strong>Sexo:</strong>${orden.paciente.sexo}</p>
-
-               <p><strong>Fecha de Ingreso:</strong> ${orden.fechaorden} ${orden.horaorden}</p>
-          </div>
-          <div class="columna">
-               <p><strong>Nº de Petición:</strong> ${orden.numeroorden}</p>
-               <p><strong>Nº Procedencia:</strong> ${orden.tiposervicio.nombre} </p>
-               <p><strong>Servicio:</strong> ${orden.tipoatencion.nombre}</p>
-
-               <p><strong>Médico:</strong> ${orden.medico.apellidos} ${orden.medico.nombres}</p>
-          </div>
-
-
-
-     </div>
-
-
-
-     <div>
-          <table>
-               <thead>
-                    <tr>
-
-                         <th>EXAMEN</th>
-                         <th>RESULTADO</th>
-                         <th>UNIDAD</th>
-                         <th>RANGO REFERENCIA</th>
-
-                    </tr>
-               </thead>
-               <tbody>
-                    ${htmlRows}
-
-               </tbody>
-          </table>
-     </div>
-     <div id="pageFooter" style="border-top: 1px solid #ddd; ">
-          <p
-               style="color: #666; width: 70%; margin: 0; padding-bottom: 5px; text-align: let; font-family: sans-serif; font-size: .65em; float: left;">
-          <p>Generado por: </p>
-          </h4>
-          <p
-               style="color: #666; margin: 0; padding-bottom: 5px; text-align: right; font-family: sans-serif; font-size: .65em">
-               Página {{ page }} de {{ pages }}</h4>
-     </div>
-
+                <tr>
+                    <th>Nombre</th>
+                    <th>Resultado</th>
+                    <th>Rango</th>
+                    <th>Unidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${generateTableRows()} <!-- Aquí insertamos las filas dinámicamente -->
+            </tbody>
+        </table>
 </body>
+
+</html>
+</div>`;
+
+
+
+	await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
+	await page.emulateMediaType("screen");
+	await page.pdf({
+
+		path: 'reporte.pdf',
+		format: 'A4',
+
+		displayHeaderFooter: true,
+		margin: { top: '180px', bottom: '60px' },
+		printBackground: true,
+		margin: { top: '2cm', right: '0.5cm', bottom: '2cm', left: '0.5cm' },
+		headerTemplate: `
+
+<style>
+
+    .datos_paciente {
+	background-color: #e6e6de;
+        width: 100%;
+        /* Ajusta el ancho del contenedor */
+		padding:20px 15px;
+        margin: 0 auto;
+        /* Centra el contenedor horizontalmente */
+        overflow: hidden;
+        /* Limpia los floats */
+        display: flex;
+        /* Flexbox para ayudar con el centrado */
+       
+        /* Centra las columnas */
+        gap: 20px;
+        /* Espaciado entre columnas */
+    }
+
+    .columna {
+     float:left;
+        /* Opcional si quieres compatibilidad antigua */
+     
+        /* Define el ancho de las columnas */
+        margin: 0px auto;
+        text-align: left;
+        /* Centra el contenido dentro de la columna */
+    }
+
+    .columna p {
+
+
+        margin: 0px auto;
+    }
+
+    p {
+	font-size:14px;
+	padding:0.5px;}
+</style>
+<div style="width:100%;  text-align:center; font-size:10px;">
+    <img src="${imgSrc}" style="width: 100%; height: auto;" />  
+
+
+
+
+  <div class="datos_paciente">
+
+
+
+        <div class="columna">
+            <p><strong>Nº Identificación:</strong> ${orden.paciente.numero}</p>
+            <p><strong>Paciente:</strong> ${orden.paciente.apellidos} ${orden.paciente.nombres}</p>
+            <p><strong>Edad:</strong> ${orden.paciente.edad} Años &nbsp;
+                &nbsp;<strong>Sexo:</strong>${orden.paciente.sexo}</p>
+
+            <p><strong>Fecha de Ingreso:</strong> ${orden.fechaorden} ${orden.horaorden}</p>
+        </div>
+        <div class="columna">
+            <p><strong>Nº de Petición:</strong> ${orden.numeroorden}</p>
+            <p><strong>Nº Procedencia:</strong> ${orden.tiposervicio.nombre} </p>
+            <p><strong>Servicio:</strong> ${orden.tipoatencion.nombre}</p>
+
+            <p><strong>Médico:</strong> ${orden.medico.apellidos} ${orden.medico.nombres}</p>
+        </div>
+
+    </div>
 </div>
 
-</html> `;
-
-		const opcionesPDF = {
-			format: "A4",
-			orientation: "portrait", // 'landscape' o 'portrait'
-			border: {
-				top: "2cm1mm", // Ajusta esto según sea necesario
-				right: "10mm",
-				bottom: "10mm",
-				left: "10mm",
-			},
-
-			
-			footer: {
-				height: "5cm", // Altura del pie de página
-				contents: {
-					default: `
-		  <div style="text-align: center; font-size: 10px;">
-			Página {{page}} de {{pages}}
-			
-		  </div>
-		`,
-				},
-			},
-		};
-
-		pdf.create(htmlHeaders, opcionesPDF).toStream((err, stream) => {
-			if (err) {
-				console.error(err);
-				return res
-					.status(500)
-					.json({ error: "Error al generar el archivo PDF" });
-			}
-
-			res.setHeader("Content-Type", "application/pdf");
-			res.setHeader(
-				"Content-Disposition",
-				'attachment; filename="ReporteStock.pdf"'
-			);
-
-			stream.pipe(res);
-		});
-	} catch (error) {
-		console.error("Error generando PDF:", error);
-		res.status(500).json({ error: "Error al generar el PDF" });
-	}
+`,
+		footerTemplate: `<div style="font-size:10px; text-align:center; width:100%;">
+		 <img src="${imgSrc}" style="width: 100%; height: auto;" />  
+		Página <span class="pageNumber"></span> de
+    <span class="totalPages"></span>
+</div>`,
+		margin: { top: '60px', bottom: '60px' }
+	});
+	await browser.close();
+	console.log('PDF generado con éxito: reporte.pdf')
 };
 
 module.exports = {

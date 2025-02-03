@@ -22,7 +22,9 @@ const getProductos = async (req, res) => {
 		],
 
 		group: ["referencia", "lote", ],
+		
 	}
+
 ] */
 	);
 	res.status(200).json({
@@ -39,7 +41,7 @@ const getByProductos = async (req, res) => {
 	const productos = await Producto.findAll({
 		where: {
 			NOMBRE: {
-				[Op.like]: `%${q}%`,
+				[Op.like]: `${dataCA}%`,
 			},
 		},
 	});
