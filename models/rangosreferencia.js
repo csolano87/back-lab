@@ -6,11 +6,20 @@ Rango.init(
 	{
 		//tipofisiologico: DataTypes.INTEGER,
 		rangos: DataTypes.STRING,
+		rangoMin:DataTypes.DECIMAL(10,2),
+		rangoMax:DataTypes.DECIMAL(10,2),
+
 		//unidad: DataTypes.STRING,
 		edadinicial: DataTypes.INTEGER,
 		//unidadedadinicial: DataTypes.STRING,
 		edadfinal: DataTypes.INTEGER,
+
+
 		//unidadedadfinal: DataTypes.STRING,
+		
+
+
+
 		comentario: DataTypes.TEXT("long"),
 
 		usuarioId: DataTypes.STRING,

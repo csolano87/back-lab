@@ -123,20 +123,20 @@ const updatePerfiles = async (req, res) => {
 			const pruebasExistentes = listaperfiles.itempruebas.map(
 				(item) => item.itempruebaId
 			);
-
+			console.log("--->pruebasExistentes", pruebasExistentes);
 			const nuevasPruebasIds = pruebas.map((item) => item.pruebaId);
-
+			console.log("--->nuevasPruebasIds", nuevasPruebasIds);
 			const pruebasParaEliminar = pruebasExistentes.filter(
 				(id) => !nuevasPruebasIds.includes(id)
 			);
-			console.log("--->3", pruebasParaEliminar);
-			/* await Itemprueba.destroy({
+			console.log("--->pruebasParaEliminar", pruebasParaEliminar);
+			 await Itemprueba.destroy({
 				where: {
-					id: pruebasParaEliminar,
+					itempruebaId: pruebasParaEliminar,
 					perfilId: id,
 				},
 				transaction: t,
-			}); */
+			}); 
 
 			//actualiza
 

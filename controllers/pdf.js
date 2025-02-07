@@ -339,8 +339,7 @@ const getIngresOrdenPdf = async (req, res) => {
         th,
         td {
             border-bottom: 1px solid #ddd;
-            text-align: center;
-            padding: 10px;
+           
         }
 
         th {
@@ -388,7 +387,7 @@ background-color: #e6e6de;
 
 	await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
 	await page.emulateMediaType("screen");
-	await page.pdf({
+	const pdf =await page.pdf({
 
 		path: 'reporte.pdf',
 		format: 'A4',
@@ -396,7 +395,7 @@ background-color: #e6e6de;
 		displayHeaderFooter: true,
 		margin: { top: '180px', bottom: '60px' },
 		printBackground: true,
-		margin: { top: '2cm', right: '0.5cm', bottom: '2cm', left: '0.5cm' },
+		margin: { top: '2cm', right: '5cm', bottom: '2cm', left: '5cm' },
 		headerTemplate: `
 
 <style>
@@ -476,7 +475,13 @@ background-color: #e6e6de;
 		margin: { top: '60px', bottom: '60px' }
 	});
 	await browser.close();
-	console.log('PDF generado con éxito: reporte.pdf')
+	
+
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', 'attachment; filename="archivo.pdf"');
+    
+	res.end(pdf)
+//	console.log('PDF generado con éxito: reporte.pdf')
 };
 
 module.exports = {

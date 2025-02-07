@@ -33,6 +33,7 @@ const escpos = require("escpos");
 const { waitForDebugger } = require("inspector");
 const Usuario = require("../models/usuarios");
 const Historicorden = require("../models/historicorden");
+const Tipofisiologico = require("../models/tipofisiologico");
 escpos.Network = require("escpos-network");
 const getIngresorden = async (req, res) => {
 	const ordenes = await Orden.findAll({
@@ -111,6 +112,10 @@ const getIdIngresorden = async (req, res) => {
 									model: Unidad,
 									as: "unidad",
 								},
+								{
+									model: Tipofisiologico,
+									as: "tipofisiologico",
+								},
 							],
 						},
 						{
@@ -136,11 +141,13 @@ const getIdIngresorden = async (req, res) => {
 
 			{
 				model: Paciente,
+
 				as: "paciente",
 			},
 			{
 				model: Medico,
 				as: "medico",
+
 			},
 		],
 	});
