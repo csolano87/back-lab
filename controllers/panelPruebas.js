@@ -73,7 +73,7 @@ const createpanelPruebas = async (req, res) => {
 			CODIGO: CODIGO,
 		},
 	});
-
+	console.log(panel)
 	if (panel) {
 		return res.status(400).json({
 			msg: "Este codigo de pruebas   ya existe",
@@ -144,6 +144,7 @@ const updatepanelPruebas = async (req, res) => {
 			.json({ ok: false, msg: `La prueba con la ID ${id} no existe` });
 	}
 
+
 	const {
 		CODIGO,
 		ABREV,
@@ -158,28 +159,34 @@ const updatepanelPruebas = async (req, res) => {
 
 		CODEXTERNO,
 	} = req.body;
+	const pruebas = await Panel_pruebas.findOne({ 
+		where: { CODIGO: CODIGO } })
+	if (pruebas) {
+		return res
+			.status(400)
+			.json({ ok: false, msg: `el codigo  ${CODIGO} no existe` });
+	}
 
+	await Panel_pruebas.update(
+		{
+			CODIGO,
+			ABREV,
+			ORDEN,
+			NOMBRE,
+			muestraId,
+			tecnicaId,
+			modeloId,
+			TIEMPO,
+			VALOR,
+			//favorite,
 
-		await Panel_pruebas.update(
-			{
-				CODIGO,
-				ABREV,
-				ORDEN,
-				NOMBRE,
-				muestraId,
-				tecnicaId,
-				modeloId,
-				TIEMPO,
-				VALOR,
-				//favorite,
-
-				//CODEXTERNO,
-			},
-			{ where: { id: id } }
-		);
-		res
-			.status(200)
-			.json({ ok: true, msg: `Se actualizo la prueba ${NOMBRE} con exito` });
+			//CODEXTERNO,
+		},
+		{ where: { id: id } }
+	);
+	res
+		.status(200)
+		.json({ ok: true, msg: `Se actualizo la prueba ${NOMBRE} con exito` });
 	/* } else {
 		await Panel_pruebas.update(
 			{

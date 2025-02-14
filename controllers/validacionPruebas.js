@@ -51,7 +51,7 @@ const updateExamen = async (req, res) => {
 					await pruebasExistente.update(
 						{
 							resultado: resultado,
-							estado:2,
+							estado:4,
 							rangoId:rangoId,
 							reportadaId:user.id,
 							fechaordenreportada: fecha,

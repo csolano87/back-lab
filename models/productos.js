@@ -13,11 +13,11 @@ Producto.init(
 			type: DataTypes.STRING,
 		},
 		CATEGORIA: {
-			type: DataTypes.STRING,
+			type: DataTypes.STRING,allowNull: true
 		},
-		UNIDAD: { type: DataTypes.STRING },
-		GENERACION: { type: DataTypes.STRING },
-		VALOR: { type: DataTypes.DOUBLE },
+		UNIDAD: { type: DataTypes.STRING,allowNull: true },
+		GENERACION: { type: DataTypes.STRING ,allowNull: true},
+		VALOR: { type: DataTypes.DOUBLE,allowNull: true },
 		USUARIO_ID: DataTypes.INTEGER,
 		CREATEDBY: DataTypes.INTEGER,
 		UPDATEDBY: DataTypes.INTEGER,

@@ -348,21 +348,21 @@ const updateIngresorden = async (req, res) => {
 			);
 
 			if (pruebasEliminar.length > 0) {
-			await Prueba.destroy({
-				where: {
-					ordenId: id,
+				await Prueba.destroy({
+					where: {
+						ordenId: id,
 
-					panelpruebaId: pruebasEliminar,
-				}, transaction: t,
-			});
-			await Historicorden.create({
-				accion: 'Eliminar',
-				detalles: 'Se elimino la orden',
-				ordenId: id,
-				usuarioId: user.id,
-				pruebaId: pruebasEliminar
-			}, { transaction: t })
-		}
+						panelpruebaId: pruebasEliminar,
+					}, transaction: t,
+				});
+				await Historicorden.create({
+					accion: 'Eliminar',
+					detalles: 'Se elimino la orden',
+					ordenId: id,
+					usuarioId: user.id,
+					pruebaId: pruebasEliminar
+				}, { transaction: t })
+			}
 			await Promise.all(
 				pruebas.map(async (item) => {
 					const { codigoId, codigo, nomExam, tiempo, muestra, etq, estado } =
@@ -402,16 +402,16 @@ const updateIngresorden = async (req, res) => {
 						console.log(examExistente);
 
 
-					} else { 
+					} else {
 						await examExistente.update(
 							{
 								//ordenId: id,
 								estado: estado,
-							/* 	fechaorden: fecha,
-								horaorden: hora,
-								reportadaId: user.id,
-								fechaordenreportada: fecha,
-								horaordenreportada: hora */
+								/* 	fechaorden: fecha,
+									horaorden: hora,
+									reportadaId: user.id,
+									fechaordenreportada: fecha,
+									horaordenreportada: hora */
 
 
 							},
@@ -439,8 +439,8 @@ const updateIngresorden = async (req, res) => {
 const validarIngresorden = async (req, res) => {
 	const hoy = moment();
 	//const hora = ;
-	const [fecha, hora] = hoy.format("LTS");
-	console.log(`**************************************************`, hora, fecha)
+	const hora = hoy.format("LTS");
+	const fecha = hoy.format('L')
 	const { id } = req.params;
 	console.log(req.body)
 	const user = req.usuario;
@@ -455,8 +455,8 @@ const validarIngresorden = async (req, res) => {
 			});
 		}
 
-		await orden.update({
-			estado: estado,
+		await Prueba.update({
+			estado: req.body.estado,
 			validadaId: user.id,
 			fechaordenvalidada: fecha,
 			horaordenvalidada: hora
@@ -468,12 +468,14 @@ const validarIngresorden = async (req, res) => {
 			}
 		});
 
-		const validarEstadoOrden = ordenes.prueba.some(item => item.estado === 2);
+		const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
+		console.log(`----`,validarEstadoOrden);
 		if (validarEstadoOrden) {
-			return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+			await ordenes.update({ estado: 3 })
+			//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 		}
-		await ordenes.update({ estado: 3 })
-		res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+		//await ordenes.update({ estado: 3 })
+	res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 
 	} else {
 		try {
@@ -482,7 +484,9 @@ const validarIngresorden = async (req, res) => {
 					{
 						estado: req.body.estado,
 						validadaId: user.id,
+
 						fechaordenvalidada: fecha,
+
 						horaordenvalidada: hora
 					},
 					{
@@ -502,12 +506,15 @@ const validarIngresorden = async (req, res) => {
 				}
 			});
 			console.log(ordenes)
-			const validarEstadoOrden = ordenes.prueba.some(item => item.estado === 2);
+			const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
+
+			console.log(`**`,validarEstadoOrden);
 			if (validarEstadoOrden) {
-				return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+				await ordenes.update({ estado: 3 })
+				//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 			}
-			await ordenes.update({ estado: 3 })
-			res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+		
+			 res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` }); 
 
 
 		} catch (error) {

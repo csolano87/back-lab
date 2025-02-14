@@ -30,14 +30,17 @@ const getStock = async (req, res) => {
 
 		group: ["referencia", "lote", "productId", "caducidad"],
 	});
-
+console.log(all.product)
 	const allStock = all.reduce((acc, item) => {
 		const referencia = item.referencia;
 		const nombre = item.product.NOMBRE;
+		
+		console.log(nombre)
 		if (!acc[referencia]) {
 			acc[referencia] = {
 				referencia: referencia,
 				nombre: nombre,
+
 				detalles: [],
 				total_referencia: 0,
 			};

@@ -62,6 +62,15 @@ const getIdperfiles = async (req, res) => {
 const createPerfiles = async (req, res) => {
 	const { codigo, nombre, tipogrupoId, pruebas } = req.body;
 
+	const perfil = await Perfil.findOne({
+		 where: { codigo: codigo } })
+	if (perfil) {
+		console.log(`-----`, perfil)
+		return res.status(400).json({
+			ok: false,
+			msg: `El codigo ${codigo} esta en uso `
+		})
+	}
 	await sequelize.transaction(async (t) => {
 		const perfil = await Perfil.create(
 			{ codigo, nombre, tipogrupo: tipogrupoId },
@@ -130,13 +139,13 @@ const updatePerfiles = async (req, res) => {
 				(id) => !nuevasPruebasIds.includes(id)
 			);
 			console.log("--->pruebasParaEliminar", pruebasParaEliminar);
-			 await Itemprueba.destroy({
+			await Itemprueba.destroy({
 				where: {
 					itempruebaId: pruebasParaEliminar,
 					perfilId: id,
 				},
 				transaction: t,
-			}); 
+			});
 
 			//actualiza
 

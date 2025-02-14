@@ -23,7 +23,7 @@ const pdf = require("html-pdf");
 const Bodega = require("../models/bodega");
 const getPedidoStock = async (req, res) => {
 	const pedidoStock = await PedidoStock.findAll({
-		
+
 		include: [
 			{
 				model: Itempedidostock,
@@ -38,7 +38,7 @@ const getPedidoStock = async (req, res) => {
 				model: Usuario,
 				as: "usuario",
 				attributes: ["doctor"],
-				
+
 			},
 
 		],
@@ -241,8 +241,37 @@ const getFiltroPedidoStock = async (req, res) => {
 			},
 		],
 	});
-	console.log(pedidoStock);
-	res.status(200).json({ ok: true, pedidoStock: pedidoStock });
+	const productIds = [...new Set(pedidoStock.itemstock.map(item => item.ID_PRODUCTO))];
+
+	// 3️⃣ Obtener stock agrupado solo por referencia
+	const additionalDataArray = await ItemStock.findAll({
+		where: { productId: { [Op.in]: productIds }, bodegaId: 1 },
+		include: { model: Producto, as: "product" },
+		attributes: [
+			"productId",
+			"referencia",
+			[Sequelize.fn("SUM", Sequelize.col("cantidad_recibida")), "TOTAL"]
+		],
+		group: ["productId", "referencia"],
+	});
+
+	const stockMap = {};
+	additionalDataArray.forEach(item => {
+		stockMap[item.productId] = {
+			referencia: item.referencia,
+			total_referencia: Number(item.get("TOTAL"))
+		};
+	});
+
+	// 5️⃣ Integrar los datos de stock en cada itemstock
+	const pedidoStockJSON = pedidoStock.toJSON();
+	pedidoStockJSON.itemstock = pedidoStockJSON.itemstock.map(item => ({
+		...item,
+		referencia: stockMap[item.ID_PRODUCTO]?.referencia || "Sin referencia",
+		total_stock: stockMap[item.ID_PRODUCTO]?.total_referencia || 0
+	}));
+
+	res.status(200).json({ ok: true, pedidoStock: pedidoStockJSON });
 };
 
 const createPedidoStock = async (req, res) => {
@@ -891,8 +920,8 @@ const getReportePdfPedidoStock = async (req, res) => {
             </thead>
             <tbody>
             ${pedido.itemstock
-							.map(
-								(key) => `
+			.map(
+				(key) => `
 								<tr>
 									<td>${key.product.REFERENCIA}</td>
 									<td>${key.product.NOMBRE}</td>
@@ -902,8 +931,8 @@ const getReportePdfPedidoStock = async (req, res) => {
 								</tr>
 								
 							`
-							)
-							.join("")}
+			)
+			.join("")}
         </tbody>
         </table>
         </div>

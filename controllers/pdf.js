@@ -199,6 +199,7 @@ const getIngresOrdenPdf = async (req, res) => {
 	});
 	const page = await browser.newPage();
 
+
 	const orden = await Orden.findByPk(id, {
 		include: [
 			{
@@ -267,19 +268,18 @@ const getIngresOrdenPdf = async (req, res) => {
 
 
 		const htmlRows = dataOrden
-			.map((categoria) => {
-
+			.map((categoria, index) => {
+				// Agregar la clase `page-break` solo si no es la primera categoría
 				const categoriaRow = `
-<tr class="page-break">
-    <th class="title_categoria" colspan="4">${categoria.categoria}</th>
-	
-</tr>
-`;
+	<tr class="${index > 0 ? 'page-break' : ''}">
+		<th class="title_categoria" colspan="4">${categoria.categoria}</th>
+	</tr>
+	`;
 
 				const ValidacionRow = `
 <tr>
    
-	<td colpsan="3">Fecha Valildacion:</td>
+	<td colpsan="4">Fecha Validacion:</td>
 <td>responsable:</td>
 </tr>
 `;
@@ -292,10 +292,10 @@ const getIngresOrdenPdf = async (req, res) => {
 						const resultado = prueba?.resultado || "N/A";
 						const rango = prueba?.panelprueba?.rango?.[0]?.rangos || "N/A";
 						const unidad = prueba?.panelprueba?.rango?.[0]?.unidad?.DESCRIPCION || "N/A";
-						const fechaValidacion = prueba?.fechaordenvalidada || "";
+
 
 						return `
-<tr class="avoid-break">
+<tr >
     <td>${nombre}</td>
     <td>${resultado}</td>
     <td>${rango}</td>
@@ -312,49 +312,69 @@ const getIngresOrdenPdf = async (req, res) => {
 
 		return htmlRows;
 	};
-	const headerHeight = '120px';
+
 	const htmlContent = `
 <html>
 
 <head>
     <style>
-	
+	 
         body {
             font-family: Georgia, 'Times New Roman', Times, serif;
-            padding-top: 180px;
-
+          
+         
 
             font-size: 1rem;
 
         }
 
-        table {
+	.page-break {
+    page-break-before: always;
 
+}
+
+
+        table {
             width: 100%;
             margin: 0px auto;
             border-top: 1px solid black;
             border-collapse: collapse;
         }
-
+thead {
+        display: table-header-group;
+    }
+    tbody {
+        display: table-row-group;
+    }
         th,
         td {
             border-bottom: 1px solid #ddd;
-           
+          
         }
 
         th {
-background-color: #e6e6de;
-            font-size: 0.6rem;
+            background-color: #e6e6de;
+            font-size: 13px;
+			padding:8px 10px;
             font-weight: bold;
-            text-align: center;
+		 text-align: left;
+          
         }
 
-        td {
-            font-size: 0.5rem;
-        }
+         td {
+		width:10%;
+		padding:8px 10px;
+	
+            font-size:0.75rem;
+			  text-align: left;
+			  vertical-align: middle;
+			  word-wrap:break-word;
+        } 
+	  
 			.title_categoria{
 
 			background-color: #cacac6;
+			  text-align: center;
 		
 			}
 
@@ -367,7 +387,7 @@ background-color: #e6e6de;
         <table>
             <thead>
 
-                <tr>
+                <tr  >
                     <th>Nombre</th>
                     <th>Resultado</th>
                     <th>Rango</th>
@@ -386,25 +406,25 @@ background-color: #e6e6de;
 
 
 	await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
+
 	await page.emulateMediaType("screen");
-	const pdf =await page.pdf({
+	const pdf = await page.pdf({
 
 		path: 'reporte.pdf',
 		format: 'A4',
 
 		displayHeaderFooter: true,
-		margin: { top: '180px', bottom: '60px' },
+
 		printBackground: true,
-		margin: { top: '2cm', right: '5cm', bottom: '2cm', left: '5cm' },
+		margin: { top: '230px', bottom: '200px' },
 		headerTemplate: `
 
 <style>
-
-    .datos_paciente {
+ .datos_paciente {
 	background-color: #e6e6de;
         width: 100%;
         /* Ajusta el ancho del contenedor */
-		padding:20px 15px;
+		padding: 15px;
         margin: 0 auto;
         /* Centra el contenedor horizontalmente */
         overflow: hidden;
@@ -434,16 +454,18 @@ background-color: #e6e6de;
     }
 
     p {
-	font-size:14px;
+	font-size:12px;
 	padding:0.5px;}
+.img_heard{
+
+width:100%;  text-align:center; font-size:10px;
+}
+
+ 
 </style>
-<div style="width:100%;  text-align:center; font-size:10px;">
+<div class="img_heard">
     <img src="${imgSrc}" style="width: 100%; height: auto;" />  
-
-
-
-
-  <div class="datos_paciente">
+ <div class="datos_paciente">
 
 
 
@@ -465,6 +487,10 @@ background-color: #e6e6de;
 
     </div>
 </div>
+</div>
+
+
+ 
 
 `,
 		footerTemplate: `<div style="font-size:10px; text-align:center; width:100%;">
@@ -472,16 +498,16 @@ background-color: #e6e6de;
 		Página <span class="pageNumber"></span> de
     <span class="totalPages"></span>
 </div>`,
-		margin: { top: '60px', bottom: '60px' }
+
 	});
 	await browser.close();
-	
 
-        res.setHeader('Content-Type', 'application/pdf');
-        res.setHeader('Content-Disposition', 'attachment; filename="archivo.pdf"');
-    
+
+	res.setHeader('Content-Type', 'application/pdf');
+	res.setHeader('Content-Disposition', 'attachment; filename="archivo.pdf"');
+
 	res.end(pdf)
-//	console.log('PDF generado con éxito: reporte.pdf')
+	//	console.log('PDF generado con éxito: reporte.pdf')
 };
 
 module.exports = {
