@@ -216,7 +216,7 @@ const getAllPedidoStock = async (req, res) => {
 		});
 };
 
-const getFiltroPedidoStock = async (req, res) => {
+ const getFiltroPedidoStock = async (req, res) => {
 	const { id } = req.params;
 
 	const pedidoStock = await PedidoStock.findByPk(id, {
@@ -241,9 +241,11 @@ const getFiltroPedidoStock = async (req, res) => {
 			},
 		],
 	});
+
+	console.log(`****************************`,pedidoStock)
 	const productIds = [...new Set(pedidoStock.itemstock.map(item => item.ID_PRODUCTO))];
 
-	// 3️⃣ Obtener stock agrupado solo por referencia
+	
 	const additionalDataArray = await ItemStock.findAll({
 		where: { productId: { [Op.in]: productIds }, bodegaId: 1 },
 		include: { model: Producto, as: "product" },
@@ -272,12 +274,14 @@ const getFiltroPedidoStock = async (req, res) => {
 	}));
 
 	res.status(200).json({ ok: true, pedidoStock: pedidoStockJSON });
-};
+}; 
 
 const createPedidoStock = async (req, res) => {
 	const idUser = req.usuario;
 	const { AREA, PRODUCTOS } = req.body;
+
 	console.log(req.body);
+
 	await sequelize.transaction(async (t) => {
 		const pedidos = await PedidoStock.create(
 			{
@@ -596,7 +600,7 @@ const updateValidarCantidades = async (req, res) => {
 
 	const id = req.params.id;
 	console.log(`id`, id);
-	const { AREA, PRODUCTOS } = req.body;
+	const { AREA, itemstock, } = req.body;
 
 	await sequelize.transaction(async (t) => {
 		const pedido = await PedidoStock.findByPk(id, {
@@ -604,11 +608,13 @@ const updateValidarCantidades = async (req, res) => {
 				{
 					model: Itempedidostock,
 					as: "itemstock",
+
 				},
+
 			],
 		});
 
-		for (const producto of PRODUCTOS) {
+		for (const producto of itemstock) {
 			const { CANTIDAD, ENTREGADO, LOTE, ID_PRODUCTO } = producto;
 
 			// Convert ENTREGADO and LOTE to arrays
@@ -740,11 +746,16 @@ const filtropedidoBodega = async (req, res) => {
 		include: [
 			{
 				model: Producto,
+
 				as: "product",
 			},
 			{ model: Bodega, as: "bodega" },
+
+
+
 		],
 		attributes: [
+			
 			"productId",
 			"ID_PRODUCTO",
 			"bodegaId",

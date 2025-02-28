@@ -40,9 +40,11 @@ const getByProductos = async (req, res) => {
 	});
 	const productos = await Producto.findAll({
 		where: {
-			NOMBRE: {
+			NOMBRE: Sequelize.literal(`REPLACE(NOMBRE, ' ', '') LIKE '${dataCA.replace(/\s/g, '')}%'`)
+			
+			/* {
 				[Op.like]: `${dataCA}%`,
-			},
+			}, */
 		},
 	});
 	console.log(productos)

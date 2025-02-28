@@ -335,18 +335,19 @@ const getIngresOrdenPdf = async (req, res) => {
 
 
         table {
-            width: 100%;
-            margin: 0px auto;
+            width: 90%;
+          margin:0 auto;
             border-top: 1px solid black;
             border-collapse: collapse;
         }
 thead {
         display: table-header-group;
+				 break-inside: avoid;
     }
     tbody {
         display: table-row-group;
     }
-        th,
+	      th,
         td {
             border-bottom: 1px solid #ddd;
           
@@ -354,19 +355,20 @@ thead {
 
         th {
             background-color: #e6e6de;
-            font-size: 13px;
-			padding:8px 10px;
+            font-size:0.8rem;
+			padding:5px;
+			text-align:left;
             font-weight: bold;
-		 text-align: left;
+		
           
         }
 
          td {
-		width:10%;
-		padding:8px 10px;
+	
+		padding: 5px;
 	
             font-size:0.75rem;
-			  text-align: left;
+			  
 			  vertical-align: middle;
 			  word-wrap:break-word;
         } 
@@ -395,7 +397,7 @@ thead {
                 </tr>
             </thead>
             <tbody>
-                ${generateTableRows()} <!-- Aquí insertamos las filas dinámicamente -->
+                ${generateTableRows()}
             </tbody>
         </table>
 </body>
@@ -412,9 +414,14 @@ thead {
 
 		path: 'reporte.pdf',
 		format: 'A4',
-
+		orientation: 'portrait',
 		displayHeaderFooter: true,
-
+		border: {
+			top: '15mm',
+			right: '10mm',
+			bottom: '15mm',
+			left: '10mm'
+		},
 		printBackground: true,
 		margin: { top: '230px', bottom: '200px' },
 		headerTemplate: `

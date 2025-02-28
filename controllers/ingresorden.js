@@ -36,6 +36,8 @@ const Historicorden = require("../models/historicorden");
 const Tipofisiologico = require("../models/tipofisiologico");
 escpos.Network = require("escpos-network");
 const getIngresorden = async (req, res) => {
+
+	console.log(req.params)
 	const ordenes = await Orden.findAll({
 		order: [["numeroorden", "DESC"]],
 		include: [
@@ -57,10 +59,10 @@ const getIngresorden = async (req, res) => {
 				include: {
 					model: Panel_pruebas,
 					as: "panelprueba",
-					/* include:{
-						model:Rango,
-						as:"rango"
-					} */
+					 include:{
+						model:Modelo,
+						as:"modelo"
+					} 
 				},
 			},
 			{
@@ -76,7 +78,48 @@ const getIngresorden = async (req, res) => {
 
 	res.status(200).json({ ok: true, ordenes });
 };
+const getIngresordenes = async (req, res) => {
+const {fecha}=req.query;
+	console.log(req.query)
+		const ordenes = await Orden.findAll({
+			where:{fechaorden :fecha, estado :1},
+			order: [["numeroorden", "DESC"]],
+			include: [
+				{
+					model: Diagnostico,
+					as: "diagnostico",
+				},
+				{
+					model: Tipoatencion,
 
+					as: "tipoatencion",
+				},
+				{
+					model: Tiposervicio,
+					as: "tiposervicio",
+				},
+				{
+					model: Prueba,
+					as: "prueba",
+					include: {
+						model: Panel_pruebas,
+						as: "panelprueba",
+						
+					},
+				},
+				{
+					model: Paciente,
+					as: "paciente",
+				},
+				{
+					model: Medico,
+					as: "medico",
+				},
+			],
+		}); 
+
+	res.status(200).json({ ok: true, ordenes });
+};
 const getIdIngresorden = async (req, res) => {
 	const { id } = req.params;
 	const ordenId = await Orden.findByPk(id, {
@@ -469,13 +512,13 @@ const validarIngresorden = async (req, res) => {
 		});
 
 		const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
-		console.log(`----`,validarEstadoOrden);
+		console.log(`----`, validarEstadoOrden);
 		if (validarEstadoOrden) {
 			await ordenes.update({ estado: 3 })
 			//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 		}
 		//await ordenes.update({ estado: 3 })
-	res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
+		res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 
 	} else {
 		try {
@@ -508,13 +551,13 @@ const validarIngresorden = async (req, res) => {
 			console.log(ordenes)
 			const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
 
-			console.log(`**`,validarEstadoOrden);
+			console.log(`**`, validarEstadoOrden);
 			if (validarEstadoOrden) {
 				await ordenes.update({ estado: 3 })
 				//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 			}
-		
-			 res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` }); 
+
+			res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 
 
 		} catch (error) {
@@ -545,18 +588,6 @@ const deleteIngresorden = async (req, res) => {
 const getFiltrosIngresorden = async (req, res) => {
 	const { orden, identificacion, modeloId, fechaIn, fechaOut } = req.query;
 	console.log(req.query);
-	/* let where = {};
-
-	if (orden) {
-
-		where.numeroorden = {
-			[Op.eq]: orden,
-		}
-
-	} */
-
-
-
 
 	const data = await Orden.findAll({
 		where: {
@@ -648,5 +679,6 @@ module.exports = {
 	updateIngresorden,
 	deleteIngresorden,
 	validarIngresorden,
-	getFiltrosIngresorden
+	getFiltrosIngresorden,
+	getIngresordenes
 };

@@ -13,6 +13,7 @@ router.get("/:id", [validarJWT, tieneRole],getFiltroPedidoStock);
 router.put("/:id", [validarJWT, tieneRole],updatePedidoStock);
 router.put("/validar-cantidad/:id", [validarJWT, tieneRole],updateValidarCantidades);
 router.post("/",[validarJWT, tieneRole],createPedidoStock);
+
 router.delete("/:id", [validarJWT, tieneRole], deletePedidoStock);
 router.get("/bodega/bodega", [validarJWT, tieneRole], filtropedidoBodega)
 router.put("/",[validarJWT, tieneRole],updateStockPedido)

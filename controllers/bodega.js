@@ -47,7 +47,17 @@ const postbodega = async (req, res) => {
 };
 
 const bodegaUpdate = async (req, res) => {
-	res.send("update guardada con exito..");
+	
+const {id}=req.params;
+const {NOMBRE}=req.body;
+console.log(id);
+const bodega =await  Bodega.findByPk(id);
+if (!bodega) {
+	res.status(404).json({ok:false,msg:`No existe bodega con este Id ${id}`})
+}
+await bodega.update({NOMBRE:NOMBRE});
+res.status(200).json({ok:true, msg:`Se actualizo con exito la bodega ${NOMBRE}`})
+
 };
 
 const bodegaDelete = async (req, res) => {
