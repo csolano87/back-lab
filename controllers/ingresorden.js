@@ -36,8 +36,7 @@ const Historicorden = require("../models/historicorden");
 const Tipofisiologico = require("../models/tipofisiologico");
 escpos.Network = require("escpos-network");
 const getIngresorden = async (req, res) => {
-
-	console.log(req.params)
+	console.log(req.params);
 	const ordenes = await Orden.findAll({
 		order: [["numeroorden", "DESC"]],
 		include: [
@@ -59,10 +58,10 @@ const getIngresorden = async (req, res) => {
 				include: {
 					model: Panel_pruebas,
 					as: "panelprueba",
-					 include:{
-						model:Modelo,
-						as:"modelo"
-					} 
+					include: {
+						model: Modelo,
+						as: "modelo",
+					},
 				},
 			},
 			{
@@ -79,50 +78,49 @@ const getIngresorden = async (req, res) => {
 	res.status(200).json({ ok: true, ordenes });
 };
 const getIngresordenes = async (req, res) => {
-const {fecha}=req.query;
-	console.log(req.query)
-		const ordenes = await Orden.findAll({
-			where:{fechaorden :fecha, estado :1},
-			order: [["numeroorden", "DESC"]],
-			include: [
-				{
-					model: Diagnostico,
-					as: "diagnostico",
-				},
-				{
-					model: Tipoatencion,
+	const { fecha } = req.query;
+	console.log(req.query);
+	const ordenes = await Orden.findAll({
+		where: { fechaorden: fecha, estado: 1 },
+		order: [["numeroorden", "DESC"]],
+		include: [
+			{
+				model: Diagnostico,
+				as: "diagnostico",
+			},
+			{
+				model: Tipoatencion,
 
-					as: "tipoatencion",
+				as: "tipoatencion",
+			},
+			{
+				model: Tiposervicio,
+				as: "tiposervicio",
+			},
+			{
+				model: Prueba,
+				as: "prueba",
+				include: {
+					model: Panel_pruebas,
+					as: "panelprueba",
 				},
-				{
-					model: Tiposervicio,
-					as: "tiposervicio",
-				},
-				{
-					model: Prueba,
-					as: "prueba",
-					include: {
-						model: Panel_pruebas,
-						as: "panelprueba",
-						
-					},
-				},
-				{
-					model: Paciente,
-					as: "paciente",
-				},
-				{
-					model: Medico,
-					as: "medico",
-				},
-			],
-		}); 
+			},
+			{
+				model: Paciente,
+				as: "paciente",
+			},
+			{
+				model: Medico,
+				as: "medico",
+			},
+		],
+	});
 
 	res.status(200).json({ ok: true, ordenes });
 };
 const getIdIngresorden = async (req, res) => {
 	const { id } = req.params;
-	const ordenId = await Orden.findByPk(id, {
+	const ordenID = await Orden.findByPk(id, {
 		include: [
 			{
 				model: Diagnostico,
@@ -139,47 +137,47 @@ const getIdIngresorden = async (req, res) => {
 			{
 				model: Prueba,
 				as: "prueba",
-				include: [{
-					model: Panel_pruebas,
-					as: "panelprueba",
-					include: [
-						{
-							model: Rango,
-							as: "rango",
-							include: [
-								{
-									model: Unidadedad,
-									as: "unidadedad",
-								},
-								{
-									model: Unidad,
-									as: "unidad",
-								},
-								{
-									model: Tipofisiologico,
-									as: "tipofisiologico",
-								},
-							],
-						},
-						{
-							model: Modelo,
-							as: "modelo",
-						},
-						{
-							model: Muestra,
-							as: "muestra",
-						},
-						{
-							model: Tecnica,
-							as: "tecnica",
-						},
-					],
-				},
-				{ model: Usuario, as: 'creador', },
-				{ model: Usuario, as: 'reportador', },
-				{ model: Usuario, as: 'validador', }
+				include: [
+					{
+						model: Panel_pruebas,
+						as: "panelprueba",
+						include: [
+							{
+								model: Rango,
+								as: "rango",
+								include: [
+									{
+										model: Unidadedad,
+										as: "unidadedad",
+									},
+									{
+										model: Unidad,
+										as: "unidad",
+									},
+									{
+										model: Tipofisiologico,
+										as: "tipofisiologico",
+									},
+								],
+							},
+							{
+								model: Modelo,
+								as: "modelo",
+							},
+							{
+								model: Muestra,
+								as: "muestra",
+							},
+							{
+								model: Tecnica,
+								as: "tecnica",
+							},
+						],
+					},
+					{ model: Usuario, as: "creador" },
+					{ model: Usuario, as: "reportador" },
+					{ model: Usuario, as: "validador" },
 				],
-
 			},
 
 			{
@@ -190,10 +188,50 @@ const getIdIngresorden = async (req, res) => {
 			{
 				model: Medico,
 				as: "medico",
-
 			},
 		],
 	});
+	const paciente = await Orden.findAll({
+		where: { estado: 3 },
+		include: [
+			{
+				model: Prueba,
+				as: "prueba",
+				include: [
+					{
+						model: Panel_pruebas,
+						as: "panelprueba",
+					},
+					{
+						model: Rango,
+						as: "rango",
+						include: {
+							model: Unidad,
+							as: "unidad",
+						},
+					},
+				],
+			},
+
+			{
+				model: Paciente,
+
+				as: "paciente",
+				where: { numero: ordenID.paciente.numero },
+			},
+		],
+	});
+
+	const pruebasPacientes =
+		paciente.filter((item) => item.estado === 3).flatMap((p) => p.prueba) || [];
+	console.log(pruebasPacientes);
+	const ordenId = ordenID.toJSON();
+	ordenId.prueba = ordenId.prueba.map((item) => ({
+		...item,
+		historioresultado: pruebasPacientes
+			.filter((prueba) => prueba.panelpruebaId === item.panelpruebaId)
+			.sort((a, b) => new Date(b.fechaorden) - new Date(a.fechaorden)),
+	}));
 
 	res.status(200).json({ ok: true, ordenId });
 };
@@ -283,22 +321,24 @@ const postIngresorden = async (req, res) => {
 			);
 			await ordenes.setPrueba(prueba, { transaction: t });
 
-
 			const datapersonales = await Paciente.findByPk(pacienteId);
 
 			res.status(201).json({
-				msg: `Se a integrado  la orden # ${fecha + Norden} para el paciente ${datapersonales.dataValues.apellidos
-					} ${datapersonales.dataValues.nombres} `,
+				msg: `Se a integrado  la orden # ${fecha + Norden} para el paciente ${
+					datapersonales.dataValues.apellidos
+				} ${datapersonales.dataValues.nombres} `,
 			});
 			for (const item of pruebas) {
-
-				await Historicorden.create({
-					accion: 'creado',
-					detalles: 'Se creo la orden',
-					ordenId: ordenes.id,
-					usuarioId: user.id,
-					pruebaId: item.codigoId
-				}, { transaction: t })
+				await Historicorden.create(
+					{
+						accion: "creado",
+						detalles: "Se creo la orden",
+						ordenId: ordenes.id,
+						usuarioId: user.id,
+						pruebaId: item.codigoId,
+					},
+					{ transaction: t }
+				);
 				console.info(item);
 				/* ^FO250,40^A0N,5,5^FDEtiqueta de Laboratorio^FS */
 				if (item.etq === 3 || item.etq === null || item.etq === "null") {
@@ -324,8 +364,6 @@ const postIngresorden = async (req, res) => {
 					});
 				}
 			}
-
-
 		});
 	} catch (error) {
 		console.log(`*****************ERROR*************`, error);
@@ -337,7 +375,11 @@ const updateIngresorden = async (req, res) => {
 	const hoy = moment();
 	//const hora = ;
 	const [fecha, hora] = hoy.format("LTS");
-	console.log(`**************************************************`, hora, fecha)
+	console.log(
+		`**************************************************`,
+		hora,
+		fecha
+	);
 	const user = req.usuario;
 	const { id } = req.params;
 	const ordenes = req.body;
@@ -396,15 +438,19 @@ const updateIngresorden = async (req, res) => {
 						ordenId: id,
 
 						panelpruebaId: pruebasEliminar,
-					}, transaction: t,
+					},
+					transaction: t,
 				});
-				await Historicorden.create({
-					accion: 'Eliminar',
-					detalles: 'Se elimino la orden',
-					ordenId: id,
-					usuarioId: user.id,
-					pruebaId: pruebasEliminar
-				}, { transaction: t })
+				await Historicorden.create(
+					{
+						accion: "Eliminar",
+						detalles: "Se elimino la orden",
+						ordenId: id,
+						usuarioId: user.id,
+						pruebaId: pruebasEliminar,
+					},
+					{ transaction: t }
+				);
 			}
 			await Promise.all(
 				pruebas.map(async (item) => {
@@ -420,7 +466,6 @@ const updateIngresorden = async (req, res) => {
 					});
 
 					if (!examExistente) {
-
 						await Prueba.create(
 							{
 								ordenId: id,
@@ -428,23 +473,21 @@ const updateIngresorden = async (req, res) => {
 
 								panelpruebaId: codigoId,
 								creadorId: user.id,
-
-
 							},
 							{ transaction: t }
 						);
 
-
-						await Historicorden.create({
-							accion: 'creado',
-							detalles: 'Se creo la orden',
-							ordenId: id,
-							usuarioId: user.id,
-							pruebaId: codigoId
-						}, { transaction: t })
+						await Historicorden.create(
+							{
+								accion: "creado",
+								detalles: "Se creo la orden",
+								ordenId: id,
+								usuarioId: user.id,
+								pruebaId: codigoId,
+							},
+							{ transaction: t }
+						);
 						console.log(examExistente);
-
-
 					} else {
 						await examExistente.update(
 							{
@@ -455,19 +498,20 @@ const updateIngresorden = async (req, res) => {
 									reportadaId: user.id,
 									fechaordenreportada: fecha,
 									horaordenreportada: hora */
-
-
 							},
 							{ transaction: t }
 						);
 
-						await Historicorden.create({
-							accion: 'actualizar',
-							detalles: 'Se actualizo la orden',
-							ordenId: id,
-							usuarioId: user.id,
-							pruebaId: codigoId
-						}, { transaction: t })
+						await Historicorden.create(
+							{
+								accion: "actualizar",
+								detalles: "Se actualizo la orden",
+								ordenId: id,
+								usuarioId: user.id,
+								pruebaId: codigoId,
+							},
+							{ transaction: t }
+						);
 					}
 				})
 			);
@@ -483,9 +527,9 @@ const validarIngresorden = async (req, res) => {
 	const hoy = moment();
 	//const hora = ;
 	const hora = hoy.format("LTS");
-	const fecha = hoy.format('L')
+	const fecha = hoy.format("L");
 	const { id } = req.params;
-	console.log(req.body)
+	console.log(req.body);
 	const user = req.usuario;
 
 	if (!req.body.panelpruebaId) {
@@ -502,24 +546,25 @@ const validarIngresorden = async (req, res) => {
 			estado: req.body.estado,
 			validadaId: user.id,
 			fechaordenvalidada: fecha,
-			horaordenvalidada: hora
+			horaordenvalidada: hora,
 		});
 		const ordenes = await Orden.findByPk(id, {
 			include: {
 				model: Prueba,
 				as: "prueba",
-			}
+			},
 		});
 
-		const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
+		const validarEstadoOrden = ordenes.prueba.every(
+			(item) => item.estado === 5
+		);
 		console.log(`----`, validarEstadoOrden);
 		if (validarEstadoOrden) {
-			await ordenes.update({ estado: 3 })
+			await ordenes.update({ estado: 3 });
 			//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 		}
 		//await ordenes.update({ estado: 3 })
 		res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
-
 	} else {
 		try {
 			for (const e of req.body.panelpruebaId) {
@@ -530,42 +575,41 @@ const validarIngresorden = async (req, res) => {
 
 						fechaordenvalidada: fecha,
 
-						horaordenvalidada: hora
+						horaordenvalidada: hora,
 					},
 					{
 						where: {
 							ordenId: id,
-							panelpruebaId: e
-						}
+							panelpruebaId: e,
+						},
 					}
 				);
-
-
 			}
 			const ordenes = await Orden.findByPk(id, {
 				include: {
 					model: Prueba,
 					as: "prueba",
-				}
+				},
 			});
-			console.log(ordenes)
-			const validarEstadoOrden = ordenes.prueba.every(item => item.estado === 5);
+			console.log(ordenes);
+			const validarEstadoOrden = ordenes.prueba.every(
+				(item) => item.estado === 5
+			);
 
 			console.log(`**`, validarEstadoOrden);
 			if (validarEstadoOrden) {
-				await ordenes.update({ estado: 3 })
+				await ordenes.update({ estado: 3 });
 				//return res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
 			}
 
-			res.status(200).json({ ok: true, msg: `Se valido la orden correctamente` });
-
-
+			res
+				.status(200)
+				.json({ ok: true, msg: `Se valido la orden correctamente` });
 		} catch (error) {
 			console.error("Error actualizando la orden:", error);
 			res.status(500).json({ ok: false, msg: "Error al validar la orden" });
 		}
 	}
-
 };
 const deleteIngresorden = async (req, res) => {
 	const { id } = req.params;
@@ -584,19 +628,20 @@ const deleteIngresorden = async (req, res) => {
 	});
 };
 
-
 const getFiltrosIngresorden = async (req, res) => {
 	const { orden, identificacion, modeloId, fechaIn, fechaOut } = req.query;
 	console.log(req.query);
 
 	const data = await Orden.findAll({
 		where: {
-			...(orden ? {
-				numeroorden: orden
-
-			} : {}),
-			...(fechaIn && fechaIn ?
-				{ fechaorden: { [Op.between]: [fechaIn, fechaIn] } } : {})
+			...(orden
+				? {
+						numeroorden: orden,
+				  }
+				: {}),
+			...(fechaIn && fechaIn
+				? { fechaorden: { [Op.between]: [fechaIn, fechaIn] } }
+				: {}),
 		},
 		include: [
 			{
@@ -655,22 +700,68 @@ const getFiltrosIngresorden = async (req, res) => {
 			{
 				model: Paciente,
 				as: "paciente",
-				where:
-					identificacion ? { numero: identificacion } : {}
-
+				where: identificacion ? { numero: identificacion } : {},
 			},
 			{
 				model: Medico,
 				as: "medico",
 			},
 		],
-	})
+	});
+
+	/* const paciente = await Orden.findAll({
+		where: { estado: 3 },
+		include: [
+			{
+				model: Prueba,
+				as: "prueba",
+				include: [
+					{
+						model: Panel_pruebas,
+						as: "panelprueba",
+					},
+					{
+						model: Rango,
+						as: "rango",
+						include: {
+							model: Unidad,
+							as: "unidad",
+						},
+					},
+				],
+			},
+
+			{
+				model: Paciente,
+
+				as: "paciente",
+				where: { numero: ordenID.paciente.numero },
+			},
+		],
+	});
+
+	const pruebasPacientes =
+		paciente.filter((item) => item.estado === 3).flatMap((p) => p.prueba) || [];
+	console.log(pruebasPacientes);
+	const data = ordene.toJSON();
+	data.prueba = ordenId.prueba.map((item) => ({
+		...item,
+		historioresultado: pruebasPacientes
+			.filter((prueba) => prueba.panelpruebaId === item.panelpruebaId)
+			.sort((a, b) => new Date(b.fechaorden) - new Date(a.fechaorden)),
+	})); */
+
+
+
+
+
+
+
 	res.status(200).json({
 		ok: true,
-		ordenes: data
-	})
-
-}
+		ordenes: data,
+	});
+};
 
 module.exports = {
 	getIngresorden,
@@ -680,5 +771,5 @@ module.exports = {
 	deleteIngresorden,
 	validarIngresorden,
 	getFiltrosIngresorden,
-	getIngresordenes
+	getIngresordenes,
 };

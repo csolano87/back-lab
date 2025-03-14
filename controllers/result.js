@@ -1,8 +1,8 @@
 const fs = require("fs");
 
 const axios = require("axios").default;
-const dataXX = require("../dataXX.json");
-const serverBCK = require("../serverBCK.json");
+//const dataXX = require("../dataXX.json");
+//const serverBCK = require("../serverBCK.json");
 const localStorage = require("localStorage");
 const xml2js = require("xml2js");
 const stripNS = require("xml2js").processors.stripPrefix;
@@ -17,10 +17,10 @@ const createresult = async (req, res) => {
 
 	let fileInputName = req.file.path;
 
-	//const jsonParse = fs.readFileSync(fileInputName, "utf8");
+	
 	let dat = csvToJson.getJsonFromCsv(fileInputName);
 
-	//console.log(dat);
+
 
 	const CacheUserName = "_SYSTEM";
 	const CachePassword = "INFINITY";
@@ -47,6 +47,9 @@ const createresult = async (req, res) => {
 	const resp = await orden.get();
 	const data = resp.data;
 	res.json(data)
+
+
+
 	/* fs.readFile("data.xml", function (err, data) {
 		xml2js.parseString(
 			data,

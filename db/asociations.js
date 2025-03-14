@@ -64,12 +64,14 @@ const Role = require("../models/role");
 const Menu = require("../models/menu");
 const MenuRole = require("../models/menuRoles");
 const Historicorden = require("../models/historicorden");
+const Stocktemp = require("../models/stockTemp");
+const ItemStocktemp = require("../models/itemStockTemp");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
-Prueba.belongsTo(Usuario, { as: 'creador', foreignKey: 'creadorId' });
-Prueba.belongsTo(Usuario, { as: 'reportador', foreignKey: 'reportadaId' });
-Prueba.belongsTo(Usuario, { as: 'validador', foreignKey: 'validadaId' });
+Prueba.belongsTo(Usuario, { as: "creador", foreignKey: "creadorId" });
+Prueba.belongsTo(Usuario, { as: "reportador", foreignKey: "reportadaId" });
+Prueba.belongsTo(Usuario, { as: "validador", foreignKey: "validadaId" });
 /* Relaciones de tablas con la tabla de usuarios */
 Panel_pruebas.hasMany(Rango, { as: "rango", foreignKey: "panelpruebaId" });
 Rango.belongsTo(Panel_pruebas, { as: "panelpruebas" });
@@ -91,14 +93,16 @@ Prueba.belongsTo(Orden, { as: "orden" });
 
 Panel_pruebas.hasMany(Prueba, { as: "prueba", foreignKey: "panelpruebaId" });
 Prueba.belongsTo(Panel_pruebas, { as: "panelprueba" });
-Orden.hasMany(Historicorden,{as:"historicorden",foreignKey:"ordenId"});
-Historicorden.belongsTo(Orden,{as:"orden"});
-Usuario.hasMany(Historicorden,{as:"historicorden",foreignKey:"usuarioId"});
-Historicorden.belongsTo(Usuario,{as:"usuario"});
+Orden.hasMany(Historicorden, { as: "historicorden", foreignKey: "ordenId" });
+Historicorden.belongsTo(Orden, { as: "orden" });
+Usuario.hasMany(Historicorden, {
+	as: "historicorden",
+	foreignKey: "usuarioId",
+});
+Historicorden.belongsTo(Usuario, { as: "usuario" });
 
-Prueba.hasMany(Historicorden,{as:"historicorden",foreignKey:"pruebaId"});
-Historicorden.belongsTo(Prueba,{as:"prueba"});
-
+Prueba.hasMany(Historicorden, { as: "historicorden", foreignKey: "pruebaId" });
+Historicorden.belongsTo(Prueba, { as: "prueba" });
 
 Rango.hasOne(Prueba, { as: "prueba", foreignKey: "rangoId" });
 
@@ -118,11 +122,11 @@ Orden.belongsTo(Tiposervicio, { as: "tiposervicio" });
 
 Tipoatencion.hasMany(Orden, { as: "orden", foreignKey: "tipoatencionId" });
 Orden.belongsTo(Tipoatencion, { as: "tipoatencion" });
-Usuario.belongsTo(Role ,{as:"role",foreignKey:"roleId"});
-Role.belongsTo(Usuario,{as:"usuario"})
+Usuario.belongsTo(Role, { as: "role", foreignKey: "roleId" });
+Role.belongsTo(Usuario, { as: "usuario" });
 
-Role.belongsToMany(Menu ,{as:"menu", through: MenuRole});
-Menu.belongsToMany(Role ,{as:"role", through: MenuRole})
+Role.belongsToMany(Menu, { as: "menu", through: MenuRole });
+Menu.belongsToMany(Role, { as: "role", through: MenuRole });
 /* Panel_pruebas.hasMany(Prueba, { as: "prueba", foreignKey: "panelpruebaId" });
 Prueba.belongsTo(Panel_pruebas, { as: "panelprueba" });
 
@@ -296,8 +300,6 @@ Equipos.belongsTo(Estadofinancierocliente, { as: "estadocliente" });
 /* Ubicacion.hasMany(Equipos, { as: "equipos", foreignKey: "ubicacionId" });
 Equipos.belongsTo(Ubicacion, { as: "ubicacion" }); */
 
-
-
 Equipos.hasMany(Historicoubicacion, {
 	as: "historicoubicacion",
 	foreignKey: "equipoId",
@@ -366,13 +368,22 @@ Producto.hasMany(Itempedidostock, {
 Itempedidostock.belongsTo(Producto, { as: "product" });
 
 Cabecera.hasMany(Detalle, { as: "pruebas", foreignKey: "cabeceraId" });
+
 Detalle.belongsTo(Cabecera, { as: "pacientes" });
 
 Stock.hasMany(ItemStock, { as: "stockItem", foreignKey: "stockId" });
 ItemStock.belongsTo(Stock, { as: "inventario" });
 
+
+Stocktemp.hasMany(ItemStocktemp, { as: "stockItemtemp", foreignKey: "stockIdtemp" ,onDelete:'CASCADE'});
+ItemStocktemp.belongsTo(Stocktemp, { as: "inventariotemp" });
+
+
 Producto.hasMany(ItemStock, { as: "stockItem", foreignKey: "productoId" });
 ItemStock.belongsTo(Producto, { as: "product" });
+
+Producto.hasMany(ItemStocktemp, { as: "stockItemtemp", foreignKey: "productoId" });
+ItemStocktemp.belongsTo(Producto, { as: "product" });
 
 //ItemStock.belongsTo(Producto, { foreignKey: "productoId", as: "product" });
 

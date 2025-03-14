@@ -23,7 +23,6 @@ const pdf = require("html-pdf");
 const Bodega = require("../models/bodega");
 const getPedidoStock = async (req, res) => {
 	const pedidoStock = await PedidoStock.findAll({
-
 		include: [
 			{
 				model: Itempedidostock,
@@ -38,13 +37,9 @@ const getPedidoStock = async (req, res) => {
 				model: Usuario,
 				as: "usuario",
 				attributes: ["doctor"],
-
 			},
-
 		],
-		order: [
-			['id', 'DESC']
-		]
+		order: [["id", "DESC"]],
 	});
 	res.status(200).json({
 		ok: true,
@@ -71,10 +66,12 @@ const getAllPedidoStock = async (req, res) => {
 		});
 
 		const stockDisponible = await stokDisponiblePromises;
+
+		console.log(`stockDisponible`, stockDisponible);
 		const productosFiltradosYOrdenados = stockDisponible
 			.filter((producto) => producto.cantidad > 0)
-			.sort((a, b) => new Date(a.caducidad) - new Date(b.caducidad));
-
+			.sort((a, b) => new Date(b.caducidad) - new Date(a.caducidad));
+		console.log(`productosFiltradosYOrdenados`, productosFiltradosYOrdenados);
 		let cantidadReservar = cantidad;
 		productosFiltradosYOrdenados.forEach((objeto, i, array) => {
 			let cantidadDisponible = objeto.cantidad;
@@ -216,7 +213,7 @@ const getAllPedidoStock = async (req, res) => {
 		});
 };
 
- const getFiltroPedidoStock = async (req, res) => {
+const getFiltroPedidoStock = async (req, res) => {
 	const { id } = req.params;
 
 	const pedidoStock = await PedidoStock.findByPk(id, {
@@ -242,39 +239,39 @@ const getAllPedidoStock = async (req, res) => {
 		],
 	});
 
-	console.log(`****************************`,pedidoStock)
-	const productIds = [...new Set(pedidoStock.itemstock.map(item => item.ID_PRODUCTO))];
+	console.log(`****************************`, pedidoStock);
+	const productIds = [
+		...new Set(pedidoStock.itemstock.map((item) => item.ID_PRODUCTO)),
+	];
 
-	
 	const additionalDataArray = await ItemStock.findAll({
 		where: { productId: { [Op.in]: productIds }, bodegaId: 1 },
 		include: { model: Producto, as: "product" },
 		attributes: [
 			"productId",
 			"referencia",
-			[Sequelize.fn("SUM", Sequelize.col("cantidad_recibida")), "TOTAL"]
+			[Sequelize.fn("SUM", Sequelize.col("cantidad_recibida")), "TOTAL"],
 		],
 		group: ["productId", "referencia"],
 	});
 
 	const stockMap = {};
-	additionalDataArray.forEach(item => {
+	additionalDataArray.forEach((item) => {
 		stockMap[item.productId] = {
 			referencia: item.referencia,
-			total_referencia: Number(item.get("TOTAL"))
+			total_referencia: Number(item.get("TOTAL")),
 		};
 	});
 
-	// 5️⃣ Integrar los datos de stock en cada itemstock
 	const pedidoStockJSON = pedidoStock.toJSON();
-	pedidoStockJSON.itemstock = pedidoStockJSON.itemstock.map(item => ({
+	pedidoStockJSON.itemstock = pedidoStockJSON.itemstock.map((item) => ({
 		...item,
 		referencia: stockMap[item.ID_PRODUCTO]?.referencia || "Sin referencia",
-		total_stock: stockMap[item.ID_PRODUCTO]?.total_referencia || 0
+		total_stock: stockMap[item.ID_PRODUCTO]?.total_referencia || 0,
 	}));
 
 	res.status(200).json({ ok: true, pedidoStock: pedidoStockJSON });
-}; 
+};
 
 const createPedidoStock = async (req, res) => {
 	const idUser = req.usuario;
@@ -600,7 +597,7 @@ const updateValidarCantidades = async (req, res) => {
 
 	const id = req.params.id;
 	console.log(`id`, id);
-	const { AREA, itemstock, } = req.body;
+	const { AREA, itemstock } = req.body;
 
 	await sequelize.transaction(async (t) => {
 		const pedido = await PedidoStock.findByPk(id, {
@@ -608,9 +605,7 @@ const updateValidarCantidades = async (req, res) => {
 				{
 					model: Itempedidostock,
 					as: "itemstock",
-
 				},
-
 			],
 		});
 
@@ -750,12 +745,8 @@ const filtropedidoBodega = async (req, res) => {
 				as: "product",
 			},
 			{ model: Bodega, as: "bodega" },
-
-
-
 		],
 		attributes: [
-			
 			"productId",
 			"ID_PRODUCTO",
 			"bodegaId",
@@ -931,8 +922,8 @@ const getReportePdfPedidoStock = async (req, res) => {
             </thead>
             <tbody>
             ${pedido.itemstock
-			.map(
-				(key) => `
+							.map(
+								(key) => `
 								<tr>
 									<td>${key.product.REFERENCIA}</td>
 									<td>${key.product.NOMBRE}</td>
@@ -942,8 +933,8 @@ const getReportePdfPedidoStock = async (req, res) => {
 								</tr>
 								
 							`
-			)
-			.join("")}
+							)
+							.join("")}
         </tbody>
         </table>
         </div>

@@ -122,7 +122,8 @@ class Server {
 			muestras: "/api/muestras",
 			validacion: "/api/validacion",
 			menu: "/api/menu",
-			menuRoles: "/api/permisos"
+			menuRoles: "/api/permisos",
+			estadoOrdenes:"/api/estadordenes"
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -319,7 +320,8 @@ class Server {
 		this.app.use(this.paths.muestras, require("../routes/muestras"));
 		this.app.use(this.paths.validacion, require("../routes/validacionPruebas"));
 		this.app.use(this.paths.menu, require("../routes/menu"));
-		this.app.use(this.paths.menuRoles, require("../routes/menuRoles"))
+		this.app.use(this.paths.menuRoles, require("../routes/menuRoles"));
+		this.app.use(this.paths.estadoOrdenes, require("../routes/estadordenes"))
 	}
 
 	listen() {
