@@ -259,6 +259,7 @@ const getFiltroStock = async (req, res) => {
 		attributes: ["id", "ID_PROVEEDOR", "MARCA"],
 		include: [
 			{
+
 				model: ItemStock,
 				as: "items",
 				//attributes:["ID_PROVEEDOR","MARCA"]
@@ -308,9 +309,9 @@ const createStock = async (req, res) => {
 	const idUser = req.usuario;
 	const { guia, bodegaId, proveedor, productos } = req.body;
 
-	const maillist = await Correo.findAll({ where: { empresa: proveedor } });
+	/* const maillist = await Correo.findAll({ where: { empresa: proveedor } });
 	const correos = maillist.map((mail) => mail.correo).join(",");
-	console.log(`maillist`, correos);
+	console.log(`maillist`, correos); */
 	const validadGuia = await Stocktemp.findOne({ where: { guia: guia } });
 	const attachments = [];
 	const productoNoEncontrados = [];
@@ -549,18 +550,18 @@ const createStock = async (req, res) => {
 				</thead>
 				<tbody>
 				${req.body.productos
-			.map((key) => {
-				return createTableRow(
-					key.referencia,
-					key.descripcion,
-					key.lote,
-					key.caducidad,
-					key.cantidad,
-					key.cantidad_recibida,
-					key.comentario
-				);
-			})
-			.join("")}
+					.map((key) => {
+						return createTableRow(
+							key.referencia,
+							key.descripcion,
+							key.lote,
+							key.caducidad,
+							key.cantidad,
+							key.cantidad_recibida,
+							key.comentario
+						);
+					})
+					.join("")}
 			</tbody>
 			</table>
 			</div>
@@ -619,14 +620,14 @@ const createStock = async (req, res) => {
 	}); */
 
 	res.status(201).json({
-		msg: "El Stock a sido registrado con exito",
+		msg: `Se cargo la guia ${guia} en el sistema con exito.`,
 	});
 };
 //TODO: Cambiar de tabla y guardar en bodega
 const updateStock = async (req, res) => {
-	const id = req.body.id;
+	const {id} = req.params;
 	const idUser = req.usuario;
-	const { guia, bodegaId, proveedor, productos } = req.body;
+	const { guia, bodegaId, proveedorId, productos } = req.body;
 
 	const validadGuia = await Stock.findOne({ where: { guia: guia } });
 	const attachments = [];
@@ -660,6 +661,7 @@ const updateStock = async (req, res) => {
 		});
 	}
 
+
 	await sequelize.transaction(async (t) => {
 		const stocks = await Stock.create(
 			{
@@ -674,6 +676,9 @@ const updateStock = async (req, res) => {
 			productos.map(async (producto) => {
 				const pro = productoEncontrados.find(
 					(et) => et.referencia === producto.referencia
+
+
+
 				);
 
 				return await ItemStock.create(
@@ -701,7 +706,11 @@ const updateStock = async (req, res) => {
 		);
 
 		await stocks.setStockItem(itemStocks, { transaction: t });
-		await Stocktemp.destroy({ where: { id: id }, transaction: t });
+		await Stocktemp.update(
+			{ ESTADO: 2 },
+
+			{ where: { id: id }, transaction: t }
+		);
 	});
 	/* 
 	const stock = await Stocktemp.findByPk(id, {
@@ -751,13 +760,19 @@ const updateStock = async (req, res) => {
 			console.log(error);
 		}
 	}); */
-	res.status(200).json({ ok: true, msg: `El Stock ${id} a sido actualizado` });
+	res.status(200).json({ ok: true, msg: `La guia ${guia} a sido confirmado con exito en el sistema..` });
 };
 
 const deleteStock = async (req, res) => {
 	const { id } = req.params;
-
-	await sequelize.transaction(async (t) => {
+    const stock = await Stocktemp.findByPk(id)
+	if (!stock) {
+		return res.status(400).json({
+			msg: `El Id ${id} no existe en el sistema`
+		});
+	}
+	await stock.update({ESTADO:0})
+/* 	await sequelize.transaction(async (t) => {
 		const idStock = await Stock.findByPk(id, {
 			include: ["items"],
 		});
@@ -793,9 +808,9 @@ const deleteStock = async (req, res) => {
 			})
 		);
 	});
-
+ */
 	res.status(200).json({
-		msg: "El Stock a sido desactivado con exito...",
+		msg: `La Guia ${stock.guia} a sido desactivada...`
 	});
 };
 

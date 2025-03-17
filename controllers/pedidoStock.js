@@ -272,7 +272,45 @@ const getFiltroPedidoStock = async (req, res) => {
 
 	res.status(200).json({ ok: true, pedidoStock: pedidoStockJSON });
 };
+//TODO:  Consulta por filtros de bodega y fechas
+const getFiltroPedidoBodega = async (req, res) => {
+	const { fechaIn, fechaOut, bodegaId } = req.query;
+	console.log(`BODEGA-----`, bodegaId);
 
+	const whereClause = {};
+	console.log(`where`, whereClause);
+	if (bodegaId) {
+		whereClause.bodegaId = bodegaId;
+	}
+
+	if (fechaIn && fechaOut) {
+		whereClause.fechadescargo = { [Op.between]: [fechaIn, fechaOut] };
+	}
+	const pedidoStock = await Itempedidostock.findAll({
+		where: whereClause,
+		/* attributes: ["id", "AREA"],
+		include: [
+			{
+				model: Itempedidostock,
+				as: "itemstock",
+				where: whereClause , */
+
+		include: [
+			{
+				model: Producto,
+				as: "product",
+			},
+			{
+				model: Bodega,
+				as: "bodega",
+			},
+			{ model: Usuario, as: "despachar" },
+			{ model: Usuario, as: "descargar" },
+		],
+	});
+
+	res.status(200).json({ ok: true, stockbodega: pedidoStock });
+};
 const createPedidoStock = async (req, res) => {
 	const idUser = req.usuario;
 	const { AREA, PRODUCTOS } = req.body;
@@ -518,6 +556,8 @@ const updatePedidoStock = async (req, res) => {
 		.status(200)
 		.json({ ok: true, msg: `Se a realizado el despacho de de los productos` }); */
 };
+
+// TODO: despacho de producto y cambio de estado
 const updateValidarCantidades = async (req, res) => {
 	/* 	const id = req.params.id;
 	console.log(`id`, id);
@@ -596,6 +636,7 @@ const updateValidarCantidades = async (req, res) => {
 	}); */
 
 	const id = req.params.id;
+	const user = req.usuario;
 	console.log(`id`, id);
 	const { AREA, itemstock } = req.body;
 
@@ -648,6 +689,8 @@ const updateValidarCantidades = async (req, res) => {
 							{
 								ENTREGADO: cantidadEntregada,
 								lote: lote,
+								despacharId: user.id,
+								ESTADO: 2,
 							},
 							{
 								where: {
@@ -971,44 +1014,54 @@ const getReportePdfPedidoStock = async (req, res) => {
 };
 
 const updateStockPedido = async (req, res) => {
-	const hoy = moment();
-	const fecha = hoy.format().slice(0, 10);
-	console.log(fecha);
+	const t = await sequelize.transaction();
+	try {
+		const hoy = moment();
+		const now = moment();
 
-	const {
-		productId,
-		ID_PRODUCTO,
-		bodegaId,
-		lote,
-		CANTIDAD,
-		product,
-		descargo,
-	} = req.body;
-	console.log(`---------->`, req.body);
-	Itempedidostock.decrement("ENTREGADO", {
-		by: Number(descargo),
-		where: {
-			ID_PRODUCTO: ID_PRODUCTO,
-			bodegaId: bodegaId,
-			//fechadescargo: fecha,
-		},
-	});
-
-	await Itempedidostock.update(
-		{ fechadescargo: fecha }, // Campo que deseas actualizar
-		{
+		const fechaHora = now.format("YYYY-MM-DD HH:mm:ss");
+		const fecha = hoy.format().slice(0, 10);
+		console.log(fecha);
+		const user = req.usuario;
+		const {
+			productId,
+			ID_PRODUCTO,
+			bodegaId,
+			lote,
+			CANTIDAD,
+			product,
+			descargo,
+		} = req.body;
+		console.log(`---------->`, req.body);
+		Itempedidostock.decrement("ENTREGADO", {
+			by: Number(descargo),
 			where: {
 				ID_PRODUCTO: ID_PRODUCTO,
 				bodegaId: bodegaId,
-				lote: lote, // Mantén las mismas condiciones
 			},
-		}
-	);
+		});
 
-	res.status(200).json({
-		ok: true,
-		msg: `Se realizo con el exito el descargo del producto`,
-	});
+		await Itempedidostock.update(
+			{ fechadescargo: fechaHora, descargaId: user.id }, // Campo que deseas actualizar
+			{
+				where: {
+					ID_PRODUCTO: ID_PRODUCTO,
+					bodegaId: bodegaId,
+					lote: lote, // Mantén las mismas condiciones
+				},
+			}
+		);
+
+		res.status(200).json({
+			ok: true,
+			msg: `Se realizo con el exito el descargo del producto`,
+		});
+
+		await t.commit(); // Confirma los cambios
+	} catch (error) {
+		await t.rollback(); // Deshace los cambios si hay un error
+		console.error("Error en la actualización de stock:", error);
+	}
 };
 module.exports = {
 	getReportePdfPedidoStock,
@@ -1021,4 +1074,5 @@ module.exports = {
 	filtropedidoBodega,
 	updateStockPedido,
 	updateValidarCantidades,
+	getFiltroPedidoBodega,
 };

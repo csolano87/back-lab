@@ -69,6 +69,13 @@ const ItemStocktemp = require("../models/itemStockTemp");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
+
+Itempedidostock.belongsTo(Usuario, { as: "despachar", foreignKey: "despacharId" });
+Itempedidostock.belongsTo(Usuario, { as: "descargar", foreignKey: "descargaId" });
+
+
+
+
 Prueba.belongsTo(Usuario, { as: "creador", foreignKey: "creadorId" });
 Prueba.belongsTo(Usuario, { as: "reportador", foreignKey: "reportadaId" });
 Prueba.belongsTo(Usuario, { as: "validador", foreignKey: "validadaId" });
