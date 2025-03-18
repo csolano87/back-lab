@@ -10,15 +10,20 @@ PedidoStock.init(
 		},
 
 		FECHAPEDIDOSTOCK: {
-			type: Sequelize.DATEONLY,
+			type: Sequelize.DATE,
 			allowNull: false,
 			defaultValue: Sequelize.NOW,
 		},
-		USUARIO_ID: DataTypes.INTEGER,
-		CREATEDBY: DataTypes.INTEGER,
-		UPDATEDBY: DataTypes.INTEGER,
-		DELETEDBY: DataTypes.INTEGER,
+		fechaDespacho:{
+        type:DataTypes.DATE,
+		allowNull: true,
+		},
+		fechaRecibe:{
+			type:DataTypes.DATE,
+			allowNull: true,
+			},
 		ESTADO: { type: DataTypes.INTEGER, defaultValue: 1 },
+
 	},
 	{
 		sequelize,

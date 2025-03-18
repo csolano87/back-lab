@@ -70,11 +70,20 @@ const ItemStocktemp = require("../models/itemStockTemp");
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
 
-Itempedidostock.belongsTo(Usuario, { as: "despachar", foreignKey: "despacharId" });
-Itempedidostock.belongsTo(Usuario, { as: "descargar", foreignKey: "descargaId" });
-
-
-
+Itempedidostock.belongsTo(Usuario, {
+	as: "despachar",
+	foreignKey: "despacharId",
+});
+Itempedidostock.belongsTo(Usuario, {
+	as: "descargar",
+	foreignKey: "descargaId",
+});
+Itempedidostock.belongsTo(Usuario, {
+	as: "solicitud",
+	foreignKey: "solicitudId",
+});
+PedidoStock.belongsTo(Usuario, { as: "despachar", foreignKey: "despachaId" });
+PedidoStock.belongsTo(Usuario, { as: "recibe", foreignKey: "recibeId" });
 
 Prueba.belongsTo(Usuario, { as: "creador", foreignKey: "creadorId" });
 Prueba.belongsTo(Usuario, { as: "reportador", foreignKey: "reportadaId" });
@@ -381,15 +390,20 @@ Detalle.belongsTo(Cabecera, { as: "pacientes" });
 Stock.hasMany(ItemStock, { as: "stockItem", foreignKey: "stockId" });
 ItemStock.belongsTo(Stock, { as: "inventario" });
 
-
-Stocktemp.hasMany(ItemStocktemp, { as: "stockItemtemp", foreignKey: "stockIdtemp" ,onDelete:'CASCADE'});
+Stocktemp.hasMany(ItemStocktemp, {
+	as: "stockItemtemp",
+	foreignKey: "stockIdtemp",
+	onDelete: "CASCADE",
+});
 ItemStocktemp.belongsTo(Stocktemp, { as: "inventariotemp" });
-
 
 Producto.hasMany(ItemStock, { as: "stockItem", foreignKey: "productoId" });
 ItemStock.belongsTo(Producto, { as: "product" });
 
-Producto.hasMany(ItemStocktemp, { as: "stockItemtemp", foreignKey: "productoId" });
+Producto.hasMany(ItemStocktemp, {
+	as: "stockItemtemp",
+	foreignKey: "productoId",
+});
 ItemStocktemp.belongsTo(Producto, { as: "product" });
 
 //ItemStock.belongsTo(Producto, { foreignKey: "productoId", as: "product" });

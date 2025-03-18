@@ -1,4 +1,5 @@
 const { Request, Response } = require("express");
+const Server = require("../models/server");
 const Pedido = require("../models/pedido");
 const Producto = require("../models/productos");
 const { Op, and, Sequelize, fn, col, where } = require("sequelize");
@@ -21,6 +22,7 @@ const fs = require("fs");
 
 const pdf = require("html-pdf");
 const Bodega = require("../models/bodega");
+const Notificardespacho = require("../models/notificarDespacho");
 const getPedidoStock = async (req, res) => {
 	const pedidoStock = await PedidoStock.findAll({
 		include: [
@@ -36,8 +38,11 @@ const getPedidoStock = async (req, res) => {
 			{
 				model: Usuario,
 				as: "usuario",
-				attributes: ["doctor"],
+				attributes: ["usuario"],
 			},
+
+			{ model: Usuario, as: "despachar", attributes: ["usuario"] },
+			{ model: Usuario, as: "recibe", attributes: ["usuario"] },
 		],
 		order: [["id", "DESC"]],
 	});
@@ -288,6 +293,7 @@ const getFiltroPedidoBodega = async (req, res) => {
 	}
 	const pedidoStock = await Itempedidostock.findAll({
 		where: whereClause,
+		order: [["fecha", "DESC"]],
 		/* attributes: ["id", "AREA"],
 		include: [
 			{
@@ -304,11 +310,20 @@ const getFiltroPedidoBodega = async (req, res) => {
 				model: Bodega,
 				as: "bodega",
 			},
-			{ model: Usuario, as: "despachar" },
-			{ model: Usuario, as: "descargar" },
+			{ model: Usuario, as: "solicitud", attributes: ["usuario"] },
+
+			{ model: Usuario, as: "despachar", attributes: ["usuario"] },
+			{ model: Usuario, as: "descargar", attributes: ["usuario"] },
 		],
 	});
+	pedidoStock.sort((a, b) => {
+		const nombreA = a.product.NOMBRE.toUpperCase().trim();
+		const nombreB = b.product.NOMBRE.toUpperCase().trim();
 
+		if (nombreA < nombreB) return -1;
+		if (nombreA > nombreB) return 1;
+		return 0;
+	});
 	res.status(200).json({ ok: true, stockbodega: pedidoStock });
 };
 const createPedidoStock = async (req, res) => {
@@ -363,7 +378,7 @@ const createPedidoStock = async (req, res) => {
 const updatePedidoStock = async (req, res) => {
 	const id = req.body.id;
 	const idUser = req.usuario;
-	const { AREA, PRODUCTOS } = req.body;
+	const { AREA, PRODUCTOS, usuarioId } = req.body;
 	console.log(1111);
 	await sequelize.transaction(async (t) => {
 		try {
@@ -559,6 +574,8 @@ const updatePedidoStock = async (req, res) => {
 
 // TODO: despacho de producto y cambio de estado
 const updateValidarCantidades = async (req, res) => {
+
+	const server = Server.instance;
 	/* 	const id = req.params.id;
 	console.log(`id`, id);
 	const { AREA, PRODUCTOS } = req.body;
@@ -634,11 +651,14 @@ const updateValidarCantidades = async (req, res) => {
 			}
 		}
 	}); */
+	const now = moment();
 
+	const fechaHora = now.format("YYYY-MM-DD HH:mm:ss");
 	const id = req.params.id;
 	const user = req.usuario;
+	const mensaje = "Se requiere su confirmacion";
 	console.log(`id`, id);
-	const { AREA, itemstock } = req.body;
+	const { AREA, itemstock, usuarioId } = req.body;
 
 	await sequelize.transaction(async (t) => {
 		const pedido = await PedidoStock.findByPk(id, {
@@ -653,7 +673,7 @@ const updateValidarCantidades = async (req, res) => {
 		for (const producto of itemstock) {
 			const { CANTIDAD, ENTREGADO, LOTE, ID_PRODUCTO } = producto;
 
-			// Convert ENTREGADO and LOTE to arrays
+		
 			const cantidadesEntregadas =
 				typeof ENTREGADO === "string"
 					? ENTREGADO.split(",")
@@ -676,7 +696,7 @@ const updateValidarCantidades = async (req, res) => {
 							where: {
 								productoId: ID_PRODUCTO,
 								lote: lote,
-								//bodegaId: 1,
+								
 							},
 							transaction: t,
 						});
@@ -689,14 +709,17 @@ const updateValidarCantidades = async (req, res) => {
 							{
 								ENTREGADO: cantidadEntregada,
 								lote: lote,
-								despacharId: user.id,
+								fechaDespacho: fechaHora,
+								despachaId: user.id,
+								fechaRecibe: fechaHora,
+								recibeId: usuarioId,
 								ESTADO: 2,
 							},
 							{
 								where: {
 									pedidostockId: id,
 									productId: ID_PRODUCTO,
-									//bodegaId: AREA,
+									
 								},
 								transaction: t,
 							}
@@ -709,10 +732,16 @@ const updateValidarCantidades = async (req, res) => {
 						await PedidoStock.update(
 							{
 								ESTADO: 2,
+								despachaId: usuarioId,
+								fechaDespacho: fechaHora,
+								despachaId: user.id,
+								fechaRecibe: fechaHora,
+								recibeId: usuarioId,
 							},
 							{
 								where: { id: id },
 								transaction: t,
+								
 							}
 						);
 					} catch (error) {
@@ -722,6 +751,16 @@ const updateValidarCantidades = async (req, res) => {
 			}
 		}
 	});
+	const fechaExpiracion = new Date();
+	fechaExpiracion.setHours(fechaExpiracion.getHours() + 24); 
+  
+	const notificardespacho = await Notificardespacho.create({
+	  mensaje,
+	  estado: 'pendiente',
+	  fechaExpiracion,
+	});
+
+	server.io.emit("notificardespacho", notificardespacho);
 
 	res
 		.status(200)
@@ -788,8 +827,11 @@ const filtropedidoBodega = async (req, res) => {
 				as: "product",
 			},
 			{ model: Bodega, as: "bodega" },
+			{ model: Usuario, as: "solicitud", attributes: ["usuario"] },
+			{ model: Usuario, as: "despachar", attributes: ["usuario"] },
 		],
-		attributes: [
+
+		/* 	attributes: [
 			"productId",
 			"ID_PRODUCTO",
 			"bodegaId",
@@ -797,9 +839,16 @@ const filtropedidoBodega = async (req, res) => {
 			[Sequelize.fn("SUM", Sequelize.col("ENTREGADO")), "CANTIDAD"],
 		],
 
-		group: ["ID_PRODUCTO", "lote", "productId", "bodegaId"],
+		group: ["ID_PRODUCTO", "lote", "productId", "bodegaId"], */
 	});
+	stock.sort((a, b) => {
+		const nombreA = a.product.NOMBRE.toUpperCase().trim();
+		const nombreB = b.product.NOMBRE.toUpperCase().trim();
 
+		if (nombreA < nombreB)return -1;
+		if (nombreA > nombreB)return 1;
+		return 0;
+	});
 	res.status(200).json({ ok: true, stock });
 };
 const getReportePdfPedidoStock = async (req, res) => {
