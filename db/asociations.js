@@ -66,6 +66,7 @@ const MenuRole = require("../models/menuRoles");
 const Historicorden = require("../models/historicorden");
 const Stocktemp = require("../models/stockTemp");
 const ItemStocktemp = require("../models/itemStockTemp");
+const Notificardespacho = require("../models/notificarDespacho");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
@@ -82,7 +83,19 @@ Itempedidostock.belongsTo(Usuario, {
 	as: "solicitud",
 	foreignKey: "solicitudId",
 });
+
+Usuario.hasMany(Notificardespacho, {
+	as: "notificar",
+	foreignKey: "usuarioId",
+});
+Notificardespacho.belongsTo(Usuario, { as: "usuario" });
+PedidoStock.hasOne(Notificardespacho,{as:"notificar",foreignKey:"pedidostockId"})
+Notificardespacho.belongsTo(PedidoStock, { as: "pedidostock" });
+
+
 PedidoStock.belongsTo(Usuario, { as: "despachar", foreignKey: "despachaId" });
+
+
 PedidoStock.belongsTo(Usuario, { as: "recibe", foreignKey: "recibeId" });
 
 Prueba.belongsTo(Usuario, { as: "creador", foreignKey: "creadorId" });

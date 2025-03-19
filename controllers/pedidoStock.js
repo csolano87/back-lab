@@ -43,6 +43,7 @@ const getPedidoStock = async (req, res) => {
 
 			{ model: Usuario, as: "despachar", attributes: ["usuario"] },
 			{ model: Usuario, as: "recibe", attributes: ["usuario"] },
+			{ model: Notificardespacho, as: "notificar"},
 		],
 		order: [["id", "DESC"]],
 	});
@@ -72,11 +73,11 @@ const getAllPedidoStock = async (req, res) => {
 
 		const stockDisponible = await stokDisponiblePromises;
 
-		console.log(`stockDisponible`, stockDisponible);
+		/* console.log(`stockDisponible`, stockDisponible); */
 		const productosFiltradosYOrdenados = stockDisponible
 			.filter((producto) => producto.cantidad > 0)
-			.sort((a, b) => new Date(b.caducidad) - new Date(a.caducidad));
-		console.log(`productosFiltradosYOrdenados`, productosFiltradosYOrdenados);
+			.sort((a, b) => new Date(a.caducidad) - new Date(b.caducidad));
+		/* console.log(`productosFiltradosYOrdenados`, productosFiltradosYOrdenados); */
 		let cantidadReservar = cantidad;
 		productosFiltradosYOrdenados.forEach((objeto, i, array) => {
 			let cantidadDisponible = objeto.cantidad;
@@ -204,7 +205,7 @@ const getAllPedidoStock = async (req, res) => {
 					}
 				);
 			} */
-
+console.log(`----`,cantidadReservadaDetalle)
 			res.status(200).json({
 				ok: true,
 
@@ -574,7 +575,6 @@ const updatePedidoStock = async (req, res) => {
 
 // TODO: despacho de producto y cambio de estado
 const updateValidarCantidades = async (req, res) => {
-
 	const server = Server.instance;
 	/* 	const id = req.params.id;
 	console.log(`id`, id);
@@ -656,7 +656,7 @@ const updateValidarCantidades = async (req, res) => {
 	const fechaHora = now.format("YYYY-MM-DD HH:mm:ss");
 	const id = req.params.id;
 	const user = req.usuario;
-	const mensaje = "Se requiere su confirmacion";
+
 	console.log(`id`, id);
 	const { AREA, itemstock, usuarioId } = req.body;
 
@@ -673,7 +673,6 @@ const updateValidarCantidades = async (req, res) => {
 		for (const producto of itemstock) {
 			const { CANTIDAD, ENTREGADO, LOTE, ID_PRODUCTO } = producto;
 
-		
 			const cantidadesEntregadas =
 				typeof ENTREGADO === "string"
 					? ENTREGADO.split(",")
@@ -696,7 +695,6 @@ const updateValidarCantidades = async (req, res) => {
 							where: {
 								productoId: ID_PRODUCTO,
 								lote: lote,
-								
 							},
 							transaction: t,
 						});
@@ -719,7 +717,6 @@ const updateValidarCantidades = async (req, res) => {
 								where: {
 									pedidostockId: id,
 									productId: ID_PRODUCTO,
-									
 								},
 								transaction: t,
 							}
@@ -741,7 +738,6 @@ const updateValidarCantidades = async (req, res) => {
 							{
 								where: { id: id },
 								transaction: t,
-								
 							}
 						);
 					} catch (error) {
@@ -752,12 +748,14 @@ const updateValidarCantidades = async (req, res) => {
 		}
 	});
 	const fechaExpiracion = new Date();
-	fechaExpiracion.setHours(fechaExpiracion.getHours() + 24); 
-  
+	fechaExpiracion.setHours(fechaExpiracion.getHours() + 24);
+	const mensaje = `Se realizo la entrega de item solicitados`;
 	const notificardespacho = await Notificardespacho.create({
-	  mensaje,
-	  estado: 'pendiente',
-	  fechaExpiracion,
+		mensaje,
+		estado: "pendiente",
+		fechaExpiracion,
+		usuarioId: usuarioId,
+		pedidostockId: id,
 	});
 
 	server.io.emit("notificardespacho", notificardespacho);
@@ -845,8 +843,8 @@ const filtropedidoBodega = async (req, res) => {
 		const nombreA = a.product.NOMBRE.toUpperCase().trim();
 		const nombreB = b.product.NOMBRE.toUpperCase().trim();
 
-		if (nombreA < nombreB)return -1;
-		if (nombreA > nombreB)return 1;
+		if (nombreA < nombreB) return -1;
+		if (nombreA > nombreB) return 1;
 		return 0;
 	});
 	res.status(200).json({ ok: true, stock });
