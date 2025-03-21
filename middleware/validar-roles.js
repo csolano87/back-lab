@@ -3,7 +3,7 @@ const { repsonse, response } = require("express");
 const Roles = require("../models/role");
 const esAdminRole = (req, res = repsonse, next) => {
   if (!req.usuario) {
-     console.log(req.usuario)
+    // console.log(req.usuario)
     return res
       .status(500)
       .json({
@@ -12,7 +12,7 @@ const esAdminRole = (req, res = repsonse, next) => {
   }
 
   const { roleId, doctor } = req.usuario;
-  console.log(roleId)
+ // console.log(roleId)
 
 
   if (roleId != "1" ) {
@@ -38,7 +38,7 @@ const tieneRole = async (req, res = repsonse, next) => {
 
  // const roles = await Roles.findOne({ where: { rol: rol } });
  const roles = await Roles.findByPk(roleId);
-  console.log(roles)
+ // console.log(roles)
   if (!roles) {
     return res
       .status(401)

@@ -67,9 +67,24 @@ const Historicorden = require("../models/historicorden");
 const Stocktemp = require("../models/stockTemp");
 const ItemStocktemp = require("../models/itemStockTemp");
 const Notificardespacho = require("../models/notificarDespacho");
+const Despachopedido = require("../models/despachopedido");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
+Itempedidostock.hasMany(Despachopedido, {
+	as: "despachopedido",
+	foreignKey: "itempedidostockId",
+});
+Despachopedido.belongsTo(Itempedidostock,{as:"itempedidostock"})
+
+
+ Producto.hasMany(Despachopedido,{as:"despacho",foreignKey:"productoId"})
+ Despachopedido.belongsTo(Producto,{as:"producto"})
+
+ Despachopedido.belongsTo(Bodega, {
+	as: "bodega",
+	foreignKey: "bodegaId",
+});
 
 Itempedidostock.belongsTo(Usuario, {
 	as: "despachar",

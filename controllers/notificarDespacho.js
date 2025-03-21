@@ -25,11 +25,9 @@ const updateNotificar = async (req, res) => {
 			.status(400)
 			.json({ ok: false, msg: `El Id ${id} no existe en el sistema` });
 	}
-	await notifica.update(
-		{
-			estado: estado,
-		}
-	);
+	await notifica.update({
+		estado: estado,
+	});
 
 	res.status(200).json({ ok: true, msg: `Se actualizo el estado con exito` });
 };

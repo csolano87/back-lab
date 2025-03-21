@@ -35,7 +35,7 @@ const createroles = async (req, res) => {
 		},
 	});
 
-	console.log(role);
+//	console.log(role);
 
 	if (role) {
 		return res.status(400).json({

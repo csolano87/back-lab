@@ -41,13 +41,14 @@ const getStock = async (req, res) => {
 	const allStock = all.reduce((acc, item) => {
 		const referencia = item.referencia;
 		const nombre = item.product.NOMBRE;
+		const proveedor = item.product.UNIDAD;
 
 		console.log(nombre);
 		if (!acc[referencia]) {
 			acc[referencia] = {
 				referencia: referencia,
 				nombre: nombre,
-
+				proveedor:proveedor,
 				detalles: [],
 				total_referencia: 0,
 			};
@@ -259,7 +260,6 @@ const getFiltroStock = async (req, res) => {
 		attributes: ["id", "ID_PROVEEDOR", "MARCA"],
 		include: [
 			{
-
 				model: ItemStock,
 				as: "items",
 				//attributes:["ID_PROVEEDOR","MARCA"]
@@ -625,7 +625,7 @@ const createStock = async (req, res) => {
 };
 //TODO: Cambiar de tabla y guardar en bodega
 const updateStock = async (req, res) => {
-	const {id} = req.params;
+	const { id } = req.params;
 	const idUser = req.usuario;
 	const { guia, bodegaId, proveedorId, productos } = req.body;
 
@@ -661,7 +661,6 @@ const updateStock = async (req, res) => {
 		});
 	}
 
-
 	await sequelize.transaction(async (t) => {
 		const stocks = await Stock.create(
 			{
@@ -676,9 +675,6 @@ const updateStock = async (req, res) => {
 			productos.map(async (producto) => {
 				const pro = productoEncontrados.find(
 					(et) => et.referencia === producto.referencia
-
-
-
 				);
 
 				return await ItemStock.create(
@@ -760,19 +756,24 @@ const updateStock = async (req, res) => {
 			console.log(error);
 		}
 	}); */
-	res.status(200).json({ ok: true, msg: `La guia ${guia} a sido confirmado con exito en el sistema..` });
+	res
+		.status(200)
+		.json({
+			ok: true,
+			msg: `La guia ${guia} a sido confirmado con exito en el sistema..`,
+		});
 };
 
 const deleteStock = async (req, res) => {
 	const { id } = req.params;
-    const stock = await Stocktemp.findByPk(id)
+	const stock = await Stocktemp.findByPk(id);
 	if (!stock) {
 		return res.status(400).json({
-			msg: `El Id ${id} no existe en el sistema`
+			msg: `El Id ${id} no existe en el sistema`,
 		});
 	}
-	await stock.update({ESTADO:0})
-/* 	await sequelize.transaction(async (t) => {
+	await stock.update({ ESTADO: 0 });
+	/* 	await sequelize.transaction(async (t) => {
 		const idStock = await Stock.findByPk(id, {
 			include: ["items"],
 		});
@@ -810,7 +811,7 @@ const deleteStock = async (req, res) => {
 	});
  */
 	res.status(200).json({
-		msg: `La Guia ${stock.guia} a sido desactivada...`
+		msg: `La Guia ${stock.guia} a sido desactivada...`,
 	});
 };
 
@@ -915,9 +916,11 @@ th, td {
     
 }
 .text_des{
-width:30%;}
+width:23%;}
 .text_cant{
 width:8%;}
+.text_valor{
+width:5%;}
 
                
 
@@ -970,6 +973,9 @@ width:8%;}
                     <th>Fecha caducidad</th>
                     <th>Lote </th>
 					<th class="text_cant">Cantidad </th>
+					<th class="text_valor">V. Unit. </th>
+					<th class="text_valor">Subtotal </th>
+					
 				
                 </tr>
             </thead>
@@ -978,6 +984,10 @@ width:8%;}
 			.map((key) => {
 				const totalPorProducto = key.cantidad_recibida * key.product.VALOR;
 				totalGeneral += totalPorProducto;
+			
+
+
+				
 				return `
         <tr>
             <td>${key.product.REFERENCIA}</td>
@@ -987,10 +997,16 @@ width:8%;}
             <td>${convertirFecha(key.caducidad)}</td>
             <td>${key.lote}</td>
             <td>${key.cantidad_recibida}</td>
+				<td>${key.product.VALOR}</td>
+				<td>${totalPorProducto.toFixed(2)}</td> 
         </tr>
         `;
 			})
 			.join("")}
+			 <tr>
+				<td colspan="8" style="text-align: right; font-weight: bold;">Total General:</td>
+				<td>${totalGeneral.toFixed(2)}</td>  
+			  </tr>
 </tbody>
         </table>
         

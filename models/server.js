@@ -124,7 +124,8 @@ class Server {
 			menu: "/api/menu",
 			menuRoles: "/api/permisos",
 			estadoOrdenes:"/api/estadordenes",
-			notificarDespacho:"/api/notificar"
+			notificarDespacho:"/api/notificar",
+				despachopedido:"/api/despachopedido"
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -324,6 +325,7 @@ class Server {
 		this.app.use(this.paths.menuRoles, require("../routes/menuRoles"));
 		this.app.use(this.paths.estadoOrdenes, require("../routes/estadordenes"))/* notificarDespacho */
 		this.app.use(this.paths.notificarDespacho, require("../routes/notificarDespacho"))/* notificarDespacho */
+		this.app.use(this.paths.despachopedido, require("../routes/despachopedido"))/* notificarDespacho */
 	}
 
 	listen() {

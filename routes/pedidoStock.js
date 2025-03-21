@@ -17,7 +17,7 @@ router.post("/",[validarJWT, tieneRole],createPedidoStock);
 
 router.delete("/:id", [validarJWT, tieneRole], deletePedidoStock);
 router.get("/bodega/bodega", [validarJWT, tieneRole], filtropedidoBodega)
-router.put("/",[validarJWT, tieneRole],updateStockPedido)
+//router.put("/",[validarJWT, tieneRole],updateStockPedido)
 
 
 
