@@ -4,8 +4,29 @@ const xpath = require("xpath"),
 const axios = require("axios");
 const localStorage = require("localStorage");
 
-const loginInfinity = async (encodedToken) => {
-  const tokenResult = localStorage.getItem("Idtoken");
+const loginInfinity = async () => {
+
+  const CacheUserName = `${process.env.CacheUserName}`;
+  const CachePassword = `${process.env.CachePassword}`;
+  const token = `${CacheUserName}:${CachePassword}`;
+  const encodedToken = Buffer.from(token).toString("base64");
+  let params = {
+    soap_method: `${process.env.Login}`,
+    pstrUserName: `${process.env.pstrUserName}`,
+    pstrPassword: `${process.env.pstrPassword}`,
+    pblniPad: 0,
+  };
+
+
+  const api = axios.create({
+    baseURL: `${process.env.baseURL}/zdk.ws.wSessions.cls`,
+    params,
+    headers: { Authorization: `Basic ${encodedToken}` },
+  });
+  api.interceptors.request.use((config)=>{
+    console.log(config);
+  })
+ /*  const tokenResult = localStorage.getItem("Idtoken");
   console.log("tokenresult", tokenResult);
 
   if (tokenResult == undefined || tokenResult == "" || tokenResult == null) {
@@ -46,6 +67,6 @@ const loginInfinity = async (encodedToken) => {
     });
   }
   console.log("NOOOOOO LLAMANDO AL SERVICIO LOGIN ......");
-  return tokenResult;
+  return tokenResult; */
 };
 module.exports = { loginInfinity };

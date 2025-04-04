@@ -17,8 +17,8 @@ const storage = multer.diskStorage({
   const upload = multer({ storage: storage });
 
 
-router.post("/upload", upload.single('file'), [validarJWT,esAdminRole],mail );
+//router.post("/upload", upload.single('file'), [validarJWT,esAdminRole],mail );
 
-router.get("/", estadic);
+router.post("/", mail);
 
 module.exports = router;

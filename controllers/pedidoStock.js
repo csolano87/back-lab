@@ -25,15 +25,13 @@ const Bodega = require("../models/bodega");
 const Notificardespacho = require("../models/notificarDespacho");
 const Despachopedido = require("../models/despachopedido");
 const getPedidoStock = async (req, res) => {
-
 	const user = req.usuario;
-/* if (user.roleId == 1) {
+	/* if (user.roleId == 1) {
 	
 } */
 
-	
 	const pedidoStock = await PedidoStock.findAll({
-		  where:{...(user.roleId !== 1 ?{usuarioId:user.id}:{}) },
+		where: { ...(user.roleId !== 1 ? { usuarioId: user.id } : {}) },
 		include: [
 			{
 				model: Itempedidostock,
@@ -531,9 +529,12 @@ const updateValidarCantidades = async (req, res) => {
 				/* const nuevosLotes =
 					typeof LOTE === "string" ? LOTE.split(",") : [LOTE.toString()]; */
 
-					const nuevosLotes =
-					!LOTE || LOTE.toString().trim() ===""
-					? [] :typeof LOTE === "string" ? LOTE.split(",") : [LOTE.toString()];
+				const nuevosLotes =
+					!LOTE || LOTE.toString().trim() === ""
+						? []
+						: typeof LOTE === "string"
+						? LOTE.split(",")
+						: [LOTE.toString()];
 
 				console.log(`LOTE:`, nuevosLotes, `ENTREGADO:`, cantidadesEntregadas);
 
@@ -617,10 +618,6 @@ const updateValidarCantidades = async (req, res) => {
 						transaction: t,
 					}
 				);
-
-			
-
-			
 			}
 			const fechaExpiracion = new Date();
 			fechaExpiracion.setHours(fechaExpiracion.getHours() + 24);

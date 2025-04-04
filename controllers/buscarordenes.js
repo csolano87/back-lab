@@ -4,11 +4,12 @@ const Cabecera = require("../models/cabecera");
 const localStorage = require("localStorage");
 const axios = require("axios").default;
 const xml2js = require("xml2js");
+const stripNS = require("xml2js").processors.stripPrefix;
 const fs = require("fs");
 const appt = express();
 const { loginInfinity } = require("../helpers/loginInfinity");
 const { key } = require("localStorage");
-const stripNS = require("xml2js").processors.stripPrefix;
+
 const login = require("../controllers/login");
 const Usuario = require("../models/usuarios");
 

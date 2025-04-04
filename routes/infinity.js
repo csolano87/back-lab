@@ -4,6 +4,7 @@ const {
   erGet,
   tokenInfinity,
   pacienteInfinity,
+  getEnvioMail,
 } = require("../controllers/infinity");
 
 const { existenumeroorden } = require("../middleware/validar-orden");
@@ -15,6 +16,7 @@ const router = Router();
 //router.get('/', tokenInfinity);
 
 router.get("/:NUMEROORDEN", [validarJWT, tieneRole], erGet);
+router.post("/", [validarJWT, tieneRole], getEnvioMail);
 
 //router.post('/:cedula', pacienteInfinity);
 
