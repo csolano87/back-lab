@@ -16,7 +16,7 @@ const loginInfinity = async () => {
     pstrPassword: `${process.env.pstrPassword}`,
     pblniPad: 0,
   };
-
+// NPh/dUUcYizYzZsKalOqlT+JxsE=
 
   const api = axios.create({
     baseURL: `${process.env.baseURL}/zdk.ws.wSessions.cls`,
