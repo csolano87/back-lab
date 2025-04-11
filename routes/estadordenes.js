@@ -11,14 +11,10 @@ const {getResultsOrders, getOrders, getResultsSex,getOrdenesInfinity} = require(
 
 const router = Router();
 
- router.get("/", [validarJWT, tieneRole],getResultsOrders);
- router.get("/estadomensual", [validarJWT, tieneRole],getOrders);//getResultsSex
- router.get("/estado/resultsOrders", [validarJWT, tieneRole],getResultsSex);//getResultsSex
- router.get("/ordenesInfinity", [validarJWT, tieneRole],getOrdenesInfinity);
-/*
-router.get("/:q", [validarJWT, tieneRole], getByProductos); */
-
-/* router.put(	"/:id",	validarJWT,	tieneRole,	updateProductos);
-router.delete("/:id", [validarJWT, tieneRole], deleteProductos); */
+router.get("/", [validarJWT, tieneRole],getResultsOrders);
+router.get("/estadomensual", [validarJWT, tieneRole],getOrders);//getResultsSex
+router.get("/estado/resultsOrders", [validarJWT, tieneRole],getResultsSex);//getResultsSex
+router.get("/ordenesInfinity", [validarJWT, tieneRole],getOrdenesInfinity);
 
 module.exports = router;
+

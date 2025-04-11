@@ -1,72 +1,49 @@
 const xpath = require("xpath"),
-  dom = require("xmldom").DOMParser;
-
+	dom = require("xmldom").DOMParser;
+const { parseStringPromise } = require("xml2js");
 const axios = require("axios");
 const localStorage = require("localStorage");
+const stripNS = require("xml2js").processors.stripPrefix;
+const xml2js = require("xml2js");
+const { processors } = require("xml2js");
+const { wrapper } = require("axios-cookiejar-support");
+const tough = require("tough-cookie");
 
+const cookieJar = new tough.CookieJar();
+let accessToken = null;
 const loginInfinity = async () => {
+	const credenciales = `${process.env.CacheUserName}:${process.env.CachePassword}`;
+	const encodedToken = Buffer.from(credenciales).toString("base64");
+	let params = {
+		soap_method: `${process.env.Login}`,
+		pstrUserName: `${process.env.pstrUserName}`,
+		pstrPassword: `${process.env.pstrPassword}`,
+		pblniPad: 0,
+	};
 
-  const CacheUserName = `${process.env.CacheUserName}`;
-  const CachePassword = `${process.env.CachePassword}`;
-  const token = `${CacheUserName}:${CachePassword}`;
-  const encodedToken = Buffer.from(token).toString("base64");
-  let params = {
-    soap_method: `${process.env.Login}`,
-    pstrUserName: `${process.env.pstrUserName}`,
-    pstrPassword: `${process.env.pstrPassword}`,
-    pblniPad: 0,
-  };
-// NPh/dUUcYizYzZsKalOqlT+JxsE=
+	const client = wrapper(
+		axios.create({
+			baseURL: `${process.env.baseURL}/zdk.ws.wSessions.cls`,
+			withCredentials: true,
+			jar: cookieJar,
+			params,
+			headers: {
+				Authorization: `Basic ${encodedToken}`,
+			},
+		})
+	);
 
-  const api = axios.create({
-    baseURL: `${process.env.baseURL}/zdk.ws.wSessions.cls`,
-    params,
-    headers: { Authorization: `Basic ${encodedToken}` },
-  });
-  api.interceptors.request.use((config)=>{
-    console.log(config);
-  })
- /*  const tokenResult = localStorage.getItem("Idtoken");
-  console.log("tokenresult", tokenResult);
-
-  if (tokenResult == undefined || tokenResult == "" || tokenResult == null) {
-    console.log("LLAMANDO AL SERVICIO LOGIN ......");
-    return new Promise(async (resolve, reject) => {
-      let params = {
-        soap_method: `${process.env.Login}`,
-        pstrUserName: `${process.env.pstrUserName}`,
-        pstrPassword: `${process.env.pstrPassword}`,
-        pblniPad: 0,
-      };
-
-      try {
-        const intanc = axios.create({
-          baseURL: `${process.env.baseURL}/zdk.ws.wSessions.cls`,
-          params,
-          headers: { Authorization: `Basic ${encodedToken}` },
-        });
-
-        const resp = await intanc.get();
-        //console.log(resp.headers['content-length'])
-        const rawcookies = resp.headers["set-cookie"];
-        const expirationDate = new Date(resp.headers.expires);
-        console.log(`**********EXPIRATE-LOGIN********`, expirationDate);
-        localStorage.setItem("rawcookies", rawcookies);
-        const doc = new dom().parseFromString(resp.data);
-        const select = xpath.useNamespaces({
-          "SOAP-ENV": "http://tempuri.org",
-        });
-        const sn = select("string(//SOAP-ENV:LoginResult)", doc);
-        const token = localStorage.setItem("sn", sn);
-        console.log("campo LoginResult:", sn);
-
-        resolve(sn);
-      } catch (error) {
-        console.log("ERROR DE LOGIN ", error);
-      }
-    });
-  }
-  console.log("NOOOOOO LLAMANDO AL SERVICIO LOGIN ......");
-  return tokenResult; */
+	const resp = await client.get();
+ 
+	const doc = new dom().parseFromString(resp.data);
+	const select = xpath.useNamespaces({
+		"SOAP-ENV": "http://tempuri.org",
+	});
+	accessToken = select("string(//SOAP-ENV:LoginResult)", doc);
+//	console.log(`*****`, accessToken);
+	return accessToken;
 };
-module.exports = { loginInfinity };
+
+const getToken = () => accessToken;
+const getCookieJar = () => cookieJar;
+module.exports = { loginInfinity, getToken, getCookieJar };

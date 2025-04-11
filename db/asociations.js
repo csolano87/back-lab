@@ -68,6 +68,8 @@ const Stocktemp = require("../models/stockTemp");
 const ItemStocktemp = require("../models/itemStockTemp");
 const Notificardespacho = require("../models/notificarDespacho");
 const Despachopedido = require("../models/despachopedido");
+const OrdenImport = require("../models/ordenImport");
+const PruebaOrdenImport = require("../models/pruebaOrdenImport");
 
 /* Producto.hasMany(Stock,{as:"inventario",foreignKey:"productoId"});
 Stock.belongsTo(Producto,{as:"product"}) */
@@ -171,6 +173,8 @@ Role.belongsTo(Usuario, { as: "usuario" });
 
 Role.belongsToMany(Menu, { as: "menu", through: MenuRole });
 Menu.belongsToMany(Role, { as: "role", through: MenuRole });
+OrdenImport.hasMany(PruebaOrdenImport,{as:"pruebaImport",foreignKey:"ordenImportId"});
+PruebaOrdenImport.belongsTo(OrdenImport,{as:"ordenImport"})
 /* Panel_pruebas.hasMany(Prueba, { as: "prueba", foreignKey: "panelpruebaId" });
 Prueba.belongsTo(Panel_pruebas, { as: "panelprueba" });
 
