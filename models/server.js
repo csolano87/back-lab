@@ -123,9 +123,11 @@ class Server {
 			validacion: "/api/validacion",
 			menu: "/api/menu",
 			menuRoles: "/api/permisos",
-			estadoOrdenes:"/api/estadordenes",
-			notificarDespacho:"/api/notificar",
-				despachopedido:"/api/despachopedido"
+			estadoOrdenes: "/api/estadordenes",
+			notificarDespacho: "/api/notificar",
+			despachopedido: "/api/despachopedido",
+			derivarOrdenes: "/api/derivarordenes",
+			trasmitirOrdenes:"/api/trasmitirordenes"
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -323,9 +325,20 @@ class Server {
 		this.app.use(this.paths.validacion, require("../routes/validacionPruebas"));
 		this.app.use(this.paths.menu, require("../routes/menu"));
 		this.app.use(this.paths.menuRoles, require("../routes/menuRoles"));
-		this.app.use(this.paths.estadoOrdenes, require("../routes/estadordenes"))/* notificarDespacho */
-		this.app.use(this.paths.notificarDespacho, require("../routes/notificarDespacho"))/* notificarDespacho */
-		this.app.use(this.paths.despachopedido, require("../routes/despachopedido"))/* notificarDespacho */
+		this.app.use(
+			this.paths.estadoOrdenes,
+			require("../routes/estadordenes")
+		); /* notificarDespacho */
+		this.app.use(
+			this.paths.notificarDespacho,
+			require("../routes/notificarDespacho")
+		); /* notificarDespacho */
+		this.app.use(
+			this.paths.despachopedido,
+			require("../routes/despachopedido")
+		); /* notificarDespacho */
+		this.app.use(this.paths.derivarOrdenes,require("../routes/derivarordenes"));
+		this.app.use(this.paths.trasmitirOrdenes,require("../routes/trasmitirorden"))
 	}
 
 	listen() {

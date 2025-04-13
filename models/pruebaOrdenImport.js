@@ -11,6 +11,7 @@ PruebaOrdenImport.init(
 			type: DataTypes.BOOLEAN,
 			defaultValue: true,
 		},
+		resultado:DataTypes.INTEGER
 	},
 	{
 		sequelize,
