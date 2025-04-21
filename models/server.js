@@ -127,7 +127,7 @@ class Server {
 			notificarDespacho: "/api/notificar",
 			despachopedido: "/api/despachopedido",
 			derivarOrdenes: "/api/derivarordenes",
-			trasmitirOrdenes:"/api/trasmitirordenes"
+			trasmitirOrdenes: "/api/trasmitirordenes",
 		};
 		// Conectar a base de datos
 		this.dbConnection();
@@ -154,11 +154,9 @@ class Server {
 			})
 		);
 		this.app.use(cookieParser());
-
-		this.app.use(express.json());
+		this.app.use(express.json({limit: '10mb'}));
 		this.app.use(express.static(path.join(__dirname, "public")));
 		this.app.use(xmlparser());
-
 		this.app.use(express.static("public"));
 		this.httpServer = new http.Server(this.app);
 		this.io = socketIO(this.httpServer, {
@@ -337,8 +335,14 @@ class Server {
 			this.paths.despachopedido,
 			require("../routes/despachopedido")
 		); /* notificarDespacho */
-		this.app.use(this.paths.derivarOrdenes,require("../routes/derivarordenes"));
-		this.app.use(this.paths.trasmitirOrdenes,require("../routes/trasmitirorden"))
+		this.app.use(
+			this.paths.derivarOrdenes,
+			require("../routes/derivarordenes")
+		);
+		this.app.use(
+			this.paths.trasmitirOrdenes,
+			require("../routes/trasmitirorden")
+		);
 	}
 
 	listen() {

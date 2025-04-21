@@ -10,6 +10,7 @@ OrdenImport.init(
 		nombres: DataTypes.STRING,
 		fechanac: DataTypes.DATE,
 		sexo: DataTypes.STRING,
+		edad:DataTypes.INTEGER,
 		historia: DataTypes.STRING,
 		origen: DataTypes.STRING,
 		fechaOrden: {

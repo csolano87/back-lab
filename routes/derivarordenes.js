@@ -5,11 +5,14 @@ const {
 	getDerivarOrden,
 	postDerivarOrden,
 	putDerivarOrden,
+	getBYIdDerivarOrden,
 } = require("../controllers/derivarordenes");
+const { route } = require("./auth");
 
 const router = Router();
 
 router.get("/", [validarJWT, tieneRole], getDerivarOrden);
+router.get("/:id",[validarJWT,tieneRole],getBYIdDerivarOrden)
 router.post("/", [validarJWT, tieneRole], postDerivarOrden);
 router.put("/", [validarJWT, tieneRole], putDerivarOrden);
 

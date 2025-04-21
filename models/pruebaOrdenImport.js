@@ -6,12 +6,14 @@ class PruebaOrdenImport extends Model {}
 PruebaOrdenImport.init(
 	{
 		testID: DataTypes.INTEGER,
+		TestABREV:DataTypes.STRING,
 		testNAME: DataTypes.STRING,
+		resultado:DataTypes.FLOAT,
 		estado: {
 			type: DataTypes.BOOLEAN,
 			defaultValue: true,
 		},
-		resultado:DataTypes.INTEGER
+		
 	},
 	{
 		sequelize,

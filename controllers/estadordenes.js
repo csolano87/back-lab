@@ -156,7 +156,189 @@ const getOrders = async (req, res) => {
 };
 
 
-const getOrdenesInfinity= async (req,res)=>{
+const getOrdenesInfinity = async (req, res) => {
+	const { fechaIn, fechaOut } = req.query;
+	console.log(fechaIn, fechaOut)
+	const getResult = async () => {
+		return new Promise(async (resolve, reject) => {
+			/* 	const filePath = path.join(__dirname, "../resp.xml");
+				const data = fs.readFileSync(filePath, "utf-8"); */
+
+			let params = {
+				soap_method: "GetResults",
+				pstrOrderDateFrom: `${fechaIn}`,
+				pstrOrderDateTo: `${fechaOut}`,
+				plstTestsList: "3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778",
+			};
+			const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						throw err;
+					}
+					const lista =
+						result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
+					const results = Array.isArray(lista) ? lista : [lista];
+
+					const filtroOrdens = results.filter(
+						(item) => item?.Origin == 9
+					);
+
+					resolve(filtroOrdens);
+				}
+			);
+		});
+
+		/* 	return new Promise(async (resolve, reject) => {
+				
+				let params = {
+					soap_method: "GetResults",				
+					pstrOrderDateFrom: `${fechaIn}`,
+					pstrOrderDateTo: `${fechaOut}`,
+					plstTestsList: "3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778 ",
+				};
+				const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
+				xml2js.parseString(
+					resp.data,
+					{
+						explicitArray: false,
+						mergeAttrs: true,
+						explicitRoot: false,
+						tagNameProcessors: [stripNS],
+					},
+					(err, result) => {
+						if (err) {
+							throw err;
+						}
+						const lista =
+							result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
+						const results = Array.isArray(lista) ? lista : [lista];
+					
+						const filtroOrdens = results.filter(
+							(item) => item?.Origin == 9
+						);
+					
+						resolve(filtroOrdens);
+					}
+				);
+			}); */
+	};
+
+	const getOrden = async (sampleID) => {
+		return new Promise(async (resolve, reject) => {
+			let params = {
+				soap_method: "GetList",
+				pstrSampleID: `${sampleID}`,
+			};
+			const resp = await axiosClient.get("/wso.ws.wOrders.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						console.log(`err`, err);
+						throw err;
+					}
+					const listaorden =
+						result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet
+							.SQL;
+					resolve(listaorden);
+				}
+			);
+		});
+	};
+
+	try {
+		const resultsOrden = await getResult();
+		const detalles = await Promise.all(
+			resultsOrden.map(async (element) => {
+
+				const data = await getOrden(element.SampleID);
+				const LISLabTests = Array.isArray(element.LabTests.LISLabTest)
+					? element.LabTests.LISLabTest
+					: [element.LabTests.LISLabTest];
+
+
+
+					const pruebasSinResultado = LISLabTests
+					.map((test) => {
+					  const resultado = test?.LabResults?.LISLabResult?.ValueResult || '';
+					  return {
+						TestID: test.TestID,
+						TestABREV: test.TestAbbreviation,
+						TestName: test.TestName,
+						TestResult: resultado,
+					  };
+					})
+					.filter((test) => test.TestResult === ''); // Solo los vacíos
+			  
+				  // Si no hay pruebas sin resultado, no devolvemos nada
+				  if (pruebasSinResultado.length === 0) return null;
+			  
+				  return {
+					numeroroden: element.SampleID,
+					nombres: data.SurNameAndName,
+					sexo: data.Sex,
+					fechanac: data.DateOfBirth,
+					edad: data.Age,
+					histClinic: data.PatientID1,
+					doctor: element.Doctor,
+					origenOrden: element.OriginDesc,
+					prueba: pruebasSinResultado,
+				  };
+				})
+			  );
+			  
+			  // Filtramos las órdenes que sí tienen pruebas sin resultado
+			  const ordenesPendientes = detalles.filter((orden) => orden !== null);
+			/* 	return {
+					numeroroden: element.SampleID,
+					nombres: data.SurNameAndName,
+					sexo: data.Sex,
+					fechanac: data.DateOfBirth,
+					edad: data.Age,
+					histClinic: data.PatientID1,
+					doctor: element.Doctor,
+					origenOrden: element.OriginDesc,
+
+					prueba: LISLabTests.map((test) => ({
+						TestID: test.TestID,
+						TestABREV: test.TestAbbreviation,
+						TestName: test.TestName,
+						TestResult: test.LabResults.LISLabResult.ValueResult ? test.LabResults.LISLabResult.ValueResult : ''
+					})),
+
+				}; 
+		 	})
+		); */
+
+		res.json({
+			ok: true,
+			ordenInfinity: ordenesPendientes,
+		});
+	} catch (error) {
+		console.error("Error al obtener los datos:", error);
+	}
+
+}
+
+
+
+
+
+/* const getOrdenesInfinity= async (req,res)=>{
 	const { fechaIn,fechaOut} = req.query;
 	const getResult = async () => {
 		return new Promise(async (resolve, reject) => {
@@ -187,7 +369,7 @@ const getOrdenesInfinity= async (req,res)=>{
 		);
 	});
 
-	/* 	return new Promise(async (resolve, reject) => {
+	 	return new Promise(async (resolve, reject) => {
 			
 			let params = {
 				soap_method: "GetResults",				
@@ -219,7 +401,7 @@ const getOrdenesInfinity= async (req,res)=>{
 					resolve(filtroOrdens);
 				}
 			);
-		}); */
+		}); 
 	};
 
 	const getOrden = async (sampleID) => {
@@ -271,8 +453,7 @@ const getOrdenesInfinity= async (req,res)=>{
 						TestID: test.TestID,
 						TestName: test.TestName,
 					})),
-					/* validator: data.IsOrderValidated,
-					estadoMail: estadoM ? estadoM : "", */
+					
 				};
 			})
 		);
@@ -285,5 +466,7 @@ const getOrdenesInfinity= async (req,res)=>{
 		console.error("Error al obtener los datos:", error);
 	}
 
-}
+} */
+
+	
 module.exports = { getResultsOrders, getOrders, getResultsSex ,getOrdenesInfinity};
