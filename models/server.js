@@ -113,6 +113,7 @@ class Server {
 			bodega: "/api/bodega",
 			result: "/api/result",
 			transferencia: "/api/transferencia",
+			
 			dashboardviews: "/api/dashboardviews",
 			unidad: "/api/unidad",
 			tipofisiologico: "/api/tipofisiologico",

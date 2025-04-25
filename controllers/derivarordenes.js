@@ -100,7 +100,7 @@ const putDerivarOrden = async (req, res) => {
 	const { numeroorden, prueba } = req.body;
 	const t = await sequelize.transaction();
 	try {
-		const orden = await OrdenImport.findOne({ where: { numeroorden } });
+		const orden = await OrdenImport.findOne({ where: { numeroorden:numeroorden } });
 		console.log(orden);
 		if (!orden) {
 			return res.status(404).json({ msg: "Orden no encontrada" });

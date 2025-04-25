@@ -1,28 +1,14 @@
 const express = require("express");
-const axios = require("axios");
-const sessionstorage = require("sessionstorage");
-const localStorage = require("localStorage");
-const cookieParser = require("cookie-parser");
-const xpath = require("xpath"),
-	dom = require("xmldom").DOMParser;
-const Cabecera = require("../models/cabecera");
-const request = require("request");
 
 const nodemailer = require("nodemailer");
-const path = require("node:path");
-const mailer = require("../templates/signup-mail");
-const pdf = require("html-pdf");
+
 
 const fs = require("fs");
 
-const appt = express();
-const { loginInfinity } = require("../helpers/loginInfinity");
-const { BindingElement } = require("soap/lib/wsdl/elements");
-const { BasicAuthSecurity } = require("soap");
-const { send } = require("process");
-const { cookie } = require("request");
+
 const stripNS = require("xml2js").processors.stripPrefix;
 const xml2js = require("xml2js");
+const { axiosClient } = require("../helpers/axiosClient");
 const erGet = async (req, res) => {
 	const { NUMEROORDEN } = req.params;
 
@@ -34,12 +20,11 @@ const erGet = async (req, res) => {
 		NUMEROORDEN.substring(2, 4) +
 		"-" +
 		NUMEROORDEN.substring(4, 6);
-	const description = "PRUEBA";
-	const rawcookie = localStorage.getItem("rawcookies");
-	const tokenID = localStorage.getItem("Idtoken");
+	const description = "NUEVO";
+	
 	const params = {
 		soap_method: `${process.env.Reporte}`,
-		pstrSessionKey: `${tokenID}`,
+		//pstrSessionKey: `${tokenID}`,
 		pstrSampleID: `${NUMEROORDEN}`,
 		pstrRegisterDate: `${date}`,
 		pstrFormatDescription: `${description}`,
@@ -47,12 +32,8 @@ const erGet = async (req, res) => {
 	};
 
 	try {
-		const instance = axios.create({
-			baseURL: `${process.env.baseURL}/wso.ws.wReports.cls`,
-			params,
-			headers: { cookie: rawcookie },
-		});
-		const response = await instance.get();
+
+		const response = await axiosClient.get('/wso.ws.wReports.cls',{params});
 
 		xml2js.parseString(
 			response.data,
@@ -70,7 +51,7 @@ const erGet = async (req, res) => {
 				const pdf = result.Body.PreviewResponse.PreviewResult;
 
 				if (pdf != undefined) {
-					const report = pdf.replace("localhost", "172.16.197.209");
+					const report = pdf.replace("localhost", "192.168.1.97");
 
 					console.log(report);
 					res.status(200).json({

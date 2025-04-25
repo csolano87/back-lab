@@ -37,9 +37,9 @@ const getResultsSex = async (req, res) => {
 
 const getOrders = async (req, res) => {
 	const { fechaIn } = req.query;
-	const num=`${fechaIn}`.replaceAll('-','').slice(2)
+	const num = `${fechaIn}`.replaceAll("-", "").slice(2);
 	const now = moment();
-/* 	const pruebasEspeciales = await pruebasEspeciales.findAll({
+	/* 	const pruebasEspeciales = await pruebasEspeciales.findAll({
 		where: {
 			numero: {
 				[Op.like]: `${num}%`,
@@ -47,14 +47,13 @@ const getOrders = async (req, res) => {
 		},
 	}); */
 
-
 	const fecha = now.format("YYYY-MM-DDHH:mm:ss");
 
 	const getResult = async () => {
 		return new Promise(async (resolve, reject) => {
 			const codigoId = ["2047", "7072", "2002"];
 			let params = {
-				soap_method: "GetResults",				
+				soap_method: "GetResults",
 				pstrOrderDateFrom: `${fechaIn}`,
 				pstrOrderDateTo: `${fechaIn}`,
 				plstTestsList: "2047,7072,2002",
@@ -75,7 +74,7 @@ const getOrders = async (req, res) => {
 					const lista =
 						result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
 					const results = Array.isArray(lista) ? lista : [lista];
-				
+
 					const filtroOrdens = results.filter(
 						(item) => item?.MotiveDesc != "RUTINA"
 					);
@@ -123,7 +122,7 @@ const getOrders = async (req, res) => {
 		const resultsOrden = await getResult();
 		const detalles = await Promise.all(
 			resultsOrden.map(async (element) => {
-			/* 	const estadoM = pruebasEspeciales.find(
+				/* 	const estadoM = pruebasEspeciales.find(
 					(item) => item.numero === element.SampleID
 				); */
 				const data = await getOrden(element.SampleID);
@@ -155,10 +154,9 @@ const getOrders = async (req, res) => {
 	}
 };
 
-
 const getOrdenesInfinity = async (req, res) => {
 	const { fechaIn, fechaOut } = req.query;
-	console.log(fechaIn, fechaOut)
+	console.log(fechaIn, fechaOut);
 	const getResult = async () => {
 		return new Promise(async (resolve, reject) => {
 			/* 	const filePath = path.join(__dirname, "../resp.xml");
@@ -168,7 +166,8 @@ const getOrdenesInfinity = async (req, res) => {
 				soap_method: "GetResults",
 				pstrOrderDateFrom: `${fechaIn}`,
 				pstrOrderDateTo: `${fechaOut}`,
-				plstTestsList: "3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778",
+				plstTestsList:
+					"3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778",
 			};
 			const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
 			xml2js.parseString(
@@ -187,9 +186,7 @@ const getOrdenesInfinity = async (req, res) => {
 						result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
 					const results = Array.isArray(lista) ? lista : [lista];
 
-					const filtroOrdens = results.filter(
-						(item) => item?.Origin == 9
-					);
+					const filtroOrdens = results.filter((item) => item?.Origin == 9);
 
 					resolve(filtroOrdens);
 				}
@@ -264,30 +261,25 @@ const getOrdenesInfinity = async (req, res) => {
 		const resultsOrden = await getResult();
 		const detalles = await Promise.all(
 			resultsOrden.map(async (element) => {
-
 				const data = await getOrden(element.SampleID);
 				const LISLabTests = Array.isArray(element.LabTests.LISLabTest)
 					? element.LabTests.LISLabTest
 					: [element.LabTests.LISLabTest];
 
-
-
-					const pruebasSinResultado = LISLabTests
-					.map((test) => {
-					  const resultado = test?.LabResults?.LISLabResult?.ValueResult || '';
-					  return {
+				const pruebasSinResultado = LISLabTests.map((test) => {
+					const resultado = test?.LabResults?.LISLabResult?.ValueResult || "";
+					return {
 						TestID: test.TestID,
 						TestABREV: test.TestAbbreviation,
 						TestName: test.TestName,
 						TestResult: resultado,
-					  };
-					})
-					.filter((test) => test.TestResult === ''); // Solo los vacíos
-			  
-				  // Si no hay pruebas sin resultado, no devolvemos nada
-				  if (pruebasSinResultado.length === 0) return null;
-			  
-				  return {
+					};
+				}).filter((test) => test.TestResult === ""); // Solo los vacíos
+
+				// Si no hay pruebas sin resultado, no devolvemos nada
+				if (pruebasSinResultado.length === 0) return null;
+
+				return {
 					numeroroden: element.SampleID,
 					nombres: data.SurNameAndName,
 					sexo: data.Sex,
@@ -297,13 +289,13 @@ const getOrdenesInfinity = async (req, res) => {
 					doctor: element.Doctor,
 					origenOrden: element.OriginDesc,
 					prueba: pruebasSinResultado,
-				  };
-				})
-			  );
-			  
-			  // Filtramos las órdenes que sí tienen pruebas sin resultado
-			  const ordenesPendientes = detalles.filter((orden) => orden !== null);
-			/* 	return {
+				};
+			})
+		);
+
+		// Filtramos las órdenes que sí tienen pruebas sin resultado
+		const ordenesPendientes = detalles.filter((orden) => orden !== null);
+		/* 	return {
 					numeroroden: element.SampleID,
 					nombres: data.SurNameAndName,
 					sexo: data.Sex,
@@ -331,51 +323,17 @@ const getOrdenesInfinity = async (req, res) => {
 	} catch (error) {
 		console.error("Error al obtener los datos:", error);
 	}
+};
 
-}
-
-
-
-
-
-/* const getOrdenesInfinity= async (req,res)=>{
-	const { fechaIn,fechaOut} = req.query;
+const getOrdenesProcedencia = async (req, res) => {
+	const { fechaIn, fechaOut } = req.query;
+	console.log(fechaIn, fechaOut);
 	const getResult = async () => {
 		return new Promise(async (resolve, reject) => {
-		const filePath = path.join(__dirname, "../resp.xml");
-		const data = fs.readFileSync(filePath, "utf-8");
-		xml2js.parseString(
-			data,
-			{
-				explicitArray: false,
-				mergeAttrs: true,
-				explicitRoot: false,
-				tagNameProcessors: [stripNS],
-			},
-			(err, result) => {
-				if (err) {
-					throw err;
-				}
-				const lista =
-					result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
-				const results = Array.isArray(lista) ? lista : [lista];
-			
-				const filtroOrdens = results.filter(
-					(item) => item?.Origin == 9
-				);
-			
-				resolve(filtroOrdens);
-			}
-		);
-	});
-
-	 	return new Promise(async (resolve, reject) => {
-			
 			let params = {
-				soap_method: "GetResults",				
+				soap_method: "GetResults",
 				pstrOrderDateFrom: `${fechaIn}`,
 				pstrOrderDateTo: `${fechaOut}`,
-				plstTestsList: "3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778 ",
 			};
 			const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
 			xml2js.parseString(
@@ -393,22 +351,54 @@ const getOrdenesInfinity = async (req, res) => {
 					const lista =
 						result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
 					const results = Array.isArray(lista) ? lista : [lista];
-				
-					const filtroOrdens = results.filter(
-						(item) => item?.Origin == 9
-					);
-				
+
+					const filtroOrdens = results.filter((item) => item?.Origin == 9);
+
 					resolve(filtroOrdens);
 				}
 			);
-		}); 
+		});
+
+		/* 	return new Promise(async (resolve, reject) => {
+				
+				let params = {
+					soap_method: "GetResults",				
+					pstrOrderDateFrom: `${fechaIn}`,
+					pstrOrderDateTo: `${fechaOut}`,
+					plstTestsList: "3001,3009,3017,3019,3023,3025,3027,3029,3031,3033,3035,3037,3056,3071,3077,3079,3081,3083,3085,3087,3089,3145,3148,3201,3205,3210,3220,3225,3230,3235,3240,3245,3247,3304,3309,3312,3315,3318,3321,3324,3327,3333,3348,3349,3355,3358,3373,3465,3554,3589,3706,3727,3778 ",
+				};
+				const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
+				xml2js.parseString(
+					resp.data,
+					{
+						explicitArray: false,
+						mergeAttrs: true,
+						explicitRoot: false,
+						tagNameProcessors: [stripNS],
+					},
+					(err, result) => {
+						if (err) {
+							throw err;
+						}
+						const lista =
+							result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
+						const results = Array.isArray(lista) ? lista : [lista];
+					
+						const filtroOrdens = results.filter(
+							(item) => item?.Origin == 9
+						);
+					
+						resolve(filtroOrdens);
+					}
+				);
+			}); */
 	};
 
 	const getOrden = async (sampleID) => {
 		return new Promise(async (resolve, reject) => {
 			let params = {
 				soap_method: "GetList",
-				pstrSampleID: `${sampleID}`,
+				pstrPatientID1: `${sampleID}`,
 			};
 			const resp = await axiosClient.get("/wso.ws.wOrders.cls", { params });
 			xml2js.parseString(
@@ -432,28 +422,48 @@ const getOrdenesInfinity = async (req, res) => {
 			);
 		});
 	};
+	const getPacientes = async () => {
+		return new Promise(async (resolve, reject) => {
+			let params = {
+				soap_method: "GetList",
+			};
+			const resp = await axiosClient.get("/wso.ws.wPatients.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						console.log(`err`, err);
+						throw err;
+					}
+					const lista =
+						result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet
+							.SQL;
 
+					const listaPaciente = lista.filter((item) => item.D_101 == cedula);
+					resolve(listaPaciente);
+				}
+			);
+		});
+	};
 	try {
-		const resultsOrden = await getResult();
+		const resultPaciente = await getPacientes();
+		//const resultsOrden = await getResult();
 		const detalles = await Promise.all(
-			resultsOrden.map(async (element) => {
-			
-			//	const data = await getOrden(element.SampleID);
-				const LISLabTests = Array.isArray(element.LabTests.LISLabTest)
-					? element.LabTests.LISLabTest
-					: [element.LabTests.LISLabTest];
+			resultPaciente.map(async (element) => {
+				const data = await getOrden(element.PA_ID1);
+
 				return {
+					cedula: element.D_101,
+					register: data.RegisterDate,
 					numeroroden: element.SampleID,
-					nombres: '',
-					doctor:element.Doctor,
-					origenOrden: element.OriginDesc,
-					//origenResult: element.OriginDesc,
-					//numeroResults: element.SampleID,
-					prueba: LISLabTests.map((test) => ({
-						TestID: test.TestID,
-						TestName: test.TestName,
-					})),
-					
+					nombres: data.SurNameAndName,
+					sexo: data.Sex,
 				};
 			})
 		);
@@ -465,8 +475,148 @@ const getOrdenesInfinity = async (req, res) => {
 	} catch (error) {
 		console.error("Error al obtener los datos:", error);
 	}
+};
 
-} */
+const getPacientes = async (req, res) => {
+	const filePath = path.join(__dirname, "../responseEcu.json");
+	const data = fs.readFileSync(filePath, "utf-8");
+	const response = JSON.parse(data);
 
-	
-module.exports = { getResultsOrders, getOrders, getResultsSex ,getOrdenesInfinity};
+	res.status(200).json({ ok: true, descargoExcel: response });
+
+	/* const filePath = path.join(__dirname, "../datosexcel.json");
+	const data = fs.readFileSync(filePath, "utf-8");
+	const response = JSON.parse(data);
+
+	const getPacientes = async () => {
+		return new Promise(async (resolve, reject) => {
+			let params = {
+				soap_method: "GetList",
+			};
+			const resp = await axiosClient.get("/wso.ws.wPatients.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						console.log(`err`, err);
+						throw err;
+					}
+					const lista =
+						result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet
+							.SQL;
+
+					const listaPaciente = lista.filter((item) =>
+						response.some((element) => element.Column2 == item.D_101)
+					);
+
+					resolve(listaPaciente);
+				}
+			);
+		});
+	};
+	const getOrden = async (sampleID) => {
+		return new Promise(async (resolve, reject) => {
+			let params = {
+				soap_method: "GetList",
+				pstrPatientID1: `${sampleID}`,
+			};
+			const resp = await axiosClient.get("/wso.ws.wOrders.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						console.log(`err`, err);
+						throw err;
+					}
+					const listaorden =
+						result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet
+							.SQL;
+					resolve(listaorden);
+				}
+			);
+		});
+	};
+	const getResult = async (numero) => {
+		return new Promise(async (resolve, reject) => {
+			const fecha = 20 + "" + numero.slice(0, 6);
+			console.log(`Parsear fecha de numero de orden`, fecha);
+			let params = {
+				soap_method: "GetResults",
+				pstrSampleID: numero,
+				pstrRegisterDate: fecha,
+			};
+			const resp = await axiosClient.get("/wso.ws.wResults.cls", { params });
+			xml2js.parseString(
+				resp.data,
+				{
+					explicitArray: false,
+					mergeAttrs: true,
+					explicitRoot: false,
+					tagNameProcessors: [stripNS],
+				},
+				(err, result) => {
+					if (err) {
+						throw err;
+					}
+					const lista =
+						result.Body.GetResultsResponse.GetResultsResult?.Orders.LISOrder;
+
+					console.log(`Obteniendo los reusltado s del aorden`, lista);
+					resolve(lista);
+				}
+			);
+		});
+	};
+	try {
+		const resultPaciente = await getPacientes();
+		const detalles = await Promise.all(
+			resultPaciente.map(async (element) => {
+				const data = await getOrden(element.PA_ID1);
+				const resul = await getResult(data.SampleID);
+				const listaTests = Array.isArray(resul.LabTests.LISLabTest)
+					? resul.LabTests.LISLabTest
+					: [resul.LabTests.LISLabTest];
+
+				return {
+					cedula: element.D_101,
+					register: data.RegisterDate,
+					numeroroden: data.SampleID,
+					nombres: data.SurNameAndName,
+					sexo: data.Sex,
+					tests: listaTests.map((test) => ({
+						TestID: test.TestID,
+						TestName: test.TestName,
+						Resultado: test.LabResults.LISLabResult.ValueResult,
+					})),
+				};
+			})
+		);
+
+		res.json({
+			ok: true,
+			ordenInfinity: detalles,
+		});
+	} catch (error) {
+		console.error("Error al obtener los datos:", error);
+	} */
+};
+
+module.exports = {
+	getResultsOrders,
+	getOrders,
+	getResultsSex,
+	getOrdenesInfinity,
+	getPacientes,
+};

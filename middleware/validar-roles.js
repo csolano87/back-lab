@@ -25,7 +25,7 @@ const esAdminRole = (req, res = repsonse, next) => {
 
 const tieneRole = async (req, res = repsonse, next) => {
   const { roleId } = req.usuario;
-
+  console.log(`Consultando el id del usuario`,roleId)
   if (!req.usuario) {
     //console.log(req.usuario)
     return res
@@ -38,7 +38,7 @@ const tieneRole = async (req, res = repsonse, next) => {
 
  // const roles = await Roles.findOne({ where: { rol: rol } });
  const roles = await Roles.findByPk(roleId);
- // console.log(roles)
+  console.log(`Obtteniendo todo el rol del Usuario`,roles)
   if (!roles) {
     return res
       .status(401)
