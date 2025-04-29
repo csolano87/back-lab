@@ -12,13 +12,14 @@ const { loginInfinity, getCookieJar } = require("../helpers/loginInfinity");
 const { sample, chunk } = require("lodash");
 const xmlparser = require("express-xml-bodyparser");
 const { writer } = require("repl");
-
+const csvToJson = require("convert-csv-to-json");
 const { Op } = require("sequelize");
 const { axiosClient } = require("../helpers/axiosClient");
 const { response } = require("express");
 const stripNS = require("xml2js").processors.stripPrefix;
 const { wrapper } = require("axios-cookiejar-support");
 const tough = require("tough-cookie");
+const excelToJson = require("convert-excel-to-json");
 const getResultsOrders = async (req, res) => {
 	const filePath = path.join(__dirname, "../response.json");
 	const data = fs.readFileSync(filePath, "utf-8");
@@ -478,17 +479,25 @@ const getOrdenesProcedencia = async (req, res) => {
 };
 
 const getPacientes = async (req, res) => {
-	const filePath = path.join(__dirname, "../responseEcu.json");
-	const data = fs.readFileSync(filePath, "utf-8");
-	const response = JSON.parse(data);
+	const getPaciente = async () => {
+		if (!req.file) {
+			return res.status(400).json({ ok: false, msg: `No existe archivo` });
+		}
 
-	res.status(200).json({ ok: true, descargoExcel: response });
+		let fileInputName = req.file.path;
+		const json = excelToJson({
+			sourceFile: fileInputName,
+			columnToKey: {
+				//A: 'id',
+				B: "cedula",
+			},
+		});
 
-	/* const filePath = path.join(__dirname, "../datosexcel.json");
-	const data = fs.readFileSync(filePath, "utf-8");
-	const response = JSON.parse(data);
+		const sheetNames = Object.keys(json);
 
-	const getPacientes = async () => {
+		console.log("Hojas:", sheetNames);
+		console.log(`excel conversion a json`, json);
+
 		return new Promise(async (resolve, reject) => {
 			let params = {
 				soap_method: "GetList",
@@ -512,7 +521,7 @@ const getPacientes = async (req, res) => {
 							.SQL;
 
 					const listaPaciente = lista.filter((item) =>
-						response.some((element) => element.Column2 == item.D_101)
+						json.Hoja2.some((element) => element.cedula == item.D_101)
 					);
 
 					resolve(listaPaciente);
@@ -531,6 +540,7 @@ const getPacientes = async (req, res) => {
 				resp.data,
 				{
 					explicitArray: false,
+
 					mergeAttrs: true,
 					explicitRoot: false,
 					tagNameProcessors: [stripNS],
@@ -543,6 +553,7 @@ const getPacientes = async (req, res) => {
 					const listaorden =
 						result.Body.GetListResponse.GetListResult.diffgram.DefaultDataSet
 							.SQL;
+
 					resolve(listaorden);
 				}
 			);
@@ -580,7 +591,7 @@ const getPacientes = async (req, res) => {
 		});
 	};
 	try {
-		const resultPaciente = await getPacientes();
+		const resultPaciente = await getPaciente();
 		const detalles = await Promise.all(
 			resultPaciente.map(async (element) => {
 				const data = await getOrden(element.PA_ID1);
@@ -606,11 +617,11 @@ const getPacientes = async (req, res) => {
 
 		res.json({
 			ok: true,
-			ordenInfinity: detalles,
+			descargoExcel: detalles,
 		});
 	} catch (error) {
 		console.error("Error al obtener los datos:", error);
-	} */
+	}
 };
 
 module.exports = {
